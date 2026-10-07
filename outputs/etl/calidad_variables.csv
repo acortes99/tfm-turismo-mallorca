@@ -1,0 +1,10 @@
+﻿variable,observaciones,ausentes
+turistas,123,0
+pasajeros_aena,123,0
+operaciones_aena,123,0
+viajeros_hoteles,122,1
+pernoctaciones_hoteles,122,1
+estancia_media_noches,121,2
+ocupacion_habitaciones_pct,121,2
+ocupacion_plazas_pct,121,2
+ocupacion_fin_semana_pct,121,2
