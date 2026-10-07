@@ -112,7 +112,7 @@ El total sobre cinco sirve para ordenar lecturas; no se impone un umbral automá
 
 ## Resultado inicial y tareas pendientes
 
-Se han reunido 12 fichas de candidatos con enlaces verificables. Tres incluyen una evaluación preliminar de secciones metodológicas y resultados. No son todavía 12 estudios definitivamente incluidos ni una revisión terminada. No se dispone de un recuento exhaustivo de todos los resultados web: no se inventan cifras para un diagrama de selección.
+Se han reunido 15 fichas de candidatos con enlaces verificables, incluidas tres incorporaciones sobre comparación de modelos de referencia, estadísticos y basados en árboles. Tres fichas incluyen una evaluación preliminar de secciones metodológicas y resultados. No son todavía 15 estudios definitivamente incluidos ni una revisión terminada. No se dispone de un recuento exhaustivo de todos los resultados web: no se inventan cifras para un diagrama de selección.
 
 Un antecedente de 2010 aborda directamente Baleares y meteorología. Se incorpora como excepción explícita al intervalo reciente. El artículo español de Claveria, Monte y Torra se cita como publicación de 2016; el depósito en arXiv es de 2018 y no constituye otro estudio.
 
