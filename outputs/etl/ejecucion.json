@@ -1,7 +1,7 @@
 {
-  "python": "3.12.14",
+  "python": "3.11.9",
   "dependencias": {
-    "pandas": "3.0.1",
+    "pandas": "3.0.3",
     "openpyxl": "3.1.5",
     "xlrd": "2.0.2"
   },
