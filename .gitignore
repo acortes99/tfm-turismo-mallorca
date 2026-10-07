@@ -219,5 +219,6 @@ __marimo__/
 # Streamlit
 .streamlit/secrets.toml
 
-# Dependencias locales usadas para verificar el notebook
-work/pydeps/
+# Archivos auxiliares locales y configuración de carpetas de Windows
+work/
+desktop.ini
