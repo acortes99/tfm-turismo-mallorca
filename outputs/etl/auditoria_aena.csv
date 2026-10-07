@@ -1,0 +1,133 @@
+﻿fecha,pasajeros_aena,operaciones_aena,archivo_aena,hoja_aena,fila_pasajeros,columna_pasajeros,fila_operaciones,columna_operaciones,estado_cabecera
+2015-01-01,565027,5952,Datasets/Tráfico aéreo/2015/01.Enero-Definitivo-2015.xls,ENERO,15,5,13,9,definitivo
+2015-02-01,625652,5909,Datasets/Tráfico aéreo/2015/02.Febrero-Definitivo-2015.xls,FEBRERO,15,5,13,9,definitivo
+2015-03-01,951227,8108,Datasets/Tráfico aéreo/2015/03.Marzo-Definitivo-2015.xls,MARZO,13,5,13,9,definitivo
+2015-04-01,1741570,13943,Datasets/Tráfico aéreo/2015/04.Abril-Definitivo-2015.xls,ABRIL,12,5,12,9,definitivo
+2015-05-01,2628025,19766,Datasets/Tráfico aéreo/2015/05.Mayo-Definitivo-2015.xls,MAYO,12,5,12,9,definitivo
+2015-06-01,3030172,21071,Datasets/Tráfico aéreo/2015/06.Junio-Definitivo-2015.xls,JUNIO,12,5,12,9,definitivo
+2015-07-01,3503125,24466,Datasets/Tráfico aéreo/2015/07.Julio-Definitivo-2015.xls,JULIO,12,5,12,9,definitivo
+2015-08-01,3775518,25725,Datasets/Tráfico aéreo/2015/08.Agosto-Definitivo-2015.xls,AGOSTO,12,5,12,9,definitivo
+2015-09-01,3114934,21218,Datasets/Tráfico aéreo/2015/09.Septiembre-Definitivo-2015.xls,SEPTIEMBRE,12,5,12,9,definitivo
+2015-10-01,2371855,17794,Datasets/Tráfico aéreo/2015/10.Octubre-Definitivo-2015.xls,OCTUBRE,12,5,12,9,definitivo
+2015-11-01,761464,7460,Datasets/Tráfico aéreo/2015/11.Noviembre-Definitivo-+2015.xls,NOVIEMBRE,15,5,13,9,definitivo
+2015-12-01,676454,6842,Datasets/Tráfico aéreo/2015/12.Diciembre-Definitivo-2015.xls,DICIEMBRE,15,5,13,9,definitivo
+2016-01-01,613548,6509,Datasets/Tráfico aéreo/2016/01.Enero_Definitivo_2016.xls,ENERO 2016,15,5,13,9,definitivo
+2016-02-01,709107,6817,Datasets/Tráfico aéreo/2016/02.Febrero_Definitivo_2016.xls,FEBRERO 2016,15,5,13,9,definitivo
+2016-03-01,1199459,10258,Datasets/Tráfico aéreo/2016/03.Marzo-Definitivo-2016.xls,MARZO 2016,12,5,13,9,definitivo
+2016-04-01,1801447,14239,Datasets/Tráfico aéreo/2016/04.Abril-Definitivo-2016.xls,ABRIL 2016,12,5,12,9,definitivo
+2016-05-01,2924082,21278,Datasets/Tráfico aéreo/2016/05.Mayo-Definitivo-2016.xls,MAYO 2016,12,5,12,9,definitivo
+2016-06-01,3360448,23536,Datasets/Tráfico aéreo/2016/06.Junio-Definitivo-2016.xls,JUNIO 2016,12,5,12,9,definitivo
+2016-07-01,3952184,27583,Datasets/Tráfico aéreo/2016/07.Julio-Definitivo-2016.xls,JULIO 2016,12,5,12,9,definitivo
+2016-08-01,3982477,28077,Datasets/Tráfico aéreo/2016/08.Agosto-Definitivo-2016.xls,AGOSTO 2016,12,5,12,9,definitivo
+2016-09-01,3406821,23723,Datasets/Tráfico aéreo/2016/09.Septiembre-Definitivo-2016.xls,SEPTIEMBRE 2016,12,5,12,9,definitivo
+2016-10-01,2773585,20331,Datasets/Tráfico aéreo/2016/10.Octubre-Definitivo-2016.xls,OCTUBRE 2016,12,5,12,9,definitivo
+2016-11-01,809617,7979,Datasets/Tráfico aéreo/2016/11.Noviembre-Definitivo-2016.xls,NOVIEMBRE 2016,15,5,13,9,definitivo
+2016-12-01,721335,7310,Datasets/Tráfico aéreo/2016/12.Diciembre-Definitivo-2016.xls,DICIEMBRE 2016,15,5,14,9,definitivo
+2017-01-01,642413,6931,Datasets/Tráfico aéreo/2017/01.Enero_Definitivo_2017.xls,ENERO 2017,16,5,14,9,definitivo
+2017-02-01,720486,7070,Datasets/Tráfico aéreo/2017/02.Febrero_Definitivo_2017.xls,FEBRERO 2017,15,5,14,9,definitivo
+2017-03-01,1107698,9861,Datasets/Tráfico aéreo/2017/03.Marzo_Definitivo_2017.xls,MARZO 2017,14,5,13,9,definitivo
+2017-04-01,2228171,17005,Datasets/Tráfico aéreo/2017/04.Abril_Definitivo_2017.xls,ABRIL 2017,12,5,12,9,definitivo
+2017-05-01,3037128,22102,Datasets/Tráfico aéreo/2017/05.Mayo_Definitivo_2017.xls,MAYO 2017,12,5,12,9,definitivo
+2017-06-01,3634124,25307,Datasets/Tráfico aéreo/2017/06.Junio_Definitivo_2017.xls,JUNIO 2017,12,5,12,9,definitivo
+2017-07-01,4157378,28970,Datasets/Tráfico aéreo/2017/07.Julio_Definitivo_2017.xls,JULIO 2017,12,5,12,9,definitivo
+2017-08-01,4176931,28975,Datasets/Tráfico aéreo/2017/08.Agosto_Definitivo_2017.xls,AGOSTO 2017,12,5,12,9,definitivo
+2017-09-01,3641313,25265,Datasets/Tráfico aéreo/2017/09.Septiembre_Definitivo_2017.xls,SEPTIEMBRE 2017,12,5,12,9,definitivo
+2017-10-01,2877209,21208,Datasets/Tráfico aéreo/2017/10.Octubre_Definitivo_2017.xls,OCTUBRE 2017,12,5,12,9,definitivo
+2017-11-01,941733,8654,Datasets/Tráfico aéreo/2017/11.Noviembre_Definitivo_2017.xls,NOVIEMBRE 2017,15,5,13,9,definitivo
+2017-12-01,806072,7440,Datasets/Tráfico aéreo/2017/12.Diciembre_Definitivo_2017.xls,DICIEMBRE 2017,15,5,14,9,definitivo
+2018-01-01,704996,7047,Datasets/Tráfico aéreo/2018/01.Enero_Definitivo_2018.xls,ENERO 2018,16,5,14,9,definitivo
+2018-02-01,781602,7216,Datasets/Tráfico aéreo/2018/02.Febrero_Definitivo_2018.xls,FEBRERO 2018,15,5,14,9,definitivo
+2018-03-01,1270124,11016,Datasets/Tráfico aéreo/2018/03.Marzo_Definitivo_2018.xls,MARZO 2018,14,5,13,9,definitivo
+2018-04-01,2200689,17166,Datasets/Tráfico aéreo/2018/04.Abril_Definitivo_2018.xls,ABRIL 2018,12,5,12,9,definitivo
+2018-05-01,3151663,22930,Datasets/Tráfico aéreo/2018/05.Mayo_Definitivo_2018.xls,MAYO 2018,12,5,12,9,definitivo
+2018-06-01,3772830,27033,Datasets/Tráfico aéreo/2018/06.Junio_Definitivo_2018.xls,JUNIO 2018,12,5,12,9,definitivo
+2018-07-01,4234555,29837,Datasets/Tráfico aéreo/2018/07.Julio_Definitivo_2018.xls,JULIO 2018,12,5,12,9,definitivo
+2018-08-01,4228504,29806,Datasets/Tráfico aéreo/2018/08.Agosto_Definitivo_2018.xls,AGOSTO 2018,12,5,12,9,definitivo
+2018-09-01,3760866,26663,Datasets/Tráfico aéreo/2018/09.Septiembre_Definitivo_2018.xls,SEPTIEMBRE 2018,12,5,12,9,definitivo
+2018-10-01,2987793,22641,Datasets/Tráfico aéreo/2018/10.Octubre_Definitivo_2018.xls,OCTUBRE 2018,12,5,12,9,definitivo
+2018-11-01,1015210,9833,Datasets/Tráfico aéreo/2018/11.Noviembre_Definitivo_2018.xls,NOVIEMBRE 2018,14,5,13,9,definitivo
+2018-12-01,972614,9144,Datasets/Tráfico aéreo/2018/12.Diciembre_Definitivo_2018.xls,DICIEMBRE 2018,15,5,14,9,definitivo
+2019-01-01,839130,8468,Datasets/Tráfico aéreo/2019/01.Enero_Definitivo_2019.xls,ENERO 2019,15,5,14,9,definitivo
+2019-02-01,896042,7934,Datasets/Tráfico aéreo/2019/02.Febrero_Definitivo_2019.xls,FEBRERO 2019,15,5,14,9,definitivo
+2019-03-01,1301515,10437,Datasets/Tráfico aéreo/2019/03.Marzo_Definitivo_2019.xls,MARZO 2019,14,5,13,9,definitivo
+2019-04-01,2514286,18980,Datasets/Tráfico aéreo/2019/04.Abril_Definitivo_2019.xls,ABRIL 2019,12,5,12,9,definitivo
+2019-05-01,3181577,22892,Datasets/Tráfico aéreo/2019/05.Mayo_Definitivo_2019.xls,MAYO 2019,12,5,12,9,definitivo
+2019-06-01,3853877,26379,Datasets/Tráfico aéreo/2019/06.Junio_Definitivo_2019.xls,JUNIO 2019,12,5,12,9,definitivo
+2019-07-01,4207218,28719,Datasets/Tráfico aéreo/2019/07.Julio_Definitivo_2019.xls,JULIO 2019,12,5,12,9,definitivo
+2019-08-01,4281185,28790,Datasets/Tráfico aéreo/2019/08.Agosto_Definitivo_2019.xls,AGOSTO 2019,12,5,12,9,definitivo
+2019-09-01,3767033,25718,Datasets/Tráfico aéreo/2019/09.Septiembre_Definitivo_2019.xls,SEPTIEMBRE 2019,12,5,12,9,definitivo
+2019-10-01,2924054,21586,Datasets/Tráfico aéreo/2019/10.Octubre_Definitivo_2019.xls,OCTUBRE 2019,12,5,12,9,definitivo
+2019-11-01,1002869,8813,Datasets/Tráfico aéreo/2019/11.Noviembre_Definitivo_2019.xls,NOVIEMBRE 2019,14,5,14,9,definitivo
+2019-12-01,952356,8506,Datasets/Tráfico aéreo/2019/12.Diciembre_Definitivo_2019.xls,DICIEMBRE 2019,15,5,14,9,definitivo
+2020-01-01,820661,7660,Datasets/Tráfico aéreo/2020/01.Enero_Definitivo_2020.xls,ENERO 2020,15,5,14,9,definitivo
+2020-02-01,917291,7951,Datasets/Tráfico aéreo/2020/02.Febrero_Definitivo_2020.xls,FEBRERO 2020,15,5,14,9,definitivo
+2020-03-01,517286,5872,Datasets/Tráfico aéreo/2020/03.Marzo_Definitivo_2020.xls,MARZO 2020,14,5,14,9,definitivo
+2020-04-01,8955,723,Datasets/Tráfico aéreo/2020/04.Abril_Definitivo_2020.xls,ABRIL 2020,14,5,14,9,definitivo
+2020-05-01,22764,1009,Datasets/Tráfico aéreo/2020/05.Mayo_Definitivo_2020.xls,MAYO 2020,13,5,13,9,definitivo
+2020-06-01,127555,2286,Datasets/Tráfico aéreo/2020/06.Junio_Definitivo_2020.xls,JUNIO 2020,12,5,16,9,definitivo
+2020-07-01,1102851,12478,Datasets/Tráfico aéreo/2020/07.Julio_Definitivo_2020.xls,JULIO 2020,10,5,10,9,definitivo
+2020-08-01,1240013,15562,Datasets/Tráfico aéreo/2020/08.Agosto_Definitivo_2020.xls,AGOSTO 2020,11,5,10,9,definitivo
+2020-09-01,513068,8972,Datasets/Tráfico aéreo/2020/09.Septiembre_Definitivo_2020.xls,SEPTIEMBRE 2020,12,5,12,9,definitivo
+2020-10-01,395905,6584,Datasets/Tráfico aéreo/2020/10.Octubre_Definitivo_2020.xls,OCTUBRE 2020,12,5,12,9,definitivo
+2020-11-01,198580,3478,Datasets/Tráfico aéreo/2020/11.Noviembre_Definitivo_2020.xls,NOVIEMBRE 2020,13,5,16,9,definitivo
+2020-12-01,243585,4277,Datasets/Tráfico aéreo/2020/12.Diciembre_Definitivo_2020.xls,DICIEMBRE 2020,13,5,13,9,definitivo
+2021-01-01,165533,3333,Datasets/Tráfico aéreo/2021/01_Enero_Definitivo_2021.xls,ENERO 2021,14,4,14,9,definitivo
+2021-02-01,141657,2493,Datasets/Tráfico aéreo/2021/02_Febrero_Definitivo_2021.xls,FEBRERO 2021,14,4,17,9,definitivo
+2021-03-01,272193,4365,Datasets/Tráfico aéreo/2021/03_Marzo_Definitivo_2021.xls,MARZO 2021,13,4,16,9,definitivo
+2021-04-01,433632,6626,Datasets/Tráfico aéreo/2021/04_Abril_Definitivo_2021.xls,ABRIL 2021,12,4,11,9,definitivo
+2021-05-01,854595,9402,Datasets/Tráfico aéreo/2021/05_Mayo_Definitivo_2021.xls,MAYO 2021,11,4,11,9,definitivo
+2021-06-01,1408612,13666,Datasets/Tráfico aéreo/2021/06_Junio_Definitivo_2021.xls,JUNIO 2021,11,4,11,9,definitivo
+2021-07-01,2432666,22763,Datasets/Tráfico aéreo/2021/07_Julio_Definitivo_2021.xls,JULIO 2021,11,4,11,9,definitivo
+2021-08-01,2651405,23245,Datasets/Tráfico aéreo/2021/08_Agosto_Definitivo_2021.xls,AGOSTO 2021,12,4,11,9,definitivo
+2021-09-01,2306280,19564,Datasets/Tráfico aéreo/2021/09_Septiembre_Definitivo_2021.xls,SEPTIEMBRE 2021,12,4,12,9,definitivo
+2021-10-01,2284354,19192,Datasets/Tráfico aéreo/2021/10_Octubre_Definitivo_2021.xls,OCTUBRE 2021,12,4,12,9,definitivo
+2021-11-01,803347,8256,Datasets/Tráfico aéreo/2021/11_Noviembre_Definitivo_2021.xls,NOVIEMBRE 2021,15,4,14,9,definitivo
+2021-12-01,742885,8292,Datasets/Tráfico aéreo/2021/12_Diciembre_Definitivo_2021.xls,DICIEMBRE 2021,15,4,14,9,definitivo
+2022-01-01,559675,6941,Datasets/Tráfico aéreo/2022/01_Enero_Definitivo_2022.xlsx,ENERO 2022,13,4,12,9,definitivo
+2022-02-01,713817,7004,Datasets/Tráfico aéreo/2022/02_Febrero_Definitivo_2022.xlsx,FEBRERO 2022,13,4,12,9,definitivo
+2022-03-01,1098167,10670,Datasets/Tráfico aéreo/2022/03_Marzo_Definitivo_2022.xlsx,MARZO 2022,11,4,10,9,definitivo
+2022-04-01,2439613,20339,Datasets/Tráfico aéreo/2022/04_Abril_Definitivo_2022.xlsx,ABRIL 2022,10,4,10,9,definitivo
+2022-05-01,3119255,24248,Datasets/Tráfico aéreo/2022/05_Mayo_Definitivo_2022.xlsx,MAYO 2022,10,4,10,9,definitivo
+2022-06-01,3715624,26394,Datasets/Tráfico aéreo/2022/06_Junio_Definitivo_2022.xlsx,JUNIO 2022,10,4,10,9,definitivo
+2022-07-01,4132434,29171,Datasets/Tráfico aéreo/2022/07_Julio_Definitivo_2022.xlsx,JULIO 2022,10,4,9,9,definitivo
+2022-08-01,4161847,28839,Datasets/Tráfico aéreo/2022/08_Agosto_Definitivo_2022.xlsx,AGOSTO 2022,10,4,9,9,definitivo
+2022-09-01,3663507,25797,Datasets/Tráfico aéreo/2022/09_Septiembre_Definitivo_2022.xlsx,SEPTIEMBRE 2022,10,4,10,9,definitivo
+2022-10-01,3063475,23579,Datasets/Tráfico aéreo/2022/10_Octubre_Definitivo_2022.xlsx,OCTUBRE 2022,10,4,10,9,definitivo
+2022-11-01,969615,9052,Datasets/Tráfico aéreo/2022/11_Noviembre_Definitivo_2022.xlsx,NOVIEMBRE 2022,13,4,12,9,definitivo
+2022-12-01,936321,8662,Datasets/Tráfico aéreo/2022/12_Diciembre_Definitivo_2022.xlsx,DICIEMBRE 2022,13,4,12,9,definitivo
+2023-01-01,858580,8356,Datasets/Tráfico aéreo/2023/01_Enero_Definitivo_2023.xlsx,ENERO 2023,15,4,14,9,definitivo
+2023-02-01,905954,8362,Datasets/Tráfico aéreo/2023/02_Febrero_Definitivo_2023.xlsx,FEBRERO 2023,15,4,14,9,definitivo
+2023-03-01,1344375,11752,Datasets/Tráfico aéreo/2023/03_Marzo_Definitivo_2023.xlsx,MARZO 2023,13,4,12,9,definitivo
+2023-04-01,2731122,20612,Datasets/Tráfico aéreo/2023/04_Abril_Definitivo_2023.xlsx,ABRIL 2023,12,4,12,9,definitivo
+2023-05-01,3421182,24399,Datasets/Tráfico aéreo/2023/05_Mayo_Definitivo_2023.xlsx,MAYO 2023,12,4,12,9,definitivo
+2023-06-01,3807834,26361,Datasets/Tráfico aéreo/2023/06_Junio_Definitivo_2023.xlsx,JUNIO 2023,12,4,12,9,definitivo
+2023-07-01,4378210,29907,Datasets/Tráfico aéreo/2023/07_Julio_Definitivo_2023.xlsx,JULIO 2023,12,4,12,9,definitivo
+2023-08-01,4371606,29232,Datasets/Tráfico aéreo/2023/08_Agosto_Definitivo_2023.xlsx,AGOSTO 2023,12,4,12,9,definitivo
+2023-09-01,3864073,26541,Datasets/Tráfico aéreo/2023/09_Septiembre_Definitivo_2023.xlsx,SEPTIEMBRE 2023,12,4,12,9,definitivo
+2023-10-01,3286244,24222,Datasets/Tráfico aéreo/2023/10_Octubre_Definitivo_2023.xlsx,OCTUBRE 2023,12,4,12,9,definitivo
+2023-11-01,1098070,9866,Datasets/Tráfico aéreo/2023/11_Noviembre_Definitivo_2023.xlsx,NOVIEMBRE 2023,15,4,14,9,definitivo
+2023-12-01,1038915,9308,Datasets/Tráfico aéreo/2023/12_Diciembre_Definitivo_2023.xlsx,DICIEMBRE 2023,16,4,14,9,definitivo
+2024-01-01,889815,8650,Datasets/Tráfico aéreo/2024/01_Enero_Definitivo_2024.xlsx,Ranking mensual (con 2019),14,3,12,8,definitivo
+2024-02-01,1035243,9060,Datasets/Tráfico aéreo/2024/02_Febrero_Definitivo_2024.xlsx,Ranking mensual (con 2019),13,3,12,8,definitivo
+2024-03-01,1529008,12459,Datasets/Tráfico aéreo/2024/03_Marzo_Definitivo_2024.xlsx,Ranking mensual (con 2019),11,3,11,8,definitivo
+2024-04-01,2807020,21407,Datasets/Tráfico aéreo/2024/04_Abril_Definitivo_2024.xlsx,Ranking mensual (con 2019),10,3,10,8,definitivo
+2024-05-01,3841241,27103,Datasets/Tráfico aéreo/2024/05_Mayo_Definitivo_2024.xlsx,Ranking mensual (con 2019),10,3,10,8,definitivo
+2024-06-01,4159319,28483,Datasets/Tráfico aéreo/2024/06_Junio_Definitivo_2024.xlsx,Ranking mensual (con 2019),10,3,10,8,definitivo
+2024-07-01,4598046,31244,Datasets/Tráfico aéreo/2024/07_Julio_Definitivo_2024.xlsx,Ranking mensual (con 2019),10,3,10,8,definitivo
+2024-08-01,4591163,30914,Datasets/Tráfico aéreo/2024/08_Agosto_Definitivo_2024.xlsx,Ranking mensual (con 2019),10,3,10,8,definitivo
+2024-09-01,4074740,28191,Datasets/Tráfico aéreo/2024/09_Septiembre_Definitivo_2024.xlsx,Ranking mensual (con 2019),10,3,10,8,definitivo
+2024-10-01,3490352,25409,Datasets/Tráfico aéreo/2024/10_Octubre_Definitivo_2024.xlsx,Ranking mensual (con 2019),10,3,10,8,definitivo
+2024-11-01,1199920,10708,Datasets/Tráfico aéreo/2024/11_Noviembre_Definitivo_2024.xlsx,Ranking mensual (con 2019),14,3,12,8,definitivo
+2024-12-01,1082512,9573,Datasets/Tráfico aéreo/2024/12_Diciembre_Definitivo_2024.xlsx,Ranking mensual (con 2019),14,3,12,8,definitivo
+2025-01-01,909795,8663,Datasets/Tráfico aéreo/2025/1.-Estadisticas_Enero_2025.xlsx,Ranking mensual,14,3,13,7,provisional
+2025-02-01,1057450,9212,Datasets/Tráfico aéreo/2025/2.-Estadisticas_Febrero_2025.xlsx,FEBRERO 2025,14,3,12,7,provisional
+2025-03-01,1551262,12627,Datasets/Tráfico aéreo/2025/3.-Estadisticas_Marzo_2025_v2.xlsx,MARZO 2025,11,3,12,7,provisional
+2025-04-01,3010158,22552,Datasets/Tráfico aéreo/2025/4.-Estadisticas_Abril_2025_v2.xlsx,Ranking mensual,10,3,10,7,provisional
+2025-05-01,3822704,27190,Datasets/Tráfico aéreo/2025/5.-Estadisticas_Mayo_2025.xlsx,Ranking mensual,10,3,10,7,provisional
+2025-06-01,4230933,29038,Datasets/Tráfico aéreo/2025/6.-Estadisticas_Junio_2025.xlsx,Ranking mensual,10,3,10,7,provisional
+2025-07-01,4594987,31449,Datasets/Tráfico aéreo/2025/7.-Estadisticas_Julio_2025.xlsx,Ranking mensual,10,3,10,7,provisional
+2025-08-01,4700495,31453,Datasets/Tráfico aéreo/2025/8.-Estadisticas_Agosto_2025.xlsx,Ranking mensual,10,3,10,7,provisional
+2025-09-01,4113337,28219,Datasets/Tráfico aéreo/2025/9.-Estadisticas_Septiembre_2025.xlsx,Ranking mensual,10,3,10,7,provisional
+2025-10-01,3501199,25768,Datasets/Tráfico aéreo/2025/10.-Estadisticas_Octubre_2025.xlsx,Ranking mensual,10,3,10,7,provisional
+2025-11-01,1215491,10505,Datasets/Tráfico aéreo/2025/11.-Estadisticas_Noviembre_2025.xlsx,Ranking mensual,14,3,12,7,provisional
+2025-12-01,1098616,9810,Datasets/Tráfico aéreo/2025/12.-Estadisticas_Diciembre_2025.xlsx,Ranking mensual,14,3,12,7,provisional
