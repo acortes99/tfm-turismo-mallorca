@@ -1,0 +1,5 @@
+﻿variable,archivo,termino_cabecera,pais_cabecera,categoria_cabecera,inicio,fin,meses,ceros,menores_que_1,ausentes,minimo,maximo,fecha_descarga,tipo_busqueda,seleccion_termino_o_tema,url_consulta,sha256
+gt_mallorca_alemania,Datasets/Google Trends/Mallorca-Alemania.csv,Mallorca,Alemania,Viajes,2015-01-01,2025-12-01,132,0,0,0,7,100,,,,,3517118fd2974c421290b53c97419d699123b00f8c103793c30f3ffcca1eebbd
+gt_majorca_alemania,Datasets/Google Trends/Majorca-Alemania.csv,Majorca,Alemania,Viajes,2015-01-01,2025-12-01,132,0,0,0,7,100,,,,,c15dbbb9316526f36244546a4f708c728bf5b444e071ef72635ad016ab310f49
+gt_mallorca_reino_unido,Datasets/Google Trends/Mallorca-Reino Unido.csv,Mallorca,Reino Unido,Viajes,2015-01-01,2025-12-01,132,0,0,0,8,100,,,,,d99b73c7b1e7c95c813215276487ab0a57e5b04625b3dc0407081d11af454e1e
+gt_majorca_reino_unido,Datasets/Google Trends/Majorca-Reino Unido.csv,Majorca,Reino Unido,Viajes,2015-01-01,2025-12-01,132,0,0,0,7,100,,,,,349cfe08b2b1568cba6a3fd5e14d8a4c1f893c32559475dd644e9c43184264fa

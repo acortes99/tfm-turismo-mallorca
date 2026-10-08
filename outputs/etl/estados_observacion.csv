@@ -24,3 +24,7 @@ U,2,estancia_media_original_estado
 A,109,estancia_media_noches_estado
 P,12,estancia_media_noches_estado
 U,2,estancia_media_noches_estado
+indice_observado,123,gt_mallorca_alemania_estado
+indice_observado,123,gt_majorca_alemania_estado
+indice_observado,123,gt_mallorca_reino_unido_estado
+indice_observado,123,gt_majorca_reino_unido_estado

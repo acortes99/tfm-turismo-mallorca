@@ -10,8 +10,18 @@
     "2025-12-01"
   ],
   "filas": 123,
-  "archivos_fuente": 135,
+  "archivos_fuente": 139,
   "aemet": "pendiente",
+  "google_trends": {
+    "series": [
+      "gt_mallorca_alemania",
+      "gt_majorca_alemania",
+      "gt_mallorca_reino_unido",
+      "gt_majorca_reino_unido"
+    ],
+    "fuentes": 4,
+    "fecha_descarga": "no consta en CSV"
+  },
   "imputacion": "no realizada",
   "disponibilidad_historica": "no reconstruida"
 }

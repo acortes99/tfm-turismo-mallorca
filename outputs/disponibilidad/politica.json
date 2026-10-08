@@ -8,10 +8,13 @@
   "desfases_publicacion_meses": {
     "aena": 1,
     "hoteles": 1,
-    "turistas": 2
+    "turistas": 2,
+    "google_trends": 1
   },
   "fecha_operativa_sin_verificar": "ultimo dia del mes de difusion supuesto",
   "alcance": "simulacion retrospectiva; primeras versiones no reconstruidas",
   "sensibilidad": "un mes adicional de espera en todos los grupos",
-  "meteorologia": "pendiente, excluida de esta politica"
+  "meteorologia": "pendiente, excluida de esta politica",
+  "google_trends": "t-1 por cautela operativa; supuesto, no plazo de publicación verificado",
+  "google_trends_versiones": "CSV retrospectivos normalizados en 2015-2025; versiones por origen no reconstruidas"
 }
