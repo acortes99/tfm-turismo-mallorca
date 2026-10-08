@@ -1,0 +1,10 @@
+﻿variable,observados,ausentes_total,ausentes_hasta_2024,ceros,estado_U,estado_P_o_provisional
+turistas,123,0,0,2,2,0
+pasajeros_aena,123,0,0,0,0,12
+operaciones_aena,123,0,0,0,0,12
+viajeros_hoteles,122,1,1,1,1,12
+pernoctaciones_hoteles,122,1,1,1,1,12
+estancia_media_noches,121,2,2,0,2,12
+ocupacion_habitaciones_pct,121,2,2,1,2,7
+ocupacion_plazas_pct,121,2,2,1,2,7
+ocupacion_fin_semana_pct,121,2,2,1,2,7
