@@ -8,3 +8,7 @@ hoteles,ocupacion_habitaciones_pct,1,2,4
 hoteles,ocupacion_plazas_pct,1,2,4
 hoteles,ocupacion_fin_semana_pct,1,2,4
 turistas,turistas,2,3,5
+google_trends,gt_mallorca_alemania,1,2,4
+google_trends,gt_majorca_alemania,1,2,4
+google_trends,gt_mallorca_reino_unido,1,2,4
+google_trends,gt_majorca_reino_unido,1,2,4
