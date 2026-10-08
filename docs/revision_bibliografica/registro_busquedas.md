@@ -40,3 +40,28 @@ Petición del alumno en esta interacción: ayuda para definir preguntas/objetivo
 Decisiones propuestas por el asistente: cinco preguntas bibliográficas; corte 2015–7 de octubre de 2026 con excepciones justificadas; prioridad mensual y española sin excluir otros contextos; escala VIU de cinco criterios; separación de candidatos, material complementario y evaluación preliminar. Estas decisiones quedan pendientes de validación del alumno. No se ha realizado una iteración en una segunda herramienta general.
 
 Este registro documenta la interacción actual. Para cumplir el repositorio de transparencia de VIU, añadir también las interacciones anteriores relevantes, sus prompts, respuestas, fechas, herramientas y finalidad, sin reconstruir ni atribuir detalles desconocidos. Mantener el repositorio accesible al tribunal y disponible al menos seis meses después de la entrega, según el documento suministrado.
+
+## Ampliación con antecedentes de la UIB
+
+Fecha: 8 de octubre de 2026. Peticiones del alumno: localizar TFG/TFM similares en la UIB, comparar su alcance con el proyecto de Mallorca e incorporarlos al registro de referencias. Vías efectivas: búsqueda web y consulta del catálogo público de la UIB mediante su API DSpace. No se utilizó una cuenta institucional ni una búsqueda en Scopus/Web of Science.
+
+| Plataforma | Consulta exacta o identificador | Comprobación |
+|---|---|---|
+| Buscador web | `site:dspace.uib.es "Mallorca" "forecasting"` | Antecedentes territoriales. |
+| Buscador web | `site:uib.es "demanda turística" "predicción" TFG` | Trabajos académicos sobre demanda turística. |
+| Buscador web | `site:uib.es "turisme" "SARIMA"` | Comparaciones estadísticas. |
+| Buscador web | `site:uib.es turismo "predicción" "Random Forest"` | Modelos de árboles en trabajos UIB. |
+| Buscador web | `site:uib.es "turística" "XGBoost"` | Exploración de coincidencias metodológicas. |
+| Buscador web | `"Análisis y estimación de la estacionalidad" Sotelo` | Verificar U03. |
+| Catálogo público UIB | `tourism forecasting` | 41 registros devueltos; se inspeccionaron los primeros 30. El número no equivale a trabajos pertinentes ni únicos de toda la búsqueda. |
+| Catálogo público UIB | `turismo predicción` | Inspección de hasta 15 registros; sin recuento total conservado. |
+| Catálogo público UIB | `turismo Random Forest` | 2 registros devueltos; uno corresponde al TFM U06 sobre gasto turístico. |
+| Catálogo público UIB | `turismo XGBoost` | 0 registros en esta consulta conjunta; no demuestra ausencia de trabajos con el algoritmo. |
+| API pública UIB | `11201/154420`, `11201/146604`, `11201/153796`, `11201/3354`, `11201/164827`, `11201/149300` | Verificación de autoría, título, tipo documental, año y depósito de U01–U06. |
+| Buscador web | `site:riull.ull.es "Forecasting tourism arrivals with an online search engine data"` | Verificar el artículo publicado E16, relacionado por título y autor con U02. |
+
+La API consultada utiliza `https://repositori.uib.cat/server/api/discover/search/objects` con parámetro `query`. Las fichas se resolvieron también mediante `https://repositori.uib.cat/server/api/pid/find?id=11201/…`. Se conservan los enlaces actuales en `estudios.md`, porque los antiguos enlaces `dspace.uib.es` redirigen de forma irregular.
+
+Resultado conservado: seis TFG/TFM (U01–U06) y un artículo publicado (E16). Los trabajos universitarios se registran como material complementario, sin reclasificarlos como artículos revisados por pares. La relación entre U02 y E16 queda pendiente de cotejo; no se contabilizan automáticamente como dos experimentos distintos.
+
+Se descargaron y consultaron secciones de cuatro TFG (U01, U03, U04 y U05). Las copias están en `C:/Users/acort/Documents/Codex/tfm-turismo-mallorca-apoyo/docs/comparacion_antecedentes`, fuera del repositorio del proyecto. U02 tiene indicación de embargo hasta 2050 y se revisó su ficha; U06 y E16 mantienen lectura completa pendiente. Estos accesos corresponden a la ampliación actual y no alteran las limitaciones de acceso registradas para la búsqueda inicial.

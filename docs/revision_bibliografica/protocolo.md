@@ -30,7 +30,7 @@ El periodo de los datos del TFM y el periodo de publicación de la bibliografía
 
 | Aspecto | Inclusión | Exclusión o tratamiento |
 |---|---|---|
-| Fechas | Publicaciones de 2015 al 7 de octubre de 2026. Estudios anteriores pueden incluirse como antecedentes si justifican una técnica o tratan directamente Baleares y las variables del TFM. | Los anteriores se registran como excepción justificada; no se mezclan con el recuento de literatura reciente. No incluir publicaciones posteriores a la fecha de corte. |
+| Fechas | Publicaciones de 2015 al 8 de octubre de 2026, fecha de la ampliación UIB; búsqueda inicial cerrada el 7 de octubre. Estudios anteriores pueden incluirse como antecedentes si justifican una técnica o tratan directamente Baleares y las variables del TFM. | Los anteriores se registran como excepción justificada; no se mezclan con el recuento de literatura reciente. No incluir publicaciones posteriores a la fecha de corte. |
 | Tema | Pronóstico de turistas, llegadas, visitantes, pernoctaciones o demanda/ocupación hotelera; revisiones directamente relacionadas. | Clasificación de opiniones, recomendación de destinos o descripción del turismo sin relación con pronósticos. |
 | Métodos | Series temporales, econometría, aprendizaje automático, modelos híbridos y evaluación comparativa. | Propuestas sin evaluación ni método interpretable, salvo referencias teóricas identificadas aparte. |
 | Frecuencia | Prioridad mensual. Diaria, semanal o trimestral si aportan evidencia sobre variables, validación o rupturas. | No descartar automáticamente otra frecuencia; marcar su transferibilidad limitada. |
@@ -112,7 +112,7 @@ El total sobre cinco sirve para ordenar lecturas; no se impone un umbral automá
 
 ## Resultado inicial y tareas pendientes
 
-Se han reunido 15 fichas de candidatos con enlaces verificables, incluidas tres incorporaciones sobre comparación de modelos de referencia, estadísticos y basados en árboles. Tres fichas incluyen una evaluación preliminar de secciones metodológicas y resultados. No son todavía 15 estudios definitivamente incluidos ni una revisión terminada. No se dispone de un recuento exhaustivo de todos los resultados web: no se inventan cifras para un diagrama de selección.
+Se han reunido 16 fichas de artículos candidatos y 6 fichas complementarias de TFG/TFM de la UIB, tras la ampliación del 8 de octubre de 2026. Tres artículos incluyen una evaluación preliminar de secciones metodológicas y resultados; los demás mantienen calidad `NP`. No son todavía 22 estudios definitivamente incluidos ni una revisión terminada. E16 y U02 comparten autor y título: debe comprobarse la relación entre artículo y TFM antes de contar experimentos independientes. No se dispone de un recuento exhaustivo de todos los resultados web: no se inventan cifras para un diagrama de selección.
 
 Un antecedente de 2010 aborda directamente Baleares y meteorología. Se incorpora como excepción explícita al intervalo reciente. El artículo español de Claveria, Monte y Torra se cita como publicación de 2016; el depósito en arXiv es de 2018 y no constituye otro estudio.
 
