@@ -1,0 +1,31 @@
+﻿grupo,entidad,mes_referencia,fecha,tipo,url
+aena,AENA Palma,2025-01-01,2025-02-12,difusion_efectiva_nota,https://www.aena.es/es/prensa/el-aeropuerto-de-palma-de-mallorca-registra-durante-el-primer-mes-de-2025---mas-de-900.000-pasajeros.html%26p%3D1575078740846
+aena,AENA Palma,2026-02-01,2026-03-12,difusion_efectiva_nota,https://www.aena.es/doc/detalleprensa/260312-pmi-estadisticas-febrero.pdf
+hoteles,"INE (contraste, no fecha del cubo IBESTAT)",2025-01-01,2025-02-25,difusion_efectiva_nota,https://www.ine.es/dyngs/Prensa/CTH0125.htm
+hoteles,"INE (contraste, no fecha del cubo IBESTAT)",2025-12-01,2026-01-26,difusion_efectiva_nota,https://www.ine.es/dyngs/Prensa/CTH1225.htm
+turistas,IBESTAT,2026-08-01,2026-10-02,difusion_efectiva_noticia,https://ibestat.es/
+turistas,INE (solo internacionales; contraste),2025-01-01,2025-03-04,difusion_efectiva_nota,https://www.ine.es/dyngs/Prensa/FRONTUR0125.htm
+hoteles,IBESTAT,2024-12-01,2025-01-24,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+turistas,IBESTAT,2024-11-01,2025-01-03,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+hoteles,IBESTAT,2025-01-01,2025-02-25,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+turistas,IBESTAT,2024-12-01,2025-02-03,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+hoteles,IBESTAT,2025-02-01,2025-03-21,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+turistas,IBESTAT,2025-01-01,2025-03-04,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+hoteles,IBESTAT,2025-03-01,2025-04-23,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+turistas,IBESTAT,2025-02-01,2025-04-02,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+hoteles,IBESTAT,2025-04-01,2025-05-23,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+turistas,IBESTAT,2025-03-01,2025-05-05,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+hoteles,IBESTAT,2025-05-01,2025-06-23,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+turistas,IBESTAT,2025-04-01,2025-06-02,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+hoteles,IBESTAT,2025-06-01,2025-07-23,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+turistas,IBESTAT,2025-05-01,2025-07-02,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+hoteles,IBESTAT,2025-07-01,2025-08-22,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+turistas,IBESTAT,2025-06-01,2025-08-01,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+hoteles,IBESTAT,2025-08-01,2025-09-23,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+turistas,IBESTAT,2025-07-01,2025-09-01,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+hoteles,IBESTAT,2025-09-01,2025-10-23,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+turistas,IBESTAT,2025-08-01,2025-10-02,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+hoteles,IBESTAT,2025-10-01,2025-11-21,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+turistas,IBESTAT,2025-09-01,,celda_invalida_dia_31_noviembre,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+hoteles,IBESTAT,2025-11-01,2025-12-23,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
+turistas,IBESTAT,2025-10-01,2025-12-03,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
