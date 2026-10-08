@@ -1,0 +1,36 @@
+{
+  "periodo_descriptivo": [
+    "2015-10-01",
+    "2025-12-01"
+  ],
+  "periodo_relaciones": [
+    "2015-10-01",
+    "2024-12-01"
+  ],
+  "meses_exploracion": 111,
+  "meses_prueba_reservados": 12,
+  "referencia_recuperacion": 2019,
+  "ventana_interrupcion_descriptiva": [
+    2020,
+    2021
+  ],
+  "imputacion": "no realizada",
+  "modelos": "no ajustados",
+  "aemet": "pendiente",
+  "correlaciones": "Pearson por pares completos, niveles y diferencias de 12 meses",
+  "python": "3.11.9",
+  "dependencias": {
+    "pandas": "3.0.3",
+    "numpy": "2.4.6",
+    "matplotlib": "3.11.0"
+  },
+  "dataset_sha256": "89771f4c88a50091d39fa2fe9e797777edc2b948fca4627025d24e7117fe13b3",
+  "figuras": [
+    "01_evolucion_turistas.png",
+    "02_estacionalidad_mensual.png",
+    "03_pandemia_recuperacion.png",
+    "04_relaciones_aeropuerto_hoteles.png",
+    "05_correlaciones.png",
+    "06_mapa_ausentes.png"
+  ]
+}
