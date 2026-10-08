@@ -1,0 +1,17 @@
+{
+  "fecha_revision": "2026-10-08",
+  "origen": "cierre del mes t, Europe/Madrid",
+  "horizontes": [
+    1,
+    3
+  ],
+  "desfases_publicacion_meses": {
+    "aena": 1,
+    "hoteles": 1,
+    "turistas": 2
+  },
+  "fecha_operativa_sin_verificar": "ultimo dia del mes de difusion supuesto",
+  "alcance": "simulacion retrospectiva; primeras versiones no reconstruidas",
+  "sensibilidad": "un mes adicional de espera en todos los grupos",
+  "meteorologia": "pendiente, excluida de esta politica"
+}

@@ -1,0 +1,10 @@
+﻿grupo,variable,desfase_desde_origen,retardo_desde_objetivo_h1,retardo_desde_objetivo_h3
+aena,pasajeros_aena,1,2,4
+aena,operaciones_aena,1,2,4
+hoteles,viajeros_hoteles,1,2,4
+hoteles,pernoctaciones_hoteles,1,2,4
+hoteles,estancia_media_noches,1,2,4
+hoteles,ocupacion_habitaciones_pct,1,2,4
+hoteles,ocupacion_plazas_pct,1,2,4
+hoteles,ocupacion_fin_semana_pct,1,2,4
+turistas,turistas,2,3,5
