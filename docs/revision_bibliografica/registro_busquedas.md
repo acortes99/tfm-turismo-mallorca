@@ -65,3 +65,11 @@ La API consultada utiliza `https://repositori.uib.cat/server/api/discover/search
 Resultado conservado: seis TFG/TFM (U01–U06) y un artículo publicado (E16). Los trabajos universitarios se registran como material complementario, sin reclasificarlos como artículos revisados por pares. La relación entre U02 y E16 queda pendiente de cotejo; no se contabilizan automáticamente como dos experimentos distintos.
 
 Se descargaron y consultaron secciones de cuatro TFG (U01, U03, U04 y U05). Las copias están en `C:/Users/acort/Documents/Codex/tfm-turismo-mallorca-apoyo/docs/comparacion_antecedentes`, fuera del repositorio del proyecto. U02 tiene indicación de embargo hasta 2050 y se revisó su ficha; U06 y E16 mantienen lectura completa pendiente. Estos accesos corresponden a la ampliación actual y no alteran las limitaciones de acceso registradas para la búsqueda inicial.
+
+## Incorporación de Song y Li (2008)
+
+Fecha: 8 de octubre de 2026. El alumno solicitó revisar la referencia citada en los documentos de lectura y después guardarla como referencia. Consulta web exacta: `Song Li 2008 Tourism demand modelling forecasting review recent research full text`. Se verificaron el DOI `10.1016/j.tourman.2007.07.016`, la edición de Tourism Management y los registros institucionales de Surrey y PolyU. No se realizó una búsqueda en IEEE Xplore, Scopus o Web of Science.
+
+Desde el [registro de PolyU](https://ira.lib.polyu.edu.hk/handle/10397/1127) se abrió el manuscrito aceptado de 38 páginas y se revisaron los apartados de métodos, comparación de pronósticos, estacionalidad, crisis y conclusiones. La referencia principal corresponde al artículo publicado en 2008, no a una publicación independiente del manuscrito. No se descargó una copia local.
+
+Resultado: E17 en `estudios.md`, como excepción temporal justificada por su papel fundacional. Se mantiene separada de la literatura reciente y con evaluación de calidad pendiente; la revisión de secciones no se registra como una lectura exhaustiva ni como selección definitiva. Se actualizaron los recuentos a 17 artículos candidatos y 6 trabajos universitarios.
