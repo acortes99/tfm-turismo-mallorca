@@ -35,7 +35,7 @@
     "XGBoost"
   ],
   "politica_disponibilidad": {
-    "fecha_revision": "2026-10-08",
+    "fecha_revision": "2026-10-09",
     "origen": "cierre del mes t, Europe/Madrid",
     "horizontes": [
       1,
@@ -45,20 +45,23 @@
       "aena": 1,
       "hoteles": 1,
       "turistas": 2,
-      "google_trends": 1
+      "google_trends": 1,
+      "meteorologia": 2
     },
     "fecha_operativa_sin_verificar": "ultimo dia del mes de difusion supuesto",
     "alcance": "simulacion retrospectiva; primeras versiones no reconstruidas",
     "sensibilidad": "un mes adicional de espera en todos los grupos",
-    "meteorologia": "pendiente, excluida de esta politica",
+    "meteorologia": "t-2 base y t-3 sensibilidad; supuesto de simulacion, primera publicacion mensual no verificada",
+    "meteorologia_versiones": "observaciones mensuales revisadas descargadas en 2026; no son pronosticos meteorologicos",
+    "meteorologia_evidencia": "actualizacion diaria del producto no demuestra retraso de publicacion; FAQ diaria no extrapolable a mensual",
     "google_trends": "t-1 por cautela operativa; supuesto, no plazo de publicación verificado",
     "google_trends_versiones": "CSV retrospectivos normalizados en 2015-2025; versiones por origen no reconstruidas"
   },
-  "hash_maestro": "407aa43ed39394b8eb6f194969d0d4c3a66446bcf20157fed4c0be6e1eead48d",
+  "hash_maestro": "5767599e6bd65cbba97c467d4e2e535c9b52dec79bf6b46bd36f324ad4a1819f",
   "limites": [
     "EDA descriptivo previo de cobertura/calidad de 2025",
     "versiones revisadas",
     "normalizacion retrospectiva Google Trends",
-    "utilidad predictiva de imputacion y SARIMAX operativo pendientes"
+    "meteorologia mensual: retraso supuesto y primeras versiones no reconstruidas"
   ]
 }

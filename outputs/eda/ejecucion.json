@@ -16,7 +16,7 @@
   ],
   "imputacion": "no realizada",
   "modelos": "no ajustados",
-  "aemet": "pendiente",
+  "aemet": "B278 integrada; huecos preservados; exploracion meteorologica en bloque final",
   "correlaciones": "Pearson por pares completos, niveles y diferencias de 12 meses",
   "python": "3.11.9",
   "dependencias": {
@@ -24,7 +24,7 @@
     "numpy": "2.4.6",
     "matplotlib": "3.11.0"
   },
-  "dataset_sha256": "407aa43ed39394b8eb6f194969d0d4c3a66446bcf20157fed4c0be6e1eead48d",
+  "dataset_sha256": "5767599e6bd65cbba97c467d4e2e535c9b52dec79bf6b46bd36f324ad4a1819f",
   "figuras": [
     "01_evolucion_turistas.png",
     "02_estacionalidad_mensual.png",

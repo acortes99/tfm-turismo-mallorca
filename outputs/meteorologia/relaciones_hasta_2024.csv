@@ -1,0 +1,5 @@
+﻿horizonte,variable,n_niveles,pearson_niveles,n_diferencias,pearson_diferencias_12
+1,meteo_temperatura_media_c,93,-0.16611068397226977,81,-0.19459357931066543
+1,meteo_precipitacion_mm,93,-0.16053223717034695,81,-0.13519777362327592
+3,meteo_temperatura_media_c,93,-0.742728697894418,81,-0.2837614768453645
+3,meteo_precipitacion_mm,93,0.013564551968288976,81,-0.2203379191969118

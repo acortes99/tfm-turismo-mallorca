@@ -1,0 +1,35 @@
+{
+  "modelo": "SARIMAX",
+  "variantes": {
+    "historico_comun": [],
+    "aena": [
+      "pasajeros_aena"
+    ],
+    "hoteles": [
+      "viajeros_hoteles",
+      "ocupacion_plazas_pct"
+    ],
+    "aena_hoteles": [
+      "pasajeros_aena",
+      "viajeros_hoteles",
+      "ocupacion_plazas_pct"
+    ]
+  },
+  "ordenes": "fijos, seleccionados previamente para SARIMA",
+  "ventana": "comun por horizonte y escenario, desde primer mes con referencias externas en maestro",
+  "retardo_externo": "horizonte + 1 + espera adicional, todos los pasos comprobados",
+  "imputacion": "mediana hotelera y marcas; ajuste exclusivamente en etiquetas publicadas hasta 2024",
+  "escala": "media y desviacion de entrenamiento; columnas constantes excluidas y registradas",
+  "emisiones": 1152,
+  "fallos": 0,
+  "evaluacion_final_2025_habilitada": false,
+  "actualizacion_2025": "estado con datos publicados, sin etiquetas 2025 para ajustar parametros o preprocesamiento",
+  "hash_maestro": "5767599e6bd65cbba97c467d4e2e535c9b52dec79bf6b46bd36f324ad4a1819f",
+  "controles": "superados",
+  "limites": [
+    "ordenes y conjunto de variables acotados",
+    "seleccion y diagnostico retrospectivos no son prueba independiente",
+    "fechas historicas de primera publicacion no reconstruidas completamente",
+    "versiones revisadas; no inferencia causal"
+  ]
+}

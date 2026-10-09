@@ -5,6 +5,9 @@ hoteles,"INE (contraste, no fecha del cubo IBESTAT)",2025-01-01,2025-02-25,difus
 hoteles,"INE (contraste, no fecha del cubo IBESTAT)",2025-12-01,2026-01-26,difusion_efectiva_nota,https://www.ine.es/dyngs/Prensa/CTH1225.htm
 turistas,IBESTAT,2026-08-01,2026-10-02,difusion_efectiva_noticia,https://ibestat.es/
 turistas,INE (solo internacionales; contraste),2025-01-01,2025-03-04,difusion_efectiva_nota,https://www.ine.es/dyngs/Prensa/FRONTUR0125.htm
+meteorologia,AEMET OpenData,,,descripcion_producto_actualizacion_diaria_sin_plazo_mensual,https://opendata.aemet.es/AEMET_OpenData_specification.json
+meteorologia,"AEMET FAQ 28-jul-2025, apartado 4.2",,,diarias_aproximadamente_4_dias_no_aplicable_al_producto_mensual,https://opendata.aemet.es/centrodedescargas/docs/FAQs220424.pdf
+meteorologia,Decision experimental TFM,,,supuesto_mensual_t_menos_2_sensibilidad_t_menos_3_no_verificado,
 hoteles,IBESTAT,2024-12-01,2025-01-24,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
 turistas,IBESTAT,2024-11-01,2025-01-03,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
 hoteles,IBESTAT,2025-01-01,2025-02-25,fecha_prevista_calendario,https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158
