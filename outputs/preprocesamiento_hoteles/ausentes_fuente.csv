@@ -1,0 +1,11 @@
+﻿fecha,variable,archivo,valor_original,estado_original,interpretacion
+2020-05-01,viajeros_hoteles,"Viajeros entrados, pernoctaciones y estancia media en establecimientos hoteleros.xlsx",,U,valor vacio en descarga; no se infiere cero ni motivo exacto
+2020-05-01,pernoctaciones_hoteles,"Viajeros entrados, pernoctaciones y estancia media en establecimientos hoteleros.xlsx",,U,valor vacio en descarga; no se infiere cero ni motivo exacto
+2020-04-01,estancia_media_noches,"Viajeros entrados, pernoctaciones y estancia media en establecimientos hoteleros.xlsx",,U,valor vacio en descarga; no se infiere cero ni motivo exacto
+2020-05-01,estancia_media_noches,"Viajeros entrados, pernoctaciones y estancia media en establecimientos hoteleros.xlsx",,U,valor vacio en descarga; no se infiere cero ni motivo exacto
+2020-05-01,ocupacion_habitaciones_pct,"Grado de ocupación hotelera por categoría, isla y mes.xlsx",,U,valor vacio en descarga; no se infiere cero ni motivo exacto
+2020-12-01,ocupacion_habitaciones_pct,"Grado de ocupación hotelera por categoría, isla y mes.xlsx",,U,valor vacio en descarga; no se infiere cero ni motivo exacto
+2020-05-01,ocupacion_plazas_pct,"Grado de ocupación hotelera por categoría, isla y mes.xlsx",,U,valor vacio en descarga; no se infiere cero ni motivo exacto
+2020-12-01,ocupacion_plazas_pct,"Grado de ocupación hotelera por categoría, isla y mes.xlsx",,U,valor vacio en descarga; no se infiere cero ni motivo exacto
+2020-05-01,ocupacion_fin_semana_pct,"Grado de ocupación hotelera por categoría, isla y mes.xlsx",,U,valor vacio en descarga; no se infiere cero ni motivo exacto
+2020-12-01,ocupacion_fin_semana_pct,"Grado de ocupación hotelera por categoría, isla y mes.xlsx",,U,valor vacio en descarga; no se infiere cero ni motivo exacto

@@ -1,0 +1,128 @@
+{
+  "modelo": "SARIMA",
+  "variables_externas": false,
+  "configuraciones": {
+    "100_110_12": {
+      "order": [
+        1,
+        0,
+        0
+      ],
+      "seasonal_order": [
+        1,
+        1,
+        0,
+        12
+      ]
+    },
+    "100_011_12": {
+      "order": [
+        1,
+        0,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ]
+    },
+    "001_110_12": {
+      "order": [
+        0,
+        0,
+        1
+      ],
+      "seasonal_order": [
+        1,
+        1,
+        0,
+        12
+      ]
+    },
+    "001_011_12": {
+      "order": [
+        0,
+        0,
+        1
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ]
+    },
+    "110_110_12": {
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        1,
+        1,
+        0,
+        12
+      ]
+    },
+    "110_011_12": {
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ]
+    },
+    "011_110_12": {
+      "order": [
+        0,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        1,
+        1,
+        0,
+        12
+      ]
+    },
+    "011_011_12": {
+      "order": [
+        0,
+        1,
+        1
+      ],
+      "seasonal_order": [
+        0,
+        1,
+        1,
+        12
+      ]
+    }
+  },
+  "escala_fija": 1000000.0,
+  "limite_inferior_prediccion": 0,
+  "seleccion": "RMSE mínimo con cobertura y convergencia completas; desempate MAE, complejidad, identificador",
+  "seleccion_hasta": "2024-07-01",
+  "congelacion": "2024-10-31",
+  "diagnostico_2024": "retrospectivo, no prueba independiente",
+  "evaluacion_final_2025_habilitada": false,
+  "actualizacion_2025": "estado con datos publicados; parámetros estimados exclusivamente hasta diciembre de 2024",
+  "emisiones": 288,
+  "predicciones_limitadas_a_cero": 26,
+  "versiones": {
+    "statsmodels": "0.14.6",
+    "scipy": "1.17.1",
+    "numpy": "2.4.6",
+    "pandas": "3.0.3"
+  },
+  "hash_maestro": "407aa43ed39394b8eb6f194969d0d4c3a66446bcf20157fed4c0be6e1eead48d",
+  "controles": "superados"
+}
