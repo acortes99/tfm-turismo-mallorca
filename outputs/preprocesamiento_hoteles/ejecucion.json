@@ -1,0 +1,24 @@
+{
+  "fecha_documentacion": "2026-10-09",
+  "estrategia": "mediana por columna hotelera, ajustada en entrenamiento de cada origen",
+  "indicadores": "uno por predictor hotelero seleccionado; 1 si originalmente ausente; columnas estables",
+  "origenes_comprobados": 288,
+  "huecos_fuente": 10,
+  "columnas_catalogo_completo": 68,
+  "uso_catalogo_completo": "solo auditoria de cobertura, no seleccion de un modelo",
+  "fuentes_sin_recuperar": "vacios confirmados en descargas locales; no se consultaron nuevas versiones en linea",
+  "maestro_modificado": false,
+  "matrices_fuente_modificadas": false,
+  "etiquetas_imputadas": false,
+  "evaluacion_2025": false,
+  "seleccion_modelos": "pendiente, sobre objetivos hasta julio de 2024",
+  "columnas_totalmente_ausentes": "error explicito",
+  "otros_grupos_ausentes": "error explicito",
+  "hash_maestro": "407aa43ed39394b8eb6f194969d0d4c3a66446bcf20157fed4c0be6e1eead48d",
+  "controles": "superados",
+  "limites": [
+    "mediana no reconstruye meses de pandemia",
+    "utilidad predictiva pendiente",
+    "SARIMAX secuencial pendiente"
+  ]
+}

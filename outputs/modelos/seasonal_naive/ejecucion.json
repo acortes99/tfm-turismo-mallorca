@@ -36,7 +36,7 @@
     "congelacion_configuracion": "2024-10-31",
     "reestimacion": "solo etiquetas hasta 2024 publicadas; configuracion fija en prueba",
     "actualizacion_2025": "permitida para entradas/estado, sin reestimar parametros con etiquetas de 2025",
-    "ausentes": "tratamiento pendiente dentro de entrenamiento; no eliminar casos del calendario comun",
+    "ausentes": "hoteles: mediana por columna dentro de cada entrenamiento y marcas de ausencia; no eliminar casos del calendario comun",
     "comparadores": [
       "Seasonal Naive",
       "SARIMA",
@@ -69,7 +69,7 @@
       "EDA descriptivo previo de cobertura/calidad de 2025",
       "versiones revisadas",
       "normalizacion retrospectiva Google Trends",
-      "imputacion y SARIMAX operativo pendientes"
+      "utilidad predictiva de imputacion y SARIMAX operativo pendientes"
     ]
   },
   "controles": "superados"
