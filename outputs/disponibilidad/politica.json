@@ -1,5 +1,5 @@
 {
-  "fecha_revision": "2026-10-08",
+  "fecha_revision": "2026-10-09",
   "origen": "cierre del mes t, Europe/Madrid",
   "horizontes": [
     1,
@@ -9,12 +9,15 @@
     "aena": 1,
     "hoteles": 1,
     "turistas": 2,
-    "google_trends": 1
+    "google_trends": 1,
+    "meteorologia": 2
   },
   "fecha_operativa_sin_verificar": "ultimo dia del mes de difusion supuesto",
   "alcance": "simulacion retrospectiva; primeras versiones no reconstruidas",
   "sensibilidad": "un mes adicional de espera en todos los grupos",
-  "meteorologia": "pendiente, excluida de esta politica",
+  "meteorologia": "t-2 base y t-3 sensibilidad; supuesto de simulacion, primera publicacion mensual no verificada",
+  "meteorologia_versiones": "observaciones mensuales revisadas descargadas en 2026; no son pronosticos meteorologicos",
+  "meteorologia_evidencia": "actualizacion diaria del producto no demuestra retraso de publicacion; FAQ diaria no extrapolable a mensual",
   "google_trends": "t-1 por cautela operativa; supuesto, no plazo de publicación verificado",
   "google_trends_versiones": "CSV retrospectivos normalizados en 2015-2025; versiones por origen no reconstruidas"
 }

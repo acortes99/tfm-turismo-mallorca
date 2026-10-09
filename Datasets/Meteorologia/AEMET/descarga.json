@@ -1,0 +1,159 @@
+{
+  "fuente": "AEMET OpenData",
+  "descarga_utc": "2026-10-09T16:32:32.000300+00:00",
+  "inicio": 2015,
+  "fin": 2025,
+  "estaciones": [
+    "B278",
+    "B228"
+  ],
+  "documentacion": "https://opendata.aemet.es/dist/",
+  "productos": [
+    {
+      "endpoint": "/api/valores/climatologicos/inventarioestaciones/estaciones/B278,B228",
+      "archivos_sha256": {
+        "estaciones.json": "2878dc47d9a4fbe247104036eeb9cc7f9babfb3da18f1326c3ad2487548a9684",
+        "estaciones_metadatos.json": "0891e5dc8b423162b25031b1eade83dec7a4b8e10bfcfb701bb2cb8d49ae2a4c"
+      },
+      "filas": 2
+    },
+    {
+      "endpoint": "/api/valores/climatologicos/mensualesanuales/datos/anioini/2015/aniofin/2017/estacion/B278",
+      "archivos_sha256": {
+        "mensuales_B278_2015_2017.json": "95024f64eff92675460502a368cc63844cd712200c74a1ddb7f4d81e1638401b",
+        "mensuales_B278_2015_2017_metadatos.json": "4265ee36a7fcb50b4eab6bcf895bddd3fe3bef1ed5b3da58ab28adff66359a95"
+      },
+      "filas": 39
+    },
+    {
+      "endpoint": "/api/valores/climatologicos/mensualesanuales/datos/anioini/2018/aniofin/2020/estacion/B278",
+      "archivos_sha256": {
+        "mensuales_B278_2018_2020.json": "1985aef45cd7a015172f8a9b148e290fa09f21f297b27fd6ab990196fdaac17a",
+        "mensuales_B278_2018_2020_metadatos.json": "4265ee36a7fcb50b4eab6bcf895bddd3fe3bef1ed5b3da58ab28adff66359a95"
+      },
+      "filas": 39
+    },
+    {
+      "endpoint": "/api/valores/climatologicos/mensualesanuales/datos/anioini/2021/aniofin/2023/estacion/B278",
+      "archivos_sha256": {
+        "mensuales_B278_2021_2023.json": "14c1a0899f02e18ea62a7bbc482204731a541bf823cf71ff7e1d165f0447bd82",
+        "mensuales_B278_2021_2023_metadatos.json": "4265ee36a7fcb50b4eab6bcf895bddd3fe3bef1ed5b3da58ab28adff66359a95"
+      },
+      "filas": 39
+    },
+    {
+      "endpoint": "/api/valores/climatologicos/mensualesanuales/datos/anioini/2024/aniofin/2025/estacion/B278",
+      "archivos_sha256": {
+        "mensuales_B278_2024_2025.json": "cb6f83a897231d9f9e214ef6facba672775e1d044694a29e2311998758246cd5",
+        "mensuales_B278_2024_2025_metadatos.json": "4265ee36a7fcb50b4eab6bcf895bddd3fe3bef1ed5b3da58ab28adff66359a95"
+      },
+      "filas": 26
+    },
+    {
+      "endpoint": "/api/valores/climatologicos/mensualesanuales/datos/anioini/2015/aniofin/2017/estacion/B228",
+      "archivos_sha256": {
+        "mensuales_B228_2015_2017.json": "fbe8790ca46008815c33de21e051e7536641c6e98a1f13b4a18a89e7b3249117",
+        "mensuales_B228_2015_2017_metadatos.json": "4265ee36a7fcb50b4eab6bcf895bddd3fe3bef1ed5b3da58ab28adff66359a95"
+      },
+      "filas": 39
+    },
+    {
+      "endpoint": "/api/valores/climatologicos/mensualesanuales/datos/anioini/2018/aniofin/2020/estacion/B228",
+      "archivos_sha256": {
+        "mensuales_B228_2018_2020.json": "c179affe9484024a631256556d9df70d982e1eaf734bbb0f61aaf39cb394febe",
+        "mensuales_B228_2018_2020_metadatos.json": "4265ee36a7fcb50b4eab6bcf895bddd3fe3bef1ed5b3da58ab28adff66359a95"
+      },
+      "filas": 39
+    },
+    {
+      "endpoint": "/api/valores/climatologicos/mensualesanuales/datos/anioini/2021/aniofin/2023/estacion/B228",
+      "archivos_sha256": {
+        "mensuales_B228_2021_2023.json": "0ae8fed1162a636590495d2bdc14f542f29c5137aece6e520303de46e5c55f96",
+        "mensuales_B228_2021_2023_metadatos.json": "4265ee36a7fcb50b4eab6bcf895bddd3fe3bef1ed5b3da58ab28adff66359a95"
+      },
+      "filas": 39
+    },
+    {
+      "endpoint": "/api/valores/climatologicos/mensualesanuales/datos/anioini/2024/aniofin/2025/estacion/B228",
+      "archivos_sha256": {
+        "mensuales_B228_2024_2025.json": "2d83626b636c9929bd4e39b748567f1a79b376db0de6bea3722cab32a5f39d41",
+        "mensuales_B228_2024_2025_metadatos.json": "4265ee36a7fcb50b4eab6bcf895bddd3fe3bef1ed5b3da58ab28adff66359a95"
+      },
+      "filas": 26
+    }
+  ],
+  "clave_guardada": false,
+  "tipo": "observaciones climatologicas mensuales revisadas, no pronosticos",
+  "calidad_mensual": [
+    {
+      "estacion": "B278",
+      "meses_esperados": 132,
+      "meses_recibidos": 132,
+      "meses_no_recibidos": [],
+      "registros_anuales_separados": 11,
+      "ausentes_por_variable": {
+        "temperatura_media_c": 0,
+        "temperatura_media_maximas_c": 0,
+        "temperatura_media_minimas_c": 0,
+        "precipitacion_mm": 0,
+        "humedad_relativa_pct": 2,
+        "insolacion_media_diaria_h": 1,
+        "viento_medio_kmh": 0,
+        "dias_lluvia": 0,
+        "dias_precipitacion_ge_1mm": 0,
+        "dias_maxima_ge_30c": 0
+      },
+      "campos": {
+        "tm_mes": "temperatura_media_c",
+        "tm_max": "temperatura_media_maximas_c",
+        "tm_min": "temperatura_media_minimas_c",
+        "p_mes": "precipitacion_mm",
+        "hr": "humedad_relativa_pct",
+        "inso": "insolacion_media_diaria_h",
+        "w_med": "viento_medio_kmh",
+        "n_llu": "dias_lluvia",
+        "np_010": "dias_precipitacion_ge_1mm",
+        "nt_30": "dias_maxima_ge_30c"
+      },
+      "csv_sha256": "bc9ee3db023c53ca11a0413ebb90e681736cb9c2dee10b0df3a3f77d8b4e31da",
+      "imputacion": false,
+      "trazas_o_valores_no_numericos": "conservar original y marcar; no convertir automaticamente en cero",
+      "insolacion": "media diaria del mes en horas, no total mensual"
+    },
+    {
+      "estacion": "B228",
+      "meses_esperados": 132,
+      "meses_recibidos": 132,
+      "meses_no_recibidos": [],
+      "registros_anuales_separados": 11,
+      "ausentes_por_variable": {
+        "temperatura_media_c": 0,
+        "temperatura_media_maximas_c": 0,
+        "temperatura_media_minimas_c": 0,
+        "precipitacion_mm": 0,
+        "humedad_relativa_pct": 4,
+        "insolacion_media_diaria_h": 11,
+        "viento_medio_kmh": 0,
+        "dias_lluvia": 20,
+        "dias_precipitacion_ge_1mm": 0,
+        "dias_maxima_ge_30c": 0
+      },
+      "campos": {
+        "tm_mes": "temperatura_media_c",
+        "tm_max": "temperatura_media_maximas_c",
+        "tm_min": "temperatura_media_minimas_c",
+        "p_mes": "precipitacion_mm",
+        "hr": "humedad_relativa_pct",
+        "inso": "insolacion_media_diaria_h",
+        "w_med": "viento_medio_kmh",
+        "n_llu": "dias_lluvia",
+        "np_010": "dias_precipitacion_ge_1mm",
+        "nt_30": "dias_maxima_ge_30c"
+      },
+      "csv_sha256": "0328e25c88d3d65fc577a69c196b7d10c9e188d5d3c992af4b830e070571f031",
+      "imputacion": false,
+      "trazas_o_valores_no_numericos": "conservar original y marcar; no convertir automaticamente en cero",
+      "insolacion": "media diaria del mes en horas, no total mensual"
+    }
+  ]
+}

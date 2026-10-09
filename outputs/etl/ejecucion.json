@@ -10,8 +10,24 @@
     "2025-12-01"
   ],
   "filas": 123,
-  "archivos_fuente": 139,
-  "aemet": "pendiente",
+  "archivos_fuente": 162,
+  "aemet": {
+    "estacion_principal": "B278",
+    "alternativa": "B228",
+    "variables": [
+      "meteo_temperatura_media_c",
+      "meteo_temperatura_media_maximas_c",
+      "meteo_temperatura_media_minimas_c",
+      "meteo_precipitacion_mm",
+      "meteo_humedad_relativa_pct",
+      "meteo_insolacion_media_diaria_h",
+      "meteo_viento_medio_kmh",
+      "meteo_dias_lluvia",
+      "meteo_dias_precipitacion_ge_1mm",
+      "meteo_dias_maxima_ge_30c"
+    ],
+    "integracion": "123 meses; sin imputacion"
+  },
   "google_trends": {
     "series": [
       "gt_mallorca_alemania",

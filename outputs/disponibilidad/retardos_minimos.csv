@@ -12,3 +12,13 @@ google_trends,gt_mallorca_alemania,1,2,4
 google_trends,gt_majorca_alemania,1,2,4
 google_trends,gt_mallorca_reino_unido,1,2,4
 google_trends,gt_majorca_reino_unido,1,2,4
+meteorologia,meteo_temperatura_media_c,2,3,5
+meteorologia,meteo_temperatura_media_maximas_c,2,3,5
+meteorologia,meteo_temperatura_media_minimas_c,2,3,5
+meteorologia,meteo_precipitacion_mm,2,3,5
+meteorologia,meteo_humedad_relativa_pct,2,3,5
+meteorologia,meteo_insolacion_media_diaria_h,2,3,5
+meteorologia,meteo_viento_medio_kmh,2,3,5
+meteorologia,meteo_dias_lluvia,2,3,5
+meteorologia,meteo_dias_precipitacion_ge_1mm,2,3,5
+meteorologia,meteo_dias_maxima_ge_30c,2,3,5

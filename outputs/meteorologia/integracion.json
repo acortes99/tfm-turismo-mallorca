@@ -1,0 +1,34 @@
+{
+  "estacion_principal": "B278",
+  "estacion_alternativa": "B228",
+  "periodo": [
+    "2015-10-01",
+    "2025-12-01"
+  ],
+  "meses": 123,
+  "variables_maestro": [
+    "meteo_temperatura_media_c",
+    "meteo_temperatura_media_maximas_c",
+    "meteo_temperatura_media_minimas_c",
+    "meteo_precipitacion_mm",
+    "meteo_humedad_relativa_pct",
+    "meteo_insolacion_media_diaria_h",
+    "meteo_viento_medio_kmh",
+    "meteo_dias_lluvia",
+    "meteo_dias_precipitacion_ge_1mm",
+    "meteo_dias_maxima_ge_30c"
+  ],
+  "candidatos": [
+    "meteo_temperatura_media_c",
+    "meteo_precipitacion_mm"
+  ],
+  "disponibilidad_base_origen": 2,
+  "espera_adicional_origen": 3,
+  "publicacion_mensual_verificada": false,
+  "regla": "supuesto experimental; t-2 base y t-3 sensibilidad; bloquear fechas verificadas posteriores",
+  "variables_secundarias_imputadas": false,
+  "modelos_con_meteorologia_entrenados": false,
+  "evaluacion_2025": false,
+  "maestro_sha256": "5767599e6bd65cbba97c467d4e2e535c9b52dec79bf6b46bd36f324ad4a1819f",
+  "controles": "superados"
+}

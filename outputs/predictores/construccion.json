@@ -9,7 +9,7 @@
     "espera_adicional"
   ],
   "origenes_por_matriz": 123,
-  "predictores_por_matriz": 50,
+  "predictores_por_matriz": 56,
   "imputacion": "pendiente, no realizada",
   "seleccion": "candidatos; pendiente de validacion anterior a 2025",
   "entrenamiento": "etiquetas publicadas al origen y mes objetivo anterior a 2025",
@@ -69,6 +69,14 @@
           "gt_majorca_reino_unido_origen_lag1",
           "gt_majorca_reino_unido_origen_lag2",
           "gt_majorca_reino_unido_origen_lag13"
+        ],
+        "meteorologia": [
+          "meteo_temperatura_media_c_origen_lag2",
+          "meteo_temperatura_media_c_origen_lag3",
+          "meteo_temperatura_media_c_origen_lag14",
+          "meteo_precipitacion_mm_origen_lag2",
+          "meteo_precipitacion_mm_origen_lag3",
+          "meteo_precipitacion_mm_origen_lag14"
         ],
         "calendario": [
           "mes_objetivo",
@@ -131,6 +139,14 @@
           "gt_majorca_reino_unido_origen_lag1",
           "gt_majorca_reino_unido_origen_lag2",
           "gt_majorca_reino_unido_origen_lag13"
+        ],
+        "meteorologia": [
+          "meteo_temperatura_media_c_origen_lag2",
+          "meteo_temperatura_media_c_origen_lag3",
+          "meteo_temperatura_media_c_origen_lag14",
+          "meteo_precipitacion_mm_origen_lag2",
+          "meteo_precipitacion_mm_origen_lag3",
+          "meteo_precipitacion_mm_origen_lag14"
         ],
         "calendario": [
           "mes_objetivo",
@@ -196,6 +212,14 @@
           "gt_majorca_reino_unido_origen_lag3",
           "gt_majorca_reino_unido_origen_lag14"
         ],
+        "meteorologia": [
+          "meteo_temperatura_media_c_origen_lag3",
+          "meteo_temperatura_media_c_origen_lag4",
+          "meteo_temperatura_media_c_origen_lag15",
+          "meteo_precipitacion_mm_origen_lag3",
+          "meteo_precipitacion_mm_origen_lag4",
+          "meteo_precipitacion_mm_origen_lag15"
+        ],
         "calendario": [
           "mes_objetivo",
           "mes_sin",
@@ -258,6 +282,14 @@
           "gt_majorca_reino_unido_origen_lag3",
           "gt_majorca_reino_unido_origen_lag14"
         ],
+        "meteorologia": [
+          "meteo_temperatura_media_c_origen_lag3",
+          "meteo_temperatura_media_c_origen_lag4",
+          "meteo_temperatura_media_c_origen_lag15",
+          "meteo_precipitacion_mm_origen_lag3",
+          "meteo_precipitacion_mm_origen_lag4",
+          "meteo_precipitacion_mm_origen_lag15"
+        ],
         "calendario": [
           "mes_objetivo",
           "mes_sin",
@@ -268,7 +300,7 @@
     }
   },
   "politica_disponibilidad": {
-    "fecha_revision": "2026-10-08",
+    "fecha_revision": "2026-10-09",
     "origen": "cierre del mes t, Europe/Madrid",
     "horizontes": [
       1,
@@ -278,15 +310,18 @@
       "aena": 1,
       "hoteles": 1,
       "turistas": 2,
-      "google_trends": 1
+      "google_trends": 1,
+      "meteorologia": 2
     },
     "fecha_operativa_sin_verificar": "ultimo dia del mes de difusion supuesto",
     "alcance": "simulacion retrospectiva; primeras versiones no reconstruidas",
     "sensibilidad": "un mes adicional de espera en todos los grupos",
-    "meteorologia": "pendiente, excluida de esta politica",
+    "meteorologia": "t-2 base y t-3 sensibilidad; supuesto de simulacion, primera publicacion mensual no verificada",
+    "meteorologia_versiones": "observaciones mensuales revisadas descargadas en 2026; no son pronosticos meteorologicos",
+    "meteorologia_evidencia": "actualizacion diaria del producto no demuestra retraso de publicacion; FAQ diaria no extrapolable a mensual",
     "google_trends": "t-1 por cautela operativa; supuesto, no plazo de publicación verificado",
     "google_trends_versiones": "CSV retrospectivos normalizados en 2015-2025; versiones por origen no reconstruidas"
   },
-  "maestro_sha256": "407aa43ed39394b8eb6f194969d0d4c3a66446bcf20157fed4c0be6e1eead48d",
+  "maestro_sha256": "5767599e6bd65cbba97c467d4e2e535c9b52dec79bf6b46bd36f324ad4a1819f",
   "limite": "fuentes revisadas y Google Trends normalizado retrospectivamente; no reconstruye primeras versiones"
 }

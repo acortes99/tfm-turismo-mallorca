@@ -12,3 +12,13 @@ gt_mallorca_alemania,123,0
 gt_majorca_alemania,123,0
 gt_mallorca_reino_unido,123,0
 gt_majorca_reino_unido,123,0
+meteo_temperatura_media_c,123,0
+meteo_temperatura_media_maximas_c,123,0
+meteo_temperatura_media_minimas_c,123,0
+meteo_precipitacion_mm,123,0
+meteo_humedad_relativa_pct,121,2
+meteo_insolacion_media_diaria_h,122,1
+meteo_viento_medio_kmh,123,0
+meteo_dias_lluvia,123,0
+meteo_dias_precipitacion_ge_1mm,123,0
+meteo_dias_maxima_ge_30c,123,0

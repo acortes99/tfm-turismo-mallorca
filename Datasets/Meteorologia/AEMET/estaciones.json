@@ -1,0 +1,17 @@
+[ {
+  "latitud" : "393315N",
+  "provincia" : "BALEARES",
+  "altitud" : "3",
+  "indicativo" : "B228",
+  "nombre" : "PALMA, PUERTO",
+  "indsinop" : "08301",
+  "longitud" : "023731E"
+}, {
+  "latitud" : "393339N",
+  "provincia" : "BALEARES",
+  "altitud" : "5",
+  "indicativo" : "B278",
+  "nombre" : "PALMA DE MALLORCA, AEROPUERTO",
+  "indsinop" : "08306",
+  "longitud" : "024412E"
+} ]
