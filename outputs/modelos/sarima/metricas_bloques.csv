@@ -1,0 +1,13 @@
+﻿modelo,escenario,horizonte,papel,n_esperados,n_pronosticos,cobertura_pronosticos,n_puntuados,MAE,RMSE,sesgo_observado_menos_predicho
+SARIMA,base,1,diagnostico_fijo,5,5,1.0,5,195909.21550397007,236589.02904705284,-163204.03535893877
+SARIMA,base,1,prueba_final,12,12,1.0,0,,,
+SARIMA,base,1,seleccion,55,55,1.0,55,270709.010005914,404429.0408168168,-34782.136497734245
+SARIMA,base,3,diagnostico_fijo,5,5,1.0,5,216742.79718898734,243882.06776845152,-137910.41896374445
+SARIMA,base,3,prueba_final,12,12,1.0,0,,,
+SARIMA,base,3,seleccion,55,55,1.0,55,373715.90122751775,515841.2932033362,-59495.81539901624
+SARIMA,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,180476.14421996888,223738.5587818807,-180476.14421996888
+SARIMA,espera_adicional,1,prueba_final,12,12,1.0,0,,,
+SARIMA,espera_adicional,1,seleccion,55,55,1.0,55,322923.1713138544,462527.5940746766,-46480.42166662222
+SARIMA,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,289427.3478554153,327026.79493361723,-85797.28144319644
+SARIMA,espera_adicional,3,prueba_final,12,12,1.0,0,,,
+SARIMA,espera_adicional,3,seleccion,55,55,1.0,55,389273.7194889338,548747.1020264075,-67000.38993682132
