@@ -1,0 +1,9 @@
+﻿modelo,escenario,horizonte,papel,n_esperados,n_pronosticos,cobertura_pronosticos,n_puntuados,MAE,RMSE,sesgo_observado_menos_predicho
+Seasonal Naive,base,1,diagnostico_fijo,5,5,1.0,5,68977.0,95635.50644086118,68977.0
+Seasonal Naive,base,1,seleccion,53,53,1.0,53,362132.09433962265,551683.3182942978,71210.84905660378
+Seasonal Naive,base,3,diagnostico_fijo,5,5,1.0,5,68977.0,95635.50644086118,68977.0
+Seasonal Naive,base,3,seleccion,53,53,1.0,53,362132.09433962265,551683.3182942978,71210.84905660378
+Seasonal Naive,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,68977.0,95635.50644086118,68977.0
+Seasonal Naive,espera_adicional,1,seleccion,53,53,1.0,53,362132.09433962265,551683.3182942978,71210.84905660378
+Seasonal Naive,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,68977.0,95635.50644086118,68977.0
+Seasonal Naive,espera_adicional,3,seleccion,53,53,1.0,53,362132.09433962265,551683.3182942978,71210.84905660378

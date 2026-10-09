@@ -1,0 +1,76 @@
+{
+  "modelo": "Seasonal Naive",
+  "periodo_estacional": 12,
+  "formula": "prediccion del objetivo s = turistas de s-12, si ya publicado",
+  "emisiones": 288,
+  "objetivos_distintos": 72,
+  "evaluacion_final_2025_habilitada": false,
+  "sin_parametros_estimados": true,
+  "sin_imputacion": true,
+  "hash_maestro": "407aa43ed39394b8eb6f194969d0d4c3a66446bcf20157fed4c0be6e1eead48d",
+  "protocolo": {
+    "fecha_definicion": "2026-10-09",
+    "validacion": [
+      "2020-01-01",
+      "2024-12-01"
+    ],
+    "prueba_final": [
+      "2025-01-01",
+      "2025-12-01"
+    ],
+    "horizontes": [
+      1,
+      3
+    ],
+    "ventana": "expansiva, origen mensual; resumen anual",
+    "inicio_etiquetas_ml": "2017-04-01",
+    "minimo_filas_ml": 24,
+    "fin_etiquetas_ajuste": "2024-12-01",
+    "origenes_totales": 288,
+    "validacion_por_escenario_horizonte": 60,
+    "prueba_por_escenario_horizonte": 12,
+    "seleccion": "RMSE de 55 objetivos hasta julio de 2024 por horizonte; MAE complementario",
+    "seleccion_por_escenario_horizonte": 55,
+    "diagnostico_fijo_por_escenario_horizonte": 5,
+    "ultimo_objetivo_seleccion": "2024-07-01",
+    "congelacion_configuracion": "2024-10-31",
+    "reestimacion": "solo etiquetas hasta 2024 publicadas; configuracion fija en prueba",
+    "actualizacion_2025": "permitida para entradas/estado, sin reestimar parametros con etiquetas de 2025",
+    "ausentes": "tratamiento pendiente dentro de entrenamiento; no eliminar casos del calendario comun",
+    "comparadores": [
+      "Seasonal Naive",
+      "SARIMA",
+      "SARIMAX",
+      "Random Forest",
+      "XGBoost"
+    ],
+    "politica_disponibilidad": {
+      "fecha_revision": "2026-10-08",
+      "origen": "cierre del mes t, Europe/Madrid",
+      "horizontes": [
+        1,
+        3
+      ],
+      "desfases_publicacion_meses": {
+        "aena": 1,
+        "hoteles": 1,
+        "turistas": 2,
+        "google_trends": 1
+      },
+      "fecha_operativa_sin_verificar": "ultimo dia del mes de difusion supuesto",
+      "alcance": "simulacion retrospectiva; primeras versiones no reconstruidas",
+      "sensibilidad": "un mes adicional de espera en todos los grupos",
+      "meteorologia": "pendiente, excluida de esta politica",
+      "google_trends": "t-1 por cautela operativa; supuesto, no plazo de publicación verificado",
+      "google_trends_versiones": "CSV retrospectivos normalizados en 2015-2025; versiones por origen no reconstruidas"
+    },
+    "hash_maestro": "407aa43ed39394b8eb6f194969d0d4c3a66446bcf20157fed4c0be6e1eead48d",
+    "limites": [
+      "EDA descriptivo previo de cobertura/calidad de 2025",
+      "versiones revisadas",
+      "normalizacion retrospectiva Google Trends",
+      "imputacion y SARIMAX operativo pendientes"
+    ]
+  },
+  "controles": "superados"
+}
