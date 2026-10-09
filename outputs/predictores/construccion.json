@@ -1,0 +1,292 @@
+{
+  "fecha_documentacion": "2026-10-09",
+  "horizontes": [
+    1,
+    3
+  ],
+  "escenarios": [
+    "base",
+    "espera_adicional"
+  ],
+  "origenes_por_matriz": 123,
+  "predictores_por_matriz": 50,
+  "imputacion": "pendiente, no realizada",
+  "seleccion": "candidatos; pendiente de validacion anterior a 2025",
+  "entrenamiento": "etiquetas publicadas al origen y mes objetivo anterior a 2025",
+  "grupos": {
+    "base": {
+      "1": {
+        "turistas": [
+          "turistas_origen_lag2",
+          "turistas_origen_lag3",
+          "turistas_origen_lag4",
+          "turistas_origen_lag5",
+          "turistas_origen_lag8",
+          "turistas_origen_lag14",
+          "turistas_media3_hasta_lag2",
+          "turistas_media6_hasta_lag2",
+          "turistas_media12_hasta_lag2",
+          "turistas_mismo_mes_ano_anterior"
+        ],
+        "aena": [
+          "pasajeros_aena_origen_lag1",
+          "pasajeros_aena_origen_lag2",
+          "pasajeros_aena_origen_lag13",
+          "operaciones_aena_origen_lag1",
+          "operaciones_aena_origen_lag2",
+          "operaciones_aena_origen_lag13"
+        ],
+        "hoteles": [
+          "viajeros_hoteles_origen_lag1",
+          "viajeros_hoteles_origen_lag2",
+          "viajeros_hoteles_origen_lag13",
+          "pernoctaciones_hoteles_origen_lag1",
+          "pernoctaciones_hoteles_origen_lag2",
+          "pernoctaciones_hoteles_origen_lag13",
+          "estancia_media_noches_origen_lag1",
+          "estancia_media_noches_origen_lag2",
+          "estancia_media_noches_origen_lag13",
+          "ocupacion_habitaciones_pct_origen_lag1",
+          "ocupacion_habitaciones_pct_origen_lag2",
+          "ocupacion_habitaciones_pct_origen_lag13",
+          "ocupacion_plazas_pct_origen_lag1",
+          "ocupacion_plazas_pct_origen_lag2",
+          "ocupacion_plazas_pct_origen_lag13",
+          "ocupacion_fin_semana_pct_origen_lag1",
+          "ocupacion_fin_semana_pct_origen_lag2",
+          "ocupacion_fin_semana_pct_origen_lag13"
+        ],
+        "google_trends": [
+          "gt_mallorca_alemania_origen_lag1",
+          "gt_mallorca_alemania_origen_lag2",
+          "gt_mallorca_alemania_origen_lag13",
+          "gt_majorca_alemania_origen_lag1",
+          "gt_majorca_alemania_origen_lag2",
+          "gt_majorca_alemania_origen_lag13",
+          "gt_mallorca_reino_unido_origen_lag1",
+          "gt_mallorca_reino_unido_origen_lag2",
+          "gt_mallorca_reino_unido_origen_lag13",
+          "gt_majorca_reino_unido_origen_lag1",
+          "gt_majorca_reino_unido_origen_lag2",
+          "gt_majorca_reino_unido_origen_lag13"
+        ],
+        "calendario": [
+          "mes_objetivo",
+          "mes_sin",
+          "mes_cos",
+          "tiempo_meses_desde_2015_01"
+        ]
+      },
+      "3": {
+        "turistas": [
+          "turistas_origen_lag2",
+          "turistas_origen_lag3",
+          "turistas_origen_lag4",
+          "turistas_origen_lag5",
+          "turistas_origen_lag8",
+          "turistas_origen_lag14",
+          "turistas_media3_hasta_lag2",
+          "turistas_media6_hasta_lag2",
+          "turistas_media12_hasta_lag2",
+          "turistas_mismo_mes_ano_anterior"
+        ],
+        "aena": [
+          "pasajeros_aena_origen_lag1",
+          "pasajeros_aena_origen_lag2",
+          "pasajeros_aena_origen_lag13",
+          "operaciones_aena_origen_lag1",
+          "operaciones_aena_origen_lag2",
+          "operaciones_aena_origen_lag13"
+        ],
+        "hoteles": [
+          "viajeros_hoteles_origen_lag1",
+          "viajeros_hoteles_origen_lag2",
+          "viajeros_hoteles_origen_lag13",
+          "pernoctaciones_hoteles_origen_lag1",
+          "pernoctaciones_hoteles_origen_lag2",
+          "pernoctaciones_hoteles_origen_lag13",
+          "estancia_media_noches_origen_lag1",
+          "estancia_media_noches_origen_lag2",
+          "estancia_media_noches_origen_lag13",
+          "ocupacion_habitaciones_pct_origen_lag1",
+          "ocupacion_habitaciones_pct_origen_lag2",
+          "ocupacion_habitaciones_pct_origen_lag13",
+          "ocupacion_plazas_pct_origen_lag1",
+          "ocupacion_plazas_pct_origen_lag2",
+          "ocupacion_plazas_pct_origen_lag13",
+          "ocupacion_fin_semana_pct_origen_lag1",
+          "ocupacion_fin_semana_pct_origen_lag2",
+          "ocupacion_fin_semana_pct_origen_lag13"
+        ],
+        "google_trends": [
+          "gt_mallorca_alemania_origen_lag1",
+          "gt_mallorca_alemania_origen_lag2",
+          "gt_mallorca_alemania_origen_lag13",
+          "gt_majorca_alemania_origen_lag1",
+          "gt_majorca_alemania_origen_lag2",
+          "gt_majorca_alemania_origen_lag13",
+          "gt_mallorca_reino_unido_origen_lag1",
+          "gt_mallorca_reino_unido_origen_lag2",
+          "gt_mallorca_reino_unido_origen_lag13",
+          "gt_majorca_reino_unido_origen_lag1",
+          "gt_majorca_reino_unido_origen_lag2",
+          "gt_majorca_reino_unido_origen_lag13"
+        ],
+        "calendario": [
+          "mes_objetivo",
+          "mes_sin",
+          "mes_cos",
+          "tiempo_meses_desde_2015_01"
+        ]
+      }
+    },
+    "espera_adicional": {
+      "1": {
+        "turistas": [
+          "turistas_origen_lag3",
+          "turistas_origen_lag4",
+          "turistas_origen_lag5",
+          "turistas_origen_lag6",
+          "turistas_origen_lag9",
+          "turistas_origen_lag15",
+          "turistas_media3_hasta_lag3",
+          "turistas_media6_hasta_lag3",
+          "turistas_media12_hasta_lag3",
+          "turistas_mismo_mes_ano_anterior"
+        ],
+        "aena": [
+          "pasajeros_aena_origen_lag2",
+          "pasajeros_aena_origen_lag3",
+          "pasajeros_aena_origen_lag14",
+          "operaciones_aena_origen_lag2",
+          "operaciones_aena_origen_lag3",
+          "operaciones_aena_origen_lag14"
+        ],
+        "hoteles": [
+          "viajeros_hoteles_origen_lag2",
+          "viajeros_hoteles_origen_lag3",
+          "viajeros_hoteles_origen_lag14",
+          "pernoctaciones_hoteles_origen_lag2",
+          "pernoctaciones_hoteles_origen_lag3",
+          "pernoctaciones_hoteles_origen_lag14",
+          "estancia_media_noches_origen_lag2",
+          "estancia_media_noches_origen_lag3",
+          "estancia_media_noches_origen_lag14",
+          "ocupacion_habitaciones_pct_origen_lag2",
+          "ocupacion_habitaciones_pct_origen_lag3",
+          "ocupacion_habitaciones_pct_origen_lag14",
+          "ocupacion_plazas_pct_origen_lag2",
+          "ocupacion_plazas_pct_origen_lag3",
+          "ocupacion_plazas_pct_origen_lag14",
+          "ocupacion_fin_semana_pct_origen_lag2",
+          "ocupacion_fin_semana_pct_origen_lag3",
+          "ocupacion_fin_semana_pct_origen_lag14"
+        ],
+        "google_trends": [
+          "gt_mallorca_alemania_origen_lag2",
+          "gt_mallorca_alemania_origen_lag3",
+          "gt_mallorca_alemania_origen_lag14",
+          "gt_majorca_alemania_origen_lag2",
+          "gt_majorca_alemania_origen_lag3",
+          "gt_majorca_alemania_origen_lag14",
+          "gt_mallorca_reino_unido_origen_lag2",
+          "gt_mallorca_reino_unido_origen_lag3",
+          "gt_mallorca_reino_unido_origen_lag14",
+          "gt_majorca_reino_unido_origen_lag2",
+          "gt_majorca_reino_unido_origen_lag3",
+          "gt_majorca_reino_unido_origen_lag14"
+        ],
+        "calendario": [
+          "mes_objetivo",
+          "mes_sin",
+          "mes_cos",
+          "tiempo_meses_desde_2015_01"
+        ]
+      },
+      "3": {
+        "turistas": [
+          "turistas_origen_lag3",
+          "turistas_origen_lag4",
+          "turistas_origen_lag5",
+          "turistas_origen_lag6",
+          "turistas_origen_lag9",
+          "turistas_origen_lag15",
+          "turistas_media3_hasta_lag3",
+          "turistas_media6_hasta_lag3",
+          "turistas_media12_hasta_lag3",
+          "turistas_mismo_mes_ano_anterior"
+        ],
+        "aena": [
+          "pasajeros_aena_origen_lag2",
+          "pasajeros_aena_origen_lag3",
+          "pasajeros_aena_origen_lag14",
+          "operaciones_aena_origen_lag2",
+          "operaciones_aena_origen_lag3",
+          "operaciones_aena_origen_lag14"
+        ],
+        "hoteles": [
+          "viajeros_hoteles_origen_lag2",
+          "viajeros_hoteles_origen_lag3",
+          "viajeros_hoteles_origen_lag14",
+          "pernoctaciones_hoteles_origen_lag2",
+          "pernoctaciones_hoteles_origen_lag3",
+          "pernoctaciones_hoteles_origen_lag14",
+          "estancia_media_noches_origen_lag2",
+          "estancia_media_noches_origen_lag3",
+          "estancia_media_noches_origen_lag14",
+          "ocupacion_habitaciones_pct_origen_lag2",
+          "ocupacion_habitaciones_pct_origen_lag3",
+          "ocupacion_habitaciones_pct_origen_lag14",
+          "ocupacion_plazas_pct_origen_lag2",
+          "ocupacion_plazas_pct_origen_lag3",
+          "ocupacion_plazas_pct_origen_lag14",
+          "ocupacion_fin_semana_pct_origen_lag2",
+          "ocupacion_fin_semana_pct_origen_lag3",
+          "ocupacion_fin_semana_pct_origen_lag14"
+        ],
+        "google_trends": [
+          "gt_mallorca_alemania_origen_lag2",
+          "gt_mallorca_alemania_origen_lag3",
+          "gt_mallorca_alemania_origen_lag14",
+          "gt_majorca_alemania_origen_lag2",
+          "gt_majorca_alemania_origen_lag3",
+          "gt_majorca_alemania_origen_lag14",
+          "gt_mallorca_reino_unido_origen_lag2",
+          "gt_mallorca_reino_unido_origen_lag3",
+          "gt_mallorca_reino_unido_origen_lag14",
+          "gt_majorca_reino_unido_origen_lag2",
+          "gt_majorca_reino_unido_origen_lag3",
+          "gt_majorca_reino_unido_origen_lag14"
+        ],
+        "calendario": [
+          "mes_objetivo",
+          "mes_sin",
+          "mes_cos",
+          "tiempo_meses_desde_2015_01"
+        ]
+      }
+    }
+  },
+  "politica_disponibilidad": {
+    "fecha_revision": "2026-10-08",
+    "origen": "cierre del mes t, Europe/Madrid",
+    "horizontes": [
+      1,
+      3
+    ],
+    "desfases_publicacion_meses": {
+      "aena": 1,
+      "hoteles": 1,
+      "turistas": 2,
+      "google_trends": 1
+    },
+    "fecha_operativa_sin_verificar": "ultimo dia del mes de difusion supuesto",
+    "alcance": "simulacion retrospectiva; primeras versiones no reconstruidas",
+    "sensibilidad": "un mes adicional de espera en todos los grupos",
+    "meteorologia": "pendiente, excluida de esta politica",
+    "google_trends": "t-1 por cautela operativa; supuesto, no plazo de publicación verificado",
+    "google_trends_versiones": "CSV retrospectivos normalizados en 2015-2025; versiones por origen no reconstruidas"
+  },
+  "maestro_sha256": "407aa43ed39394b8eb6f194969d0d4c3a66446bcf20157fed4c0be6e1eead48d",
+  "limite": "fuentes revisadas y Google Trends normalizado retrospectivamente; no reconstruye primeras versiones"
+}
