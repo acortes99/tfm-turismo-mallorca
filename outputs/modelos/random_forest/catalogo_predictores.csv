@@ -1,0 +1,57 @@
+﻿predictor,grupo,variable,retardos_origen,operacion,horizonte,espera_adicional,retardos_objetivo
+turistas_origen_lag2,turistas,turistas,[2],valor,1,0,[3]
+turistas_origen_lag3,turistas,turistas,[3],valor,1,0,[4]
+turistas_origen_lag4,turistas,turistas,[4],valor,1,0,[5]
+turistas_origen_lag5,turistas,turistas,[5],valor,1,0,[6]
+turistas_origen_lag8,turistas,turistas,[8],valor,1,0,[9]
+turistas_origen_lag14,turistas,turistas,[14],valor,1,0,[15]
+turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]",media,1,0,"[3, 4, 5]"
+turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]",media,1,0,"[3, 4, 5, 6, 7, 8]"
+turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]",media,1,0,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]"
+turistas_mismo_mes_ano_anterior,turistas,turistas,[11],valor,1,0,[12]
+mes_objetivo,calendario,mes_objetivo,[],calendario_conocido,1,0,[]
+mes_sin,calendario,mes_sin,[],calendario_conocido,1,0,[]
+mes_cos,calendario,mes_cos,[],calendario_conocido,1,0,[]
+tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],calendario_conocido,1,0,[]
+turistas_origen_lag2,turistas,turistas,[2],valor,3,0,[5]
+turistas_origen_lag3,turistas,turistas,[3],valor,3,0,[6]
+turistas_origen_lag4,turistas,turistas,[4],valor,3,0,[7]
+turistas_origen_lag5,turistas,turistas,[5],valor,3,0,[8]
+turistas_origen_lag8,turistas,turistas,[8],valor,3,0,[11]
+turistas_origen_lag14,turistas,turistas,[14],valor,3,0,[17]
+turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]",media,3,0,"[5, 6, 7]"
+turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]",media,3,0,"[5, 6, 7, 8, 9, 10]"
+turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]",media,3,0,"[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]"
+turistas_mismo_mes_ano_anterior,turistas,turistas,[9],valor,3,0,[12]
+mes_objetivo,calendario,mes_objetivo,[],calendario_conocido,3,0,[]
+mes_sin,calendario,mes_sin,[],calendario_conocido,3,0,[]
+mes_cos,calendario,mes_cos,[],calendario_conocido,3,0,[]
+tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],calendario_conocido,3,0,[]
+turistas_origen_lag3,turistas,turistas,[3],valor,1,1,[4]
+turistas_origen_lag4,turistas,turistas,[4],valor,1,1,[5]
+turistas_origen_lag5,turistas,turistas,[5],valor,1,1,[6]
+turistas_origen_lag6,turistas,turistas,[6],valor,1,1,[7]
+turistas_origen_lag9,turistas,turistas,[9],valor,1,1,[10]
+turistas_origen_lag15,turistas,turistas,[15],valor,1,1,[16]
+turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]",media,1,1,"[4, 5, 6]"
+turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]",media,1,1,"[4, 5, 6, 7, 8, 9]"
+turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",media,1,1,"[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]"
+turistas_mismo_mes_ano_anterior,turistas,turistas,[11],valor,1,1,[12]
+mes_objetivo,calendario,mes_objetivo,[],calendario_conocido,1,1,[]
+mes_sin,calendario,mes_sin,[],calendario_conocido,1,1,[]
+mes_cos,calendario,mes_cos,[],calendario_conocido,1,1,[]
+tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],calendario_conocido,1,1,[]
+turistas_origen_lag3,turistas,turistas,[3],valor,3,1,[6]
+turistas_origen_lag4,turistas,turistas,[4],valor,3,1,[7]
+turistas_origen_lag5,turistas,turistas,[5],valor,3,1,[8]
+turistas_origen_lag6,turistas,turistas,[6],valor,3,1,[9]
+turistas_origen_lag9,turistas,turistas,[9],valor,3,1,[12]
+turistas_origen_lag15,turistas,turistas,[15],valor,3,1,[18]
+turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]",media,3,1,"[6, 7, 8]"
+turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]",media,3,1,"[6, 7, 8, 9, 10, 11]"
+turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",media,3,1,"[6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]"
+turistas_mismo_mes_ano_anterior,turistas,turistas,[9],valor,3,1,[12]
+mes_objetivo,calendario,mes_objetivo,[],calendario_conocido,3,1,[]
+mes_sin,calendario,mes_sin,[],calendario_conocido,3,1,[]
+mes_cos,calendario,mes_cos,[],calendario_conocido,3,1,[]
+tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],calendario_conocido,3,1,[]

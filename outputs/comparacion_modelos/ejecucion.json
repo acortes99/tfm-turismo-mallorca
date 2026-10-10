@@ -1,0 +1,93 @@
+{
+  "fecha_documentacion": "2026-10-10",
+  "series": 14,
+  "emisiones": 4032,
+  "calendario": "72 objetivos por horizonte/escenario, mismos orígenes y cortes",
+  "seleccion": "55 objetivos hasta julio de 2024",
+  "diagnostico": "5 objetivos agosto-diciembre de 2024, retrospectivo",
+  "escenarios": [
+    "base",
+    "espera_adicional"
+  ],
+  "horizontes": [
+    1,
+    3
+  ],
+  "metricas": [
+    "RMSE",
+    "MAE",
+    "sesgo"
+  ],
+  "metricas_originales_reproducidas": true,
+  "ejemplos_evolucion": [
+    "naive",
+    "sarima",
+    "sarimax_aena",
+    "rf_ajustado"
+  ],
+  "entrenamiento_realizado": false,
+  "predicciones_2025_reservadas": 672,
+  "evaluacion_2025": false,
+  "maestro_sha256": "5767599e6bd65cbba97c467d4e2e535c9b52dec79bf6b46bd36f324ad4a1819f",
+  "procedencia": [
+    {
+      "carpeta": "seasonal_naive",
+      "archivo": "outputs\\modelos\\seasonal_naive\\predicciones.csv",
+      "predicciones_sha256": "378b75cea5486c657d5ca20850855e67df1836eda45c73def1475dc01fd04973",
+      "manifest_sha256": "38b8b1377de8af9a33d0e9712900470af5334a460596a7c47df7a26e241f7ca9",
+      "maestro_sha256": "5767599e6bd65cbba97c467d4e2e535c9b52dec79bf6b46bd36f324ad4a1819f"
+    },
+    {
+      "carpeta": "sarima",
+      "archivo": "outputs\\modelos\\sarima\\predicciones.csv",
+      "predicciones_sha256": "b2dbb0f55d7eed29667a046f093bc530bf4f72a5acc4f3c53c4839fb9e83830e",
+      "manifest_sha256": "ba7e08c818f926ace472e3ae56942c3f08466dae53fd013d4f92f44bed531ba5",
+      "maestro_sha256": "5767599e6bd65cbba97c467d4e2e535c9b52dec79bf6b46bd36f324ad4a1819f"
+    },
+    {
+      "carpeta": "sarimax",
+      "archivo": "outputs\\modelos\\sarimax\\predicciones.csv",
+      "predicciones_sha256": "b23514c5d2a08d518749337f40c15d5355d7ff5d441aa73f3750b22469f8ab32",
+      "manifest_sha256": "78e577b65d4150adc9169b4abeb7cbdb1eb97c1377e83cc31368927bf77bf848",
+      "maestro_sha256": "5767599e6bd65cbba97c467d4e2e535c9b52dec79bf6b46bd36f324ad4a1819f"
+    },
+    {
+      "carpeta": "sarimax_meteorologia",
+      "archivo": "outputs\\modelos\\sarimax_meteorologia\\predicciones.csv",
+      "predicciones_sha256": "0b66acf65f5d8613060c269129aa2b88d3b083d2e843651bc466b0a438ee6041",
+      "manifest_sha256": "65fdb44a3f7801588341307e849d0d4ea27973dfa7d817b9615758c598492b18",
+      "maestro_sha256": "5767599e6bd65cbba97c467d4e2e535c9b52dec79bf6b46bd36f324ad4a1819f"
+    },
+    {
+      "carpeta": "random_forest",
+      "archivo": "outputs\\modelos\\random_forest\\predicciones.csv",
+      "predicciones_sha256": "d0416258a314fb3bf60f3350d7676fd705a16701248856e4c4d20751f825d1d9",
+      "manifest_sha256": "f30a937eb03f0ed4d7e7c3d5400e67854a15eff98883a7db03a2dff0ec3b5438",
+      "maestro_sha256": "5767599e6bd65cbba97c467d4e2e535c9b52dec79bf6b46bd36f324ad4a1819f"
+    },
+    {
+      "carpeta": "random_forest_optimizado",
+      "archivo": "outputs\\modelos\\random_forest_optimizado\\predicciones.csv",
+      "predicciones_sha256": "8f94ee1796aeeb6a6c03e7e43472632f733d38d6df89c61bfe548e70a6ced93c",
+      "manifest_sha256": "14bf17c2bbe2e9fe81001773a985de6bd4408c46e805006996283c3e5e9e134f",
+      "maestro_sha256": "5767599e6bd65cbba97c467d4e2e535c9b52dec79bf6b46bd36f324ad4a1819f"
+    },
+    {
+      "carpeta": "random_forest_externas",
+      "archivo": "outputs\\modelos\\random_forest_externas\\predicciones.csv",
+      "predicciones_sha256": "fd2cd7e42a237f0bf83fe74a70c038b91a5a9fba90a225f0eb82f38c148e8109",
+      "manifest_sha256": "a6d805623153347be36a17f9921c6d5fbab51771a17b12c17b18872fe2b324e8",
+      "maestro_sha256": "5767599e6bd65cbba97c467d4e2e535c9b52dec79bf6b46bd36f324ad4a1819f"
+    }
+  ],
+  "controles": "superados",
+  "limites": [
+    "diferentes entradas y longitudes de entrenamiento",
+    "controles internos distintos para SARIMAX",
+    "selección de configuraciones y fuentes sobre los mismos meses",
+    "diagnóstico breve ya inspeccionado",
+    "versiones revisadas y publicación histórica incompleta",
+    "Google Trends retrospectivo y AEMET con plazo supuesto",
+    "clasificación descriptiva, sin declarar ganador final ni causalidad"
+  ]
+}

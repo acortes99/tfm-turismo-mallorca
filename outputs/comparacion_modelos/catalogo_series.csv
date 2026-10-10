@@ -1,0 +1,15 @@
+﻿serie_id,familia,etiqueta,carpeta_fuente,variante_fuente,control_interno
+naive,Seasonal Naïve,Seasonal Naïve,seasonal_naive,,
+sarima,SARIMA,SARIMA completo,sarima,,
+sarima_ctrl_aena_hoteles,SARIMA,SARIMA control AENA/hoteles,sarimax,historico_comun,
+sarimax_aena,SARIMAX,SARIMAX + AENA,sarimax,aena,sarima_ctrl_aena_hoteles
+sarimax_hoteles,SARIMAX,SARIMAX + hoteles,sarimax,hoteles,sarima_ctrl_aena_hoteles
+sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,sarimax,aena_hoteles,sarima_ctrl_aena_hoteles
+sarima_ctrl_meteo,SARIMA,SARIMA control meteorología,sarimax_meteorologia,historico_comun,
+sarimax_meteo,SARIMAX,SARIMAX + meteorología,sarimax_meteorologia,temperatura_precipitacion,sarima_ctrl_meteo
+rf_inicial,Random Forest,RF inicial,random_forest,,
+rf_ajustado,Random Forest,RF ajustado,random_forest_optimizado,,
+rf_aena,Random Forest,RF + AENA,random_forest_externas,aena,rf_ajustado
+rf_hoteles,Random Forest,RF + hoteles,random_forest_externas,hoteles,rf_ajustado
+rf_meteo,Random Forest,RF + meteorología,random_forest_externas,meteorologia,rf_ajustado
+rf_gt,Random Forest,RF + Google Trends,random_forest_externas,google_trends,rf_ajustado

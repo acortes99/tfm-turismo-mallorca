@@ -1,0 +1,9 @@
+﻿modelo,escenario,horizonte,papel,n_esperados,n_pronosticos,cobertura_pronosticos,n_puntuados,MAE,RMSE,sesgo_observado_menos_predicho
+Random Forest optimizado,base,1,diagnostico_fijo,5,5,1.0,5,155421.66733333335,186841.02181864955,147446.00333333333
+Random Forest optimizado,base,1,seleccion,53,53,1.0,53,392805.9132704402,547388.8916376557,26074.646100628914
+Random Forest optimizado,base,3,diagnostico_fijo,5,5,1.0,5,205671.74609212292,252610.55575609644,205671.74609212292
+Random Forest optimizado,base,3,seleccion,53,53,1.0,53,492303.9003957204,646418.2679295794,61430.597916362436
+Random Forest optimizado,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,142028.85733333335,174185.48546064645,138378.132
+Random Forest optimizado,espera_adicional,1,seleccion,53,53,1.0,53,441395.2549685535,604591.5001317454,18740.32616352202
+Random Forest optimizado,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,387477.03174196597,503155.65576894715,387477.03174196597
+Random Forest optimizado,espera_adicional,3,seleccion,53,53,1.0,53,480162.07102349034,643135.0569917592,-44481.24408052512

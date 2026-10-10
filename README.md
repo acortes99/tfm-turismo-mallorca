@@ -12,7 +12,7 @@ jupyter lab
 
 Abrir el notebook desde la raíz del repositorio y ejecutar todas las celdas en orden con un kernel nuevo. Los archivos de salida se regeneran con cada ejecución. El notebook comprueba los formatos mensuales de AENA, la cobertura de Mallorca, los duplicados, las unidades, los ausentes y la escala de estancia media. La meteorología de B278 está integrada con sus estados y una política de disponibilidad explícita. No se requiere una API key para ejecutar el ETL con las fuentes locales.
 
-El periodo de estudio es octubre de 2015–diciembre de 2025. Los datos de 2025 se reservan para evaluación final. El notebook construye los retardos según la disponibilidad de publicación, define la evaluación temporal y comprueba la imputación hotelera dentro de cada entrenamiento. Incluye Seasonal Naïve, SARIMA y SARIMAX; la puntuación final de 2025 permanece desactivada.
+El periodo de estudio es octubre de 2015–diciembre de 2025. Los datos de 2025 se reservan para evaluación final. El notebook construye los retardos según la disponibilidad de publicación, define la evaluación temporal y comprueba la imputación hotelera dentro de cada entrenamiento. Incluye Seasonal Naïve, SARIMA, SARIMAX y Random Forest; la puntuación final de 2025 permanece desactivada.
 
 ## Análisis exploratorio
 
@@ -81,3 +81,52 @@ El retardo respecto al objetivo es `h + 2 + espera adicional`: 3/5 meses en la b
 
 
 En esta ejecución se completaron 576 emisiones sin fallos. En los 55 meses de selección, la meteorología reduce el RMSE base un 1,00 % a un mes y lo aumenta un 1,28 % a tres meses. Con espera adicional, aumenta el error un 5,87 % y un 2,22 %, respectivamente. El bloque incluye la interpretación y los resultados del diagnóstico: la mejora es pequeña y no se mantiene entre escenarios; no se ha puntuado 2025.
+
+
+## Random Forest con turistas y calendario
+
+El bloque 42 incorpora la primera referencia de ML mediante predicción directa por horizonte. Utiliza los diez predictores turísticos y las cuatro variables de calendario del catálogo existente, excluyendo fuentes externas. La configuración inicial es fija: 300 árboles, un mínimo de tres observaciones por hoja, todas las columnas disponibles en cada división, bootstrap y semilla 42; no hay búsqueda de hiperparámetros ni validación aleatoria.
+
+Cada emisión utiliza exactamente los índices supervisados del protocolo: objetivos desde abril de 2017, ya publicados al cierre del origen y anteriores a 2025. No se escalan ni imputan entradas; un ausente inesperado bloquea el pronóstico. Los ceros se conservan. Los retardos publicados de 2025 pueden actualizar las entradas, pero los objetivos de 2025 no entran en ningún ajuste. La historia supervisada es más corta que la historia secuencial de SARIMA; las comparaciones mantienen los mismos meses objetivo y declaran esa diferencia.
+
+`outputs/modelos/random_forest/` guarda los pronósticos, las métricas por bloque/año/periodo, la comparación con Seasonal Naïve y SARIMA, el catálogo de 14 predictores, los índices de entrenamiento y las auditorías de ajustes y disponibilidad. El bloque comprueba reproducibilidad con semilla fija, invariancia ante datos aún no publicados y bloqueo de publicaciones tardías. `EVALUATE_FINAL_2025=False` genera las 12 predicciones finales por horizonte y escenario sin observaciones, errores ni métricas de prueba.
+
+
+La ejecución inicial completa las 288 emisiones sin fallos. En los 55 meses de selección base, el RMSE de Random Forest es 603.704 turistas a un mes y 681.873 a tres meses, frente a 588.182 de Seasonal Naïve y 404.429/515.841 de SARIMA. Esta configuración inicial no supera las referencias; el notebook comenta también el diagnóstico, la pandemia y la diferencia de historia de entrenamiento. Se mantienen reservadas las 48 predicciones de 2025, sin calcular sus errores.
+
+
+## Búsqueda acotada de Random Forest
+
+El bloque 43 prueba seis combinaciones de tamaño mínimo de hoja (1, 3, 5) y profundidad máxima (5, sin límite), conservando los 300 árboles y el resto de la configuración inicial. Selecciona una configuración por horizonte exclusivamente por RMSE en los 55 objetivos de selección del escenario base; MAE y una preferencia por mayor regularización resuelven empates exactos. La configuración inicial está incluida y se comprueba su reproducción.
+
+Las configuraciones elegidas se mantienen fijas en los cinco meses de diagnóstico, el escenario con espera adicional y las emisiones de 2025. El escenario de espera adicional no tiene una nueva búsqueda. La congelación de octubre de 2024 representa una regla de la simulación retrospectiva. Las métricas de selección están sujetas a optimismo por haber participado en la elección y el diagnóstico ya se ha inspeccionado: ninguno se presenta como prueba final independiente.
+
+`outputs/modelos/random_forest_optimizado/` guarda las configuraciones, 660 emisiones de búsqueda, la clasificación y selección por horizonte, 288 emisiones de evaluación con configuración fija, métricas, comparaciones frente al bosque inicial, Seasonal Naïve y SARIMA, y auditorías. Los índices de entrenamiento y 14 entradas se mantienen; el bosque inicial se conserva separado. `EVALUATE_FINAL_2025=False` evita consultar los objetivos o calcular los errores finales durante toda la búsqueda y evaluación.
+
+
+La búsqueda completó las 660 emisiones y la evaluación fija las 288, sin fallos. Seleccionó hoja mínima 1 y profundidad sin límite a un mes, y hoja mínima 1 con profundidad 5 a tres meses. Los RMSE base de selección bajaron a 584.641 y 674.365 turistas, un 3,16 % y un 1,10 % frente al bosque inicial. La mejora es limitada y no se mantiene en todos los escenarios; SARIMA conserva un menor error de selección. El notebook comenta el diagnóstico, la sensibilidad y el optimismo de selección. Las 48 predicciones finales de 2025 siguen sin puntuar.
+
+
+## Fuentes externas en Random Forest
+
+El bloque 44 compara turistas y calendario con la incorporación por separado de AENA, hoteles, meteorología o Google Trends. Mantiene los parámetros seleccionados por horizonte en el bloque 43, sin una búsqueda por fuente o escenario. Cada variante usa los mismos índices de entrenamiento y las 288 emisiones del protocolo; el control se reproduce y contrasta con el bosque optimizado anterior.
+
+Se incorporan los tres retardos del catálogo por variable (primer mes permitido, un mes adicional y un año adicional). AENA aporta pasajeros y operaciones; hoteles, los seis indicadores disponibles; meteorología, temperatura y precipitación de B278; Google Trends, las cuatro series recogidas. Los tamaños preparados son 14 columnas en el control, 20 en AENA y meteorología, 26 en Google Trends y 50 en hoteles, incluyendo sus 18 marcas de ausencia. La comparación mantiene hiperparámetros, pero cambia la dimensionalidad: las diferencias no se interpretan como efectos causales.
+
+Las medianas hoteleras y sus marcas se ajustan exclusivamente con filas supervisadas de ese entrenamiento y etiquetas publicadas anteriores a 2025. Los valores ausentes o bloqueados por una publicación tardía se sustituyen con la mediana de entrenamiento y su marca. El resto de las fuentes bloquea las entradas ausentes; no se imputa automáticamente. Los valores observados y los ceros se conservan, sin escalado ni eliminación de meses.
+
+`outputs/modelos/random_forest_externas/` conserva 1.440 emisiones, métricas y comparaciones por bloque, clasificación base de selección, catálogo, índices y auditorías de entrenamiento, imputación y disponibilidad, y dos figuras. Se comprueba que alterar datos no publicados no cambie matrices, medianas ni pronósticos. Los supuestos de disponibilidad mensual de AEMET y Google Trends, sus versiones revisadas y la normalización retrospectiva de Trends se declaran como limitaciones. No se prueban combinaciones de fuentes. La puntuación de 2025 permanece desactivada.
+
+
+La ejecución completa las 1.440 emisiones sin fallos y reproduce el control optimizado. En selección base, AENA reduce el RMSE un 5,18 %/3,68 % a uno/tres meses; hoteles, un 4,41 %/0,90 %. Meteorología empeora un 0,95 % a un mes y mejora un 7,38 % a tres; Google Trends empeora un 1,35 %/2,42 %. Las ventajas no son uniformes en diagnóstico y espera adicional, por lo que no se declara una fuente ganadora general. Las 240 predicciones finales de las cinco variantes permanecen sin puntuar. El notebook incluye las dos figuras, comentarios y las cifras de imputación por emisión.
+
+
+## Comparación conjunta de modelos
+
+El bloque 45 reúne 14 series de Seasonal Naïve, SARIMA, SARIMAX y Random Forest, incluyendo los controles internos de SARIMAX y las variantes con fuentes externas. Contrasta los mismos meses, horizontes, escenarios, orígenes y cortes de información. Reutiliza las predicciones existentes sin reentrenar y reproduce sus métricas originales. El control del bosque externo coincide con el ajustado y no se duplica.
+
+`outputs/comparacion_modelos/` contiene 4.032 emisiones, el calendario común, el catálogo y la procedencia con hashes, métricas por bloque/año/periodo, tablas separadas de selección y diagnóstico, diferencias frente a Seasonal Naïve y aportación de cada fuente frente a su control interno. Cuatro figuras presentan los RMSE de las 14 series y la evolución de cuatro referencias fijadas. Las gráficas se incluyen en el notebook con comentarios.
+
+En los 55 meses de selección base, SARIMAX con AENA obtiene el menor RMSE a un mes (400.413 turistas) y SARIMA a tres (515.841). Con espera adicional, SARIMA tiene el menor RMSE de selección en ambos horizontes. Seasonal Naïve obtiene el menor RMSE en los cinco meses de diagnóstico en ambos escenarios y horizontes (95.636). La clasificación cambia según bloque y métrica; no se declara un ganador final. El diagnóstico es breve y ya se ha inspeccionado, y la selección ha participado en decisiones de configuración.
+
+Los controles mantienen los ceros de la pandemia, comprueban que los productos anteriores permanecen intactos y conservan las 672 emisiones de 2025 sin observaciones objetivo, errores ni métricas finales. Las longitudes de entrenamiento difieren entre familias; la aportación externa de SARIMAX se contrasta con su control de ventana común. Se mantienen las reservas sobre disponibilidad mensual de AEMET, versiones revisadas y Google Trends retrospectivo.
