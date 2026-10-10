@@ -27,7 +27,7 @@
   "publicacion_mensual_verificada": false,
   "regla": "supuesto experimental; t-2 base y t-3 sensibilidad; bloquear fechas verificadas posteriores",
   "variables_secundarias_imputadas": false,
-  "modelos_con_meteorologia_entrenados": false,
+  "modelos_con_meteorologia_entrenados": true,
   "evaluacion_2025": false,
   "maestro_sha256": "5767599e6bd65cbba97c467d4e2e535c9b52dec79bf6b46bd36f324ad4a1819f",
   "controles": "superados"

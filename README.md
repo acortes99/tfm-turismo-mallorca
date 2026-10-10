@@ -66,6 +66,18 @@ Estos son datos observados revisados, no predicciones meteorológicas emitidas h
 
 El bloque 40 documenta la disponibilidad: las [FAQ oficiales de AEMET](https://opendata.aemet.es/centrodedescargas/docs/FAQs220424.pdf), apartado 4.2, indican aproximadamente cuatro días para las climatologías diarias, pero no acreditan el plazo de las mensuales. La actualización diaria del producto mensual tampoco demuestra la fecha de su primera publicación. Por ello t−2 y t−3 se declaran como supuestos de la simulación, con bloqueo si se acredita una publicación posterior. Los retardos respecto al objetivo son 3/5 meses para h=1/h=3 en la base y 4/6 en sensibilidad.
 
-Las cuatro matrices de predicción añaden seis candidatos: temperatura media y precipitación, cada una con el primer retardo permitido, un mes adicional y un año adicional. Las otras ocho variables meteorológicas quedan en el maestro, sin introducirse automáticamente en modelos ni imputarse mediante la regla hotelera. Los modelos existentes mantienen sus listas de entradas; no se ha entrenado todavía ningún modelo con meteorología y las métricas finales de 2025 permanecen desactivadas.
+Las cuatro matrices de predicción añaden seis candidatos: temperatura media y precipitación, cada una con el primer retardo permitido, un mes adicional y un año adicional. Las otras ocho variables meteorológicas quedan en el maestro, sin introducirse automáticamente en modelos ni imputarse mediante la regla hotelera. Los modelos anteriores mantienen sus listas de entradas. El bloque 41 añade una comparación específica con temperatura y precipitación; las métricas finales de 2025 permanecen desactivadas.
 
 `outputs/meteorologia/` conserva las reconstrucciones de 132 meses, las dos estaciones recortadas a los 123 del TFM, la calidad por variable, los ausentes de B278, las asociaciones calculadas solo hasta 2024, una figura comparativa y el registro de integración. Los controles contrastan los desplazamientos, las publicaciones tardías y la conservación de los valores originales.
+
+
+## SARIMAX con meteorología
+
+El bloque 41 compara el histórico solo con temperatura media y precipitación de B278, completas y sin imputación. Reutiliza los órdenes seleccionados para SARIMA y el calendario de evaluación a uno y tres meses. Ambas variantes comparten la ventana de historia necesaria para AEMET; este control se estima de nuevo y difiere del de AENA/hoteles.
+
+El retardo respecto al objetivo es `h + 2 + espera adicional`: 3/5 meses en la base y 4/6 en sensibilidad. La publicación se comprueba en cada fila y paso interno del pronóstico bajo el supuesto mensual t−2/t−3. La normalización se ajusta solo con etiquetas publicadas de entrenamiento anteriores a 2025; una entrada meteorológica no disponible bloquea la preparación. Los ceros de precipitación y de turistas se conservan.
+
+`outputs/modelos/sarimax_meteorologia/` guarda predicciones, métricas, comparación con el histórico común, auditorías de ajustes, escalado y disponibilidad, y una figura de validación. La selección utiliza los mismos 55 meses hasta julio de 2024 y el diagnóstico retrospectivo los cinco restantes de 2024. Con `EVALUATE_FINAL_2025=False`, se generan pronósticos de 2025 sin observaciones objetivo, errores ni métricas finales. Los controles verifican la igualdad del calendario y las ventanas, la invariancia ante datos aún no publicados y el bloqueo de publicaciones tardías.
+
+
+En esta ejecución se completaron 576 emisiones sin fallos. En los 55 meses de selección, la meteorología reduce el RMSE base un 1,00 % a un mes y lo aumenta un 1,28 % a tres meses. Con espera adicional, aumenta el error un 5,87 % y un 2,22 %, respectivamente. El bloque incluye la interpretación y los resultados del diagnóstico: la mejora es pequeña y no se mantiene entre escenarios; no se ha puntuado 2025.
