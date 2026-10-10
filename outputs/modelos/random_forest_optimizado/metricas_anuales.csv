@@ -1,0 +1,25 @@
+﻿modelo,escenario,horizonte,fold,n_esperados,n_pronosticos,cobertura_pronosticos,n_puntuados,MAE,RMSE,sesgo_observado_menos_predicho
+Random Forest optimizado,base,1,prueba_2025,12,12,1.0,0,,,
+Random Forest optimizado,base,1,validacion_2020,12,12,1.0,12,712501.4275000001,888794.6372570471,-712501.4275000001
+Random Forest optimizado,base,1,validacion_2021,12,12,1.0,12,396060.48388888896,482392.1193019691,187725.32333333336
+Random Forest optimizado,base,1,validacion_2022,12,12,1.0,12,603422.1783333332,700500.3874706315,302147.30944444437
+Random Forest optimizado,base,1,validacion_2023,12,12,1.0,12,153355.31277777778,192537.59581978255,72253.44166666667
+Random Forest optimizado,base,1,validacion_2024,12,12,1.0,12,134144.51333333334,175273.00485235106,127142.1038888889
+Random Forest optimizado,base,3,prueba_2025,12,12,1.0,0,,,
+Random Forest optimizado,base,3,validacion_2020,12,12,1.0,12,887368.4069712088,1032914.3333506219,-887368.4069712088
+Random Forest optimizado,base,3,validacion_2021,12,12,1.0,12,361495.11176282004,445742.65500348195,100965.14793972198
+Random Forest optimizado,base,3,validacion_2022,12,12,1.0,12,642308.9250947916,769524.2928538731,464219.91356674425
+Random Forest optimizado,base,3,validacion_2023,12,12,1.0,12,314506.43885214766,387844.1099244079,232918.303160237
+Random Forest optimizado,base,3,validacion_2024,12,12,1.0,12,252809.17181946678,320549.2225552057,247830.81042587184
+Random Forest optimizado,espera_adicional,1,prueba_2025,12,12,1.0,0,,,
+Random Forest optimizado,espera_adicional,1,validacion_2020,12,12,1.0,12,862216.2547222222,1016430.9816252189,-862216.2547222222
+Random Forest optimizado,espera_adicional,1,validacion_2021,12,12,1.0,12,333230.96,402221.48438064335,151307.4927777778
+Random Forest optimizado,espera_adicional,1,validacion_2022,12,12,1.0,12,634326.5877777779,742141.3391808822,359020.6127777778
+Random Forest optimizado,espera_adicional,1,validacion_2023,12,12,1.0,12,203363.46527777778,250142.19967421296,133914.70694444448
+Random Forest optimizado,espera_adicional,1,validacion_2024,12,12,1.0,12,169272.62527777776,221734.73331815263,164665.27805555557
+Random Forest optimizado,espera_adicional,3,prueba_2025,12,12,1.0,0,,,
+Random Forest optimizado,espera_adicional,3,validacion_2020,12,12,1.0,12,906725.0615379323,1059812.0997494508,-906725.0615379323
+Random Forest optimizado,espera_adicional,3,validacion_2021,12,12,1.0,12,377423.7816994889,466454.9779880222,-209391.7511643494
+Random Forest optimizado,espera_adicional,3,validacion_2022,12,12,1.0,12,615568.3384580055,727681.2616009328,389925.8845031439
+Random Forest optimizado,espera_adicional,3,validacion_2023,12,12,1.0,12,288048.33723706176,380123.67721307557,203667.16132385153
+Random Forest optimizado,espera_adicional,3,validacion_2024,12,12,1.0,12,295006.87042022764,403225.42766689626,286905.8896389712

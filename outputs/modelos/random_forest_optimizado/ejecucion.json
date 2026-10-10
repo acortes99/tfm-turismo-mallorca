@@ -1,0 +1,116 @@
+{
+  "modelo": "RandomForestRegressor",
+  "version_sklearn": "1.9.1",
+  "fecha_documentacion": "2026-10-10",
+  "configuraciones": {
+    "hoja1_profundidad5": {
+      "n_estimators": 300,
+      "criterion": "squared_error",
+      "min_samples_leaf": 1,
+      "max_features": 1.0,
+      "max_depth": 5,
+      "bootstrap": true,
+      "random_state": 42,
+      "n_jobs": 1
+    },
+    "hoja1_profundidadlibre": {
+      "n_estimators": 300,
+      "criterion": "squared_error",
+      "min_samples_leaf": 1,
+      "max_features": 1.0,
+      "max_depth": null,
+      "bootstrap": true,
+      "random_state": 42,
+      "n_jobs": 1
+    },
+    "hoja3_profundidad5": {
+      "n_estimators": 300,
+      "criterion": "squared_error",
+      "min_samples_leaf": 3,
+      "max_features": 1.0,
+      "max_depth": 5,
+      "bootstrap": true,
+      "random_state": 42,
+      "n_jobs": 1
+    },
+    "hoja3_profundidadlibre": {
+      "n_estimators": 300,
+      "criterion": "squared_error",
+      "min_samples_leaf": 3,
+      "max_features": 1.0,
+      "max_depth": null,
+      "bootstrap": true,
+      "random_state": 42,
+      "n_jobs": 1
+    },
+    "hoja5_profundidad5": {
+      "n_estimators": 300,
+      "criterion": "squared_error",
+      "min_samples_leaf": 5,
+      "max_features": 1.0,
+      "max_depth": 5,
+      "bootstrap": true,
+      "random_state": 42,
+      "n_jobs": 1
+    },
+    "hoja5_profundidadlibre": {
+      "n_estimators": 300,
+      "criterion": "squared_error",
+      "min_samples_leaf": 5,
+      "max_features": 1.0,
+      "max_depth": null,
+      "bootstrap": true,
+      "random_state": 42,
+      "n_jobs": 1
+    }
+  },
+  "seleccion": {
+    "1": {
+      "configuracion": "hoja1_profundidadlibre",
+      "parametros": {
+        "n_estimators": 300,
+        "criterion": "squared_error",
+        "min_samples_leaf": 1,
+        "max_features": 1.0,
+        "max_depth": null,
+        "bootstrap": true,
+        "random_state": 42,
+        "n_jobs": 1
+      }
+    },
+    "3": {
+      "configuracion": "hoja1_profundidad5",
+      "parametros": {
+        "n_estimators": 300,
+        "criterion": "squared_error",
+        "min_samples_leaf": 1,
+        "max_features": 1.0,
+        "max_depth": 5,
+        "bootstrap": true,
+        "random_state": 42,
+        "n_jobs": 1
+      }
+    }
+  },
+  "criterio": "RMSE, desempate MAE, profundidad y tamaño de hoja",
+  "escenario_seleccion": "base",
+  "seleccion_hasta": "2024-07-01",
+  "congelacion_simulada": "2024-10-31",
+  "espera_adicional": "mismas configuraciones, sin nueva selección",
+  "predictores": "14 de turistas y calendario; índices supervisados del protocolo",
+  "busqueda_emisiones": 660,
+  "evaluacion_emisiones": 288,
+  "fallos": 0,
+  "evaluacion_final_2025_habilitada": false,
+  "controles": "superados",
+  "maestro_sha256": "5767599e6bd65cbba97c467d4e2e535c9b52dec79bf6b46bd36f324ad4a1819f",
+  "referencia_inicial_conservada": true,
+  "limites": [
+    "búsqueda pequeña, no óptimo global",
+    "selección optimista: mismos meses usados para elegir y resumir",
+    "diagnóstico retrospectivo ya inspeccionado, no prueba independiente",
+    "2025 sin puntuar",
+    "historia supervisada más corta que SARIMA",
+    "versiones revisadas y calendario histórico incompleto"
+  ]
+}
