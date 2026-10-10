@@ -1,0 +1,30 @@
+{
+  "modelo": "SARIMAX",
+  "variantes": {
+    "historico_comun": [],
+    "temperatura_precipitacion": [
+      "meteo_temperatura_media_c",
+      "meteo_precipitacion_mm"
+    ]
+  },
+  "estacion": "B278",
+  "ordenes": "fijos, seleccionados previamente para SARIMA",
+  "ventana": "común para histórico y meteorología, inicio maestro + horizonte + retardo AEMET + espera",
+  "disponibilidad": "t-2 base y t-3 sensibilidad desde origen; supuesto mensual no verificado",
+  "retardo_objetivo": "h+2 base; h+3 sensibilidad; comprobados todos los pasos internos",
+  "imputacion_meteorologica": false,
+  "escala": "media y desviación exclusivamente de entrenamiento con etiquetas publicadas anteriores a 2025",
+  "emisiones": 576,
+  "fallos": 0,
+  "evaluacion_final_2025_habilitada": false,
+  "actualizacion_2025": "estado con datos publicados, sin reajustar parámetros ni preprocesamiento con etiquetas 2025",
+  "hash_maestro": "5767599e6bd65cbba97c467d4e2e535c9b52dec79bf6b46bd36f324ad4a1819f",
+  "controles": "superados",
+  "limites": [
+    "datos revisados y primera publicación mensual no reconstruida",
+    "estación local, no toda Mallorca",
+    "órdenes fijos y dos predictores, sin búsqueda adicional",
+    "selección y diagnóstico retrospectivos no son prueba independiente",
+    "control con ventana diferente de AENA/hoteles: no comparar mejoras como si compartieran control"
+  ]
+}

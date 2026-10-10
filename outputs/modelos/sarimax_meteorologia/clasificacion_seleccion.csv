@@ -1,0 +1,9 @@
+﻿variante,escenario,horizonte,papel,n_esperados,n_pronosticos,cobertura_pronosticos,n_puntuados,MAE,RMSE,sesgo_observado_menos_predicho,elegible,puesto_RMSE
+historico_comun,base,1,seleccion,55,55,1.0,55,268158.0359241562,405305.67191213736,-28017.09760722662,True,2.0
+historico_comun,base,3,seleccion,55,55,1.0,55,379150.5816173762,521775.69450719585,-44330.58665019232,True,1.0
+historico_comun,espera_adicional,1,seleccion,55,55,1.0,55,324731.5169249465,464415.24780273513,-38785.66560201853,True,1.0
+historico_comun,espera_adicional,3,seleccion,55,55,1.0,55,416861.23405037815,564444.6615096801,-55309.100913519906,True,1.0
+temperatura_precipitacion,base,1,seleccion,55,55,1.0,55,265384.16514948104,401253.2334596488,-24035.818695791088,True,1.0
+temperatura_precipitacion,base,3,seleccion,55,55,1.0,55,389638.0139370507,528439.4141982587,-23944.50127163524,True,2.0
+temperatura_precipitacion,espera_adicional,1,seleccion,55,55,1.0,55,342640.47030188283,491662.1851413782,-22611.82640246265,True,2.0
+temperatura_precipitacion,espera_adicional,3,seleccion,55,55,1.0,55,422467.72218134574,576981.5676357035,-61829.20831010064,True,2.0
