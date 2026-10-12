@@ -13,3 +13,9 @@ rf_aena,Random Forest,RF + AENA,random_forest_externas,aena,rf_ajustado
 rf_hoteles,Random Forest,RF + hoteles,random_forest_externas,hoteles,rf_ajustado
 rf_meteo,Random Forest,RF + meteorología,random_forest_externas,meteorologia,rf_ajustado
 rf_gt,Random Forest,RF + Google Trends,random_forest_externas,google_trends,rf_ajustado
+xgb_inicial,XGBoost,XGBoost inicial,xgboost,,
+xgb_ajustado,XGBoost,XGBoost ajustado,xgboost_optimizado,,
+xgb_aena,XGBoost,XGBoost + AENA,xgboost_externas,aena,xgb_ajustado
+xgb_hoteles,XGBoost,XGBoost + hoteles,xgboost_externas,hoteles,xgb_ajustado
+xgb_meteo,XGBoost,XGBoost + meteorología,xgboost_externas,meteorologia,xgb_ajustado
+xgb_gt,XGBoost,XGBoost + Google Trends,xgboost_externas,google_trends,xgb_ajustado

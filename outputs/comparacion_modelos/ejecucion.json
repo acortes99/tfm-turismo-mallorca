@@ -1,7 +1,7 @@
 {
-  "fecha_documentacion": "2026-10-10",
-  "series": 14,
-  "emisiones": 4032,
+  "fecha_documentacion": "2026-10-12",
+  "series": 20,
+  "emisiones": 5760,
   "calendario": "72 objetivos por horizonte/escenario, mismos orígenes y cortes",
   "seleccion": "55 objetivos hasta julio de 2024",
   "diagnostico": "5 objetivos agosto-diciembre de 2024, retrospectivo",
@@ -23,10 +23,11 @@
     "naive",
     "sarima",
     "sarimax_aena",
-    "rf_ajustado"
+    "rf_ajustado",
+    "xgb_ajustado"
   ],
   "entrenamiento_realizado": false,
-  "predicciones_2025_reservadas": 672,
+  "predicciones_2025_reservadas": 960,
   "evaluacion_2025": false,
   "maestro_sha256": "5767599e6bd65cbba97c467d4e2e535c9b52dec79bf6b46bd36f324ad4a1819f",
   "procedencia": [
@@ -77,6 +78,27 @@
       "archivo": "outputs\\modelos\\random_forest_externas\\predicciones.csv",
       "predicciones_sha256": "fd2cd7e42a237f0bf83fe74a70c038b91a5a9fba90a225f0eb82f38c148e8109",
       "manifest_sha256": "a6d805623153347be36a17f9921c6d5fbab51771a17b12c17b18872fe2b324e8",
+      "maestro_sha256": "5767599e6bd65cbba97c467d4e2e535c9b52dec79bf6b46bd36f324ad4a1819f"
+    },
+    {
+      "carpeta": "xgboost",
+      "archivo": "outputs\\modelos\\xgboost\\predicciones.csv",
+      "predicciones_sha256": "a404bf91e8fed99b6d403611c525ca080a9915ca2f7fbaff1944dc10f79691fb",
+      "manifest_sha256": "8245bb8c9ac75689745b1be88c96183534c0c165dc7b83c65052599ee73e31ee",
+      "maestro_sha256": "5767599e6bd65cbba97c467d4e2e535c9b52dec79bf6b46bd36f324ad4a1819f"
+    },
+    {
+      "carpeta": "xgboost_optimizado",
+      "archivo": "outputs\\modelos\\xgboost_optimizado\\predicciones.csv",
+      "predicciones_sha256": "57da8c27488a03d752e9091e529cac85b701e7d59d16230c5434786d6be0fcda",
+      "manifest_sha256": "01637f6a671b433efa4be28d0308366c34e3d2084bfd9f8d8d2205e7198360fb",
+      "maestro_sha256": "5767599e6bd65cbba97c467d4e2e535c9b52dec79bf6b46bd36f324ad4a1819f"
+    },
+    {
+      "carpeta": "xgboost_externas",
+      "archivo": "outputs\\modelos\\xgboost_externas\\predicciones.csv",
+      "predicciones_sha256": "8f1b5f3bc2be9fbefaeb94027f0dffca50307a6ac3ce790868e5c10d18698974",
+      "manifest_sha256": "75c76c840ce2f1eff59a317ee183f58eef3165e5833a6f893e6655cbcbaa1d74",
       "maestro_sha256": "5767599e6bd65cbba97c467d4e2e535c9b52dec79bf6b46bd36f324ad4a1819f"
     }
   ],

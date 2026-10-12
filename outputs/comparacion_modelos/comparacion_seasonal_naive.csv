@@ -167,3 +167,75 @@ sarimax_meteo,SARIMAX,SARIMAX + meteorología,espera_adicional,1,seleccion,55,55
 sarimax_meteo,SARIMAX,SARIMAX + meteorología,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,264568.82368092303,303067.88750775915,-79143.57793483685,95635.50644086118,68977.0,5,-216.8989204811389
 sarimax_meteo,SARIMAX,SARIMAX + meteorología,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,
 sarimax_meteo,SARIMAX,SARIMAX + meteorología,espera_adicional,3,seleccion,55,55,1.0,55,422467.72218134574,576981.5676357035,-61829.20831010064,588182.4121380281,392492.2545454545,55,1.9043147620837253
+xgb_aena,XGBoost,XGBoost + AENA,base,1,diagnostico_fijo,5,5,1.0,5,144645.25625,170344.716736053,111350.30625,95635.50644086118,68977.0,5,-78.11869573921302
+xgb_aena,XGBoost,XGBoost + AENA,base,1,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_aena,XGBoost,XGBoost + AENA,base,1,seleccion,55,55,1.0,55,390743.96665482956,531833.3500879293,-6517.793572443182,588182.4121380281,392492.2545454545,55,9.580201802578792
+xgb_aena,XGBoost,XGBoost + AENA,base,3,diagnostico_fijo,5,5,1.0,5,133720.975,158539.14104010153,101635.025,95635.50644086118,68977.0,5,-65.77435195383059
+xgb_aena,XGBoost,XGBoost + AENA,base,3,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_aena,XGBoost,XGBoost + AENA,base,3,seleccion,55,55,1.0,55,475433.6100852273,645506.6623527242,17673.002698863635,588182.4121380281,392492.2545454545,55,-9.745998695595803
+xgb_aena,XGBoost,XGBoost + AENA,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,91537.89375,125770.01346405523,83375.45625,95635.50644086118,68977.0,5,-31.509747942651977
+xgb_aena,XGBoost,XGBoost + AENA,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_aena,XGBoost,XGBoost + AENA,espera_adicional,1,seleccion,55,55,1.0,55,446456.51477272727,619944.7972552686,16820.246875,588182.4121380281,392492.2545454545,55,-5.400090934678747
+xgb_aena,XGBoost,XGBoost + AENA,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,239452.96875,296269.13675173087,185046.83125,95635.50644086118,68977.0,5,-209.78989684645728
+xgb_aena,XGBoost,XGBoost + AENA,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_aena,XGBoost,XGBoost + AENA,espera_adicional,3,seleccion,55,55,1.0,55,490991.30625,660854.6225673339,-10596.33721590909,588182.4121380281,392492.2545454545,55,-12.3553865143883
+xgb_ajustado,XGBoost,XGBoost ajustado,base,1,diagnostico_fijo,5,5,1.0,5,131452.6125,166178.18827613766,115417.6,95635.50644086118,68977.0,5,-73.762020467679
+xgb_ajustado,XGBoost,XGBoost ajustado,base,1,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_ajustado,XGBoost,XGBoost ajustado,base,1,seleccion,55,55,1.0,55,389525.36821732955,539205.4106962614,-6946.547549715909,588182.4121380281,392492.2545454545,55,8.32683882262587
+xgb_ajustado,XGBoost,XGBoost ajustado,base,3,diagnostico_fijo,5,5,1.0,5,167770.31875,196379.88441738862,117991.73125,95635.50644086118,68977.0,5,-105.3420238212734
+xgb_ajustado,XGBoost,XGBoost ajustado,base,3,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_ajustado,XGBoost,XGBoost ajustado,base,3,seleccion,55,55,1.0,55,487742.33125,665260.3676259968,46023.398863636365,588182.4121380281,392492.2545454545,55,-13.1044305129411
+xgb_ajustado,XGBoost,XGBoost ajustado,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,109170.58125,134727.4941255677,91352.06875,95635.50644086118,68977.0,5,-40.876018896684684
+xgb_ajustado,XGBoost,XGBoost ajustado,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_ajustado,XGBoost,XGBoost ajustado,espera_adicional,1,seleccion,55,55,1.0,55,429316.58709605824,605682.8317745529,24170.552152876422,588182.4121380281,392492.2545454545,55,-2.9753388192807817
+xgb_ajustado,XGBoost,XGBoost ajustado,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,221566.41875,277971.46634957235,180015.83125,95635.50644086118,68977.0,5,-190.65718026124907
+xgb_ajustado,XGBoost,XGBoost ajustado,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_ajustado,XGBoost,XGBoost ajustado,espera_adicional,3,seleccion,55,55,1.0,55,479677.71512784093,648531.4503457765,-1918.062713068182,588182.4121380281,392492.2545454545,55,-10.260258886079443
+xgb_gt,XGBoost,XGBoost + Google Trends,base,1,diagnostico_fijo,5,5,1.0,5,134179.15625,154209.93042480387,88135.08125,95635.50644086118,68977.0,5,-61.247570242296746
+xgb_gt,XGBoost,XGBoost + Google Trends,base,1,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_gt,XGBoost,XGBoost + Google Trends,base,1,seleccion,55,55,1.0,55,366261.2409090909,501443.4210998559,8357.847159090908,588182.4121380281,392492.2545454545,55,14.746954218314368
+xgb_gt,XGBoost,XGBoost + Google Trends,base,3,diagnostico_fijo,5,5,1.0,5,122713.1125,136202.8034771615,52008.6375,95635.50644086118,68977.0,5,-42.418656570179
+xgb_gt,XGBoost,XGBoost + Google Trends,base,3,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_gt,XGBoost,XGBoost + Google Trends,base,3,seleccion,55,55,1.0,55,492795.0215909091,651588.140123314,28997.207386363636,588182.4121380281,392492.2545454545,55,-10.77994286752093
+xgb_gt,XGBoost,XGBoost + Google Trends,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,96702.35625,110078.02997661353,34447.44375,95635.50644086118,68977.0,5,-15.101633350666965
+xgb_gt,XGBoost,XGBoost + Google Trends,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_gt,XGBoost,XGBoost + Google Trends,espera_adicional,1,seleccion,55,55,1.0,55,471061.46207386366,631322.5649385848,19253.02911931818,588182.4121380281,392492.2545454545,55,-7.334485341672048
+xgb_gt,XGBoost,XGBoost + Google Trends,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,235201.5625,302005.14014824864,233328.6125,95635.50644086118,68977.0,5,-215.78767278761865
+xgb_gt,XGBoost,XGBoost + Google Trends,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_gt,XGBoost,XGBoost + Google Trends,espera_adicional,3,seleccion,55,55,1.0,55,485344.5747159091,639307.8473219728,-11798.621306818182,588182.4121380281,392492.2545454545,55,-8.692105396029293
+xgb_hoteles,XGBoost,XGBoost + hoteles,base,1,diagnostico_fijo,5,5,1.0,5,155861.89375,173732.2975968416,102177.05625,95635.50644086118,68977.0,5,-81.66087477591151
+xgb_hoteles,XGBoost,XGBoost + hoteles,base,1,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_hoteles,XGBoost,XGBoost + hoteles,base,1,seleccion,55,55,1.0,55,377624.7063565341,524644.7125892123,-28763.68114346591,588182.4121380281,392492.2545454545,55,10.8023800504095
+xgb_hoteles,XGBoost,XGBoost + hoteles,base,3,diagnostico_fijo,5,5,1.0,5,165250.60625,201778.01432810747,135332.44375,95635.50644086118,68977.0,5,-110.98650682932538
+xgb_hoteles,XGBoost,XGBoost + hoteles,base,3,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_hoteles,XGBoost,XGBoost + hoteles,base,3,seleccion,55,55,1.0,55,497365.65138494316,674979.25142548,69661.94229403409,588182.4121380281,392492.2545454545,55,-14.756789304859975
+xgb_hoteles,XGBoost,XGBoost + hoteles,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,134999.775,163957.05688369763,108969.0,95635.50644086118,68977.0,5,-71.4395238604032
+xgb_hoteles,XGBoost,XGBoost + hoteles,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_hoteles,XGBoost,XGBoost + hoteles,espera_adicional,1,seleccion,55,55,1.0,55,437708.50621892756,615977.7094976462,4434.46786665483,588182.4121380281,392492.2545454545,55,-4.725625381857812
+xgb_hoteles,XGBoost,XGBoost + hoteles,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,277228.4375,355460.0050571327,261768.9,95635.50644086118,68977.0,5,-271.6820439247018
+xgb_hoteles,XGBoost,XGBoost + hoteles,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_hoteles,XGBoost,XGBoost + hoteles,espera_adicional,3,seleccion,55,55,1.0,55,496139.3609375,670355.8620976035,17370.818607954545,588182.4121380281,392492.2545454545,55,-13.970742454007933
+xgb_inicial,XGBoost,XGBoost inicial,base,1,diagnostico_fijo,5,5,1.0,5,188111.5875,240485.88346716977,177356.5625,95635.50644086118,68977.0,5,-151.4608772588879
+xgb_inicial,XGBoost,XGBoost inicial,base,1,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_inicial,XGBoost,XGBoost inicial,base,1,seleccion,55,55,1.0,55,384535.2953125,568153.8616184129,-9793.921164772728,588182.4121380281,392492.2545454545,55,3.4051597100314357
+xgb_inicial,XGBoost,XGBoost inicial,base,3,diagnostico_fijo,5,5,1.0,5,142525.96875,180049.98652431185,142525.96875,95635.50644086118,68977.0,5,-88.26688248433197
+xgb_inicial,XGBoost,XGBoost inicial,base,3,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_inicial,XGBoost,XGBoost inicial,base,3,seleccion,55,55,1.0,55,512522.2471590909,683127.3236490729,22456.157386363637,588182.4121380281,392492.2545454545,55,-16.142086120175293
+xgb_inicial,XGBoost,XGBoost inicial,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,174116.7375,219791.07613877906,170457.475,95635.50644086118,68977.0,5,-129.82162621232405
+xgb_inicial,XGBoost,XGBoost inicial,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_inicial,XGBoost,XGBoost inicial,espera_adicional,1,seleccion,55,55,1.0,55,442090.95482954546,610287.2211784497,-33515.991761363635,588182.4121380281,392492.2545454545,55,-3.7581553926563815
+xgb_inicial,XGBoost,XGBoost inicial,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,196640.76875,250717.6642853833,189818.79375,95635.50644086118,68977.0,5,-162.1596032854402
+xgb_inicial,XGBoost,XGBoost inicial,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_inicial,XGBoost,XGBoost inicial,espera_adicional,3,seleccion,55,55,1.0,55,489987.7975852273,664046.7610130453,-105543.98082386363,588182.4121380281,392492.2545454545,55,-12.89809883965287
+xgb_meteo,XGBoost,XGBoost + meteorología,base,1,diagnostico_fijo,5,5,1.0,5,180911.053125,249153.04375492662,180911.053125,95635.50644086118,68977.0,5,-160.52357856127125
+xgb_meteo,XGBoost,XGBoost + meteorología,base,1,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_meteo,XGBoost,XGBoost + meteorología,base,1,seleccion,55,55,1.0,55,405374.2923295455,562520.2935470945,-6604.962784090909,588182.4121380281,392492.2545454545,55,4.362952387109376
+xgb_meteo,XGBoost,XGBoost + meteorología,base,3,diagnostico_fijo,5,5,1.0,5,251626.86875,319527.3672453866,221910.38125,95635.50644086118,68977.0,5,-234.1095573566864
+xgb_meteo,XGBoost,XGBoost + meteorología,base,3,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_meteo,XGBoost,XGBoost + meteorología,base,3,seleccion,55,55,1.0,55,435161.0799005682,596570.9749724544,-31420.424928977274,588182.4121380281,392492.2545454545,55,-1.4261838948794958
+xgb_meteo,XGBoost,XGBoost + meteorología,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,162641.234375,205025.7366761869,162641.234375,95635.50644086118,68977.0,5,-114.38244466553869
+xgb_meteo,XGBoost,XGBoost + meteorología,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_meteo,XGBoost,XGBoost + meteorología,espera_adicional,1,seleccion,55,55,1.0,55,437684.94836647727,595017.3012052202,-11541.816974431818,588182.4121380281,392492.2545454545,55,-1.162035607686307
+xgb_meteo,XGBoost,XGBoost + meteorología,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,327782.675,410743.2132353935,302374.975,95635.50644086118,68977.0,5,-329.488197973195
+xgb_meteo,XGBoost,XGBoost + meteorología,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,
+xgb_meteo,XGBoost,XGBoost + meteorología,espera_adicional,3,seleccion,55,55,1.0,55,442631.0762784091,609624.1920202372,-16322.3140625,588182.4121380281,392492.2545454545,55,-3.64543030184612
