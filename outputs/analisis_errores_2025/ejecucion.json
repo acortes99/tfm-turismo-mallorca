@@ -1,0 +1,42 @@
+{
+  "fecha_analisis": "2026-10-12",
+  "alcance": "descriptivo posterior a prueba final; sin reestimación ni reselección",
+  "periodo": [
+    "2025-01-01",
+    "2025-12-01"
+  ],
+  "emisiones": 960,
+  "grupos": 80,
+  "meses_por_grupo": 12,
+  "parejas_horizontes": 480,
+  "parejas_fuentes_control": 576,
+  "variantes_externas": 12,
+  "fuente_manifiesto_sha256": "4dc0fde8f020002a8295c7b60fc06a123bdf24e277cf936ee8a8a5959acedb38",
+  "configuraciones_sha256": "c98a3dc8cd060ea7dcbc018e1604a860dfd3c26d64995a0819725acdb07cdbf0",
+  "tolerancia_empates_turistas": 1e-07,
+  "limites": [
+    "decisión real en 2026; simulación retrospectiva, no congelación ejecutada en 2024",
+    "selección optimista y diagnóstico ya inspeccionado, sin usarlos para esta regla",
+    "EDA de 2025 ya inspeccionado; prueba reservada en métricas, no experimento prospectivo ciego",
+    "Google Trends normalizado retrospectivamente en 2015-2025: dependencia del periodo final; interpretar sus resultados como exploratorios",
+    "versiones revisadas y primeras publicaciones incompletas; AEMET mensual con retardo supuesto",
+    "historias y número de predictores diferentes; aportación externa solo frente al control interno",
+    "comparaciones descriptivas de doce meses; no inferencia causal ni pruebas de significación; meses compartidos entre variantes no son réplicas independientes"
+  ],
+  "productos_sha256": {
+    "aportacion_fuentes_base.png": "6804ccd07088f1a6dea15d72fa4ae83e273f87d746a7eed05ff5467071493322",
+    "aportacion_fuentes_mensual.csv": "cf8c91cb1765c0efaf560a8bbd4eba90341970bbb375aa304aa45399dae3ef29",
+    "comparacion_horizontes.csv": "d9b8f054f57a5ebe9e20d19a68f6249b099674b8fc17b9378adba5702e2f798f",
+    "comparacion_horizontes_mensual.csv": "0eb3f08e81fe297cc4608765ff478bfb8f704370064c96dec8063b336fa5adcb",
+    "concentracion_errores.csv": "d1de8a0b487aed664029f240cac04953c3bae6f43a940624df4626d08a59421d",
+    "diferencia_horizontes.png": "11102e96d736f2b18c590a01ae2a3c52160be70902b86acf8b9e73ba763a3cf7",
+    "errores_base.png": "ecb84b46ebb43f24ad8cd1cba88b86ba6ec72cd0bfe6c099b34fbc34280a04af",
+    "errores_espera_adicional.png": "7e174bcca1190f2744e7d5e9889ac8f22eb9cc41e0580039a47cfca86666e0ec",
+    "errores_mensuales.csv": "a17e8a8d163aa3f8def2f881a9daf832a0200936c2f0a65ab3339d256db5cf50",
+    "peores_tres_meses.csv": "32cd3befaf0cc7a91ac68bf05dec35680037e751a8e554a792c4a2b0b661684d",
+    "persistencia_aportacion_fuentes.csv": "cd4eb3236f51a421b4d3e046143555f693083116c849b06c5e16efaa85e3c3f0"
+  },
+  "modelos_reajustados": false,
+  "resultados_finales_intactos": true,
+  "controles": "superados"
+}
