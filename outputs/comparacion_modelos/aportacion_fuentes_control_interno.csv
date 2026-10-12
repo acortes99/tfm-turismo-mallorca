@@ -1,97 +1,145 @@
-﻿serie_id,familia,etiqueta,escenario,horizonte,papel,n_esperados,n_pronosticos,cobertura_pronosticos,n_puntuados,MAE,RMSE,sesgo_observado_menos_predicho,RMSE_control,MAE_control,n_puntuados_control,control_interno,mejora_RMSE_vs_control_pct
-sarimax_aena,SARIMAX,SARIMAX + AENA,base,1,diagnostico_fijo,5,5,1.0,5,199285.9015858833,234461.88636300896,-158197.1186403702,231622.90146490387,192948.93146844034,5,sarima_ctrl_aena_hoteles,-1.2256926582604244
-sarimax_aena,SARIMAX,SARIMAX + AENA,base,1,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,
-sarimax_aena,SARIMAX,SARIMAX + AENA,base,1,seleccion,55,55,1.0,55,277236.43663550494,400413.24267775327,-22004.602985072306,405942.3916007789,268446.60269020224,55,sarima_ctrl_aena_hoteles,1.3620526058444327
-sarimax_aena,SARIMAX,SARIMAX + AENA,base,3,diagnostico_fijo,5,5,1.0,5,225084.62553086886,247793.92365134065,-154446.44859675615,238179.20994458025,212437.95578745575,5,sarima_ctrl_aena_hoteles,-4.036756066575897
-sarimax_aena,SARIMAX,SARIMAX + AENA,base,3,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,
-sarimax_aena,SARIMAX,SARIMAX + AENA,base,3,seleccion,55,55,1.0,55,389104.68445014156,529230.8204900702,-62098.2830236223,519236.48536517686,377435.4058837911,55,sarima_ctrl_aena_hoteles,-1.9248137229540552
-sarimax_aena,SARIMAX,SARIMAX + AENA,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,168243.9617340781,220752.03550499617,-165448.85798168372,218294.2141239028,176313.69170477777,5,sarima_ctrl_aena_hoteles,-1.1259214500748627
-sarimax_aena,SARIMAX,SARIMAX + AENA,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,
-sarimax_aena,SARIMAX,SARIMAX + AENA,espera_adicional,1,seleccion,55,55,1.0,55,328430.1527058007,470510.8935370435,-42374.77697073988,463996.55057739856,323899.77367356303,55,sarima_ctrl_aena_hoteles,-1.4039636612682704
-sarimax_aena,SARIMAX,SARIMAX + AENA,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,250159.72651710213,259580.07931495502,3697.719350540091,324767.7548429852,287839.5490207495,5,sarima_ctrl_aena_hoteles,20.07208984141493
-sarimax_aena,SARIMAX,SARIMAX + AENA,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,
-sarimax_aena,SARIMAX,SARIMAX + AENA,espera_adicional,3,seleccion,55,55,1.0,55,386102.3186880895,555908.353287303,-20214.206968270115,555790.1089693588,401445.32554878225,55,sarima_ctrl_aena_hoteles,-0.02127499500907959
-sarimax_hoteles,SARIMAX,SARIMAX + hoteles,base,1,diagnostico_fijo,5,5,1.0,5,189656.92736816817,235479.70886454443,-158549.3251981355,231622.90146490387,192948.93146844034,5,sarima_ctrl_aena_hoteles,-1.6651235155280775
-sarimax_hoteles,SARIMAX,SARIMAX + hoteles,base,1,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,
-sarimax_hoteles,SARIMAX,SARIMAX + hoteles,base,1,seleccion,55,55,1.0,55,290465.38085350214,451758.4282321529,-42873.57838917769,405942.3916007789,268446.60269020224,55,sarima_ctrl_aena_hoteles,-11.286339534707036
-sarimax_hoteles,SARIMAX,SARIMAX + hoteles,base,3,diagnostico_fijo,5,5,1.0,5,231971.99178379454,256288.01323972933,-160111.43315019258,238179.20994458025,212437.95578745575,5,sarima_ctrl_aena_hoteles,-7.603015938864965
-sarimax_hoteles,SARIMAX,SARIMAX + hoteles,base,3,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,
-sarimax_hoteles,SARIMAX,SARIMAX + hoteles,base,3,seleccion,55,55,1.0,55,385611.78856830456,525679.6338602656,-47380.73671855959,519236.48536517686,377435.4058837911,55,sarima_ctrl_aena_hoteles,-1.240889012365387
-sarimax_hoteles,SARIMAX,SARIMAX + hoteles,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,178200.73489173324,224953.3209044592,-176982.29805762842,218294.2141239028,176313.69170477777,5,sarima_ctrl_aena_hoteles,-3.0505191387146358
-sarimax_hoteles,SARIMAX,SARIMAX + hoteles,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,
-sarimax_hoteles,SARIMAX,SARIMAX + hoteles,espera_adicional,1,seleccion,55,55,1.0,55,366963.90681828855,514159.8167683112,-28123.10942931854,463996.55057739856,323899.77367356303,55,sarima_ctrl_aena_hoteles,-10.811129119061192
-sarimax_hoteles,SARIMAX,SARIMAX + hoteles,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,213537.84524895033,218180.60310524172,54809.60969050828,324767.7548429852,287839.5490207495,5,sarima_ctrl_aena_hoteles,32.81949951874839
-sarimax_hoteles,SARIMAX,SARIMAX + hoteles,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,
-sarimax_hoteles,SARIMAX,SARIMAX + hoteles,espera_adicional,3,seleccion,55,55,1.0,55,364496.07748738583,549221.6125518408,-5755.831949675479,555790.1089693588,401445.32554878225,55,sarima_ctrl_aena_hoteles,1.181830390918337
-sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,base,1,diagnostico_fijo,5,5,1.0,5,189350.55393907506,234721.7923793845,-157262.53048103178,231622.90146490387,192948.93146844034,5,sarima_ctrl_aena_hoteles,-1.3379035038770581
-sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,base,1,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,
-sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,base,1,seleccion,55,55,1.0,55,285214.1710932428,432670.29768708296,-37793.504855242936,405942.3916007789,268446.60269020224,55,sarima_ctrl_aena_hoteles,-6.5841623440474395
-sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,base,3,diagnostico_fijo,5,5,1.0,5,231833.88111727903,256203.60595605333,-159995.1710192516,238179.20994458025,212437.95578745575,5,sarima_ctrl_aena_hoteles,-7.567577378255241
-sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,base,3,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,
-sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,base,3,seleccion,55,55,1.0,55,393146.9666987421,531356.9284062185,-55262.3502904259,519236.48536517686,377435.4058837911,55,sarima_ctrl_aena_hoteles,-2.3342818508829133
-sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,176757.8509941497,223740.8156420466,-176757.8509941497,218294.2141239028,176313.69170477777,5,sarima_ctrl_aena_hoteles,-2.4950736967551235
-sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,
-sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,espera_adicional,1,seleccion,55,55,1.0,55,369790.4161571632,511751.41264120775,-19359.93129025486,463996.55057739856,323899.77367356303,55,sarima_ctrl_aena_hoteles,-10.292072646743367
-sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,213846.0893938663,218870.30613108914,55856.67871767129,324767.7548429852,287839.5490207495,5,sarima_ctrl_aena_hoteles,32.60713144477477
-sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,
-sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,espera_adicional,3,seleccion,55,55,1.0,55,376035.6892314957,561038.3774849917,-19928.437107830832,555790.1089693588,401445.32554878225,55,sarima_ctrl_aena_hoteles,-0.9442896573609527
-sarimax_meteo,SARIMAX,SARIMAX + meteorología,base,1,diagnostico_fijo,5,5,1.0,5,195924.16534879923,230278.85419298295,-164520.53144677755,231227.46403856383,192663.4471350452,5,sarima_ctrl_meteo,0.41024964293284727
-sarimax_meteo,SARIMAX,SARIMAX + meteorología,base,1,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_meteo,
-sarimax_meteo,SARIMAX,SARIMAX + meteorología,base,1,seleccion,55,55,1.0,55,265384.16514948104,401253.2334596488,-24035.818695791077,405305.67191213736,268158.0359241562,55,sarima_ctrl_meteo,0.9998474567035065
-sarimax_meteo,SARIMAX,SARIMAX + meteorología,base,3,diagnostico_fijo,5,5,1.0,5,215704.8654362556,244502.62318409124,-144015.95526046312,236500.66838431876,210853.25534908258,5,sarima_ctrl_meteo,-3.3834808393729876
-sarimax_meteo,SARIMAX,SARIMAX + meteorología,base,3,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_meteo,
-sarimax_meteo,SARIMAX,SARIMAX + meteorología,base,3,seleccion,55,55,1.0,55,389638.0139370507,528439.4141982587,-23944.50127163524,521775.69450719585,379150.5816173762,55,sarima_ctrl_meteo,-1.2771234385220875
-sarimax_meteo,SARIMAX,SARIMAX + meteorología,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,176067.38862495846,219564.51686726382,-176067.38862495846,218377.17338567658,176365.63659983015,5,sarima_ctrl_meteo,-0.5437122677150352
-sarimax_meteo,SARIMAX,SARIMAX + meteorología,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_meteo,
-sarimax_meteo,SARIMAX,SARIMAX + meteorología,espera_adicional,1,seleccion,55,55,1.0,55,342640.47030188283,491662.1851413782,-22611.82640246265,464415.24780273513,324731.5169249465,55,sarima_ctrl_meteo,-5.866934272196089
-sarimax_meteo,SARIMAX,SARIMAX + meteorología,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,264568.82368092303,303067.88750775915,-79143.57793483685,314634.97978965676,273900.3429646107,5,sarima_ctrl_meteo,3.6763529247862303
-sarimax_meteo,SARIMAX,SARIMAX + meteorología,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_meteo,
-sarimax_meteo,SARIMAX,SARIMAX + meteorología,espera_adicional,3,seleccion,55,55,1.0,55,422467.72218134574,576981.5676357035,-61829.20831010064,564444.6615096801,416861.23405037815,55,sarima_ctrl_meteo,-2.2211045618700354
-rf_aena,Random Forest,RF + AENA,base,1,diagnostico_fijo,5,5,1.0,5,137416.79200000002,168824.66875517755,123026.91333333336,186841.02181864955,155421.66733333335,5,rf_ajustado,9.642611075505092
-rf_aena,Random Forest,RF + AENA,base,1,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,
-rf_aena,Random Forest,RF + AENA,base,1,seleccion,55,55,1.0,55,393144.71654545446,554346.8423752344,-46766.31048484849,584640.59929893,422121.79369696963,55,rf_ajustado,5.1816033576905784
-rf_aena,Random Forest,RF + AENA,base,3,diagnostico_fijo,5,5,1.0,5,167900.48000344826,204642.2839222782,167780.30382351633,252610.55575609644,205671.74609212292,5,rf_ajustado,18.989021139771022
-rf_aena,Random Forest,RF + AENA,base,3,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,
-rf_aena,Random Forest,RF + AENA,base,3,seleccion,55,55,1.0,55,485655.50749979925,649581.7868636522,-16252.04265321138,674364.7770603927,517699.9622462656,55,rf_ajustado,3.6750125510367604
-rf_aena,Random Forest,RF + AENA,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,126978.58266666664,153136.49552279717,121358.08399999996,174185.48546064642,142028.85733333335,5,rf_ajustado,12.084238753983223
-rf_aena,Random Forest,RF + AENA,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,
-rf_aena,Random Forest,RF + AENA,espera_adicional,1,seleccion,55,55,1.0,55,461910.33884848485,637316.500984624,-55810.58175757578,634427.4439523979,467614.0805454545,55,rf_ajustado,-0.45538021089184255
-rf_aena,Random Forest,RF + AENA,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,330446.4205378168,436355.60823828797,330446.4205378168,503155.65576894715,387477.03174196597,5,rf_ajustado,13.27621915102436
-rf_aena,Random Forest,RF + AENA,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,
-rf_aena,Random Forest,RF + AENA,espera_adicional,3,seleccion,55,55,1.0,55,495686.35326932016,662641.5729707746,-100733.23583794275,672347.4807416928,506470.6093367776,55,rf_ajustado,1.4435850581623777
-rf_hoteles,Random Forest,RF + hoteles,base,1,diagnostico_fijo,5,5,1.0,5,143430.63199999993,172794.72576490816,128271.19066666663,186841.02181864955,155421.66733333335,5,rf_ajustado,7.517779509563438
-rf_hoteles,Random Forest,RF + hoteles,base,1,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,
-rf_hoteles,Random Forest,RF + hoteles,base,1,seleccion,55,55,1.0,55,405721.01066666667,558880.3230803977,-55714.29369696969,584640.59929893,422121.79369696963,55,rf_ajustado,4.406172997465918
-rf_hoteles,Random Forest,RF + hoteles,base,3,diagnostico_fijo,5,5,1.0,5,172276.49319521248,205902.2926881461,172276.49319521248,252610.55575609644,205671.74609212292,5,rf_ajustado,18.490226161827007
-rf_hoteles,Random Forest,RF + hoteles,base,3,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,
-rf_hoteles,Random Forest,RF + hoteles,base,3,seleccion,55,55,1.0,55,503743.3039386928,668291.3836490061,-22362.047132801894,674364.7770603927,517699.9622462656,55,rf_ajustado,0.9006095243973
-rf_hoteles,Random Forest,RF + hoteles,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,129999.95933333335,157802.76335825177,126607.93800000001,174185.48546064642,142028.85733333335,5,rf_ajustado,9.405331367920422
-rf_hoteles,Random Forest,RF + hoteles,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,
-rf_hoteles,Random Forest,RF + hoteles,espera_adicional,1,seleccion,55,55,1.0,55,460882.75072727265,630535.5022518483,-66691.12175757575,634427.4439523979,467614.0805454545,55,rf_ajustado,0.6134573366346374
-rf_hoteles,Random Forest,RF + hoteles,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,347803.21071635326,468712.502083859,347803.21071635326,503155.65576894715,387477.03174196597,5,rf_ajustado,6.845427113891911
-rf_hoteles,Random Forest,RF + hoteles,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,
-rf_hoteles,Random Forest,RF + hoteles,espera_adicional,3,seleccion,55,55,1.0,55,524252.0266642641,698268.2224817645,-98632.67257638324,672347.4807416928,506470.6093367776,55,rf_ajustado,-3.8552597403172406
-rf_meteo,Random Forest,RF + meteorología,base,1,diagnostico_fijo,5,5,1.0,5,181040.35933333333,220201.19485996306,177820.35133333332,186841.02181864955,155421.66733333335,5,rf_ajustado,-17.8548440361739
-rf_meteo,Random Forest,RF + meteorología,base,1,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,
-rf_meteo,Random Forest,RF + meteorología,base,1,seleccion,55,55,1.0,55,426520.6528484849,590223.7166308257,-10459.448363636378,584640.59929893,422121.79369696963,55,rf_ajustado,-0.954965724000445
-rf_meteo,Random Forest,RF + meteorología,base,3,diagnostico_fijo,5,5,1.0,5,272948.2463344022,346674.9397256349,271083.96872513264,252610.55575609644,205671.74609212292,5,rf_ajustado,-37.23691739167092
-rf_meteo,Random Forest,RF + meteorología,base,3,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,
-rf_meteo,Random Forest,RF + meteorología,base,3,seleccion,55,55,1.0,55,471128.7451746707,624581.1187165526,-20458.908729567916,674364.7770603927,517699.9622462656,55,rf_ajustado,7.3823040641076805
-rf_meteo,Random Forest,RF + meteorología,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,162154.27333333335,218468.2650119137,159458.56533333333,174185.48546064642,142028.85733333335,5,rf_ajustado,-25.422772416518047
-rf_meteo,Random Forest,RF + meteorología,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,
-rf_meteo,Random Forest,RF + meteorología,espera_adicional,1,seleccion,55,55,1.0,55,465794.27600000007,620893.0078607728,-27897.221333333324,634427.4439523979,467614.0805454545,55,rf_ajustado,2.133330804119604
-rf_meteo,Random Forest,RF + meteorología,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,392725.46503979276,497702.0957382023,392725.46503979276,503155.65576894715,387477.03174196597,5,rf_ajustado,1.0838713563520397
-rf_meteo,Random Forest,RF + meteorología,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,
-rf_meteo,Random Forest,RF + meteorología,espera_adicional,3,seleccion,55,55,1.0,55,479165.42423726316,630566.6652545268,-66912.83326461149,672347.4807416928,506470.6093367776,55,rf_ajustado,6.214170006419295
-rf_gt,Random Forest,RF + Google Trends,base,1,diagnostico_fijo,5,5,1.0,5,137923.07600000003,163431.8510285659,110720.51333333334,186841.02181864955,155421.66733333335,5,rf_ajustado,12.528924623846738
-rf_gt,Random Forest,RF + Google Trends,base,1,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,
-rf_gt,Random Forest,RF + Google Trends,base,1,seleccion,55,55,1.0,55,457527.9336363636,592508.3517700767,14460.543575757581,584640.59929893,422121.79369696963,55,rf_ajustado,-1.3457417224498558
-rf_gt,Random Forest,RF + Google Trends,base,3,diagnostico_fijo,5,5,1.0,5,137958.15315326504,163996.3455225767,137958.15315326504,252610.55575609644,205671.74609212292,5,rf_ajustado,35.07937741092639
-rf_gt,Random Forest,RF + Google Trends,base,3,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,
-rf_gt,Random Forest,RF + Google Trends,base,3,seleccion,55,55,1.0,55,540048.7203187227,690670.7583467611,6371.368616551855,674364.7770603927,517699.9622462656,55,rf_ajustado,-2.417976418852641
-rf_gt,Random Forest,RF + Google Trends,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,111910.46800000002,133915.46078127707,106924.992,174185.48546064642,142028.85733333335,5,rf_ajustado,23.11904724602758
-rf_gt,Random Forest,RF + Google Trends,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,
-rf_gt,Random Forest,RF + Google Trends,espera_adicional,1,seleccion,55,55,1.0,55,513190.99842424237,667735.6239170443,-18439.462666666674,634427.4439523979,467614.0805454545,55,rf_ajustado,-5.250116507750802
-rf_gt,Random Forest,RF + Google Trends,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,363716.48582169006,486065.27031365654,363716.48582169006,503155.65576894715,387477.03174196597,5,rf_ajustado,3.3966398388530994
-rf_gt,Random Forest,RF + Google Trends,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,
-rf_gt,Random Forest,RF + Google Trends,espera_adicional,3,seleccion,55,55,1.0,55,516647.2894331275,677518.8665654957,-91596.17341917794,672347.4807416928,506470.6093367776,55,rf_ajustado,-0.769153744444484
+﻿serie_id,familia,etiqueta,escenario,horizonte,papel,n_esperados,n_pronosticos,cobertura_pronosticos,n_puntuados,MAE,RMSE,sesgo_observado_menos_predicho,RMSE_control,MAE_control,n_puntuados_control,control_interno,mejora_RMSE_vs_control_pct,mejora_MAE_vs_control_pct
+sarimax_aena,SARIMAX,SARIMAX + AENA,base,1,diagnostico_fijo,5,5,1.0,5,199285.9015858833,234461.88636300896,-158197.1186403702,231622.90146490387,192948.93146844034,5,sarima_ctrl_aena_hoteles,-1.2256926582604244,-3.2842732370764516
+sarimax_aena,SARIMAX,SARIMAX + AENA,base,1,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,,
+sarimax_aena,SARIMAX,SARIMAX + AENA,base,1,seleccion,55,55,1.0,55,277236.43663550494,400413.24267775327,-22004.602985072306,405942.3916007789,268446.60269020224,55,sarima_ctrl_aena_hoteles,1.3620526058444327,-3.2743323466255525
+sarimax_aena,SARIMAX,SARIMAX + AENA,base,3,diagnostico_fijo,5,5,1.0,5,225084.62553086886,247793.92365134065,-154446.44859675615,238179.20994458025,212437.95578745575,5,sarima_ctrl_aena_hoteles,-4.036756066575897,-5.953112143512662
+sarimax_aena,SARIMAX,SARIMAX + AENA,base,3,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,,
+sarimax_aena,SARIMAX,SARIMAX + AENA,base,3,seleccion,55,55,1.0,55,389104.68445014156,529230.8204900702,-62098.2830236223,519236.48536517686,377435.4058837911,55,sarima_ctrl_aena_hoteles,-1.9248137229540552,-3.0917286466610294
+sarimax_aena,SARIMAX,SARIMAX + AENA,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,168243.9617340781,220752.03550499617,-165448.85798168372,218294.2141239028,176313.69170477777,5,sarima_ctrl_aena_hoteles,-1.1259214500748627,4.576916229632211
+sarimax_aena,SARIMAX,SARIMAX + AENA,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,,
+sarimax_aena,SARIMAX,SARIMAX + AENA,espera_adicional,1,seleccion,55,55,1.0,55,328430.1527058007,470510.8935370435,-42374.77697073988,463996.55057739856,323899.77367356303,55,sarima_ctrl_aena_hoteles,-1.4039636612682704,-1.398697807304905
+sarimax_aena,SARIMAX,SARIMAX + AENA,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,250159.72651710213,259580.07931495502,3697.719350540091,324767.7548429852,287839.5490207495,5,sarima_ctrl_aena_hoteles,20.07208984141493,13.090564737138033
+sarimax_aena,SARIMAX,SARIMAX + AENA,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,,
+sarimax_aena,SARIMAX,SARIMAX + AENA,espera_adicional,3,seleccion,55,55,1.0,55,386102.3186880895,555908.353287303,-20214.206968270115,555790.1089693588,401445.32554878225,55,sarima_ctrl_aena_hoteles,-0.02127499500907959,3.821941839705967
+sarimax_hoteles,SARIMAX,SARIMAX + hoteles,base,1,diagnostico_fijo,5,5,1.0,5,189656.92736816817,235479.70886454443,-158549.3251981355,231622.90146490387,192948.93146844034,5,sarima_ctrl_aena_hoteles,-1.6651235155280775,1.7061530609256748
+sarimax_hoteles,SARIMAX,SARIMAX + hoteles,base,1,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,,
+sarimax_hoteles,SARIMAX,SARIMAX + hoteles,base,1,seleccion,55,55,1.0,55,290465.38085350214,451758.4282321529,-42873.57838917769,405942.3916007789,268446.60269020224,55,sarima_ctrl_aena_hoteles,-11.286339534707036,-8.202293470150712
+sarimax_hoteles,SARIMAX,SARIMAX + hoteles,base,3,diagnostico_fijo,5,5,1.0,5,231971.99178379454,256288.01323972933,-160111.43315019258,238179.20994458025,212437.95578745575,5,sarima_ctrl_aena_hoteles,-7.603015938864965,-9.19517226755966
+sarimax_hoteles,SARIMAX,SARIMAX + hoteles,base,3,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,,
+sarimax_hoteles,SARIMAX,SARIMAX + hoteles,base,3,seleccion,55,55,1.0,55,385611.78856830456,525679.6338602656,-47380.73671855959,519236.48536517686,377435.4058837911,55,sarima_ctrl_aena_hoteles,-1.240889012365387,-2.1662998640437303
+sarimax_hoteles,SARIMAX,SARIMAX + hoteles,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,178200.73489173324,224953.3209044592,-176982.29805762842,218294.2141239028,176313.69170477777,5,sarima_ctrl_aena_hoteles,-3.0505191387146358,-1.0702760339878603
+sarimax_hoteles,SARIMAX,SARIMAX + hoteles,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,,
+sarimax_hoteles,SARIMAX,SARIMAX + hoteles,espera_adicional,1,seleccion,55,55,1.0,55,366963.90681828855,514159.8167683112,-28123.10942931854,463996.55057739856,323899.77367356303,55,sarima_ctrl_aena_hoteles,-10.811129119061192,-13.295511959241747
+sarimax_hoteles,SARIMAX,SARIMAX + hoteles,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,213537.84524895033,218180.60310524172,54809.60969050828,324767.7548429852,287839.5490207495,5,sarima_ctrl_aena_hoteles,32.81949951874839,25.813584000037114
+sarimax_hoteles,SARIMAX,SARIMAX + hoteles,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,,
+sarimax_hoteles,SARIMAX,SARIMAX + hoteles,espera_adicional,3,seleccion,55,55,1.0,55,364496.07748738583,549221.6125518408,-5755.831949675479,555790.1089693588,401445.32554878225,55,sarima_ctrl_aena_hoteles,1.181830390918337,9.20405487618674
+sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,base,1,diagnostico_fijo,5,5,1.0,5,189350.55393907506,234721.7923793845,-157262.53048103178,231622.90146490387,192948.93146844034,5,sarima_ctrl_aena_hoteles,-1.3379035038770581,1.8649377853402815
+sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,base,1,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,,
+sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,base,1,seleccion,55,55,1.0,55,285214.1710932428,432670.29768708296,-37793.504855242936,405942.3916007789,268446.60269020224,55,sarima_ctrl_aena_hoteles,-6.5841623440474395,-6.246146620969162
+sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,base,3,diagnostico_fijo,5,5,1.0,5,231833.88111727903,256203.60595605333,-159995.1710192516,238179.20994458025,212437.95578745575,5,sarima_ctrl_aena_hoteles,-7.567577378255241,-9.130160030926348
+sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,base,3,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,,
+sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,base,3,seleccion,55,55,1.0,55,393146.9666987421,531356.9284062185,-55262.3502904259,519236.48536517686,377435.4058837911,55,sarima_ctrl_aena_hoteles,-2.3342818508829133,-4.162715148082441
+sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,176757.8509941497,223740.8156420466,-176757.8509941497,218294.2141239028,176313.69170477777,5,sarima_ctrl_aena_hoteles,-2.4950736967551235,-0.251914235971884
+sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,,
+sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,espera_adicional,1,seleccion,55,55,1.0,55,369790.4161571632,511751.41264120775,-19359.93129025486,463996.55057739856,323899.77367356303,55,sarima_ctrl_aena_hoteles,-10.292072646743367,-14.168161330625173
+sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,213846.0893938663,218870.30613108914,55856.67871767129,324767.7548429852,287839.5490207495,5,sarima_ctrl_aena_hoteles,32.60713144477477,25.706495121540517
+sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_aena_hoteles,,
+sarimax_aena_hoteles,SARIMAX,SARIMAX + AENA/hoteles,espera_adicional,3,seleccion,55,55,1.0,55,376035.6892314957,561038.3774849917,-19928.437107830832,555790.1089693588,401445.32554878225,55,sarima_ctrl_aena_hoteles,-0.9442896573609527,6.329538470164309
+sarimax_meteo,SARIMAX,SARIMAX + meteorología,base,1,diagnostico_fijo,5,5,1.0,5,195924.16534879923,230278.85419298295,-164520.53144677755,231227.46403856383,192663.4471350452,5,sarima_ctrl_meteo,0.41024964293284727,-1.6924425791408515
+sarimax_meteo,SARIMAX,SARIMAX + meteorología,base,1,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_meteo,,
+sarimax_meteo,SARIMAX,SARIMAX + meteorología,base,1,seleccion,55,55,1.0,55,265384.16514948104,401253.2334596488,-24035.818695791077,405305.67191213736,268158.0359241562,55,sarima_ctrl_meteo,0.9998474567035065,1.0344164272815926
+sarimax_meteo,SARIMAX,SARIMAX + meteorología,base,3,diagnostico_fijo,5,5,1.0,5,215704.8654362556,244502.62318409124,-144015.95526046312,236500.66838431876,210853.25534908258,5,sarima_ctrl_meteo,-3.3834808393729876,-2.300941514581245
+sarimax_meteo,SARIMAX,SARIMAX + meteorología,base,3,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_meteo,,
+sarimax_meteo,SARIMAX,SARIMAX + meteorología,base,3,seleccion,55,55,1.0,55,389638.0139370507,528439.4141982587,-23944.50127163524,521775.69450719585,379150.5816173762,55,sarima_ctrl_meteo,-1.2771234385220875,-2.7660335571522365
+sarimax_meteo,SARIMAX,SARIMAX + meteorología,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,176067.38862495846,219564.51686726382,-176067.38862495846,218377.17338567658,176365.63659983015,5,sarima_ctrl_meteo,-0.5437122677150352,0.1691077585303069
+sarimax_meteo,SARIMAX,SARIMAX + meteorología,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_meteo,,
+sarimax_meteo,SARIMAX,SARIMAX + meteorología,espera_adicional,1,seleccion,55,55,1.0,55,342640.47030188283,491662.1851413782,-22611.82640246265,464415.24780273513,324731.5169249465,55,sarima_ctrl_meteo,-5.866934272196089,-5.515003146761233
+sarimax_meteo,SARIMAX,SARIMAX + meteorología,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,264568.82368092303,303067.88750775915,-79143.57793483685,314634.97978965676,273900.3429646107,5,sarima_ctrl_meteo,3.6763529247862303,3.406903103036041
+sarimax_meteo,SARIMAX,SARIMAX + meteorología,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,sarima_ctrl_meteo,,
+sarimax_meteo,SARIMAX,SARIMAX + meteorología,espera_adicional,3,seleccion,55,55,1.0,55,422467.72218134574,576981.5676357035,-61829.20831010064,564444.6615096801,416861.23405037815,55,sarima_ctrl_meteo,-2.2211045618700354,-1.3449291210153813
+rf_aena,Random Forest,RF + AENA,base,1,diagnostico_fijo,5,5,1.0,5,137416.79200000002,168824.66875517755,123026.91333333336,186841.02181864955,155421.66733333335,5,rf_ajustado,9.642611075505092,11.584533638233474
+rf_aena,Random Forest,RF + AENA,base,1,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,,
+rf_aena,Random Forest,RF + AENA,base,1,seleccion,55,55,1.0,55,393144.71654545446,554346.8423752344,-46766.31048484849,584640.59929893,422121.79369696963,55,rf_ajustado,5.1816033576905784,6.864624756218363
+rf_aena,Random Forest,RF + AENA,base,3,diagnostico_fijo,5,5,1.0,5,167900.48000344826,204642.2839222782,167780.30382351633,252610.55575609644,205671.74609212292,5,rf_ajustado,18.989021139771022,18.36482978646782
+rf_aena,Random Forest,RF + AENA,base,3,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,,
+rf_aena,Random Forest,RF + AENA,base,3,seleccion,55,55,1.0,55,485655.50749979925,649581.7868636522,-16252.04265321138,674364.7770603927,517699.9622462656,55,rf_ajustado,3.6750125510367604,6.189773436997681
+rf_aena,Random Forest,RF + AENA,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,126978.58266666664,153136.49552279717,121358.08399999996,174185.48546064642,142028.85733333335,5,rf_ajustado,12.084238753983223,10.596631522103007
+rf_aena,Random Forest,RF + AENA,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,,
+rf_aena,Random Forest,RF + AENA,espera_adicional,1,seleccion,55,55,1.0,55,461910.33884848485,637316.500984624,-55810.58175757578,634427.4439523979,467614.0805454545,55,rf_ajustado,-0.45538021089184255,1.219754052383637
+rf_aena,Random Forest,RF + AENA,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,330446.4205378168,436355.60823828797,330446.4205378168,503155.65576894715,387477.03174196597,5,rf_ajustado,13.27621915102436,14.718449490479157
+rf_aena,Random Forest,RF + AENA,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,,
+rf_aena,Random Forest,RF + AENA,espera_adicional,3,seleccion,55,55,1.0,55,495686.35326932016,662641.5729707746,-100733.23583794275,672347.4807416928,506470.6093367776,55,rf_ajustado,1.4435850581623777,2.129295534360698
+rf_hoteles,Random Forest,RF + hoteles,base,1,diagnostico_fijo,5,5,1.0,5,143430.63199999993,172794.72576490816,128271.19066666663,186841.02181864955,155421.66733333335,5,rf_ajustado,7.517779509563438,7.715163232431554
+rf_hoteles,Random Forest,RF + hoteles,base,1,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,,
+rf_hoteles,Random Forest,RF + hoteles,base,1,seleccion,55,55,1.0,55,405721.01066666667,558880.3230803977,-55714.29369696969,584640.59929893,422121.79369696963,55,rf_ajustado,4.406172997465918,3.885320131581893
+rf_hoteles,Random Forest,RF + hoteles,base,3,diagnostico_fijo,5,5,1.0,5,172276.49319521248,205902.2926881461,172276.49319521248,252610.55575609644,205671.74609212292,5,rf_ajustado,18.490226161827007,16.23716117135131
+rf_hoteles,Random Forest,RF + hoteles,base,3,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,,
+rf_hoteles,Random Forest,RF + hoteles,base,3,seleccion,55,55,1.0,55,503743.3039386928,668291.3836490061,-22362.047132801894,674364.7770603927,517699.9622462656,55,rf_ajustado,0.9006095243973,2.6958971074704796
+rf_hoteles,Random Forest,RF + hoteles,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,129999.95933333335,157802.76335825177,126607.93800000001,174185.48546064642,142028.85733333335,5,rf_ajustado,9.405331367920422,8.469333785998778
+rf_hoteles,Random Forest,RF + hoteles,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,,
+rf_hoteles,Random Forest,RF + hoteles,espera_adicional,1,seleccion,55,55,1.0,55,460882.75072727265,630535.5022518483,-66691.12175757575,634427.4439523979,467614.0805454545,55,rf_ajustado,0.6134573366346374,1.4395053738180952
+rf_hoteles,Random Forest,RF + hoteles,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,347803.21071635326,468712.502083859,347803.21071635326,503155.65576894715,387477.03174196597,5,rf_ajustado,6.845427113891911,10.239012322163354
+rf_hoteles,Random Forest,RF + hoteles,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,,
+rf_hoteles,Random Forest,RF + hoteles,espera_adicional,3,seleccion,55,55,1.0,55,524252.0266642641,698268.2224817645,-98632.67257638324,672347.4807416928,506470.6093367776,55,rf_ajustado,-3.8552597403172406,-3.5108488034026664
+rf_meteo,Random Forest,RF + meteorología,base,1,diagnostico_fijo,5,5,1.0,5,181040.35933333333,220201.19485996306,177820.35133333332,186841.02181864955,155421.66733333335,5,rf_ajustado,-17.8548440361739,-16.48334652404384
+rf_meteo,Random Forest,RF + meteorología,base,1,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,,
+rf_meteo,Random Forest,RF + meteorología,base,1,seleccion,55,55,1.0,55,426520.6528484849,590223.7166308257,-10459.448363636378,584640.59929893,422121.79369696963,55,rf_ajustado,-0.954965724000445,-1.0420829289551348
+rf_meteo,Random Forest,RF + meteorología,base,3,diagnostico_fijo,5,5,1.0,5,272948.2463344022,346674.9397256349,271083.96872513264,252610.55575609644,205671.74609212292,5,rf_ajustado,-37.23691739167092,-32.71061850768034
+rf_meteo,Random Forest,RF + meteorología,base,3,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,,
+rf_meteo,Random Forest,RF + meteorología,base,3,seleccion,55,55,1.0,55,471128.7451746707,624581.1187165526,-20458.908729567916,674364.7770603927,517699.9622462656,55,rf_ajustado,7.3823040641076805,8.995793020637954
+rf_meteo,Random Forest,RF + meteorología,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,162154.27333333335,218468.2650119137,159458.56533333333,174185.48546064642,142028.85733333335,5,rf_ajustado,-25.422772416518047,-14.169948542757638
+rf_meteo,Random Forest,RF + meteorología,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,,
+rf_meteo,Random Forest,RF + meteorología,espera_adicional,1,seleccion,55,55,1.0,55,465794.27600000007,620893.0078607728,-27897.221333333324,634427.4439523979,467614.0805454545,55,rf_ajustado,2.133330804119604,0.38916803859535554
+rf_meteo,Random Forest,RF + meteorología,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,392725.46503979276,497702.0957382023,392725.46503979276,503155.65576894715,387477.03174196597,5,rf_ajustado,1.0838713563520397,-1.3545146854851309
+rf_meteo,Random Forest,RF + meteorología,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,,
+rf_meteo,Random Forest,RF + meteorología,espera_adicional,3,seleccion,55,55,1.0,55,479165.42423726316,630566.6652545268,-66912.83326461149,672347.4807416928,506470.6093367776,55,rf_ajustado,6.214170006419295,5.391267448918812
+rf_gt,Random Forest,RF + Google Trends,base,1,diagnostico_fijo,5,5,1.0,5,137923.07600000003,163431.8510285659,110720.51333333334,186841.02181864955,155421.66733333335,5,rf_ajustado,12.528924623846738,11.258784977389302
+rf_gt,Random Forest,RF + Google Trends,base,1,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,,
+rf_gt,Random Forest,RF + Google Trends,base,1,seleccion,55,55,1.0,55,457527.9336363636,592508.3517700767,14460.543575757581,584640.59929893,422121.79369696963,55,rf_ajustado,-1.3457417224498558,-8.387659786362779
+rf_gt,Random Forest,RF + Google Trends,base,3,diagnostico_fijo,5,5,1.0,5,137958.15315326504,163996.3455225767,137958.15315326504,252610.55575609644,205671.74609212292,5,rf_ajustado,35.07937741092639,32.92313807095707
+rf_gt,Random Forest,RF + Google Trends,base,3,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,,
+rf_gt,Random Forest,RF + Google Trends,base,3,seleccion,55,55,1.0,55,540048.7203187227,690670.7583467611,6371.368616551855,674364.7770603927,517699.9622462656,55,rf_ajustado,-2.417976418852641,-4.316932528927997
+rf_gt,Random Forest,RF + Google Trends,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,111910.46800000002,133915.46078127707,106924.992,174185.48546064642,142028.85733333335,5,rf_ajustado,23.11904724602758,21.205823871867977
+rf_gt,Random Forest,RF + Google Trends,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,,
+rf_gt,Random Forest,RF + Google Trends,espera_adicional,1,seleccion,55,55,1.0,55,513190.99842424237,667735.6239170443,-18439.462666666674,634427.4439523979,467614.0805454545,55,rf_ajustado,-5.250116507750802,-9.746694929636002
+rf_gt,Random Forest,RF + Google Trends,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,363716.48582169006,486065.27031365654,363716.48582169006,503155.65576894715,387477.03174196597,5,rf_ajustado,3.3966398388530994,6.132117254397384
+rf_gt,Random Forest,RF + Google Trends,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,rf_ajustado,,
+rf_gt,Random Forest,RF + Google Trends,espera_adicional,3,seleccion,55,55,1.0,55,516647.2894331275,677518.8665654957,-91596.17341917794,672347.4807416928,506470.6093367776,55,rf_ajustado,-0.769153744444484,-2.009332804064634
+xgb_aena,XGBoost,XGBoost + AENA,base,1,diagnostico_fijo,5,5,1.0,5,144645.25625,170344.716736053,111350.30625,166178.18827613766,131452.6125,5,xgb_ajustado,-2.50726554618097,-10.03604530872295
+xgb_aena,XGBoost,XGBoost + AENA,base,1,prueba_final,12,12,1.0,0,,,,,,0,xgb_ajustado,,
+xgb_aena,XGBoost,XGBoost + AENA,base,1,seleccion,55,55,1.0,55,390743.96665482956,531833.3500879293,-6517.793572443182,539205.4106962614,389525.36821732955,55,xgb_ajustado,1.367208203421555,-0.312841867803626
+xgb_aena,XGBoost,XGBoost + AENA,base,3,diagnostico_fijo,5,5,1.0,5,133720.975,158539.14104010153,101635.025,196379.88441738862,167770.31875,5,xgb_ajustado,19.269154521376453,20.295213124520572
+xgb_aena,XGBoost,XGBoost + AENA,base,3,prueba_final,12,12,1.0,0,,,,,,0,xgb_ajustado,,
+xgb_aena,XGBoost,XGBoost + AENA,base,3,seleccion,55,55,1.0,55,475433.6100852273,645506.6623527242,17673.002698863635,665260.3676259968,487742.33125,55,xgb_ajustado,2.969319417563432,2.52361141860038
+xgb_aena,XGBoost,XGBoost + AENA,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,91537.89375,125770.01346405523,83375.45625,134727.4941255677,109170.58125,5,xgb_ajustado,6.648591454661801,16.15150097957365
+xgb_aena,XGBoost,XGBoost + AENA,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,xgb_ajustado,,
+xgb_aena,XGBoost,XGBoost + AENA,espera_adicional,1,seleccion,55,55,1.0,55,446456.51477272727,619944.7972552686,16820.246875,605682.8317745529,429316.58709605824,55,xgb_ajustado,-2.354692048795637,-3.9923749027740207
+xgb_aena,XGBoost,XGBoost + AENA,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,239452.96875,296269.13675173087,185046.83125,277971.46634957235,221566.41875,5,xgb_ajustado,-6.582571456865893,-8.072771181169802
+xgb_aena,XGBoost,XGBoost + AENA,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,xgb_ajustado,,
+xgb_aena,XGBoost,XGBoost + AENA,espera_adicional,3,seleccion,55,55,1.0,55,490991.30625,660854.6225673339,-10596.33721590909,648531.4503457765,479677.71512784093,55,xgb_ajustado,-1.900165707459056,-2.3585817654972585
+xgb_hoteles,XGBoost,XGBoost + hoteles,base,1,diagnostico_fijo,5,5,1.0,5,155861.89375,173732.2975968416,102177.05625,166178.18827613766,131452.6125,5,xgb_ajustado,-4.5457887097380745,-18.56888256975493
+xgb_hoteles,XGBoost,XGBoost + hoteles,base,1,prueba_final,12,12,1.0,0,,,,,,0,xgb_ajustado,,
+xgb_hoteles,XGBoost,XGBoost + hoteles,base,1,seleccion,55,55,1.0,55,377624.7063565341,524644.7125892123,-28763.68114346591,539205.4106962614,389525.36821732955,55,xgb_ajustado,2.7003991091720025,3.055169914929823
+xgb_hoteles,XGBoost,XGBoost + hoteles,base,3,diagnostico_fijo,5,5,1.0,5,165250.60625,201778.01432810747,135332.44375,196379.88441738862,167770.31875,5,xgb_ajustado,-2.7488201893660413,1.5018821677001748
+xgb_hoteles,XGBoost,XGBoost + hoteles,base,3,prueba_final,12,12,1.0,0,,,,,,0,xgb_ajustado,,
+xgb_hoteles,XGBoost,XGBoost + hoteles,base,3,seleccion,55,55,1.0,55,497365.65138494316,674979.25142548,69661.94229403409,665260.3676259968,487742.33125,55,xgb_ajustado,-1.4609142934766117,-1.9730336118827907
+xgb_hoteles,XGBoost,XGBoost + hoteles,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,134999.775,163957.05688369763,108969.0,134727.4941255677,109170.58125,5,xgb_ajustado,-21.69532132089358,-23.65948175255317
+xgb_hoteles,XGBoost,XGBoost + hoteles,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,xgb_ajustado,,
+xgb_hoteles,XGBoost,XGBoost + hoteles,espera_adicional,1,seleccion,55,55,1.0,55,437708.50621892756,615977.7094976462,4434.46786665483,605682.8317745529,429316.58709605824,55,xgb_ajustado,-1.6997143031000084,-1.9547157913541557
+xgb_hoteles,XGBoost,XGBoost + hoteles,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,277228.4375,355460.0050571327,261768.9,277971.46634957235,221566.41875,5,xgb_ajustado,-27.876436285050943,-25.122046501462435
+xgb_hoteles,XGBoost,XGBoost + hoteles,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,xgb_ajustado,,
+xgb_hoteles,XGBoost,XGBoost + hoteles,espera_adicional,3,seleccion,55,55,1.0,55,496139.3609375,670355.8620976035,17370.818607954545,648531.4503457765,479677.71512784093,55,xgb_ajustado,-3.3652048393629785,-3.4318137554653294
+xgb_meteo,XGBoost,XGBoost + meteorología,base,1,diagnostico_fijo,5,5,1.0,5,180911.053125,249153.04375492662,180911.053125,166178.18827613766,131452.6125,5,xgb_ajustado,-49.93125532269611,-37.624539888851594
+xgb_meteo,XGBoost,XGBoost + meteorología,base,1,prueba_final,12,12,1.0,0,,,,,,0,xgb_ajustado,,
+xgb_meteo,XGBoost,XGBoost + meteorología,base,1,seleccion,55,55,1.0,55,405374.2923295455,562520.2935470945,-6604.962784090909,539205.4106962614,389525.36821732955,55,xgb_ajustado,-4.323933400580526,-4.068778417372099
+xgb_meteo,XGBoost,XGBoost + meteorología,base,3,diagnostico_fijo,5,5,1.0,5,251626.86875,319527.3672453866,221910.38125,196379.88441738862,167770.31875,5,xgb_ajustado,-62.70880706206068,-49.98294729651038
+xgb_meteo,XGBoost,XGBoost + meteorología,base,3,prueba_final,12,12,1.0,0,,,,,,0,xgb_ajustado,,
+xgb_meteo,XGBoost,XGBoost + meteorología,base,3,seleccion,55,55,1.0,55,435161.0799005682,596570.9749724544,-31420.424928977274,665260.3676259968,487742.33125,55,xgb_ajustado,10.325189353855958,10.780538817427443
+xgb_meteo,XGBoost,XGBoost + meteorología,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,162641.234375,205025.7366761869,162641.234375,134727.4941255677,109170.58125,5,xgb_ajustado,-52.178096985237744,-48.9789946272728
+xgb_meteo,XGBoost,XGBoost + meteorología,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,xgb_ajustado,,
+xgb_meteo,XGBoost,XGBoost + meteorología,espera_adicional,1,seleccion,55,55,1.0,55,437684.94836647727,595017.3012052202,-11541.816974431818,605682.8317745529,429316.58709605824,55,xgb_ajustado,1.76091016779929,-1.9492284998871012
+xgb_meteo,XGBoost,XGBoost + meteorología,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,327782.675,410743.2132353935,302374.975,277971.46634957235,221566.41875,5,xgb_ajustado,-47.764523686344695,-47.938788219458004
+xgb_meteo,XGBoost,XGBoost + meteorología,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,xgb_ajustado,,
+xgb_meteo,XGBoost,XGBoost + meteorología,espera_adicional,3,seleccion,55,55,1.0,55,442631.0762784091,609624.1920202372,-16322.3140625,648531.4503457765,479677.71512784093,55,xgb_ajustado,5.999286280533534,7.72323534762468
+xgb_gt,XGBoost,XGBoost + Google Trends,base,1,diagnostico_fijo,5,5,1.0,5,134179.15625,154209.93042480387,88135.08125,166178.18827613766,131452.6125,5,xgb_ajustado,7.202063023726191,-2.0741647489128434
+xgb_gt,XGBoost,XGBoost + Google Trends,base,1,prueba_final,12,12,1.0,0,,,,,,0,xgb_ajustado,,
+xgb_gt,XGBoost,XGBoost + Google Trends,base,1,seleccion,55,55,1.0,55,366261.2409090909,501443.4210998559,8357.847159090908,539205.4106962614,389525.36821732955,55,xgb_ajustado,7.003266073989223,5.972429322050932
+xgb_gt,XGBoost,XGBoost + Google Trends,base,3,diagnostico_fijo,5,5,1.0,5,122713.1125,136202.8034771615,52008.6375,196379.88441738862,167770.31875,5,xgb_ajustado,30.643200101047963,26.856482473005972
+xgb_gt,XGBoost,XGBoost + Google Trends,base,3,prueba_final,12,12,1.0,0,,,,,,0,xgb_ajustado,,
+xgb_gt,XGBoost,XGBoost + Google Trends,base,3,seleccion,55,55,1.0,55,492795.0215909091,651588.140123314,28997.207386363636,665260.3676259968,487742.33125,55,xgb_ajustado,2.055169399534895,-1.0359343483597128
+xgb_gt,XGBoost,XGBoost + Google Trends,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,96702.35625,110078.02997661353,34447.44375,134727.4941255677,109170.58125,5,xgb_ajustado,18.29579352673224,11.420865270880842
+xgb_gt,XGBoost,XGBoost + Google Trends,espera_adicional,1,prueba_final,12,12,1.0,0,,,,,,0,xgb_ajustado,,
+xgb_gt,XGBoost,XGBoost + Google Trends,espera_adicional,1,seleccion,55,55,1.0,55,471061.46207386366,631322.5649385848,19253.02911931818,605682.8317745529,429316.58709605824,55,xgb_ajustado,-4.233194639001336,-9.723564435320808
+xgb_gt,XGBoost,XGBoost + Google Trends,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,235201.5625,302005.14014824864,233328.6125,277971.46634957235,221566.41875,5,xgb_ajustado,-8.646093829088187,-6.153975781584897
+xgb_gt,XGBoost,XGBoost + Google Trends,espera_adicional,3,prueba_final,12,12,1.0,0,,,,,,0,xgb_ajustado,,
+xgb_gt,XGBoost,XGBoost + Google Trends,espera_adicional,3,seleccion,55,55,1.0,55,485344.5747159091,639307.8473219728,-11798.621306818182,648531.4503457765,479677.71512784093,55,xgb_ajustado,1.4222291022102262,-1.1813889637457553
