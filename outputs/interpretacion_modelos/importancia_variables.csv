@@ -1,0 +1,1041 @@
+familia,escenario,horizonte,variante,predictor,grupo,variable,retardos_origen,retardos_objetivo,operacion,indicador_ausencia,shap_absoluto_medio,shap_medio,importancia_nativa_media,meses,rango_shap,rango_nativo
+RF,base,1,aena,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,15152.813011526361,-706.479500863019,0.01010404644148709,12,8.0,11.0
+RF,base,1,aena,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,5644.473487791321,-3.98359563691262,0.00561593363522461,12,13.0,18.0
+RF,base,1,aena,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,27503.36767000005,12024.222797293418,0.01494992410591713,12,4.0,5.0
+RF,base,1,aena,operaciones_aena_origen_lag1,aena,operaciones_aena,[1],[2],valor,False,20402.942006046116,18893.08555820744,0.032110573285570175,12,5.0,4.0
+RF,base,1,aena,operaciones_aena_origen_lag13,aena,operaciones_aena,[13],[14],valor,False,4375.779676751113,-3581.86500950301,0.008610133364249827,12,18.0,13.0
+RF,base,1,aena,operaciones_aena_origen_lag2,aena,operaciones_aena,[2],[3],valor,False,5039.218529324416,4559.916427645148,0.012364306622591156,12,16.0,9.0
+RF,base,1,aena,pasajeros_aena_origen_lag1,aena,pasajeros_aena,[1],[2],valor,False,166833.8296942061,46113.91536881036,0.15708576791020368,12,2.0,2.0
+RF,base,1,aena,pasajeros_aena_origen_lag13,aena,pasajeros_aena,[13],[14],valor,False,5024.30328414104,-3630.422820340021,0.009317458168522343,12,17.0,12.0
+RF,base,1,aena,pasajeros_aena_origen_lag2,aena,pasajeros_aena,[2],[3],valor,False,3936.343753306402,3156.406975734493,0.008038218545615483,12,19.0,14.0
+RF,base,1,aena,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,16337.75780342167,16337.75780342167,0.0056205684914082885,12,6.0,17.0
+RF,base,1,aena,turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",media,False,6486.842910594064,6486.842910594064,0.0023504569733845963,12,11.0,20.0
+RF,base,1,aena,turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]","[3, 4, 5]",media,False,6802.553256612034,6802.553256612034,0.014129449349168086,12,10.0,6.0
+RF,base,1,aena,turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]","[3, 4, 5, 6, 7, 8]",media,False,5906.23087263959,-3615.9014460428025,0.007144640057991953,12,12.0,15.0
+RF,base,1,aena,turistas_mismo_mes_ano_anterior,turistas,turistas,[11],[12],valor,False,493913.5272172347,166392.49548567898,0.6024243914303274,12,1.0,1.0
+RF,base,1,aena,turistas_origen_lag14,turistas,turistas,[14],[15],valor,False,38154.61548782577,-36910.72200548811,0.06023499752200968,12,3.0,3.0
+RF,base,1,aena,turistas_origen_lag2,turistas,turistas,[2],[3],valor,False,5633.440550627856,5050.135454289541,0.01376998588929263,12,14.0,7.0
+RF,base,1,aena,turistas_origen_lag3,turistas,turistas,[3],[4],valor,False,2884.1338632479087,-281.2447644769997,0.005051151252296676,12,20.0,19.0
+RF,base,1,aena,turistas_origen_lag4,turistas,turistas,[4],[5],valor,False,5041.501638276192,568.1937000765569,0.0061246869427129145,12,15.0,16.0
+RF,base,1,aena,turistas_origen_lag5,turistas,turistas,[5],[6],valor,False,14422.167500417328,-7398.2974670876,0.012885031175354182,12,9.0,8.0
+RF,base,1,aena,turistas_origen_lag8,turistas,turistas,[8],[9],valor,False,15940.062878937335,14941.72532706044,0.012068278836672046,12,7.0,10.0
+RF,base,1,google_trends,gt_majorca_alemania_origen_lag1,google_trends,gt_majorca_alemania,[1],[2],valor,False,15011.567178209209,-2552.3426214375127,0.028398556070372658,12,11.0,8.0
+RF,base,1,google_trends,gt_majorca_alemania_origen_lag13,google_trends,gt_majorca_alemania,[13],[14],valor,False,5277.751221849938,5138.32494130605,0.0028595538724965953,12,18.0,23.0
+RF,base,1,google_trends,gt_majorca_alemania_origen_lag2,google_trends,gt_majorca_alemania,[2],[3],valor,False,2174.629367292059,470.5368222865637,0.0038544717091921993,12,22.0,20.0
+RF,base,1,google_trends,gt_majorca_reino_unido_origen_lag1,google_trends,gt_majorca_reino_unido,[1],[2],valor,False,21466.766698610725,-4124.966712263085,0.03662627275156312,12,8.0,5.0
+RF,base,1,google_trends,gt_majorca_reino_unido_origen_lag13,google_trends,gt_majorca_reino_unido,[13],[14],valor,False,1583.4208817946285,1521.4243787494663,0.0019277038416379494,12,24.0,26.0
+RF,base,1,google_trends,gt_majorca_reino_unido_origen_lag2,google_trends,gt_majorca_reino_unido,[2],[3],valor,False,1490.3551968515746,1177.0823852729918,0.0030512236172320086,12,25.0,22.0
+RF,base,1,google_trends,gt_mallorca_alemania_origen_lag1,google_trends,gt_mallorca_alemania,[1],[2],valor,False,124284.62405848676,-39888.92806522574,0.1753787176233167,12,2.0,2.0
+RF,base,1,google_trends,gt_mallorca_alemania_origen_lag13,google_trends,gt_mallorca_alemania,[13],[14],valor,False,1723.0376618993903,574.9405489622299,0.002126214118307102,12,23.0,25.0
+RF,base,1,google_trends,gt_mallorca_alemania_origen_lag2,google_trends,gt_mallorca_alemania,[2],[3],valor,False,8054.540902828478,-3883.98997273428,0.007771736582264075,12,15.0,16.0
+RF,base,1,google_trends,gt_mallorca_reino_unido_origen_lag1,google_trends,gt_mallorca_reino_unido,[1],[2],valor,False,102315.08094278969,-8407.810741104295,0.16193644335968588,12,3.0,3.0
+RF,base,1,google_trends,gt_mallorca_reino_unido_origen_lag13,google_trends,gt_mallorca_reino_unido,[13],[14],valor,False,1436.221747975266,540.0571446802275,0.002363823927527604,12,26.0,24.0
+RF,base,1,google_trends,gt_mallorca_reino_unido_origen_lag2,google_trends,gt_mallorca_reino_unido,[2],[3],valor,False,2758.8977756669306,286.24336142616056,0.0039477496812626986,12,21.0,19.0
+RF,base,1,google_trends,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,20219.789673226518,2214.8413056826976,0.014605103330012024,12,9.0,10.0
+RF,base,1,google_trends,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,4143.867876358545,279.70939142423623,0.005002155989723461,12,20.0,18.0
+RF,base,1,google_trends,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,16133.142870005298,7766.648073183158,0.008682270516085215,12,10.0,14.0
+RF,base,1,google_trends,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,23291.392885784036,23291.392885784036,0.0051078327717944275,12,7.0,17.0
+RF,base,1,google_trends,turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",media,False,13646.586609954122,13646.586609954122,0.0032590865647305063,12,12.0,21.0
+RF,base,1,google_trends,turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]","[3, 4, 5]",media,False,7816.720020953289,7816.720020953289,0.011378533349782748,12,16.0,11.0
+RF,base,1,google_trends,turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]","[3, 4, 5, 6, 7, 8]",media,False,9172.285814758114,-6476.511517943206,0.011271980823045397,12,14.0,12.0
+RF,base,1,google_trends,turistas_mismo_mes_ano_anterior,turistas,turistas,[11],[12],valor,False,280150.7984200404,103830.50626322966,0.3644353476301699,12,1.0,1.0
+RF,base,1,google_trends,turistas_origen_lag14,turistas,turistas,[14],[15],valor,False,32780.46647457165,-32780.46647457165,0.041135493593738304,12,6.0,4.0
+RF,base,1,google_trends,turistas_origen_lag2,turistas,turistas,[2],[3],valor,False,12270.711275395084,7473.461584412767,0.019652967336537035,12,13.0,9.0
+RF,base,1,google_trends,turistas_origen_lag3,turistas,turistas,[3],[4],valor,False,5016.602093120105,-253.87894874132925,0.00800200180999064,12,19.0,15.0
+RF,base,1,google_trends,turistas_origen_lag4,turistas,turistas,[4],[5],valor,False,6365.067489051654,-2462.516053853166,0.010019911948306722,12,17.0,13.0
+RF,base,1,google_trends,turistas_origen_lag5,turistas,turistas,[5],[6],valor,False,43971.97609921688,-21625.436098949092,0.03462388402469058,12,5.0,6.0
+RF,base,1,google_trends,turistas_origen_lag8,turistas,turistas,[8],[9],valor,False,47732.87657837109,27574.179556611703,0.03258096315653452,12,4.0,7.0
+RF,base,1,hoteles,estancia_media_noches_origen_lag1,hoteles,estancia_media_noches,[1],[2],valor,False,1545.8567724227303,1369.7923403377947,0.002406533489427013,12,26.0,26.0
+RF,base,1,hoteles,estancia_media_noches_origen_lag13,hoteles,estancia_media_noches,[13],[14],valor,False,1462.2049265483593,1139.1142727020722,0.0015539453214722103,12,29.0,29.0
+RF,base,1,hoteles,estancia_media_noches_origen_lag13__ausente,hoteles,estancia_media_noches,[13],[14],valor,True,32.879926475022046,-21.334026616354024,9.079011990483354e-05,12,44.0,40.0
+RF,base,1,hoteles,estancia_media_noches_origen_lag1__ausente,hoteles,estancia_media_noches,[1],[2],valor,True,25.310024040451307,25.04726528704762,7.442359289088763e-05,12,45.0,43.0
+RF,base,1,hoteles,estancia_media_noches_origen_lag2,hoteles,estancia_media_noches,[2],[3],valor,False,1330.856247583579,-855.7621429766168,0.0012505872709745738,12,30.0,32.0
+RF,base,1,hoteles,estancia_media_noches_origen_lag2__ausente,hoteles,estancia_media_noches,[2],[3],valor,True,387.578391770857,-387.578391770857,0.0006371695605123296,12,33.0,33.0
+RF,base,1,hoteles,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,16667.117559650436,1065.5211546322332,0.010951909483195804,12,9.0,13.0
+RF,base,1,hoteles,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,7982.242018730619,-583.6101956788161,0.00911567552300771,12,18.0,15.0
+RF,base,1,hoteles,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,24051.40004936627,10197.219710857515,0.01250827667676878,12,6.0,12.0
+RF,base,1,hoteles,ocupacion_fin_semana_pct_origen_lag1,hoteles,ocupacion_fin_semana_pct,[1],[2],valor,False,23396.092039019215,11111.454429221905,0.034988878604375676,12,7.0,5.0
+RF,base,1,hoteles,ocupacion_fin_semana_pct_origen_lag13,hoteles,ocupacion_fin_semana_pct,[13],[14],valor,False,2447.092472655386,-2276.1606399771017,0.0031031380278574,12,25.0,24.0
+RF,base,1,hoteles,ocupacion_fin_semana_pct_origen_lag13__ausente,hoteles,ocupacion_fin_semana_pct,[13],[14],valor,True,5.696654748394184,-0.14381411659934903,1.892584517708038e-06,12,50.0,50.0
+RF,base,1,hoteles,ocupacion_fin_semana_pct_origen_lag1__ausente,hoteles,ocupacion_fin_semana_pct,[1],[2],valor,True,158.36879908655314,154.67815485649592,0.00035982218296882253,12,35.0,34.0
+RF,base,1,hoteles,ocupacion_fin_semana_pct_origen_lag2,hoteles,ocupacion_fin_semana_pct,[2],[3],valor,False,7960.495287238238,6209.580762800825,0.008607372047079702,12,19.0,16.0
+RF,base,1,hoteles,ocupacion_fin_semana_pct_origen_lag2__ausente,hoteles,ocupacion_fin_semana_pct,[2],[3],valor,True,130.69343398672075,-130.69343398672075,7.952964389136739e-05,12,36.0,42.0
+RF,base,1,hoteles,ocupacion_habitaciones_pct_origen_lag1,hoteles,ocupacion_habitaciones_pct,[1],[2],valor,False,53538.91064623354,30012.989676077097,0.06837156248959757,12,2.0,2.0
+RF,base,1,hoteles,ocupacion_habitaciones_pct_origen_lag13,hoteles,ocupacion_habitaciones_pct,[13],[14],valor,False,1505.6808692901323,-1150.8393775495294,0.0025665576733780076,12,27.0,25.0
+RF,base,1,hoteles,ocupacion_habitaciones_pct_origen_lag13__ausente,hoteles,ocupacion_habitaciones_pct,[13],[14],valor,True,13.933838066605945,13.75035583804518,4.492352038689865e-05,12,46.0,46.0
+RF,base,1,hoteles,ocupacion_habitaciones_pct_origen_lag1__ausente,hoteles,ocupacion_habitaciones_pct,[1],[2],valor,True,61.64258597598661,-39.13937512787464,0.00016302043434952588,12,40.0,36.0
+RF,base,1,hoteles,ocupacion_habitaciones_pct_origen_lag2,hoteles,ocupacion_habitaciones_pct,[2],[3],valor,False,12828.82285678992,9806.583106077693,0.01866749252837586,12,13.0,10.0
+RF,base,1,hoteles,ocupacion_habitaciones_pct_origen_lag2__ausente,hoteles,ocupacion_habitaciones_pct,[2],[3],valor,True,89.11589252629307,-89.11589252629307,6.288877917974109e-05,12,38.0,44.0
+RF,base,1,hoteles,ocupacion_plazas_pct_origen_lag1,hoteles,ocupacion_plazas_pct,[1],[2],valor,False,30404.987164517825,11407.422531366998,0.04093026115703296,12,5.0,4.0
+RF,base,1,hoteles,ocupacion_plazas_pct_origen_lag13,hoteles,ocupacion_plazas_pct,[13],[14],valor,False,1250.2067421345917,-942.0460723286591,0.0014460733500475775,12,31.0,31.0
+RF,base,1,hoteles,ocupacion_plazas_pct_origen_lag13__ausente,hoteles,ocupacion_plazas_pct,[13],[14],valor,True,37.48488011553192,-36.53097844285873,5.124016888854012e-05,12,43.0,45.0
+RF,base,1,hoteles,ocupacion_plazas_pct_origen_lag1__ausente,hoteles,ocupacion_plazas_pct,[1],[2],valor,True,43.10477920709844,43.10477920709844,0.00012176498014138777,12,42.0,38.0
+RF,base,1,hoteles,ocupacion_plazas_pct_origen_lag2,hoteles,ocupacion_plazas_pct,[2],[3],valor,False,8773.605855132671,4686.421617115252,0.009685846604937466,12,17.0,14.0
+RF,base,1,hoteles,ocupacion_plazas_pct_origen_lag2__ausente,hoteles,ocupacion_plazas_pct,[2],[3],valor,True,11.4133705109344,-3.230194002077336,3.7471826069967314e-05,12,48.0,47.0
+RF,base,1,hoteles,pernoctaciones_hoteles_origen_lag1,hoteles,pernoctaciones_hoteles,[1],[2],valor,False,21861.204800029558,1898.5955565085162,0.023531424807401436,12,8.0,6.0
+RF,base,1,hoteles,pernoctaciones_hoteles_origen_lag13,hoteles,pernoctaciones_hoteles,[13],[14],valor,False,1225.9821116602945,-283.76201619596935,0.001531317407697362,12,32.0,30.0
+RF,base,1,hoteles,pernoctaciones_hoteles_origen_lag13__ausente,hoteles,pernoctaciones_hoteles,[13],[14],valor,True,12.418246496437794,12.418246496437794,6.858587651459712e-06,12,47.0,49.0
+RF,base,1,hoteles,pernoctaciones_hoteles_origen_lag1__ausente,hoteles,pernoctaciones_hoteles,[1],[2],valor,True,68.12478963336265,-27.43302883612642,0.0001523368831291159,12,39.0,37.0
+RF,base,1,hoteles,pernoctaciones_hoteles_origen_lag2,hoteles,pernoctaciones_hoteles,[2],[3],valor,False,14547.442578088221,1571.8487552028328,0.013064399541300266,12,11.0,11.0
+RF,base,1,hoteles,pernoctaciones_hoteles_origen_lag2__ausente,hoteles,pernoctaciones_hoteles,[2],[3],valor,True,94.02348498495824,-94.02348498495824,8.622872283304628e-05,12,37.0,41.0
+RF,base,1,hoteles,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,12257.949920354045,12257.949920354045,0.0032071672053853952,12,14.0,23.0
+RF,base,1,hoteles,turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",media,False,6554.064748551516,6554.064748551516,0.0018441463413412993,12,20.0,27.0
+RF,base,1,hoteles,turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]","[3, 4, 5]",media,False,14679.596399045933,14679.596399045933,0.01891963900421174,12,10.0,9.0
+RF,base,1,hoteles,turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]","[3, 4, 5, 6, 7, 8]",media,False,5494.817380652564,-3846.2075911506636,0.007079098967843043,12,21.0,19.0
+RF,base,1,hoteles,turistas_mismo_mes_ano_anterior,turistas,turistas,[11],[12],valor,False,480352.4233965585,160397.3481629659,0.577330758535964,12,1.0,1.0
+RF,base,1,hoteles,turistas_origen_lag14,turistas,turistas,[14],[15],valor,False,32968.992211611134,-32968.992211611134,0.05092076800819572,12,4.0,3.0
+RF,base,1,hoteles,turistas_origen_lag2,turistas,turistas,[2],[3],valor,False,13591.628599969345,9556.022085576062,0.02054967232841828,12,12.0,7.0
+RF,base,1,hoteles,turistas_origen_lag3,turistas,turistas,[3],[4],valor,False,2653.324626823521,2155.5628528227226,0.0064665878421883835,12,24.0,20.0
+RF,base,1,hoteles,turistas_origen_lag4,turistas,turistas,[4],[5],valor,False,4819.60764896214,-643.2541580469392,0.006459967490016542,12,23.0,21.0
+RF,base,1,hoteles,turistas_origen_lag5,turistas,turistas,[5],[6],valor,False,38053.20860814406,-13269.420815235433,0.019564251907786167,12,3.0,8.0
+RF,base,1,hoteles,turistas_origen_lag8,turistas,turistas,[8],[9],valor,False,11477.112706759051,8034.883083508553,0.00749846913734882,12,15.0,18.0
+RF,base,1,hoteles,viajeros_hoteles_origen_lag1,hoteles,viajeros_hoteles,[1],[2],valor,False,9077.2642044941,4596.915833388133,0.007599159298398365,12,16.0,17.0
+RF,base,1,hoteles,viajeros_hoteles_origen_lag13,hoteles,viajeros_hoteles,[13],[14],valor,False,1500.7579093693191,388.2767897904721,0.0017004721466822293,12,28.0,28.0
+RF,base,1,hoteles,viajeros_hoteles_origen_lag13__ausente,hoteles,viajeros_hoteles,[13],[14],valor,True,6.24567428961626,-2.719776988580563,2.4194261887189454e-05,12,49.0,48.0
+RF,base,1,hoteles,viajeros_hoteles_origen_lag1__ausente,hoteles,viajeros_hoteles,[1],[2],valor,True,56.87408654575744,46.81952814945669,0.0002229576859459515,12,41.0,35.0
+RF,base,1,hoteles,viajeros_hoteles_origen_lag2,hoteles,viajeros_hoteles,[2],[3],valor,False,5283.3631647254115,1129.0663750295023,0.004242017120486153,12,22.0,22.0
+RF,base,1,hoteles,viajeros_hoteles_origen_lag2__ausente,hoteles,viajeros_hoteles,[2],[3],valor,True,181.29308630073572,-181.29308630073572,0.0001190591266577127,12,34.0,39.0
+RF,base,1,meteorologia,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,7804.005408707787,571.0382275045977,0.005000450856289022,12,12.0,16.0
+RF,base,1,meteorologia,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,2253.58268430856,-609.7377472241053,0.002905869741231533,12,18.0,19.0
+RF,base,1,meteorologia,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,19583.329929109346,5874.524739232435,0.012298076033974814,12,6.0,8.0
+RF,base,1,meteorologia,meteo_precipitacion_mm_origen_lag14,meteorologia,meteo_precipitacion_mm,[14],[15],valor,False,3772.315496825742,2121.542416654413,0.005412053431560821,12,16.0,15.0
+RF,base,1,meteorologia,meteo_precipitacion_mm_origen_lag2,meteorologia,meteo_precipitacion_mm,[2],[3],valor,False,10427.561737111582,-2225.273332766453,0.019215345002464926,12,9.0,6.0
+RF,base,1,meteorologia,meteo_precipitacion_mm_origen_lag3,meteorologia,meteo_precipitacion_mm,[3],[4],valor,False,1897.2803322103175,-1169.8964904124516,0.002777957942398875,12,20.0,20.0
+RF,base,1,meteorologia,meteo_temperatura_media_c_origen_lag14,meteorologia,meteo_temperatura_media_c,[14],[15],valor,False,3276.88906228578,1683.1417378391743,0.00460883603910253,12,17.0,17.0
+RF,base,1,meteorologia,meteo_temperatura_media_c_origen_lag2,meteorologia,meteo_temperatura_media_c,[2],[3],valor,False,4929.668368688089,-2803.2493291682526,0.008376178358609968,12,15.0,11.0
+RF,base,1,meteorologia,meteo_temperatura_media_c_origen_lag3,meteorologia,meteo_temperatura_media_c,[3],[4],valor,False,10441.991594671965,-825.3234755539262,0.008982070603814276,12,8.0,10.0
+RF,base,1,meteorologia,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,18705.818835089245,18705.818835089245,0.006594761598424999,12,7.0,13.0
+RF,base,1,meteorologia,turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",media,False,7735.550991379504,7735.550991379504,0.004355283881884244,12,13.0,18.0
+RF,base,1,meteorologia,turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]","[3, 4, 5]",media,False,94686.03248651717,94686.03248651717,0.10190907753859337,12,2.0,2.0
+RF,base,1,meteorologia,turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]","[3, 4, 5, 6, 7, 8]",media,False,8064.379563390779,-3522.0033019091857,0.0120315926783007,12,10.0,9.0
+RF,base,1,meteorologia,turistas_mismo_mes_ano_anterior,turistas,turistas,[11],[12],valor,False,530740.5926414086,162786.6540804381,0.6040467336431804,12,1.0,1.0
+RF,base,1,meteorologia,turistas_origen_lag14,turistas,turistas,[14],[15],valor,False,42892.557706872256,-38291.46309567004,0.07632511152956725,12,5.0,3.0
+RF,base,1,meteorologia,turistas_origen_lag2,turistas,turistas,[2],[3],valor,False,57001.38713175608,39130.06239161,0.07500541160536563,12,3.0,4.0
+RF,base,1,meteorologia,turistas_origen_lag3,turistas,turistas,[3],[4],valor,False,7904.214756002587,7904.214756002587,0.014426081906678531,12,11.0,7.0
+RF,base,1,meteorologia,turistas_origen_lag4,turistas,turistas,[4],[5],valor,False,2201.9706057260555,-289.8052286035398,0.005918993496245167,12,19.0,14.0
+RF,base,1,meteorologia,turistas_origen_lag5,turistas,turistas,[5],[6],valor,False,43623.92954975548,-19779.54860498141,0.022191107322634667,12,4.0,5.0
+RF,base,1,meteorologia,turistas_origen_lag8,turistas,turistas,[8],[9],valor,False,7439.27977192753,6656.043288895654,0.007619006789678328,12,14.0,12.0
+RF,base,1,turistas_calendario,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,16074.404802029858,1965.5410743719212,0.010289842914329604,12,8.0,10.0
+RF,base,1,turistas_calendario,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,3918.406611666787,-292.1035737781245,0.003586117424930478,12,14.0,14.0
+RF,base,1,turistas_calendario,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,31752.278823057033,12000.079249287674,0.017650863045919795,12,6.0,6.0
+RF,base,1,turistas_calendario,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,23835.308414046507,23835.308414046507,0.009147657541228284,12,7.0,11.0
+RF,base,1,turistas_calendario,turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",media,False,8389.950573372771,8389.950573372771,0.004589301093397583,12,10.0,13.0
+RF,base,1,turistas_calendario,turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]","[3, 4, 5]",media,False,97976.74649786092,97976.74649786092,0.10626621328340154,12,2.0,2.0
+RF,base,1,turistas_calendario,turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]","[3, 4, 5, 6, 7, 8]",media,False,7479.470525332315,-3715.2056361126547,0.01229463846876385,12,12.0,8.0
+RF,base,1,turistas_calendario,turistas_mismo_mes_ano_anterior,turistas,turistas,[11],[12],valor,False,526144.9957430848,162570.4883712983,0.6106472502693301,12,1.0,1.0
+RF,base,1,turistas_calendario,turistas_origen_lag14,turistas,turistas,[14],[15],valor,False,51649.785907001,-47494.27247662501,0.0922333546803739,12,4.0,3.0
+RF,base,1,turistas_calendario,turistas_origen_lag2,turistas,turistas,[2],[3],valor,False,58115.939283294785,40928.94115415338,0.07656113833592364,12,3.0,4.0
+RF,base,1,turistas_calendario,turistas_origen_lag3,turistas,turistas,[3],[4],valor,False,7612.999200415881,6854.494582080581,0.013417216265708529,12,11.0,7.0
+RF,base,1,turistas_calendario,turistas_origen_lag4,turistas,turistas,[4],[5],valor,False,4071.239384713806,299.0876688373052,0.008183857451790243,12,13.0,12.0
+RF,base,1,turistas_calendario,turistas_origen_lag5,turistas,turistas,[5],[6],valor,False,45289.01703080282,-20215.542639481628,0.024764595828497604,12,5.0,5.0
+RF,base,1,turistas_calendario,turistas_origen_lag8,turistas,turistas,[8],[9],valor,False,11197.670609468762,9557.203141116754,0.01036795339640486,12,9.0,9.0
+RF,base,3,aena,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,6197.470461938175,-1025.3241544177158,0.006264270451884868,12,14.0,15.0
+RF,base,3,aena,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,1806.836878785423,-409.0164255454347,0.0023822378378451584,12,19.0,20.0
+RF,base,3,aena,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,7813.730738283877,395.2678751055859,0.006413706447471647,12,13.0,13.0
+RF,base,3,aena,operaciones_aena_origen_lag1,aena,operaciones_aena,[1],[4],valor,False,79764.51261795867,79764.51261795867,0.07667285676701295,12,2.0,2.0
+RF,base,3,aena,operaciones_aena_origen_lag13,aena,operaciones_aena,[13],[16],valor,False,21860.524769355703,-21860.524769355703,0.03515062055331362,12,9.0,6.0
+RF,base,3,aena,operaciones_aena_origen_lag2,aena,operaciones_aena,[2],[5],valor,False,2953.858372214363,2953.858372214363,0.00629602595101579,12,17.0,14.0
+RF,base,3,aena,pasajeros_aena_origen_lag1,aena,pasajeros_aena,[1],[4],valor,False,51905.864315180464,42531.7837836068,0.044839935698269044,12,3.0,5.0
+RF,base,3,aena,pasajeros_aena_origen_lag13,aena,pasajeros_aena,[13],[16],valor,False,31496.182107916462,-31496.182107916462,0.046936547646339595,12,6.0,4.0
+RF,base,3,aena,pasajeros_aena_origen_lag2,aena,pasajeros_aena,[2],[5],valor,False,3934.2499183188634,3934.2499183188634,0.005540468581842464,12,15.0,16.0
+RF,base,3,aena,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,19648.176137460567,19648.176137460567,0.010848530955304374,12,10.0,12.0
+RF,base,3,aena,turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",media,False,1590.0764451730404,818.3379181753753,0.003600373799703925,12,20.0,19.0
+RF,base,3,aena,turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]","[5, 6, 7]",media,False,27641.92292817884,-10226.620589761913,0.016821874054241116,12,7.0,9.0
+RF,base,3,aena,turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]","[5, 6, 7, 8, 9, 10]",media,False,3699.0516412551547,2550.1260480243086,0.00516372434122413,12,16.0,17.0
+RF,base,3,aena,turistas_mismo_mes_ano_anterior,turistas,turistas,[9],[12],valor,False,500168.2965421346,183450.30282229627,0.5974762403143449,12,1.0,1.0
+RF,base,3,aena,turistas_origen_lag14,turistas,turistas,[14],[17],valor,False,32991.17588733342,-32201.659233392154,0.05130140904149453,12,5.0,3.0
+RF,base,3,aena,turistas_origen_lag2,turistas,turistas,[2],[5],valor,False,1870.7638675567393,1639.0934700932673,0.0042312847853685,12,18.0,18.0
+RF,base,3,aena,turistas_origen_lag3,turistas,turistas,[3],[6],valor,False,15500.982067514547,-4969.875621925693,0.012093687831260094,12,11.0,11.0
+RF,base,3,aena,turistas_origen_lag4,turistas,turistas,[4],[7],valor,False,47638.71007389316,-32843.063776501076,0.029524099536526533,12,4.0,7.0
+RF,base,3,aena,turistas_origen_lag5,turistas,turistas,[5],[8],valor,False,11628.383166722238,-5995.824935229331,0.013570985706683256,12,12.0,10.0
+RF,base,3,aena,turistas_origen_lag8,turistas,turistas,[8],[11],valor,False,24372.18527074564,12399.203310133513,0.024871119698853656,12,8.0,8.0
+RF,base,3,google_trends,gt_majorca_alemania_origen_lag1,google_trends,gt_majorca_alemania,[1],[4],valor,False,31423.218353048655,-7516.6765785122325,0.03353815994718296,12,5.0,4.0
+RF,base,3,google_trends,gt_majorca_alemania_origen_lag13,google_trends,gt_majorca_alemania,[13],[16],valor,False,27639.659468732483,18598.338226917014,0.02026480928216376,12,6.0,7.0
+RF,base,3,google_trends,gt_majorca_alemania_origen_lag2,google_trends,gt_majorca_alemania,[2],[5],valor,False,14314.79984291509,2975.7222550879246,0.014898577153790346,12,9.0,8.0
+RF,base,3,google_trends,gt_majorca_reino_unido_origen_lag1,google_trends,gt_majorca_reino_unido,[1],[4],valor,False,13276.230723770454,5207.0716240376005,0.014018855193211721,12,10.0,9.0
+RF,base,3,google_trends,gt_majorca_reino_unido_origen_lag13,google_trends,gt_majorca_reino_unido,[13],[16],valor,False,5013.2490320027555,3735.094002287435,0.005471728431566664,12,19.0,21.0
+RF,base,3,google_trends,gt_majorca_reino_unido_origen_lag2,google_trends,gt_majorca_reino_unido,[2],[5],valor,False,3397.2215146367266,2695.9774961406974,0.006015211872006848,12,22.0,20.0
+RF,base,3,google_trends,gt_mallorca_alemania_origen_lag1,google_trends,gt_mallorca_alemania,[1],[4],valor,False,113291.55925047114,-44472.872154307,0.08949154330939309,12,2.0,2.0
+RF,base,3,google_trends,gt_mallorca_alemania_origen_lag13,google_trends,gt_mallorca_alemania,[13],[16],valor,False,3596.9034419885024,1622.700936746439,0.006091613463288522,12,21.0,19.0
+RF,base,3,google_trends,gt_mallorca_alemania_origen_lag2,google_trends,gt_mallorca_alemania,[2],[5],valor,False,7485.33666458503,188.82318269396728,0.008583261090810899,12,14.0,14.0
+RF,base,3,google_trends,gt_mallorca_reino_unido_origen_lag1,google_trends,gt_mallorca_reino_unido,[1],[4],valor,False,5301.116405615136,-1858.232413201287,0.010472698855928364,12,18.0,12.0
+RF,base,3,google_trends,gt_mallorca_reino_unido_origen_lag13,google_trends,gt_mallorca_reino_unido,[13],[16],valor,False,7135.967837506675,1011.4780680425623,0.007928175972794908,12,15.0,16.0
+RF,base,3,google_trends,gt_mallorca_reino_unido_origen_lag2,google_trends,gt_mallorca_reino_unido,[2],[5],valor,False,3066.6186920378163,-706.1884518799276,0.00934083516697894,12,24.0,13.0
+RF,base,3,google_trends,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,6771.142306362771,1387.058353517824,0.004331083939652766,12,16.0,24.0
+RF,base,3,google_trends,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,1293.4485006521875,-85.49820245974134,0.0015747445461687336,12,26.0,26.0
+RF,base,3,google_trends,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,8129.285838744309,1099.9200321968344,0.006318855140452822,12,13.0,18.0
+RF,base,3,google_trends,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,19072.509353982543,19072.509353982543,0.008195325967223296,12,8.0,15.0
+RF,base,3,google_trends,turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",media,False,3365.7955780705547,3365.7955780705547,0.0029760344458741473,12,23.0,25.0
+RF,base,3,google_trends,turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]","[5, 6, 7]",media,False,11298.275379257733,-4543.9549168595395,0.011352197997103497,12,12.0,11.0
+RF,base,3,google_trends,turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]","[5, 6, 7, 8, 9, 10]",media,False,5418.957236314821,5418.957236314821,0.005174819267076614,12,17.0,22.0
+RF,base,3,google_trends,turistas_mismo_mes_ano_anterior,turistas,turistas,[9],[12],valor,False,451259.81106617796,131356.0227549912,0.5852319882328283,12,1.0,1.0
+RF,base,3,google_trends,turistas_origen_lag14,turistas,turistas,[14],[17],valor,False,54010.51507182646,-45943.41006304195,0.06944825727076942,12,3.0,3.0
+RF,base,3,google_trends,turistas_origen_lag2,turistas,turistas,[2],[5],valor,False,3618.7837226643023,3618.7837226643023,0.006419416918662664,12,20.0,17.0
+RF,base,3,google_trends,turistas_origen_lag3,turistas,turistas,[3],[6],valor,False,2557.9551278952126,2505.6121922170887,0.0043924205456745075,12,25.0,23.0
+RF,base,3,google_trends,turistas_origen_lag4,turistas,turistas,[4],[7],valor,False,43703.17972421577,-18724.43495601608,0.032057984382130034,12,4.0,5.0
+RF,base,3,google_trends,turistas_origen_lag5,turistas,turistas,[5],[8],valor,False,13071.982771910327,-9681.160947259506,0.013669788896484477,12,11.0,10.0
+RF,base,3,google_trends,turistas_origen_lag8,turistas,turistas,[8],[11],valor,False,25811.525414171647,10460.670173161869,0.02274161271078177,12,7.0,6.0
+RF,base,3,hoteles,estancia_media_noches_origen_lag1,hoteles,estancia_media_noches,[1],[4],valor,False,5786.154936854516,-1118.5513401557002,0.0058949497503680654,12,17.0,19.0
+RF,base,3,hoteles,estancia_media_noches_origen_lag13,hoteles,estancia_media_noches,[13],[16],valor,False,2156.89860712403,-365.4757908397896,0.0038910343195456723,12,27.0,29.0
+RF,base,3,hoteles,estancia_media_noches_origen_lag13__ausente,hoteles,estancia_media_noches,[13],[16],valor,True,36.42462637631456,-36.42462637631456,0.00013883423674320247,12,48.0,45.0
+RF,base,3,hoteles,estancia_media_noches_origen_lag1__ausente,hoteles,estancia_media_noches,[1],[4],valor,True,1878.1610243196901,1878.1610243196901,0.004384470529387834,12,30.0,24.0
+RF,base,3,hoteles,estancia_media_noches_origen_lag2,hoteles,estancia_media_noches,[2],[5],valor,False,2154.018449900758,21.1041480281815,0.004000046128234063,12,28.0,27.0
+RF,base,3,hoteles,estancia_media_noches_origen_lag2__ausente,hoteles,estancia_media_noches,[2],[5],valor,True,1857.1058418870668,1857.1058418870668,0.004318570783535946,12,31.0,25.0
+RF,base,3,hoteles,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,5885.471522863939,-131.52449838767984,0.0036840343117638973,12,16.0,30.0
+RF,base,3,hoteles,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,2440.73844160008,573.0780323287314,0.0022787498680787036,12,25.0,34.0
+RF,base,3,hoteles,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,7033.604529578503,122.22940623378152,0.005486744166789925,12,14.0,20.0
+RF,base,3,hoteles,ocupacion_fin_semana_pct_origen_lag1,hoteles,ocupacion_fin_semana_pct,[1],[4],valor,False,2923.557164875268,-203.69384103620652,0.004676486598815289,12,22.0,22.0
+RF,base,3,hoteles,ocupacion_fin_semana_pct_origen_lag13,hoteles,ocupacion_fin_semana_pct,[13],[16],valor,False,2572.1565665391568,-1744.8583762917813,0.003458207874457406,12,23.0,31.0
+RF,base,3,hoteles,ocupacion_fin_semana_pct_origen_lag13__ausente,hoteles,ocupacion_fin_semana_pct,[13],[16],valor,True,462.37809029428166,-462.37809029428166,0.0008025844308670677,12,36.0,39.0
+RF,base,3,hoteles,ocupacion_fin_semana_pct_origen_lag1__ausente,hoteles,ocupacion_fin_semana_pct,[1],[4],valor,True,216.08286695178813,216.08286695178813,0.0004970993938117492,12,41.0,41.0
+RF,base,3,hoteles,ocupacion_fin_semana_pct_origen_lag2,hoteles,ocupacion_fin_semana_pct,[2],[5],valor,False,1012.2065504768428,823.3661015435429,0.0023832346484188183,12,34.0,33.0
+RF,base,3,hoteles,ocupacion_fin_semana_pct_origen_lag2__ausente,hoteles,ocupacion_fin_semana_pct,[2],[5],valor,True,51.79955703264671,36.17129191721838,0.00013468627002170814,12,44.0,46.0
+RF,base,3,hoteles,ocupacion_habitaciones_pct_origen_lag1,hoteles,ocupacion_habitaciones_pct,[1],[4],valor,False,51776.378810099464,48121.70828251588,0.05399410649014245,12,3.0,3.0
+RF,base,3,hoteles,ocupacion_habitaciones_pct_origen_lag13,hoteles,ocupacion_habitaciones_pct,[13],[16],valor,False,1428.8881117291266,-1287.5405321258484,0.002555702656108589,12,33.0,32.0
+RF,base,3,hoteles,ocupacion_habitaciones_pct_origen_lag13__ausente,hoteles,ocupacion_habitaciones_pct,[13],[16],valor,True,145.19262499039573,-145.19262499039573,0.0002915846878124007,12,42.0,42.0
+RF,base,3,hoteles,ocupacion_habitaciones_pct_origen_lag1__ausente,hoteles,ocupacion_habitaciones_pct,[1],[4],valor,True,375.82281674376804,375.82281674376804,0.0010010864376338796,12,39.0,37.0
+RF,base,3,hoteles,ocupacion_habitaciones_pct_origen_lag2,hoteles,ocupacion_habitaciones_pct,[2],[5],valor,False,12357.563868330872,12357.563868330872,0.015153942626288169,12,9.0,8.0
+RF,base,3,hoteles,ocupacion_habitaciones_pct_origen_lag2__ausente,hoteles,ocupacion_habitaciones_pct,[2],[5],valor,True,40.83893085295582,40.83893085295582,0.0001880818769221114,12,46.0,43.0
+RF,base,3,hoteles,ocupacion_plazas_pct_origen_lag1,hoteles,ocupacion_plazas_pct,[1],[4],valor,False,8434.793084642843,5517.335825714535,0.01108528873690829,12,13.0,9.0
+RF,base,3,hoteles,ocupacion_plazas_pct_origen_lag13,hoteles,ocupacion_plazas_pct,[13],[16],valor,False,3291.14200354976,-1559.776235251022,0.004521427379646881,12,21.0,23.0
+RF,base,3,hoteles,ocupacion_plazas_pct_origen_lag13__ausente,hoteles,ocupacion_plazas_pct,[13],[16],valor,True,291.27263563171164,-291.27263563171164,0.0005330979093589808,12,40.0,40.0
+RF,base,3,hoteles,ocupacion_plazas_pct_origen_lag1__ausente,hoteles,ocupacion_plazas_pct,[1],[4],valor,True,411.77244029939953,411.77244029939953,0.001002917607790912,12,37.0,36.0
+RF,base,3,hoteles,ocupacion_plazas_pct_origen_lag2,hoteles,ocupacion_plazas_pct,[2],[5],valor,False,9974.790034229996,3196.6244222618993,0.009070246116025055,12,11.0,11.0
+RF,base,3,hoteles,ocupacion_plazas_pct_origen_lag2__ausente,hoteles,ocupacion_plazas_pct,[2],[5],valor,True,38.264928035844186,-38.264928035844186,1.0347620767977677e-05,12,47.0,50.0
+RF,base,3,hoteles,pernoctaciones_hoteles_origen_lag1,hoteles,pernoctaciones_hoteles,[1],[4],valor,False,65537.58500499431,20149.53566752922,0.03846441076649925,12,2.0,4.0
+RF,base,3,hoteles,pernoctaciones_hoteles_origen_lag13,hoteles,pernoctaciones_hoteles,[13],[16],valor,False,3924.599030411316,-2793.719639263352,0.006396461086001753,12,20.0,18.0
+RF,base,3,hoteles,pernoctaciones_hoteles_origen_lag13__ausente,hoteles,pernoctaciones_hoteles,[13],[16],valor,True,83.96692359727945,-83.96692359727945,0.00015168146948344477,12,43.0,44.0
+RF,base,3,hoteles,pernoctaciones_hoteles_origen_lag1__ausente,hoteles,pernoctaciones_hoteles,[1],[4],valor,True,402.1529668688388,402.1529668688388,0.0009470434763932401,12,38.0,38.0
+RF,base,3,hoteles,pernoctaciones_hoteles_origen_lag2,hoteles,pernoctaciones_hoteles,[2],[5],valor,False,2533.509103378512,1116.7067153764021,0.003907012326015786,12,24.0,28.0
+RF,base,3,hoteles,pernoctaciones_hoteles_origen_lag2__ausente,hoteles,pernoctaciones_hoteles,[2],[5],valor,True,6.6102595319558874,1.3056079997500956,2.1964355903283714e-05,12,50.0,49.0
+RF,base,3,hoteles,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,10548.170026281416,10548.170026281416,0.009012659136099268,12,10.0,12.0
+RF,base,3,hoteles,turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",media,False,1960.4580072684876,-54.86587324963773,0.0066205858808855295,12,29.0,17.0
+RF,base,3,hoteles,turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]","[5, 6, 7]",media,False,12407.23757746204,-4911.414982181252,0.009587756033687316,12,8.0,10.0
+RF,base,3,hoteles,turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]","[5, 6, 7, 8, 9, 10]",media,False,1507.62239096563,1502.5106215374099,0.00535987682757956,12,32.0,21.0
+RF,base,3,hoteles,turistas_mismo_mes_ano_anterior,turistas,turistas,[9],[12],valor,False,495775.2455258731,167101.60982163143,0.5913346281091109,12,1.0,1.0
+RF,base,3,hoteles,turistas_origen_lag14,turistas,turistas,[14],[17],valor,False,51285.28606445191,-50122.42812413286,0.07316611538567087,12,4.0,2.0
+RF,base,3,hoteles,turistas_origen_lag2,turistas,turistas,[2],[5],valor,False,4446.4582371597835,4446.4582371597835,0.007658509111156884,12,18.0,14.0
+RF,base,3,hoteles,turistas_origen_lag3,turistas,turistas,[3],[6],valor,False,8565.540425575682,-2143.3080661111603,0.007670320191108117,12,12.0,13.0
+RF,base,3,hoteles,turistas_origen_lag4,turistas,turistas,[4],[7],valor,False,28767.77062032685,-17814.496051598075,0.02546769904828618,12,6.0,5.0
+RF,base,3,hoteles,turistas_origen_lag5,turistas,turistas,[5],[8],valor,False,6038.979347419562,-2586.4003062271904,0.006848828675926254,12,15.0,16.0
+RF,base,3,hoteles,turistas_origen_lag8,turistas,turistas,[8],[11],valor,False,28898.511605294407,11351.129025367869,0.024950558604445023,12,5.0,6.0
+RF,base,3,hoteles,viajeros_hoteles_origen_lag1,hoteles,viajeros_hoteles,[1],[4],valor,False,4410.870396458741,-170.44086564636117,0.007468943585203292,12,19.0,15.0
+RF,base,3,hoteles,viajeros_hoteles_origen_lag13,hoteles,viajeros_hoteles,[13],[16],valor,False,15815.450784515515,-11584.427360347712,0.02350006670905594,12,7.0,7.0
+RF,base,3,hoteles,viajeros_hoteles_origen_lag13__ausente,hoteles,viajeros_hoteles,[13],[16],valor,True,41.224895853514965,-41.224895853514965,5.162500829934149e-05,12,45.0,48.0
+RF,base,3,hoteles,viajeros_hoteles_origen_lag1__ausente,hoteles,viajeros_hoteles,[1],[4],valor,True,789.3721241452216,789.3721241452216,0.0017865086249165406,12,35.0,35.0
+RF,base,3,hoteles,viajeros_hoteles_origen_lag2,hoteles,viajeros_hoteles,[2],[5],valor,False,2231.439312171591,134.7583195947187,0.00407710530072406,12,26.0,26.0
+RF,base,3,hoteles,viajeros_hoteles_origen_lag2__ausente,hoteles,viajeros_hoteles,[2],[5],valor,True,23.726911922250153,23.726911922250153,0.00011207683130314162,12,49.0,47.0
+RF,base,3,meteorologia,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,3287.5084822284603,932.0089328741504,0.002458954113631214,12,17.0,19.0
+RF,base,3,meteorologia,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,1473.9506274891621,527.7802772968781,0.001973545075719954,12,20.0,20.0
+RF,base,3,meteorologia,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,4935.182703720199,1106.6489407437193,0.004020439335952597,12,15.0,18.0
+RF,base,3,meteorologia,meteo_precipitacion_mm_origen_lag14,meteorologia,meteo_precipitacion_mm,[14],[17],valor,False,2138.270224577521,-122.90850646856124,0.004349649058304462,12,19.0,17.0
+RF,base,3,meteorologia,meteo_precipitacion_mm_origen_lag2,meteorologia,meteo_precipitacion_mm,[2],[5],valor,False,35143.41427708469,-3346.3709317051075,0.047094913018387696,12,5.0,4.0
+RF,base,3,meteorologia,meteo_precipitacion_mm_origen_lag3,meteorologia,meteo_precipitacion_mm,[3],[6],valor,False,27591.276510473956,-6746.416184753969,0.0291841240814578,12,7.0,6.0
+RF,base,3,meteorologia,meteo_temperatura_media_c_origen_lag14,meteorologia,meteo_temperatura_media_c,[14],[17],valor,False,14960.513492749094,4433.823755689214,0.019876288470695128,12,11.0,10.0
+RF,base,3,meteorologia,meteo_temperatura_media_c_origen_lag2,meteorologia,meteo_temperatura_media_c,[2],[5],valor,False,83612.18527909454,-20098.184675739703,0.11740831616565772,12,3.0,3.0
+RF,base,3,meteorologia,meteo_temperatura_media_c_origen_lag3,meteorologia,meteo_temperatura_media_c,[3],[6],valor,False,237730.64200898373,-56467.527781016775,0.35663694361771076,12,1.0,1.0
+RF,base,3,meteorologia,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,32112.970082610267,32112.970082610267,0.026906065894700164,12,6.0,8.0
+RF,base,3,meteorologia,turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",media,False,13294.631809571432,13294.631809571432,0.005997254208840687,12,12.0,16.0
+RF,base,3,meteorologia,turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]","[5, 6, 7]",media,False,3907.347985814658,1752.8885824499166,0.009000109651336668,12,16.0,13.0
+RF,base,3,meteorologia,turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]","[5, 6, 7, 8, 9, 10]",media,False,12091.678950557745,12091.678950557745,0.01828122482336417,12,13.0,11.0
+RF,base,3,meteorologia,turistas_mismo_mes_ano_anterior,turistas,turistas,[9],[12],valor,False,188955.31404588334,64813.54576658144,0.23597960068547338,12,2.0,2.0
+RF,base,3,meteorologia,turistas_origen_lag14,turistas,turistas,[14],[17],valor,False,26784.662186635294,-21665.237742760874,0.03742047048044386,12,8.0,5.0
+RF,base,3,meteorologia,turistas_origen_lag2,turistas,turistas,[2],[5],valor,False,19891.626166645205,18654.029061080637,0.024767424996800045,12,9.0,9.0
+RF,base,3,meteorologia,turistas_origen_lag3,turistas,turistas,[3],[6],valor,False,2875.206253299508,1331.9503294174021,0.00851012878845696,12,18.0,15.0
+RF,base,3,meteorologia,turistas_origen_lag4,turistas,turistas,[4],[7],valor,False,9058.955507570454,-4548.647146646782,0.00867925458782276,12,14.0,14.0
+RF,base,3,meteorologia,turistas_origen_lag5,turistas,turistas,[5],[8],valor,False,16430.47976933228,4401.535057707116,0.012821367362415246,12,10.0,12.0
+RF,base,3,meteorologia,turistas_origen_lag8,turistas,turistas,[8],[11],valor,False,50513.49122705767,32502.057340229043,0.028633925582828738,12,4.0,7.0
+RF,base,3,turistas_calendario,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,8968.281956692097,1920.046447479844,0.007530754351374183,12,13.0,13.0
+RF,base,3,turistas_calendario,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,1499.9947163622794,-17.526095127431603,0.0026286060720029196,12,14.0,14.0
+RF,base,3,turistas_calendario,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,9109.992022361914,92.96615111249541,0.007547966951147257,12,12.0,12.0
+RF,base,3,turistas_calendario,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,41131.949791146595,41131.949791146595,0.04147965358808853,12,5.0,4.0
+RF,base,3,turistas_calendario,turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",media,False,12169.666586355854,12169.666586355854,0.009997287837613706,12,9.0,11.0
+RF,base,3,turistas_calendario,turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]","[5, 6, 7]",media,False,12320.086953309075,-721.7110295811776,0.01826494352064457,12,8.0,9.0
+RF,base,3,turistas_calendario,turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]","[5, 6, 7, 8, 9, 10]",media,False,10878.760933216128,790.4513098924608,0.021141137342974403,12,10.0,8.0
+RF,base,3,turistas_calendario,turistas_mismo_mes_ano_anterior,turistas,turistas,[9],[12],valor,False,484286.81237326167,170890.02884720857,0.625944100879584,12,1.0,1.0
+RF,base,3,turistas_calendario,turistas_origen_lag14,turistas,turistas,[14],[17],valor,False,68358.82163938289,-62533.292082817876,0.09361576469456985,12,2.0,2.0
+RF,base,3,turistas_calendario,turistas_origen_lag2,turistas,turistas,[2],[5],valor,False,44953.60901233041,41873.88605929537,0.06342321687783664,12,3.0,3.0
+RF,base,3,turistas_calendario,turistas_origen_lag3,turistas,turistas,[3],[6],valor,False,9565.89862858754,-770.695614847834,0.013296989158666497,12,11.0,10.0
+RF,base,3,turistas_calendario,turistas_origen_lag4,turistas,turistas,[4],[7],valor,False,44039.68876657379,-31002.579177033942,0.03591697969080439,12,4.0,5.0
+RF,base,3,turistas_calendario,turistas_origen_lag5,turistas,turistas,[5],[8],valor,False,27463.93700719131,-15029.570671988395,0.026296044814630447,12,6.0,7.0
+RF,base,3,turistas_calendario,turistas_origen_lag8,turistas,turistas,[8],[11],valor,False,25673.314111608062,11234.612434489953,0.03291655422006269,12,7.0,6.0
+RF,espera_adicional,1,aena,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,10343.363742874573,-16.09253548455384,0.007343229514369263,12,14.0,14.0
+RF,espera_adicional,1,aena,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,3672.1806489135975,315.70700515328946,0.0032412741290201667,12,18.0,19.0
+RF,espera_adicional,1,aena,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,16924.380036879516,4343.186198188791,0.01117945327539518,12,9.0,12.0
+RF,espera_adicional,1,aena,operaciones_aena_origen_lag14,aena,operaciones_aena,[14],[15],valor,False,18428.052220509973,-18428.052220509973,0.029267871320257502,12,8.0,5.0
+RF,espera_adicional,1,aena,operaciones_aena_origen_lag2,aena,operaciones_aena,[2],[3],valor,False,59011.98335370716,59011.98335370716,0.07961352517155097,12,3.0,2.0
+RF,espera_adicional,1,aena,operaciones_aena_origen_lag3,aena,operaciones_aena,[3],[4],valor,False,8263.881801555131,8263.881801555131,0.014939936737377283,12,15.0,8.0
+RF,espera_adicional,1,aena,pasajeros_aena_origen_lag14,aena,pasajeros_aena,[14],[15],valor,False,13068.20374231253,-13068.20374231253,0.022841812309305362,12,12.0,6.0
+RF,espera_adicional,1,aena,pasajeros_aena_origen_lag2,aena,pasajeros_aena,[2],[3],valor,False,78264.37206607049,44591.58626218029,0.07449995630139501,12,2.0,3.0
+RF,espera_adicional,1,aena,pasajeros_aena_origen_lag3,aena,pasajeros_aena,[3],[4],valor,False,2184.727933181822,2184.727933181822,0.005649069515636499,12,19.0,17.0
+RF,espera_adicional,1,aena,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,15159.07373306989,15159.07373306989,0.006764292801851572,12,10.0,16.0
+RF,espera_adicional,1,aena,turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]","[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",media,False,5329.140858350828,5329.140858350828,0.0017055763018979369,12,16.0,20.0
+RF,espera_adicional,1,aena,turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]","[4, 5, 6]",media,False,2038.8354973384066,841.6687002375393,0.007234428765001862,12,20.0,15.0
+RF,espera_adicional,1,aena,turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]","[4, 5, 6, 7, 8, 9]",media,False,23922.166355749167,-23291.538526429445,0.014091578119236716,12,6.0,10.0
+RF,espera_adicional,1,aena,turistas_mismo_mes_ano_anterior,turistas,turistas,[11],[12],valor,False,509014.30607427546,156537.51789338692,0.5962939268211855,12,1.0,1.0
+RF,espera_adicional,1,aena,turistas_origen_lag15,turistas,turistas,[15],[16],valor,False,55133.77417966127,-55133.77417966127,0.06563210806948694,12,4.0,4.0
+RF,espera_adicional,1,aena,turistas_origen_lag3,turistas,turistas,[3],[4],valor,False,14521.640630593052,14521.640630593052,0.017743182248496317,12,11.0,7.0
+RF,espera_adicional,1,aena,turistas_origen_lag4,turistas,turistas,[4],[5],valor,False,4038.355726628642,-1222.8656488289869,0.00552237843241869,12,17.0,18.0
+RF,espera_adicional,1,aena,turistas_origen_lag5,turistas,turistas,[5],[6],valor,False,26379.530193369817,-10399.71251939257,0.014118073829380282,12,5.0,9.0
+RF,espera_adicional,1,aena,turistas_origen_lag6,turistas,turistas,[6],[7],valor,False,12252.49980552285,-7859.027200439064,0.010997154229394582,12,13.0,13.0
+RF,espera_adicional,1,aena,turistas_origen_lag9,turistas,turistas,[9],[10],valor,False,22594.45952596773,18432.224206731356,0.01132117210734236,12,7.0,11.0
+RF,espera_adicional,1,google_trends,gt_majorca_alemania_origen_lag14,google_trends,gt_majorca_alemania,[14],[15],valor,False,5648.723761888909,3933.002193466731,0.004043692932303134,12,18.0,21.0
+RF,espera_adicional,1,google_trends,gt_majorca_alemania_origen_lag2,google_trends,gt_majorca_alemania,[2],[3],valor,False,15412.706914231378,-3120.298654196125,0.021140316808643922,12,10.0,7.0
+RF,espera_adicional,1,google_trends,gt_majorca_alemania_origen_lag3,google_trends,gt_majorca_alemania,[3],[4],valor,False,13132.276395192524,-1831.5816699452182,0.017388043438149207,12,11.0,9.0
+RF,espera_adicional,1,google_trends,gt_majorca_reino_unido_origen_lag14,google_trends,gt_majorca_reino_unido,[14],[15],valor,False,4827.902415791884,4288.884093591813,0.003454315633459999,12,21.0,23.0
+RF,espera_adicional,1,google_trends,gt_majorca_reino_unido_origen_lag2,google_trends,gt_majorca_reino_unido,[2],[3],valor,False,5431.158674294769,426.8122908321786,0.008093455179464618,12,19.0,16.0
+RF,espera_adicional,1,google_trends,gt_majorca_reino_unido_origen_lag3,google_trends,gt_majorca_reino_unido,[3],[4],valor,False,7151.299386285872,1777.9713081560574,0.006887893339576151,12,17.0,18.0
+RF,espera_adicional,1,google_trends,gt_mallorca_alemania_origen_lag14,google_trends,gt_mallorca_alemania,[14],[15],valor,False,3712.0621608334477,3712.0621608334477,0.0024584896959099225,12,22.0,26.0
+RF,espera_adicional,1,google_trends,gt_mallorca_alemania_origen_lag2,google_trends,gt_mallorca_alemania,[2],[3],valor,False,91113.1640412935,-53838.59232674815,0.07509981604067634,12,2.0,2.0
+RF,espera_adicional,1,google_trends,gt_mallorca_alemania_origen_lag3,google_trends,gt_mallorca_alemania,[3],[4],valor,False,59745.77918926629,-25897.920703429685,0.04219700756974477,12,4.0,4.0
+RF,espera_adicional,1,google_trends,gt_mallorca_reino_unido_origen_lag14,google_trends,gt_mallorca_reino_unido,[14],[15],valor,False,2834.0816807727674,2604.302504295282,0.0041573130924773645,12,23.0,20.0
+RF,espera_adicional,1,google_trends,gt_mallorca_reino_unido_origen_lag2,google_trends,gt_mallorca_reino_unido,[2],[3],valor,False,8899.734284662974,-1225.0252256712283,0.015321673078462744,12,16.0,10.0
+RF,espera_adicional,1,google_trends,gt_mallorca_reino_unido_origen_lag3,google_trends,gt_mallorca_reino_unido,[3],[4],valor,False,4828.579650007253,1924.8493193800525,0.008519280018573414,12,20.0,13.0
+RF,espera_adicional,1,google_trends,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,10316.00599466736,1328.4590360701661,0.008230368258459428,12,14.0,15.0
+RF,espera_adicional,1,google_trends,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,1342.3499744659125,74.07503861609474,0.0025979499739371466,12,26.0,25.0
+RF,espera_adicional,1,google_trends,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,12086.825777196145,3025.739911836774,0.008259628067552018,12,12.0,14.0
+RF,espera_adicional,1,google_trends,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,23579.87510948168,23579.87510948168,0.007017602705706298,12,8.0,17.0
+RF,espera_adicional,1,google_trends,turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]","[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",media,False,9965.815453302557,9965.815453302557,0.0026505608780349466,12,15.0,24.0
+RF,espera_adicional,1,google_trends,turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]","[4, 5, 6]",media,False,1862.6008293169305,914.9498668228357,0.0037079024211794606,12,24.0,22.0
+RF,espera_adicional,1,google_trends,turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]","[4, 5, 6, 7, 8, 9]",media,False,24974.50346537716,-21179.65605738571,0.023576007039917482,12,7.0,6.0
+RF,espera_adicional,1,google_trends,turistas_mismo_mes_ano_anterior,turistas,turistas,[11],[12],valor,False,446412.6856897676,144552.15145252642,0.5881433539478059,12,1.0,1.0
+RF,espera_adicional,1,google_trends,turistas_origen_lag15,turistas,turistas,[15],[16],valor,False,60661.63147193438,-56905.89342736109,0.07465549487562781,12,3.0,3.0
+RF,espera_adicional,1,google_trends,turistas_origen_lag3,turistas,turistas,[3],[4],valor,False,26807.349388523216,26807.349388523216,0.026261103040439295,12,5.0,5.0
+RF,espera_adicional,1,google_trends,turistas_origen_lag4,turistas,turistas,[4],[5],valor,False,1481.754730184958,985.3273475058025,0.005066176819899513,12,25.0,19.0
+RF,espera_adicional,1,google_trends,turistas_origen_lag5,turistas,turistas,[5],[6],valor,False,11262.075365245057,-3768.8652205729527,0.01013769308804499,12,13.0,11.0
+RF,espera_adicional,1,google_trends,turistas_origen_lag6,turistas,turistas,[6],[7],valor,False,25063.437553933876,-11699.235791956773,0.020936618444634944,12,6.0,8.0
+RF,espera_adicional,1,google_trends,turistas_origen_lag9,turistas,turistas,[9],[10],valor,False,19058.735875119954,13863.284327525167,0.009998243611319286,12,9.0,12.0
+RF,espera_adicional,1,hoteles,estancia_media_noches_origen_lag14,hoteles,estancia_media_noches,[14],[15],valor,False,1826.8775912008814,1126.1043308699823,0.0017880969621179566,12,26.0,30.0
+RF,espera_adicional,1,hoteles,estancia_media_noches_origen_lag14__ausente,hoteles,estancia_media_noches,[14],[15],valor,True,83.67941689082289,83.67941689082289,0.00015654181598347803,12,39.0,39.0
+RF,espera_adicional,1,hoteles,estancia_media_noches_origen_lag2,hoteles,estancia_media_noches,[2],[3],valor,False,2240.7080300462217,-1008.7465674748049,0.0021264687231521565,12,24.0,29.0
+RF,espera_adicional,1,hoteles,estancia_media_noches_origen_lag2__ausente,hoteles,estancia_media_noches,[2],[3],valor,True,357.2840572438393,-130.35298278403243,0.0012701678678774383,12,34.0,32.0
+RF,espera_adicional,1,hoteles,estancia_media_noches_origen_lag3,hoteles,estancia_media_noches,[3],[4],valor,False,1350.1965624633333,-585.5005497084356,0.0021770910690871795,12,31.0,28.0
+RF,espera_adicional,1,hoteles,estancia_media_noches_origen_lag3__ausente,hoteles,estancia_media_noches,[3],[4],valor,True,246.25750581913425,241.53824779059997,0.0007413802994466146,12,35.0,35.0
+RF,espera_adicional,1,hoteles,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,7863.754650797829,-713.5637206070497,0.005650076890713111,12,15.0,17.0
+RF,espera_adicional,1,hoteles,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,2548.969084736569,128.42814666322366,0.002240098893534205,12,23.0,27.0
+RF,espera_adicional,1,hoteles,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,14387.796287429219,4025.5338544190836,0.010150127266288791,12,9.0,12.0
+RF,espera_adicional,1,hoteles,ocupacion_fin_semana_pct_origen_lag14,hoteles,ocupacion_fin_semana_pct,[14],[15],valor,False,3357.632370971316,-1872.1400814856486,0.0053509844722091846,12,21.0,18.0
+RF,espera_adicional,1,hoteles,ocupacion_fin_semana_pct_origen_lag14__ausente,hoteles,ocupacion_fin_semana_pct,[14],[15],valor,True,52.8976111679774,52.8976111679774,0.00013576889559933304,12,40.0,40.0
+RF,espera_adicional,1,hoteles,ocupacion_fin_semana_pct_origen_lag2,hoteles,ocupacion_fin_semana_pct,[2],[3],valor,False,4558.720946841869,3487.7838470369793,0.011749596106105124,12,19.0,11.0
+RF,espera_adicional,1,hoteles,ocupacion_fin_semana_pct_origen_lag2__ausente,hoteles,ocupacion_fin_semana_pct,[2],[3],valor,True,128.0165084536455,104.86226596789169,0.0004472608929375844,12,37.0,36.0
+RF,espera_adicional,1,hoteles,ocupacion_fin_semana_pct_origen_lag3,hoteles,ocupacion_fin_semana_pct,[3],[4],valor,False,2142.669865179311,557.7148809956315,0.004239651511583347,12,25.0,21.0
+RF,espera_adicional,1,hoteles,ocupacion_fin_semana_pct_origen_lag3__ausente,hoteles,ocupacion_fin_semana_pct,[3],[4],valor,True,10.301877353670951,6.590610789975886,3.2448111833035066e-05,12,48.0,46.0
+RF,espera_adicional,1,hoteles,ocupacion_habitaciones_pct_origen_lag14,hoteles,ocupacion_habitaciones_pct,[14],[15],valor,False,925.3423505145591,-414.64821305849136,0.0016728872704667268,12,32.0,31.0
+RF,espera_adicional,1,hoteles,ocupacion_habitaciones_pct_origen_lag14__ausente,hoteles,ocupacion_habitaciones_pct,[14],[15],valor,True,37.45794628481961,37.45794628481961,8.538900061646656e-05,12,42.0,42.0
+RF,espera_adicional,1,hoteles,ocupacion_habitaciones_pct_origen_lag2,hoteles,ocupacion_habitaciones_pct,[2],[3],valor,False,57301.45215778538,39208.469449819146,0.08076545258967406,12,2.0,2.0
+RF,espera_adicional,1,hoteles,ocupacion_habitaciones_pct_origen_lag2__ausente,hoteles,ocupacion_habitaciones_pct,[2],[3],valor,True,213.8775073980589,213.8775073980589,0.000437322095116472,12,36.0,37.0
+RF,espera_adicional,1,hoteles,ocupacion_habitaciones_pct_origen_lag3,hoteles,ocupacion_habitaciones_pct,[3],[4],valor,False,26655.274622742767,20425.207139784598,0.023189537743212436,12,5.0,5.0
+RF,espera_adicional,1,hoteles,ocupacion_habitaciones_pct_origen_lag3__ausente,hoteles,ocupacion_habitaciones_pct,[3],[4],valor,True,8.294912013164945,-8.294912013164945,4.629944414416583e-07,12,49.0,50.0
+RF,espera_adicional,1,hoteles,ocupacion_plazas_pct_origen_lag14,hoteles,ocupacion_plazas_pct,[14],[15],valor,False,1420.3234498873328,-437.02046021746406,0.0025168023297810825,12,30.0,26.0
+RF,espera_adicional,1,hoteles,ocupacion_plazas_pct_origen_lag14__ausente,hoteles,ocupacion_plazas_pct,[14],[15],valor,True,22.547461137671547,22.547461137671547,8.596577736144818e-05,12,45.0,41.0
+RF,espera_adicional,1,hoteles,ocupacion_plazas_pct_origen_lag2,hoteles,ocupacion_plazas_pct,[2],[3],valor,False,8785.771013851288,3647.9277188469882,0.015063532971296556,12,14.0,8.0
+RF,espera_adicional,1,hoteles,ocupacion_plazas_pct_origen_lag2__ausente,hoteles,ocupacion_plazas_pct,[2],[3],valor,True,14.884106662767328,10.256046333607634,4.987929567280607e-05,12,47.0,43.0
+RF,espera_adicional,1,hoteles,ocupacion_plazas_pct_origen_lag3,hoteles,ocupacion_plazas_pct,[3],[4],valor,False,6038.39680757262,3863.9776551948703,0.00625041537555653,12,18.0,16.0
+RF,espera_adicional,1,hoteles,ocupacion_plazas_pct_origen_lag3__ausente,hoteles,ocupacion_plazas_pct,[3],[4],valor,True,24.27655442699155,-24.27655442699155,4.330193708180658e-06,12,44.0,49.0
+RF,espera_adicional,1,hoteles,pernoctaciones_hoteles_origen_lag14,hoteles,pernoctaciones_hoteles,[14],[15],valor,False,1523.2136347150474,-349.045777172157,0.003395281128515819,12,29.0,23.0
+RF,espera_adicional,1,hoteles,pernoctaciones_hoteles_origen_lag14__ausente,hoteles,pernoctaciones_hoteles,[14],[15],valor,True,18.896763411210447,15.238659466519387,3.283746141714048e-05,12,46.0,45.0
+RF,espera_adicional,1,hoteles,pernoctaciones_hoteles_origen_lag2,hoteles,pernoctaciones_hoteles,[2],[3],valor,False,46662.0710919532,5159.70175951695,0.03931787344436778,12,4.0,4.0
+RF,espera_adicional,1,hoteles,pernoctaciones_hoteles_origen_lag2__ausente,hoteles,pernoctaciones_hoteles,[2],[3],valor,True,123.27575006494187,98.93679326704864,0.00040738520742844493,12,38.0,38.0
+RF,espera_adicional,1,hoteles,pernoctaciones_hoteles_origen_lag3,hoteles,pernoctaciones_hoteles,[3],[4],valor,False,9838.928999852891,2868.7244843089243,0.006737419360865533,12,13.0,15.0
+RF,espera_adicional,1,hoteles,pernoctaciones_hoteles_origen_lag3__ausente,hoteles,pernoctaciones_hoteles,[3],[4],valor,True,31.469613618848726,-28.715059542378174,3.407395173247964e-05,12,43.0,44.0
+RF,espera_adicional,1,hoteles,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,10410.958905643021,10410.958905643021,0.00338527419858047,12,12.0,24.0
+RF,espera_adicional,1,hoteles,turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]","[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",media,False,3990.7050365513987,3990.7050365513987,0.0010907999876272995,12,20.0,33.0
+RF,espera_adicional,1,hoteles,turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]","[4, 5, 6]",media,False,1621.3264454673224,1296.6193720365004,0.005041844023583042,12,27.0,20.0
+RF,espera_adicional,1,hoteles,turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]","[4, 5, 6, 7, 8, 9]",media,False,26590.0648426984,-24635.847592485563,0.017133032477150877,12,6.0,7.0
+RF,espera_adicional,1,hoteles,turistas_mismo_mes_ano_anterior,turistas,turistas,[11],[12],valor,False,506643.83431479573,157933.99998455824,0.5948521951747417,12,1.0,1.0
+RF,espera_adicional,1,hoteles,turistas_origen_lag15,turistas,turistas,[15],[16],valor,False,57213.15399105862,-57213.15399105862,0.07117656034198425,12,3.0,3.0
+RF,espera_adicional,1,hoteles,turistas_origen_lag3,turistas,turistas,[3],[4],valor,False,14067.576888887983,14067.576888887983,0.020701324316509107,12,10.0,6.0
+RF,espera_adicional,1,hoteles,turistas_origen_lag4,turistas,turistas,[4],[5],valor,False,2605.2664452671165,2181.5604314743555,0.004016910808294224,12,22.0,22.0
+RF,espera_adicional,1,hoteles,turistas_origen_lag5,turistas,turistas,[5],[6],valor,False,12425.589298330167,-5687.612908841659,0.00868567911090375,12,11.0,14.0
+RF,espera_adicional,1,hoteles,turistas_origen_lag6,turistas,turistas,[6],[7],valor,False,15757.14962204635,-8720.603456195588,0.012200037853527183,12,8.0,10.0
+RF,espera_adicional,1,hoteles,turistas_origen_lag9,turistas,turistas,[9],[10],valor,False,19891.411158603998,15836.349757119055,0.009545859046645426,12,7.0,13.0
+RF,espera_adicional,1,hoteles,viajeros_hoteles_origen_lag14,hoteles,viajeros_hoteles,[14],[15],valor,False,7079.566058916894,-6014.420730444453,0.014588287444043576,12,16.0,9.0
+RF,espera_adicional,1,hoteles,viajeros_hoteles_origen_lag14__ausente,hoteles,viajeros_hoteles,[14],[15],valor,True,1.2959788029839368,-1.0002522076001474,1.3388153385920999e-05,12,50.0,47.0
+RF,espera_adicional,1,hoteles,viajeros_hoteles_origen_lag2,hoteles,viajeros_hoteles,[2],[3],valor,False,6050.984734275932,518.9983579618357,0.005053998337038544,12,17.0,19.0
+RF,espera_adicional,1,hoteles,viajeros_hoteles_origen_lag2__ausente,hoteles,viajeros_hoteles,[2],[3],valor,True,471.31110349360057,471.31110349360057,0.0008466025304632281,12,33.0,34.0
+RF,espera_adicional,1,hoteles,viajeros_hoteles_origen_lag3,hoteles,viajeros_hoteles,[3],[4],valor,False,1605.9850964048694,564.2367371636889,0.0033606744669456355,12,28.0,25.0
+RF,espera_adicional,1,hoteles,viajeros_hoteles_origen_lag3__ausente,hoteles,viajeros_hoteles,[3],[4],valor,True,38.922151395926235,-38.922151395926235,4.923758875850761e-06,12,41.0,48.0
+RF,espera_adicional,1,meteorologia,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,4271.824035121467,-651.6523237758942,0.004514277924419346,12,16.0,17.0
+RF,espera_adicional,1,meteorologia,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,2086.073367983267,-291.2092145351954,0.002275332492171207,12,20.0,20.0
+RF,espera_adicional,1,meteorologia,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,19113.580609662225,4890.6172018255065,0.011208949673284604,12,8.0,10.0
+RF,espera_adicional,1,meteorologia,meteo_precipitacion_mm_origen_lag15,meteorologia,meteo_precipitacion_mm,[15],[16],valor,False,2975.4009705411195,-2027.7178688233505,0.004407717505294939,12,18.0,18.0
+RF,espera_adicional,1,meteorologia,meteo_precipitacion_mm_origen_lag3,meteorologia,meteo_precipitacion_mm,[3],[4],valor,False,6261.561304254555,2493.062286502062,0.015906214678725425,12,13.0,7.0
+RF,espera_adicional,1,meteorologia,meteo_precipitacion_mm_origen_lag4,meteorologia,meteo_precipitacion_mm,[4],[5],valor,False,33769.005182593835,-10610.521652683035,0.03456586326280763,12,5.0,5.0
+RF,espera_adicional,1,meteorologia,meteo_temperatura_media_c_origen_lag15,meteorologia,meteo_temperatura_media_c,[15],[16],valor,False,4595.038360184005,1294.733183705444,0.007330192610932428,12,15.0,14.0
+RF,espera_adicional,1,meteorologia,meteo_temperatura_media_c_origen_lag3,meteorologia,meteo_temperatura_media_c,[3],[4],valor,False,3942.3481446479145,-1128.5955050294963,0.006352802596642764,12,17.0,15.0
+RF,espera_adicional,1,meteorologia,meteo_temperatura_media_c_origen_lag4,meteorologia,meteo_temperatura_media_c,[4],[5],valor,False,157164.7847580147,-40446.904829706495,0.20810757927444537,12,2.0,2.0
+RF,espera_adicional,1,meteorologia,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,20123.444406214363,20123.444406214363,0.013085406748426134,12,7.0,9.0
+RF,espera_adicional,1,meteorologia,turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]","[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",media,False,7878.771654280153,7878.771654280153,0.003591791824174486,12,12.0,19.0
+RF,espera_adicional,1,meteorologia,turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]","[4, 5, 6]",media,False,5444.711842401968,5444.711842401968,0.008562728110411694,12,14.0,13.0
+RF,espera_adicional,1,meteorologia,turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]","[4, 5, 6, 7, 8, 9]",media,False,18769.73731280603,-16783.925227183146,0.016489718190891067,12,9.0,6.0
+RF,espera_adicional,1,meteorologia,turistas_mismo_mes_ano_anterior,turistas,turistas,[11],[12],valor,False,355766.24950073863,118950.3547746777,0.42786572577935494,12,1.0,1.0
+RF,espera_adicional,1,meteorologia,turistas_origen_lag15,turistas,turistas,[15],[16],valor,False,59857.53707357107,-55974.48122551464,0.08725273292074871,12,4.0,4.0
+RF,espera_adicional,1,meteorologia,turistas_origen_lag3,turistas,turistas,[3],[4],valor,False,113845.60909413308,106792.40394129006,0.10853176859705276,12,3.0,3.0
+RF,espera_adicional,1,meteorologia,turistas_origen_lag4,turistas,turistas,[4],[5],valor,False,2884.426332829458,2664.8167875514287,0.005767860441149554,12,19.0,16.0
+RF,espera_adicional,1,meteorologia,turistas_origen_lag5,turistas,turistas,[5],[6],valor,False,17462.43663496611,-6747.566207738222,0.010563170475437705,12,10.0,11.0
+RF,espera_adicional,1,meteorologia,turistas_origen_lag6,turistas,turistas,[6],[7],valor,False,15756.549444484588,-8296.292253488326,0.013436836382396103,12,11.0,8.0
+RF,espera_adicional,1,meteorologia,turistas_origen_lag9,turistas,turistas,[9],[10],valor,False,23167.046531336626,16863.901677750062,0.010183330511233232,12,6.0,12.0
+RF,espera_adicional,1,turistas_calendario,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,12053.478461731618,-9.34958593560259,0.011845429218183929,12,11.0,9.0
+RF,espera_adicional,1,turistas_calendario,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,1961.3745442797933,-162.82274645776786,0.0028391087979111555,12,14.0,14.0
+RF,espera_adicional,1,turistas_calendario,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,13917.405397365888,3219.530279164743,0.010826506921635079,12,9.0,10.0
+RF,espera_adicional,1,turistas_calendario,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,21642.32928028584,21642.32928028584,0.009537360701532596,12,8.0,12.0
+RF,espera_adicional,1,turistas_calendario,turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]","[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",media,False,13435.644841594069,13435.644841594069,0.004978093024261999,12,10.0,13.0
+RF,espera_adicional,1,turistas_calendario,turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]","[4, 5, 6]",media,False,11659.946497675592,11598.256150145795,0.01879500393159857,12,12.0,7.0
+RF,espera_adicional,1,turistas_calendario,turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]","[4, 5, 6, 7, 8, 9]",media,False,25494.45209018519,-23760.647012448655,0.02275199751268868,12,5.0,5.0
+RF,espera_adicional,1,turistas_calendario,turistas_mismo_mes_ano_anterior,turistas,turistas,[11],[12],valor,False,505360.1325933069,157605.68400203515,0.602731202251506,12,1.0,1.0
+RF,espera_adicional,1,turistas_calendario,turistas_origen_lag15,turistas,turistas,[15],[16],valor,False,78873.0319153046,-73400.85042649465,0.12763716995990576,12,3.0,2.0
+RF,espera_adicional,1,turistas_calendario,turistas_origen_lag3,turistas,turistas,[3],[4],valor,False,131877.1397182775,120339.6147711245,0.12100488489183203,12,2.0,3.0
+RF,espera_adicional,1,turistas_calendario,turistas_origen_lag4,turistas,turistas,[4],[5],valor,False,3873.4896733220503,968.7173149071838,0.01043854904224206,12,13.0,11.0
+RF,espera_adicional,1,turistas_calendario,turistas_origen_lag5,turistas,turistas,[5],[6],valor,False,22083.06462853562,-5888.800331313424,0.018902508881162353,12,7.0,6.0
+RF,espera_adicional,1,turistas_calendario,turistas_origen_lag6,turistas,turistas,[6],[7],valor,False,27822.85590899433,-17971.24957480637,0.023539794620832777,12,4.0,4.0
+RF,espera_adicional,1,turistas_calendario,turistas_origen_lag9,turistas,turistas,[9],[10],valor,False,25343.707992175536,19041.6767081428,0.014172390244707107,12,6.0,8.0
+RF,espera_adicional,3,aena,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,10922.027027949041,2931.459955976714,0.00896822953122845,12,11.0,18.0
+RF,espera_adicional,3,aena,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,1848.839064585369,376.0352262277677,0.0018593092412768145,12,20.0,20.0
+RF,espera_adicional,3,aena,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,29331.15302536297,6900.843207993929,0.01767317604426149,12,5.0,8.0
+RF,espera_adicional,3,aena,operaciones_aena_origen_lag14,aena,operaciones_aena,[14],[17],valor,False,16159.98971671796,-16159.98971671796,0.026484106181645112,12,7.0,5.0
+RF,espera_adicional,3,aena,operaciones_aena_origen_lag2,aena,operaciones_aena,[2],[5],valor,False,58843.462118883916,47220.33012066237,0.04651632302779859,12,4.0,4.0
+RF,espera_adicional,3,aena,operaciones_aena_origen_lag3,aena,operaciones_aena,[3],[6],valor,False,7875.727525580457,5149.701894715538,0.012632207337276867,12,16.0,12.0
+RF,espera_adicional,3,aena,pasajeros_aena_origen_lag14,aena,pasajeros_aena,[14],[17],valor,False,13743.478613128891,-13743.478613128891,0.022354060613127277,12,10.0,6.0
+RF,espera_adicional,3,aena,pasajeros_aena_origen_lag2,aena,pasajeros_aena,[2],[5],valor,False,15403.525063205672,13751.580893510107,0.018182373504873325,12,8.0,7.0
+RF,espera_adicional,3,aena,pasajeros_aena_origen_lag3,aena,pasajeros_aena,[3],[6],valor,False,5138.157748109878,4517.582835930262,0.010026607292574643,12,19.0,17.0
+RF,espera_adicional,3,aena,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,21549.352393540754,21549.352393540754,0.012336638580806226,12,6.0,13.0
+RF,espera_adicional,3,aena,turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]","[6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]",media,False,5480.759943884869,5480.759943884869,0.013011898616785882,12,18.0,10.0
+RF,espera_adicional,3,aena,turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]","[6, 7, 8]",media,False,10144.683063937697,-4210.7315058699905,0.012035798431540184,12,13.0,14.0
+RF,espera_adicional,3,aena,turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]","[6, 7, 8, 9, 10, 11]",media,False,7547.017942278156,7494.765576055011,0.006162812385904256,12,17.0,19.0
+RF,espera_adicional,3,aena,turistas_mismo_mes_ano_anterior,turistas,turistas,[9],[12],valor,False,226052.86812521415,84229.31690549054,0.2876798947990511,12,1.0,1.0
+RF,espera_adicional,3,aena,turistas_origen_lag15,turistas,turistas,[15],[18],valor,False,166981.84511462628,-106445.62453297742,0.19826838372645253,12,3.0,3.0
+RF,espera_adicional,3,aena,turistas_origen_lag3,turistas,turistas,[3],[6],valor,False,10053.597859740015,4133.951859180153,0.014233146407978405,12,14.0,9.0
+RF,espera_adicional,3,aena,turistas_origen_lag4,turistas,turistas,[4],[7],valor,False,14232.743952068491,-8936.90334822859,0.010557077703693109,12,9.0,16.0
+RF,espera_adicional,3,aena,turistas_origen_lag5,turistas,turistas,[5],[8],valor,False,10416.924275295887,-2547.6822113477924,0.010811943090680218,12,12.0,15.0
+RF,espera_adicional,3,aena,turistas_origen_lag6,turistas,turistas,[6],[9],valor,False,8433.070507364971,4977.574332861469,0.012759679771786733,12,15.0,11.0
+RF,espera_adicional,3,aena,turistas_origen_lag9,turistas,turistas,[9],[12],valor,False,202744.20673416415,78319.12383618722,0.25744633371125886,12,2.0,2.0
+RF,espera_adicional,3,google_trends,gt_majorca_alemania_origen_lag14,google_trends,gt_majorca_alemania,[14],[17],valor,False,17096.3398855334,-2842.484042061809,0.02069065725158604,12,9.0,6.0
+RF,espera_adicional,3,google_trends,gt_majorca_alemania_origen_lag2,google_trends,gt_majorca_alemania,[2],[5],valor,False,18300.95651997834,-207.15160248269922,0.0206769792643746,12,8.0,7.0
+RF,espera_adicional,3,google_trends,gt_majorca_alemania_origen_lag3,google_trends,gt_majorca_alemania,[3],[6],valor,False,5948.4871840704145,676.3487152942279,0.005129774901643736,12,18.0,23.0
+RF,espera_adicional,3,google_trends,gt_majorca_reino_unido_origen_lag14,google_trends,gt_majorca_reino_unido,[14],[17],valor,False,3858.999713459907,925.5053344694652,0.004471708163738223,12,21.0,24.0
+RF,espera_adicional,3,google_trends,gt_majorca_reino_unido_origen_lag2,google_trends,gt_majorca_reino_unido,[2],[5],valor,False,3868.5367573278213,2053.9978786348775,0.00840980648729329,12,20.0,17.0
+RF,espera_adicional,3,google_trends,gt_majorca_reino_unido_origen_lag3,google_trends,gt_majorca_reino_unido,[3],[6],valor,False,1400.4672002533018,772.8918237411273,0.004120554680569436,12,26.0,25.0
+RF,espera_adicional,3,google_trends,gt_mallorca_alemania_origen_lag14,google_trends,gt_mallorca_alemania,[14],[17],valor,False,3159.806365196269,-2856.441048423271,0.009731149875624635,12,23.0,14.0
+RF,espera_adicional,3,google_trends,gt_mallorca_alemania_origen_lag2,google_trends,gt_mallorca_alemania,[2],[5],valor,False,32214.730912169278,-8299.078607580917,0.02602843037980247,12,4.0,5.0
+RF,espera_adicional,3,google_trends,gt_mallorca_alemania_origen_lag3,google_trends,gt_mallorca_alemania,[3],[6],valor,False,8848.89280588609,-5245.087801264846,0.008718461199674909,12,14.0,16.0
+RF,espera_adicional,3,google_trends,gt_mallorca_reino_unido_origen_lag14,google_trends,gt_mallorca_reino_unido,[14],[17],valor,False,5807.632655368234,-2511.294033338055,0.009301157715481392,12,19.0,15.0
+RF,espera_adicional,3,google_trends,gt_mallorca_reino_unido_origen_lag2,google_trends,gt_mallorca_reino_unido,[2],[5],valor,False,3681.0570548481287,-763.0726819800415,0.007396831560776844,12,22.0,19.0
+RF,espera_adicional,3,google_trends,gt_mallorca_reino_unido_origen_lag3,google_trends,gt_mallorca_reino_unido,[3],[6],valor,False,1625.3569200181707,-477.8284045030194,0.007130795934762649,12,25.0,21.0
+RF,espera_adicional,3,google_trends,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,6696.900142690723,712.9836214312774,0.006484944831276945,12,17.0,22.0
+RF,espera_adicional,3,google_trends,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,1829.9750370216282,-330.1541530676837,0.002558843043585073,12,24.0,26.0
+RF,espera_adicional,3,google_trends,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,28993.173440575334,6119.884881095619,0.017526051899668976,12,6.0,8.0
+RF,espera_adicional,3,google_trends,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,19094.27388603706,19094.27388603706,0.011968792054206125,12,7.0,11.0
+RF,espera_adicional,3,google_trends,turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]","[6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]",media,False,7144.218715364401,6964.4784548225725,0.01486664665956112,12,16.0,9.0
+RF,espera_adicional,3,google_trends,turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]","[6, 7, 8]",media,False,9379.052389860968,-3879.7636838485037,0.01029001433726055,12,13.0,13.0
+RF,espera_adicional,3,google_trends,turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]","[6, 7, 8, 9, 10, 11]",media,False,8236.570271677947,8236.570271677947,0.007134761990289274,12,15.0,20.0
+RF,espera_adicional,3,google_trends,turistas_mismo_mes_ano_anterior,turistas,turistas,[9],[12],valor,False,194936.09116457799,64540.61244371952,0.25837710002907105,12,2.0,2.0
+RF,espera_adicional,3,google_trends,turistas_origen_lag15,turistas,turistas,[15],[18],valor,False,177602.14559511564,-109727.6292346035,0.1952543124676119,12,3.0,3.0
+RF,espera_adicional,3,google_trends,turistas_origen_lag3,turistas,turistas,[3],[6],valor,False,31002.720698121408,9608.22412161191,0.036391993722435546,12,5.0,4.0
+RF,espera_adicional,3,google_trends,turistas_origen_lag4,turistas,turistas,[4],[7],valor,False,16540.521571345427,-12851.001039976827,0.01116304707258845,12,10.0,12.0
+RF,espera_adicional,3,google_trends,turistas_origen_lag5,turistas,turistas,[5],[8],valor,False,9974.285513877856,192.57663782269205,0.007710362293748376,12,12.0,18.0
+RF,espera_adicional,3,google_trends,turistas_origen_lag6,turistas,turistas,[6],[9],valor,False,10708.617732736004,4707.028415012882,0.012427536713551561,12,11.0,10.0
+RF,espera_adicional,3,google_trends,turistas_origen_lag9,turistas,turistas,[9],[12],valor,False,202723.18468977456,63904.515361470316,0.2760392854698168,12,1.0,1.0
+RF,espera_adicional,3,hoteles,estancia_media_noches_origen_lag14,hoteles,estancia_media_noches,[14],[17],valor,False,7243.359844584749,-60.653425254833145,0.009992269755235978,12,13.0,14.0
+RF,espera_adicional,3,hoteles,estancia_media_noches_origen_lag14__ausente,hoteles,estancia_media_noches,[14],[17],valor,True,80.19472033286381,-80.19472033286381,0.00015271655535709091,12,41.0,39.0
+RF,espera_adicional,3,hoteles,estancia_media_noches_origen_lag2,hoteles,estancia_media_noches,[2],[5],valor,False,3460.306611731639,-1207.571525823606,0.006776029123336973,12,26.0,20.0
+RF,espera_adicional,3,hoteles,estancia_media_noches_origen_lag2__ausente,hoteles,estancia_media_noches,[2],[5],valor,True,2389.3142776306136,2389.3142776306136,0.005559203585411215,12,28.0,23.0
+RF,espera_adicional,3,hoteles,estancia_media_noches_origen_lag3,hoteles,estancia_media_noches,[3],[6],valor,False,5568.709640789115,-1987.607864473585,0.006033565516240129,12,21.0,21.0
+RF,espera_adicional,3,hoteles,estancia_media_noches_origen_lag3__ausente,hoteles,estancia_media_noches,[3],[6],valor,True,106.29446623831235,105.50337464051621,0.00014000975234039454,12,40.0,40.0
+RF,espera_adicional,3,hoteles,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,5687.399310140078,714.7643332355277,0.0031169109718084645,12,20.0,30.0
+RF,espera_adicional,3,hoteles,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,1469.3313454492193,-439.07084348438644,0.0015337367130122718,12,33.0,34.0
+RF,espera_adicional,3,hoteles,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,26412.724382936576,4347.136383259253,0.017430815158667512,12,4.0,6.0
+RF,espera_adicional,3,hoteles,ocupacion_fin_semana_pct_origen_lag14,hoteles,ocupacion_fin_semana_pct,[14],[17],valor,False,4398.149362773339,1392.1092628425395,0.005110079523873019,12,23.0,26.0
+RF,espera_adicional,3,hoteles,ocupacion_fin_semana_pct_origen_lag14__ausente,hoteles,ocupacion_fin_semana_pct,[14],[17],valor,True,819.3913445522809,-819.3913445522809,0.001700251109966486,12,34.0,33.0
+RF,espera_adicional,3,hoteles,ocupacion_fin_semana_pct_origen_lag2,hoteles,ocupacion_fin_semana_pct,[2],[5],valor,False,6362.838860956872,2202.9357349272764,0.007067544671401167,12,16.0,18.0
+RF,espera_adicional,3,hoteles,ocupacion_fin_semana_pct_origen_lag2__ausente,hoteles,ocupacion_fin_semana_pct,[2],[5],valor,True,181.15727865634867,181.15727865634867,0.0002754046546351481,12,37.0,38.0
+RF,espera_adicional,3,hoteles,ocupacion_fin_semana_pct_origen_lag3,hoteles,ocupacion_fin_semana_pct,[3],[6],valor,False,1854.985893732188,118.19437871126532,0.003108718166109501,12,29.0,31.0
+RF,espera_adicional,3,hoteles,ocupacion_fin_semana_pct_origen_lag3__ausente,hoteles,ocupacion_fin_semana_pct,[3],[6],valor,True,10.88701679042621,-5.552862000711698,5.328332303526949e-05,12,47.0,44.0
+RF,espera_adicional,3,hoteles,ocupacion_habitaciones_pct_origen_lag14,hoteles,ocupacion_habitaciones_pct,[14],[17],valor,False,1755.4176352343932,-329.27816674776136,0.003052015409745449,12,32.0,32.0
+RF,espera_adicional,3,hoteles,ocupacion_habitaciones_pct_origen_lag14__ausente,hoteles,ocupacion_habitaciones_pct,[14],[17],valor,True,578.6403854729219,-578.6403854729219,0.0012284991982443334,12,35.0,35.0
+RF,espera_adicional,3,hoteles,ocupacion_habitaciones_pct_origen_lag2,hoteles,ocupacion_habitaciones_pct,[2],[5],valor,False,21243.645025470283,16447.86304043083,0.022179437966800494,12,5.0,4.0
+RF,espera_adicional,3,hoteles,ocupacion_habitaciones_pct_origen_lag2__ausente,hoteles,ocupacion_habitaciones_pct,[2],[5],valor,True,26.581055425439583,3.8097812368404678,2.8527047860008955e-05,12,45.0,47.0
+RF,espera_adicional,3,hoteles,ocupacion_habitaciones_pct_origen_lag3,hoteles,ocupacion_habitaciones_pct,[3],[6],valor,False,4712.727284687523,2808.5178483017366,0.013267382098295291,12,22.0,10.0
+RF,espera_adicional,3,hoteles,ocupacion_habitaciones_pct_origen_lag3__ausente,hoteles,ocupacion_habitaciones_pct,[3],[6],valor,True,9.528535031636126,-7.943405579037798,2.747308981248145e-05,12,48.0,48.0
+RF,espera_adicional,3,hoteles,ocupacion_plazas_pct_origen_lag14,hoteles,ocupacion_plazas_pct,[14],[17],valor,False,1815.968749095483,-1043.0985116595814,0.003669004697970603,12,30.0,29.0
+RF,espera_adicional,3,hoteles,ocupacion_plazas_pct_origen_lag14__ausente,hoteles,ocupacion_plazas_pct,[14],[17],valor,True,376.47417560970956,-376.47417560970956,0.0006813127310635469,12,36.0,36.0
+RF,espera_adicional,3,hoteles,ocupacion_plazas_pct_origen_lag2,hoteles,ocupacion_plazas_pct,[2],[5],valor,False,12389.469176254972,7721.08175041201,0.01327908927956254,12,8.0,9.0
+RF,espera_adicional,3,hoteles,ocupacion_plazas_pct_origen_lag2__ausente,hoteles,ocupacion_plazas_pct,[2],[5],valor,True,12.017595646105535,1.6222759627970753,3.307736986989887e-05,12,46.0,46.0
+RF,espera_adicional,3,hoteles,ocupacion_plazas_pct_origen_lag3,hoteles,ocupacion_plazas_pct,[3],[6],valor,False,4023.341339353809,1568.2584179005737,0.005486997720720981,12,25.0,24.0
+RF,espera_adicional,3,hoteles,ocupacion_plazas_pct_origen_lag3__ausente,hoteles,ocupacion_plazas_pct,[3],[6],valor,True,43.54166691678191,-43.54166691678191,4.113944327856754e-05,12,43.0,45.0
+RF,espera_adicional,3,hoteles,pernoctaciones_hoteles_origen_lag14,hoteles,pernoctaciones_hoteles,[14],[17],valor,False,6914.10154955299,-6914.10154955299,0.01627968471726129,12,14.0,7.0
+RF,espera_adicional,3,hoteles,pernoctaciones_hoteles_origen_lag14__ausente,hoteles,pernoctaciones_hoteles,[14],[17],valor,True,132.67410019197544,-132.67410019197544,0.0002915265829361481,12,38.0,37.0
+RF,espera_adicional,3,hoteles,pernoctaciones_hoteles_origen_lag2,hoteles,pernoctaciones_hoteles,[2],[5],valor,False,6195.570361181754,1653.4487150368268,0.005437913443941805,12,17.0,25.0
+RF,espera_adicional,3,hoteles,pernoctaciones_hoteles_origen_lag2__ausente,hoteles,pernoctaciones_hoteles,[2],[5],valor,True,58.28878290631311,13.022423188159808,9.578863705012618e-05,12,42.0,41.0
+RF,espera_adicional,3,hoteles,pernoctaciones_hoteles_origen_lag3,hoteles,pernoctaciones_hoteles,[3],[6],valor,False,6088.748452134018,-1997.2125353278634,0.008033587666552376,12,18.0,16.0
+RF,espera_adicional,3,hoteles,pernoctaciones_hoteles_origen_lag3__ausente,hoteles,pernoctaciones_hoteles,[3],[6],valor,True,0.0,0.0,0.0,12,49.0,49.0
+RF,espera_adicional,3,hoteles,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,14251.792212329754,14251.792212329754,0.011117459595344,12,7.0,12.0
+RF,espera_adicional,3,hoteles,turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]","[6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]",media,False,6486.352379192956,6127.209023895089,0.016135046261573516,12,15.0,8.0
+RF,espera_adicional,3,hoteles,turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]","[6, 7, 8]",media,False,6003.349424789663,-4121.762994787793,0.007043255100380325,12,19.0,19.0
+RF,espera_adicional,3,hoteles,turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]","[6, 7, 8, 9, 10, 11]",media,False,3385.048046361231,2357.6849991237555,0.004830401843439551,12,27.0,28.0
+RF,espera_adicional,3,hoteles,turistas_mismo_mes_ano_anterior,turistas,turistas,[9],[12],valor,False,219057.27591878898,76228.83604907538,0.2871745352310809,12,1.0,1.0
+RF,espera_adicional,3,hoteles,turistas_origen_lag15,turistas,turistas,[15],[18],valor,False,175562.14347037757,-112912.08050069948,0.19864630199069466,12,3.0,3.0
+RF,espera_adicional,3,hoteles,turistas_origen_lag3,turistas,turistas,[3],[6],valor,False,19647.34189093063,5692.379267325951,0.018154617510967714,12,6.0,5.0
+RF,espera_adicional,3,hoteles,turistas_origen_lag4,turistas,turistas,[4],[7],valor,False,11213.294082636421,-7707.141462580842,0.007884381716196565,12,9.0,17.0
+RF,espera_adicional,3,hoteles,turistas_origen_lag5,turistas,turistas,[5],[8],valor,False,10414.005866793495,-2835.915809559488,0.009911514046164246,12,11.0,15.0
+RF,espera_adicional,3,hoteles,turistas_origen_lag6,turistas,turistas,[6],[9],valor,False,10539.12607115743,6548.361876905507,0.012235838901290735,12,10.0,11.0
+RF,espera_adicional,3,hoteles,turistas_origen_lag9,turistas,turistas,[9],[12],valor,False,192029.9914176454,68818.1071186021,0.24473272674912086,12,2.0,2.0
+RF,espera_adicional,3,hoteles,viajeros_hoteles_origen_lag14,hoteles,viajeros_hoteles,[14],[17],valor,False,8184.708655258254,-3926.6068777541236,0.010073422087091227,12,12.0,13.0
+RF,espera_adicional,3,hoteles,viajeros_hoteles_origen_lag14__ausente,hoteles,viajeros_hoteles,[14],[17],valor,True,35.579077317129496,-35.579077317129496,8.352066381711929e-05,12,44.0,43.0
+RF,espera_adicional,3,hoteles,viajeros_hoteles_origen_lag2,hoteles,viajeros_hoteles,[2],[5],valor,False,1810.686128733554,17.815790564353712,0.004939367445324255,12,31.0,27.0
+RF,espera_adicional,3,hoteles,viajeros_hoteles_origen_lag2__ausente,hoteles,viajeros_hoteles,[2],[5],valor,True,108.1314302191459,106.07477873648482,9.075352931495286e-05,12,39.0,42.0
+RF,espera_adicional,3,hoteles,viajeros_hoteles_origen_lag3,hoteles,viajeros_hoteles,[3],[6],valor,False,4221.3732114777295,-1730.357939985647,0.0057838616468027584,12,24.0,22.0
+RF,espera_adicional,3,hoteles,viajeros_hoteles_origen_lag3__ausente,hoteles,viajeros_hoteles,[3],[6],valor,True,0.0,0.0,0.0,12,49.0,49.0
+RF,espera_adicional,3,meteorologia,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,15944.193303662048,5373.994230099759,0.009812737746566302,12,12.0,15.0
+RF,espera_adicional,3,meteorologia,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,1792.5349851900935,124.55848736469704,0.0021011973956443194,12,19.0,20.0
+RF,espera_adicional,3,meteorologia,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,5563.267048992589,457.4266448695834,0.0036580851063846074,12,16.0,19.0
+RF,espera_adicional,3,meteorologia,meteo_precipitacion_mm_origen_lag15,meteorologia,meteo_precipitacion_mm,[15],[18],valor,False,1351.389002911494,1222.8436632700564,0.005433836386914439,12,20.0,18.0
+RF,espera_adicional,3,meteorologia,meteo_precipitacion_mm_origen_lag3,meteorologia,meteo_precipitacion_mm,[3],[6],valor,False,21818.01880742837,-1889.3759532457452,0.02651886755534391,12,9.0,9.0
+RF,espera_adicional,3,meteorologia,meteo_precipitacion_mm_origen_lag4,meteorologia,meteo_precipitacion_mm,[4],[7],valor,False,11618.62294078624,233.6076461776845,0.014672506585351975,12,14.0,11.0
+RF,espera_adicional,3,meteorologia,meteo_temperatura_media_c_origen_lag15,meteorologia,meteo_temperatura_media_c,[15],[18],valor,False,81602.69166816589,5857.078572345798,0.1068418439230183,12,5.0,4.0
+RF,espera_adicional,3,meteorologia,meteo_temperatura_media_c_origen_lag3,meteorologia,meteo_temperatura_media_c,[3],[6],valor,False,204736.10865460415,-41370.92402464627,0.30832923388064676,12,1.0,1.0
+RF,espera_adicional,3,meteorologia,meteo_temperatura_media_c_origen_lag4,meteorologia,meteo_temperatura_media_c,[4],[7],valor,False,21174.150091801665,-3431.216401926813,0.01787971069371185,12,10.0,10.0
+RF,espera_adicional,3,meteorologia,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,34906.34584723844,34906.34584723844,0.02746310896509321,12,7.0,8.0
+RF,espera_adicional,3,meteorologia,turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]","[6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]",media,False,10301.566844547882,10301.566844547882,0.00703035329190107,12,15.0,17.0
+RF,espera_adicional,3,meteorologia,turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]","[6, 7, 8]",media,False,2765.036360510186,-685.9175106614042,0.01114269156615798,12,18.0,14.0
+RF,espera_adicional,3,meteorologia,turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]","[6, 7, 8, 9, 10, 11]",media,False,12399.76743161711,12399.76743161711,0.012943182650936044,12,13.0,13.0
+RF,espera_adicional,3,meteorologia,turistas_mismo_mes_ano_anterior,turistas,turistas,[9],[12],valor,False,103638.27714584081,32124.077326142196,0.14427152748230565,12,2.0,2.0
+RF,espera_adicional,3,meteorologia,turistas_origen_lag15,turistas,turistas,[15],[18],valor,False,85326.80403319707,-61891.51285353589,0.09048269803346226,12,4.0,5.0
+RF,espera_adicional,3,meteorologia,turistas_origen_lag3,turistas,turistas,[3],[6],valor,False,28048.532466649267,11631.686252941734,0.03132036245120031,12,8.0,7.0
+RF,espera_adicional,3,meteorologia,turistas_origen_lag4,turistas,turistas,[4],[7],valor,False,5054.007325879967,-3153.2573866846674,0.007468571193777785,12,17.0,16.0
+RF,espera_adicional,3,meteorologia,turistas_origen_lag5,turistas,turistas,[5],[8],valor,False,19754.1751009084,3864.8887215098334,0.01347167329326202,12,11.0,12.0
+RF,espera_adicional,3,meteorologia,turistas_origen_lag6,turistas,turistas,[6],[9],valor,False,43008.56051081888,20798.27285831334,0.03690277402410951,12,6.0,6.0
+RF,espera_adicional,3,meteorologia,turistas_origen_lag9,turistas,turistas,[9],[12],valor,False,86760.52726506804,24551.053265415136,0.12225503777421175,12,3.0,3.0
+RF,espera_adicional,3,turistas_calendario,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,19207.161255639876,6182.004030824891,0.01558493302085604,12,8.0,9.0
+RF,espera_adicional,3,turistas_calendario,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,2936.4575890482024,571.7001696339613,0.002677431757627345,12,14.0,14.0
+RF,espera_adicional,3,turistas_calendario,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,31577.152018276403,5814.083315297597,0.019462881774387004,12,5.0,5.0
+RF,espera_adicional,3,turistas_calendario,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,26843.782054980282,26843.782054980282,0.01808840497454915,12,6.0,7.0
+RF,espera_adicional,3,turistas_calendario,turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]","[6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]",media,False,9191.358808610219,9168.7345162094,0.018214224189897,12,11.0,6.0
+RF,espera_adicional,3,turistas_calendario,turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]","[6, 7, 8]",media,False,8404.212681335786,299.75755232758985,0.014865979399660162,12,12.0,11.0
+RF,espera_adicional,3,turistas_calendario,turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]","[6, 7, 8, 9, 10, 11]",media,False,7471.32134193635,7151.960180331395,0.012189584389154058,12,13.0,13.0
+RF,espera_adicional,3,turistas_calendario,turistas_mismo_mes_ano_anterior,turistas,turistas,[9],[12],valor,False,212473.79122060546,78310.12830898263,0.2989139968127688,12,2.0,1.0
+RF,espera_adicional,3,turistas_calendario,turistas_origen_lag15,turistas,turistas,[15],[18],valor,False,224081.02545668822,-139836.6872989971,0.2326646062613521,12,1.0,3.0
+RF,espera_adicional,3,turistas_calendario,turistas_origen_lag3,turistas,turistas,[3],[6],valor,False,65066.19869749061,18348.54275266508,0.06536290014344431,12,4.0,4.0
+RF,espera_adicional,3,turistas_calendario,turistas_origen_lag4,turistas,turistas,[4],[7],valor,False,19271.095948965693,-13480.822607302289,0.014982321282321125,12,7.0,10.0
+RF,espera_adicional,3,turistas_calendario,turistas_origen_lag5,turistas,turistas,[5],[8],valor,False,12774.915578456654,-3049.348386638552,0.013299155818328662,12,9.0,12.0
+RF,espera_adicional,3,turistas_calendario,turistas_origen_lag6,turistas,turistas,[6],[9],valor,False,12397.426357261988,4856.71396192026,0.01729123379422019,12,10.0,8.0
+RF,espera_adicional,3,turistas_calendario,turistas_origen_lag9,turistas,turistas,[9],[12],valor,False,175213.20128647858,62623.38564966767,0.25640234638143417,12,3.0,2.0
+XGBoost,base,1,aena,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,260139.703125,-5185.713541666667,0.14323784907658896,12,2.0,3.0
+XGBoost,base,1,aena,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,6437.6344807942705,1180.9554443359375,0.025542921541879576,12,16.0,7.0
+XGBoost,base,1,aena,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,12923.553466796875,1279.5936686197917,0.036849104799330235,12,11.0,6.0
+XGBoost,base,1,aena,operaciones_aena_origen_lag1,aena,operaciones_aena,[1],[2],valor,False,49452.196909586586,48688.743296305336,0.042176722548902035,12,4.0,4.0
+XGBoost,base,1,aena,operaciones_aena_origen_lag13,aena,operaciones_aena,[13],[14],valor,False,736.9343713124593,-736.9343713124593,0.003041045284286762,12,20.0,18.0
+XGBoost,base,1,aena,operaciones_aena_origen_lag2,aena,operaciones_aena,[2],[3],valor,False,22792.1376953125,22792.1376953125,0.03994559651861588,12,8.0,5.0
+XGBoost,base,1,aena,pasajeros_aena_origen_lag1,aena,pasajeros_aena,[1],[2],valor,False,142311.236328125,27826.590494791668,0.20201927796006203,12,3.0,2.0
+XGBoost,base,1,aena,pasajeros_aena_origen_lag13,aena,pasajeros_aena,[13],[14],valor,False,3870.085693359375,941.0926920572916,0.0072576976381242275,12,18.0,14.0
+XGBoost,base,1,aena,pasajeros_aena_origen_lag2,aena,pasajeros_aena,[2],[3],valor,False,3863.6938680013022,2584.3627319335938,0.01783815072849393,12,19.0,10.0
+XGBoost,base,1,aena,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,45458.9833984375,45458.9833984375,0.010438137532522282,12,5.0,12.0
+XGBoost,base,1,aena,turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",media,False,39128.554036458336,39128.554036458336,0.005509338186432918,12,6.0,16.0
+XGBoost,base,1,aena,turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]","[3, 4, 5]",media,False,13225.626790364584,13126.440877278646,0.02125669674326976,12,10.0,9.0
+XGBoost,base,1,aena,turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]","[3, 4, 5, 6, 7, 8]",media,False,11957.781087239584,2646.1017252604165,0.0063870493322610855,12,12.0,15.0
+XGBoost,base,1,aena,turistas_mismo_mes_ano_anterior,turistas,turistas,[11],[12],valor,False,275043.4231770833,94552.28255208333,0.37998022387425107,12,1.0,1.0
+XGBoost,base,1,aena,turistas_origen_lag14,turistas,turistas,[14],[15],valor,False,24877.472981770832,-21566.91796875,0.02498570829629898,12,7.0,8.0
+XGBoost,base,1,aena,turistas_origen_lag2,turistas,turistas,[2],[3],valor,False,8332.675188700357,1716.7035751342773,0.009055958633931974,12,13.0,13.0
+XGBoost,base,1,aena,turistas_origen_lag3,turistas,turistas,[3],[4],valor,False,19361.447347005207,3160.7320149739585,0.015909322537481785,12,9.0,11.0
+XGBoost,base,1,aena,turistas_origen_lag4,turistas,turistas,[4],[5],valor,False,3952.4097595214844,3952.4097595214844,0.005357011881036063,12,17.0,17.0
+XGBoost,base,1,aena,turistas_origen_lag5,turistas,turistas,[5],[6],valor,False,7503.888102213542,-6079.132893880208,0.0013992536793618153,12,14.0,20.0
+XGBoost,base,1,aena,turistas_origen_lag8,turistas,turistas,[8],[9],valor,False,6880.947123209636,-5836.024515787761,0.0018128649292824168,12,15.0,19.0
+XGBoost,base,1,google_trends,gt_majorca_alemania_origen_lag1,google_trends,gt_majorca_alemania,[1],[2],valor,False,31715.54443359375,-1136.5411783854167,0.0162750156596303,12,9.0,11.0
+XGBoost,base,1,google_trends,gt_majorca_alemania_origen_lag13,google_trends,gt_majorca_alemania,[13],[14],valor,False,14337.351033528646,1899.4543863932292,0.005955977753425638,12,12.0,15.0
+XGBoost,base,1,google_trends,gt_majorca_alemania_origen_lag2,google_trends,gt_majorca_alemania,[2],[3],valor,False,1209.487060546875,466.7445068359375,0.0011402379507975031,12,24.0,25.0
+XGBoost,base,1,google_trends,gt_majorca_reino_unido_origen_lag1,google_trends,gt_majorca_reino_unido,[1],[2],valor,False,3748.789507548014,220.83920542399088,0.005972876019465427,12,20.0,14.0
+XGBoost,base,1,google_trends,gt_majorca_reino_unido_origen_lag13,google_trends,gt_majorca_reino_unido,[13],[14],valor,False,4135.671222686768,-3894.9221687316895,0.0037174530249709883,12,19.0,18.0
+XGBoost,base,1,google_trends,gt_majorca_reino_unido_origen_lag2,google_trends,gt_majorca_reino_unido,[2],[3],valor,False,10561.016779581705,-2077.2257639567056,0.0017464273211468633,12,15.0,24.0
+XGBoost,base,1,google_trends,gt_mallorca_alemania_origen_lag1,google_trends,gt_mallorca_alemania,[1],[2],valor,False,139884.45654296875,-64298.12939453125,0.11810644529759884,12,2.0,3.0
+XGBoost,base,1,google_trends,gt_mallorca_alemania_origen_lag13,google_trends,gt_mallorca_alemania,[13],[14],valor,False,818.9123789469401,447.39442443847656,0.0009123694035224617,12,25.0,26.0
+XGBoost,base,1,google_trends,gt_mallorca_alemania_origen_lag2,google_trends,gt_mallorca_alemania,[2],[3],valor,False,314.0546518961589,314.0546518961589,0.006729362920547525,12,26.0,13.0
+XGBoost,base,1,google_trends,gt_mallorca_reino_unido_origen_lag1,google_trends,gt_mallorca_reino_unido,[1],[2],valor,False,124458.2626953125,-10767.666341145834,0.2534603302677472,12,3.0,2.0
+XGBoost,base,1,google_trends,gt_mallorca_reino_unido_origen_lag13,google_trends,gt_mallorca_reino_unido,[13],[14],valor,False,13673.819091796875,2264.616943359375,0.002203486238916715,12,13.0,21.0
+XGBoost,base,1,google_trends,gt_mallorca_reino_unido_origen_lag2,google_trends,gt_mallorca_reino_unido,[2],[3],valor,False,6428.612527211507,-5332.446737925212,0.0020893544618350766,12,18.0,22.0
+XGBoost,base,1,google_trends,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,113328.41341145833,2735.478515625,0.09096357660988967,12,4.0,4.0
+XGBoost,base,1,google_trends,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,15569.697835286459,1266.099853515625,0.015175695220629374,12,11.0,12.0
+XGBoost,base,1,google_trends,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,10619.683064778646,1432.6362711588542,0.02077489299699664,12,14.0,9.0
+XGBoost,base,1,google_trends,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,91738.380859375,91738.380859375,0.022748010233044624,12,5.0,8.0
+XGBoost,base,1,google_trends,turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",media,False,47347.4072265625,47347.4072265625,0.002803864578406016,12,7.0,19.0
+XGBoost,base,1,google_trends,turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]","[3, 4, 5]",media,False,31117.505452473957,31117.505452473957,0.05043136763075987,12,10.0,5.0
+XGBoost,base,1,google_trends,turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]","[3, 4, 5, 6, 7, 8]",media,False,1395.1161524454753,1395.1161524454753,0.005428456972974042,12,23.0,16.0
+XGBoost,base,1,google_trends,turistas_mismo_mes_ano_anterior,turistas,turistas,[11],[12],valor,False,250975.03385416666,102945.32552083333,0.26224566623568535,12,1.0,1.0
+XGBoost,base,1,google_trends,turistas_origen_lag14,turistas,turistas,[14],[15],valor,False,8607.527262369791,-8607.527262369791,0.046256608640154205,12,16.0,6.0
+XGBoost,base,1,google_trends,turistas_origen_lag2,turistas,turistas,[2],[3],valor,False,7065.990196228027,4619.370079040527,0.003976193683532377,12,17.0,17.0
+XGBoost,base,1,google_trends,turistas_origen_lag3,turistas,turistas,[3],[4],valor,False,2621.1431986490884,-2233.335947672526,0.001996621382810796,12,22.0,23.0
+XGBoost,base,1,google_trends,turistas_origen_lag4,turistas,turistas,[4],[5],valor,False,3287.322550455729,3287.322550455729,0.0022737458154248693,12,21.0,20.0
+XGBoost,base,1,google_trends,turistas_origen_lag5,turistas,turistas,[5],[6],valor,False,73631.90445963542,-27002.368977864582,0.037320586231847606,12,6.0,7.0
+XGBoost,base,1,google_trends,turistas_origen_lag8,turistas,turistas,[8],[9],valor,False,42255.75048828125,23980.81298828125,0.019295316965629656,12,8.0,10.0
+XGBoost,base,1,hoteles,estancia_media_noches_origen_lag1,hoteles,estancia_media_noches,[1],[2],valor,False,7133.852783203125,-467.4364420572917,0.0012728350605660428,12,23.0,25.0
+XGBoost,base,1,hoteles,estancia_media_noches_origen_lag13,hoteles,estancia_media_noches,[13],[14],valor,False,10867.237141927084,4474.512044270833,0.0006816044090858971,12,19.0,30.0
+XGBoost,base,1,hoteles,estancia_media_noches_origen_lag13__ausente,hoteles,estancia_media_noches,[13],[14],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,base,1,hoteles,estancia_media_noches_origen_lag1__ausente,hoteles,estancia_media_noches,[1],[2],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,base,1,hoteles,estancia_media_noches_origen_lag2,hoteles,estancia_media_noches,[2],[3],valor,False,9922.4560546875,-741.6350911458334,0.0010239026887575164,12,20.0,27.0
+XGBoost,base,1,hoteles,estancia_media_noches_origen_lag2__ausente,hoteles,estancia_media_noches,[2],[3],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,base,1,hoteles,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,158622.88411458334,4378.55078125,0.08672345926364262,12,2.0,4.0
+XGBoost,base,1,hoteles,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,23556.114664713543,5070.342854817708,0.05967607038716475,12,11.0,7.0
+XGBoost,base,1,hoteles,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,18742.368001302082,1955.06494140625,0.02065687905997038,12,14.0,12.0
+XGBoost,base,1,hoteles,ocupacion_fin_semana_pct_origen_lag1,hoteles,ocupacion_fin_semana_pct,[1],[2],valor,False,48640.791666666664,10495.98828125,0.03245944622904062,12,6.0,11.0
+XGBoost,base,1,hoteles,ocupacion_fin_semana_pct_origen_lag13,hoteles,ocupacion_fin_semana_pct,[13],[14],valor,False,4393.97346496582,-3774.0599822998047,0.004576241170677046,12,26.0,17.0
+XGBoost,base,1,hoteles,ocupacion_fin_semana_pct_origen_lag13__ausente,hoteles,ocupacion_fin_semana_pct,[13],[14],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,base,1,hoteles,ocupacion_fin_semana_pct_origen_lag1__ausente,hoteles,ocupacion_fin_semana_pct,[1],[2],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,base,1,hoteles,ocupacion_fin_semana_pct_origen_lag2,hoteles,ocupacion_fin_semana_pct,[2],[3],valor,False,9613.113444010416,6090.099934895833,0.00238084071315825,12,21.0,23.0
+XGBoost,base,1,hoteles,ocupacion_fin_semana_pct_origen_lag2__ausente,hoteles,ocupacion_fin_semana_pct,[2],[3],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,base,1,hoteles,ocupacion_habitaciones_pct_origen_lag1,hoteles,ocupacion_habitaciones_pct,[1],[2],valor,False,78374.17724609375,53050.48779296875,0.09208629156152408,12,3.0,3.0
+XGBoost,base,1,hoteles,ocupacion_habitaciones_pct_origen_lag13,hoteles,ocupacion_habitaciones_pct,[13],[14],valor,False,237.91280110677084,-237.91280110677084,0.0010376297480737169,12,31.0,26.0
+XGBoost,base,1,hoteles,ocupacion_habitaciones_pct_origen_lag13__ausente,hoteles,ocupacion_habitaciones_pct,[13],[14],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,base,1,hoteles,ocupacion_habitaciones_pct_origen_lag1__ausente,hoteles,ocupacion_habitaciones_pct,[1],[2],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,base,1,hoteles,ocupacion_habitaciones_pct_origen_lag2,hoteles,ocupacion_habitaciones_pct,[2],[3],valor,False,20015.290486653645,15973.950724283854,0.04732685536146164,12,13.0,9.0
+XGBoost,base,1,hoteles,ocupacion_habitaciones_pct_origen_lag2__ausente,hoteles,ocupacion_habitaciones_pct,[2],[3],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,base,1,hoteles,ocupacion_plazas_pct_origen_lag1,hoteles,ocupacion_plazas_pct,[1],[2],valor,False,4580.0908610026045,1416.0159912109375,0.13315034533540407,12,25.0,2.0
+XGBoost,base,1,hoteles,ocupacion_plazas_pct_origen_lag13,hoteles,ocupacion_plazas_pct,[13],[14],valor,False,5.394812901814778,5.394812901814778,4.8021815018728375e-05,12,32.0,32.0
+XGBoost,base,1,hoteles,ocupacion_plazas_pct_origen_lag13__ausente,hoteles,ocupacion_plazas_pct,[13],[14],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,base,1,hoteles,ocupacion_plazas_pct_origen_lag1__ausente,hoteles,ocupacion_plazas_pct,[1],[2],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,base,1,hoteles,ocupacion_plazas_pct_origen_lag2,hoteles,ocupacion_plazas_pct,[2],[3],valor,False,244.6612345377604,244.6612345377604,0.0030130095159014068,12,30.0,20.0
+XGBoost,base,1,hoteles,ocupacion_plazas_pct_origen_lag2__ausente,hoteles,ocupacion_plazas_pct,[2],[3],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,base,1,hoteles,pernoctaciones_hoteles_origen_lag1,hoteles,pernoctaciones_hoteles,[1],[2],valor,False,44065.3134765625,11037.5048828125,0.07843769590059917,12,7.0,6.0
+XGBoost,base,1,hoteles,pernoctaciones_hoteles_origen_lag13,hoteles,pernoctaciones_hoteles,[13],[14],valor,False,2274.2471669514975,1192.7003224690754,0.0007016297119359175,12,27.0,29.0
+XGBoost,base,1,hoteles,pernoctaciones_hoteles_origen_lag13__ausente,hoteles,pernoctaciones_hoteles,[13],[14],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,base,1,hoteles,pernoctaciones_hoteles_origen_lag1__ausente,hoteles,pernoctaciones_hoteles,[1],[2],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,base,1,hoteles,pernoctaciones_hoteles_origen_lag2,hoteles,pernoctaciones_hoteles,[2],[3],valor,False,625.2421970367432,625.2421970367432,0.0008080490079009905,12,29.0,28.0
+XGBoost,base,1,hoteles,pernoctaciones_hoteles_origen_lag2__ausente,hoteles,pernoctaciones_hoteles,[2],[3],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,base,1,hoteles,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,53349.4189453125,53349.4189453125,0.0045299126068130136,12,5.0,18.0
+XGBoost,base,1,hoteles,turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",media,False,43181.99365234375,43181.99365234375,0.0016028325092823554,12,8.0,24.0
+XGBoost,base,1,hoteles,turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]","[3, 4, 5]",media,False,18552.793538411457,18552.793538411457,0.08506376886119445,12,15.0,5.0
+XGBoost,base,1,hoteles,turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]","[3, 4, 5, 6, 7, 8]",media,False,13881.480631510416,-2861.2312825520835,0.0024858894757926464,12,17.0,22.0
+XGBoost,base,1,hoteles,turistas_mismo_mes_ano_anterior,turistas,turistas,[11],[12],valor,False,292770.59765625,77753.04557291667,0.19959235191345215,12,1.0,1.0
+XGBoost,base,1,hoteles,turistas_origen_lag14,turistas,turistas,[14],[15],valor,False,27393.304117838543,-25154.645426432293,0.01436022692359984,12,10.0,14.0
+XGBoost,base,1,hoteles,turistas_origen_lag2,turistas,turistas,[2],[3],valor,False,20860.502075195312,13737.932983398438,0.05174406307439009,12,12.0,8.0
+XGBoost,base,1,hoteles,turistas_origen_lag3,turistas,turistas,[3],[4],valor,False,16458.82539876302,418.3187255859375,0.04141416369626919,12,16.0,10.0
+XGBoost,base,1,hoteles,turistas_origen_lag4,turistas,turistas,[4],[5],valor,False,6609.9003499348955,-2879.1903076171875,0.002769651124253869,12,24.0,21.0
+XGBoost,base,1,hoteles,turistas_origen_lag5,turistas,turistas,[5],[6],valor,False,56712.49755859375,-10286.49755859375,0.014658749957258502,12,4.0,13.0
+XGBoost,base,1,hoteles,turistas_origen_lag8,turistas,turistas,[8],[9],valor,False,651.8508809407552,104.93435668945312,0.00034114950540242717,12,28.0,31.0
+XGBoost,base,1,hoteles,viajeros_hoteles_origen_lag1,hoteles,viajeros_hoteles,[1],[2],valor,False,28495.276692708332,5622.95703125,0.00644081268304338,12,9.0,15.0
+XGBoost,base,1,hoteles,viajeros_hoteles_origen_lag13,hoteles,viajeros_hoteles,[13],[14],valor,False,11438.295084635416,-6197.87939453125,0.005511265597306192,12,18.0,16.0
+XGBoost,base,1,hoteles,viajeros_hoteles_origen_lag13__ausente,hoteles,viajeros_hoteles,[13],[14],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,base,1,hoteles,viajeros_hoteles_origen_lag1__ausente,hoteles,viajeros_hoteles,[1],[2],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,base,1,hoteles,viajeros_hoteles_origen_lag2,hoteles,viajeros_hoteles,[2],[3],valor,False,9332.960123697916,9332.960123697916,0.0034243534125077226,12,22.0,19.0
+XGBoost,base,1,hoteles,viajeros_hoteles_origen_lag2__ausente,hoteles,viajeros_hoteles,[2],[3],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,base,1,meteorologia,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,220252.86979166666,1799.4010416666667,0.29839143405358,12,2.0,1.0
+XGBoost,base,1,meteorologia,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,0.0,0.0,0.0,12,20.0,20.0
+XGBoost,base,1,meteorologia,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,23052.913899739582,-2584.27587890625,0.004319512285292149,12,8.0,18.0
+XGBoost,base,1,meteorologia,meteo_precipitacion_mm_origen_lag14,meteorologia,meteo_precipitacion_mm,[14],[15],valor,False,22840.79619852702,7583.825149536133,0.029826826881617308,12,9.0,7.0
+XGBoost,base,1,meteorologia,meteo_precipitacion_mm_origen_lag2,meteorologia,meteo_precipitacion_mm,[2],[3],valor,False,17124.407958984375,-4442.470458984375,0.026193606667220592,12,11.0,8.0
+XGBoost,base,1,meteorologia,meteo_precipitacion_mm_origen_lag3,meteorologia,meteo_precipitacion_mm,[3],[4],valor,False,9232.474853515625,3401.8236490885415,0.004544624554303785,12,15.0,17.0
+XGBoost,base,1,meteorologia,meteo_temperatura_media_c_origen_lag14,meteorologia,meteo_temperatura_media_c,[14],[15],valor,False,15447.5068359375,15447.5068359375,0.005629168590530753,12,13.0,15.0
+XGBoost,base,1,meteorologia,meteo_temperatura_media_c_origen_lag2,meteorologia,meteo_temperatura_media_c,[2],[3],valor,False,1959.9671872456868,-1959.9671872456868,0.005270404721765469,12,18.0,16.0
+XGBoost,base,1,meteorologia,meteo_temperatura_media_c_origen_lag3,meteorologia,meteo_temperatura_media_c,[3],[4],valor,False,3902.497344970703,-3813.5191243489585,0.0095942128294458,12,17.0,12.0
+XGBoost,base,1,meteorologia,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,96376.96809895833,96376.96809895833,0.022172904728601377,12,3.0,9.0
+XGBoost,base,1,meteorologia,turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",media,False,1538.5400644938152,1538.5400644938152,0.0018856146392257263,12,19.0,19.0
+XGBoost,base,1,meteorologia,turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]","[3, 4, 5]",media,False,57740.950358072914,57740.950358072914,0.11178455191353957,12,5.0,4.0
+XGBoost,base,1,meteorologia,turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]","[3, 4, 5, 6, 7, 8]",media,False,5972.419748942058,5972.419748942058,0.03212562560414275,12,16.0,6.0
+XGBoost,base,1,meteorologia,turistas_mismo_mes_ano_anterior,turistas,turistas,[11],[12],valor,False,351239.09375,115876.41666666667,0.22188976034522057,12,1.0,2.0
+XGBoost,base,1,meteorologia,turistas_origen_lag14,turistas,turistas,[14],[15],valor,False,27838.885213216145,-26837.177286783855,0.04187880828976631,12,7.0,5.0
+XGBoost,base,1,meteorologia,turistas_origen_lag2,turistas,turistas,[2],[3],valor,False,80690.87841796875,63189.145345052086,0.1498035378754139,12,4.0,3.0
+XGBoost,base,1,meteorologia,turistas_origen_lag3,turistas,turistas,[3],[4],valor,False,12342.737772623697,-11644.52577718099,0.006780794006772339,12,14.0,13.0
+XGBoost,base,1,meteorologia,turistas_origen_lag4,turistas,turistas,[4],[5],valor,False,18130.278401692707,-1205.521240234375,0.010660127503797412,12,10.0,11.0
+XGBoost,base,1,meteorologia,turistas_origen_lag5,turistas,turistas,[5],[6],valor,False,36402.50012207031,-15424.357299804688,0.011486160879333815,12,6.0,10.0
+XGBoost,base,1,meteorologia,turistas_origen_lag8,turistas,turistas,[8],[9],valor,False,15958.618591308594,9954.567606608072,0.0057623507066940265,12,12.0,14.0
+XGBoost,base,1,turistas_calendario,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,211966.88541666666,-2504.9583333333335,0.35568535327911377,12,2.0,1.0
+XGBoost,base,1,turistas_calendario,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,1105.5870463053386,219.66108194986978,0.0013305289612617344,12,14.0,14.0
+XGBoost,base,1,turistas_calendario,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,39346.83581542969,1260.4678955078125,0.03637044752637545,12,8.0,6.0
+XGBoost,base,1,turistas_calendario,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,83227.728515625,83227.728515625,0.026402393200745184,12,4.0,7.0
+XGBoost,base,1,turistas_calendario,turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]",media,False,25851.50146484375,25851.50146484375,0.0036148109356872737,12,9.0,12.0
+XGBoost,base,1,turistas_calendario,turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]","[3, 4, 5]",media,False,62477.0634765625,62477.0634765625,0.09504710882902145,12,5.0,4.0
+XGBoost,base,1,turistas_calendario,turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]","[3, 4, 5, 6, 7, 8]",media,False,12978.998819986979,12978.998819986979,0.023608824393401544,12,11.0,8.0
+XGBoost,base,1,turistas_calendario,turistas_mismo_mes_ano_anterior,turistas,turistas,[11],[12],valor,False,364488.640625,121190.65625,0.25896957516670227,12,1.0,2.0
+XGBoost,base,1,turistas_calendario,turistas_origen_lag14,turistas,turistas,[14],[15],valor,False,40296.548502604164,-34104.219075520836,0.03786599884430567,12,6.0,5.0
+XGBoost,base,1,turistas_calendario,turistas_origen_lag2,turistas,turistas,[2],[3],valor,False,87856.96028645833,65331.879557291664,0.12217338631550471,12,3.0,3.0
+XGBoost,base,1,turistas_calendario,turistas_origen_lag3,turistas,turistas,[3],[4],valor,False,9840.839149475098,-7222.405092875163,0.019243244159345824,12,12.0,9.0
+XGBoost,base,1,turistas_calendario,turistas_origen_lag4,turistas,turistas,[4],[5],valor,False,13818.54638671875,641.1354166666666,0.006149130252500375,12,10.0,11.0
+XGBoost,base,1,turistas_calendario,turistas_origen_lag5,turistas,turistas,[5],[6],valor,False,39767.804036458336,-17877.400390625,0.010933214876179894,12,7.0,10.0
+XGBoost,base,1,turistas_calendario,turistas_origen_lag8,turistas,turistas,[8],[9],valor,False,9182.012181599936,-4017.715357462565,0.002605995978228748,12,13.0,13.0
+XGBoost,base,3,aena,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,79327.75260416667,-19090.247395833332,0.34809042265017826,12,2.0,1.0
+XGBoost,base,3,aena,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,2494.4389702479043,-95.67521699269612,0.004165561345871538,12,18.0,16.0
+XGBoost,base,3,aena,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,4769.070058186849,111.41724650065105,0.014909173206736645,12,16.0,10.0
+XGBoost,base,3,aena,operaciones_aena_origen_lag1,aena,operaciones_aena,[1],[4],valor,False,63586.2958984375,63586.2958984375,0.03617380031694969,12,5.0,5.0
+XGBoost,base,3,aena,operaciones_aena_origen_lag13,aena,operaciones_aena,[13],[16],valor,False,31772.793294270832,-31772.793294270832,0.024670097666482132,12,8.0,7.0
+XGBoost,base,3,aena,operaciones_aena_origen_lag2,aena,operaciones_aena,[2],[5],valor,False,2241.1822408040366,1728.8550923665364,0.009897290011091778,12,19.0,15.0
+XGBoost,base,3,aena,pasajeros_aena_origen_lag1,aena,pasajeros_aena,[1],[4],valor,False,77535.8212890625,67131.54459635417,0.0730996069808801,12,3.0,3.0
+XGBoost,base,3,aena,pasajeros_aena_origen_lag13,aena,pasajeros_aena,[13],[16],valor,False,27528.376729329426,-27237.911356608074,0.0604552955677112,12,10.0,4.0
+XGBoost,base,3,aena,pasajeros_aena_origen_lag2,aena,pasajeros_aena,[2],[5],valor,False,4594.961120605469,-4594.961120605469,0.0023186347292115292,12,17.0,20.0
+XGBoost,base,3,aena,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,76029.73697916667,76029.73697916667,0.020033334226657946,12,4.0,8.0
+XGBoost,base,3,aena,turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",media,False,53536.555338541664,53536.555338541664,0.004024101440639545,12,6.0,17.0
+XGBoost,base,3,aena,turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]","[5, 6, 7]",media,False,1687.6201578776042,988.1029256184896,0.010366274936435124,12,20.0,14.0
+XGBoost,base,3,aena,turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]","[5, 6, 7, 8, 9, 10]",media,False,22491.173177083332,-7005.475911458333,0.003955632312378536,12,13.0,18.0
+XGBoost,base,3,aena,turistas_mismo_mes_ano_anterior,turistas,turistas,[9],[12],valor,False,456906.93359375,165551.14713541666,0.29209601258238155,12,1.0,2.0
+XGBoost,base,3,aena,turistas_origen_lag14,turistas,turistas,[14],[17],valor,False,51147.753580729164,-38102.421549479164,0.03580672557776173,12,7.0,6.0
+XGBoost,base,3,aena,turistas_origen_lag2,turistas,turistas,[2],[5],valor,False,12194.460611979166,946.9181315104166,0.015104956536864242,12,14.0,9.0
+XGBoost,base,3,aena,turistas_origen_lag3,turistas,turistas,[3],[6],valor,False,26966.96142578125,-8327.145345052084,0.014499905208746592,12,11.0,12.0
+XGBoost,base,3,aena,turistas_origen_lag4,turistas,turistas,[4],[7],valor,False,27858.203689575195,-11548.537521362305,0.014782749582082033,12,9.0,11.0
+XGBoost,base,3,aena,turistas_origen_lag5,turistas,turistas,[5],[8],valor,False,9283.17236328125,-6390.04345703125,0.0025551413418725133,12,15.0,19.0
+XGBoost,base,3,aena,turistas_origen_lag8,turistas,turistas,[8],[11],valor,False,22573.438802083332,15754.901041666666,0.012995276832953095,12,12.0,13.0
+XGBoost,base,3,google_trends,gt_majorca_alemania_origen_lag1,google_trends,gt_majorca_alemania,[1],[4],valor,False,63880.593994140625,-15891.523030598959,0.04140307195484638,12,6.0,5.0
+XGBoost,base,3,google_trends,gt_majorca_alemania_origen_lag13,google_trends,gt_majorca_alemania,[13],[16],valor,False,20807.47479248047,8638.454447428385,0.007747113627071182,12,12.0,15.0
+XGBoost,base,3,google_trends,gt_majorca_alemania_origen_lag2,google_trends,gt_majorca_alemania,[2],[5],valor,False,125.00094095865886,-10.526921590169271,0.0004314751907562216,12,24.0,24.0
+XGBoost,base,3,google_trends,gt_majorca_reino_unido_origen_lag1,google_trends,gt_majorca_reino_unido,[1],[4],valor,False,3238.2597452799478,-738.6918741861979,0.0020076955940263965,12,18.0,22.0
+XGBoost,base,3,google_trends,gt_majorca_reino_unido_origen_lag13,google_trends,gt_majorca_reino_unido,[13],[16],valor,False,2009.9690043131511,-2009.9690043131511,0.0023835973891740045,12,19.0,21.0
+XGBoost,base,3,google_trends,gt_majorca_reino_unido_origen_lag2,google_trends,gt_majorca_reino_unido,[2],[5],valor,False,1387.025405883789,186.8706309000651,0.010572303435765207,12,21.0,13.0
+XGBoost,base,3,google_trends,gt_mallorca_alemania_origen_lag1,google_trends,gt_mallorca_alemania,[1],[4],valor,False,94377.78336588542,-45702.35791015625,0.10329938307404518,12,4.0,3.0
+XGBoost,base,3,google_trends,gt_mallorca_alemania_origen_lag13,google_trends,gt_mallorca_alemania,[13],[16],valor,False,1664.7372360229492,1337.20103708903,0.0030519679518571743,12,20.0,20.0
+XGBoost,base,3,google_trends,gt_mallorca_alemania_origen_lag2,google_trends,gt_mallorca_alemania,[2],[5],valor,False,35443.57051595052,-3613.6129150390625,0.031954706025620304,12,10.0,7.0
+XGBoost,base,3,google_trends,gt_mallorca_reino_unido_origen_lag1,google_trends,gt_mallorca_reino_unido,[1],[4],valor,False,563.1615962982178,-43.18927447001139,0.0006159648570852975,12,23.0,23.0
+XGBoost,base,3,google_trends,gt_mallorca_reino_unido_origen_lag13,google_trends,gt_mallorca_reino_unido,[13],[16],valor,False,0.0,0.0,0.0,12,26.0,26.0
+XGBoost,base,3,google_trends,gt_mallorca_reino_unido_origen_lag2,google_trends,gt_mallorca_reino_unido,[2],[5],valor,False,3856.91246287028,-2250.1365280151367,0.009848441268938283,12,16.0,14.0
+XGBoost,base,3,google_trends,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,120411.787109375,-30670.281901041668,0.40085099389155704,12,2.0,1.0
+XGBoost,base,3,google_trends,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,20.957171122233074,20.957171122233074,0.0001918814959935844,12,25.0,25.0
+XGBoost,base,3,google_trends,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,11927.64931233724,711.3057657877604,0.041444200091063976,12,14.0,4.0
+XGBoost,base,3,google_trends,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,116027.89453125,116027.89453125,0.028314722701907158,12,3.0,8.0
+XGBoost,base,3,google_trends,turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",media,False,79190.81608072917,79190.81608072917,0.016155608619252842,12,5.0,9.0
+XGBoost,base,3,google_trends,turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]","[5, 6, 7]",media,False,1172.0254923502605,40.1280517578125,0.00391439985348067,12,22.0,19.0
+XGBoost,base,3,google_trends,turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]","[5, 6, 7, 8, 9, 10]",media,False,43093.845377604164,-6148.521809895833,0.006769891479052603,12,8.0,16.0
+XGBoost,base,3,google_trends,turistas_mismo_mes_ano_anterior,turistas,turistas,[9],[12],valor,False,349970.5833333333,113183.98958333333,0.1948582964638869,12,1.0,2.0
+XGBoost,base,3,google_trends,turistas_origen_lag14,turistas,turistas,[14],[17],valor,False,62079.26989746094,-55054.32393391927,0.040867045211295285,12,7.0,6.0
+XGBoost,base,3,google_trends,turistas_origen_lag2,turistas,turistas,[2],[5],valor,False,19249.77870686849,-108.16851806640625,0.013674065315475067,12,13.0,11.0
+XGBoost,base,3,google_trends,turistas_origen_lag3,turistas,turistas,[3],[6],valor,False,26282.249837239582,-11156.734537760416,0.013537419649461905,12,11.0,12.0
+XGBoost,base,3,google_trends,turistas_origen_lag4,turistas,turistas,[4],[7],valor,False,6347.289515177409,-3731.113479614258,0.006376231554895639,12,15.0,17.0
+XGBoost,base,3,google_trends,turistas_origen_lag5,turistas,turistas,[5],[8],valor,False,3399.2543131510415,-2979.4114990234375,0.0057287735398858786,12,17.0,18.0
+XGBoost,base,3,google_trends,turistas_origen_lag8,turistas,turistas,[8],[11],valor,False,41309.19551595052,22110.553263346355,0.014000730550227066,12,9.0,10.0
+XGBoost,base,3,hoteles,estancia_media_noches_origen_lag1,hoteles,estancia_media_noches,[1],[4],valor,False,67.55737940470378,50.6895866394043,0.0001703289405365164,12,30.0,30.0
+XGBoost,base,3,hoteles,estancia_media_noches_origen_lag13,hoteles,estancia_media_noches,[13],[16],valor,False,15578.687372843424,6598.456059773763,0.0063189659170651185,12,10.0,17.0
+XGBoost,base,3,hoteles,estancia_media_noches_origen_lag13__ausente,hoteles,estancia_media_noches,[13],[16],valor,True,0.0,0.0,0.0,12,32.0,32.0
+XGBoost,base,3,hoteles,estancia_media_noches_origen_lag1__ausente,hoteles,estancia_media_noches,[1],[4],valor,True,0.0,0.0,0.0,12,32.0,32.0
+XGBoost,base,3,hoteles,estancia_media_noches_origen_lag2,hoteles,estancia_media_noches,[2],[5],valor,False,9608.918853759766,-2407.558176676432,0.0024082286787840226,12,18.0,22.0
+XGBoost,base,3,hoteles,estancia_media_noches_origen_lag2__ausente,hoteles,estancia_media_noches,[2],[5],valor,True,0.0,0.0,0.0,12,32.0,32.0
+XGBoost,base,3,hoteles,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,94587.3056640625,-23292.439127604168,0.3142981256047885,12,2.0,1.0
+XGBoost,base,3,hoteles,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,451.3107198079427,-58.84801228841146,0.0007387711084447801,12,25.0,27.0
+XGBoost,base,3,hoteles,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,13270.756713867188,-692.9724527994791,0.006436558032874018,12,15.0,16.0
+XGBoost,base,3,hoteles,ocupacion_fin_semana_pct_origen_lag1,hoteles,ocupacion_fin_semana_pct,[1],[4],valor,False,143.4792455037435,60.061119079589844,0.00012941736107071242,12,29.0,31.0
+XGBoost,base,3,hoteles,ocupacion_fin_semana_pct_origen_lag13,hoteles,ocupacion_fin_semana_pct,[13],[16],valor,False,188.00076548258463,-79.70262908935547,0.0018067098474906136,12,27.0,24.0
+XGBoost,base,3,hoteles,ocupacion_fin_semana_pct_origen_lag13__ausente,hoteles,ocupacion_fin_semana_pct,[13],[16],valor,True,0.0,0.0,0.0,12,32.0,32.0
+XGBoost,base,3,hoteles,ocupacion_fin_semana_pct_origen_lag1__ausente,hoteles,ocupacion_fin_semana_pct,[1],[4],valor,True,0.0,0.0,0.0,12,32.0,32.0
+XGBoost,base,3,hoteles,ocupacion_fin_semana_pct_origen_lag2,hoteles,ocupacion_fin_semana_pct,[2],[5],valor,False,1008.4234034220377,-265.6704330444336,0.0010153660647726308,12,24.0,26.0
+XGBoost,base,3,hoteles,ocupacion_fin_semana_pct_origen_lag2__ausente,hoteles,ocupacion_fin_semana_pct,[2],[5],valor,True,0.0,0.0,0.0,12,32.0,32.0
+XGBoost,base,3,hoteles,ocupacion_habitaciones_pct_origen_lag1,hoteles,ocupacion_habitaciones_pct,[1],[4],valor,False,37170.89186604818,36613.328186035156,0.0885682584096988,12,7.0,4.0
+XGBoost,base,3,hoteles,ocupacion_habitaciones_pct_origen_lag13,hoteles,ocupacion_habitaciones_pct,[13],[16],valor,False,0.0,0.0,0.0,12,32.0,32.0
+XGBoost,base,3,hoteles,ocupacion_habitaciones_pct_origen_lag13__ausente,hoteles,ocupacion_habitaciones_pct,[13],[16],valor,True,0.0,0.0,0.0,12,32.0,32.0
+XGBoost,base,3,hoteles,ocupacion_habitaciones_pct_origen_lag1__ausente,hoteles,ocupacion_habitaciones_pct,[1],[4],valor,True,0.0,0.0,0.0,12,32.0,32.0
+XGBoost,base,3,hoteles,ocupacion_habitaciones_pct_origen_lag2,hoteles,ocupacion_habitaciones_pct,[2],[5],valor,False,15268.609537760416,15268.609537760416,0.05051040307929119,12,11.0,6.0
+XGBoost,base,3,hoteles,ocupacion_habitaciones_pct_origen_lag2__ausente,hoteles,ocupacion_habitaciones_pct,[2],[5],valor,True,0.0,0.0,0.0,12,32.0,32.0
+XGBoost,base,3,hoteles,ocupacion_plazas_pct_origen_lag1,hoteles,ocupacion_plazas_pct,[1],[4],valor,False,16.476647694905598,16.476647694905598,0.0004093303189923366,12,31.0,29.0
+XGBoost,base,3,hoteles,ocupacion_plazas_pct_origen_lag13,hoteles,ocupacion_plazas_pct,[13],[16],valor,False,260.12614885965985,-260.12614885965985,0.0006466593670969208,12,26.0,28.0
+XGBoost,base,3,hoteles,ocupacion_plazas_pct_origen_lag13__ausente,hoteles,ocupacion_plazas_pct,[13],[16],valor,True,0.0,0.0,0.0,12,32.0,32.0
+XGBoost,base,3,hoteles,ocupacion_plazas_pct_origen_lag1__ausente,hoteles,ocupacion_plazas_pct,[1],[4],valor,True,0.0,0.0,0.0,12,32.0,32.0
+XGBoost,base,3,hoteles,ocupacion_plazas_pct_origen_lag2,hoteles,ocupacion_plazas_pct,[2],[5],valor,False,14082.239786783854,4524.4337972005205,0.01281124169084554,12,14.0,14.0
+XGBoost,base,3,hoteles,ocupacion_plazas_pct_origen_lag2__ausente,hoteles,ocupacion_plazas_pct,[2],[5],valor,True,0.0,0.0,0.0,12,32.0,32.0
+XGBoost,base,3,hoteles,pernoctaciones_hoteles_origen_lag1,hoteles,pernoctaciones_hoteles,[1],[4],valor,False,51683.41845703125,13561.655436197916,0.06446535574893157,12,5.0,5.0
+XGBoost,base,3,hoteles,pernoctaciones_hoteles_origen_lag13,hoteles,pernoctaciones_hoteles,[13],[16],valor,False,152.34815979003906,-152.34815979003906,0.00430203415453434,12,28.0,20.0
+XGBoost,base,3,hoteles,pernoctaciones_hoteles_origen_lag13__ausente,hoteles,pernoctaciones_hoteles,[13],[16],valor,True,0.0,0.0,0.0,12,32.0,32.0
+XGBoost,base,3,hoteles,pernoctaciones_hoteles_origen_lag1__ausente,hoteles,pernoctaciones_hoteles,[1],[4],valor,True,0.0,0.0,0.0,12,32.0,32.0
+XGBoost,base,3,hoteles,pernoctaciones_hoteles_origen_lag2,hoteles,pernoctaciones_hoteles,[2],[5],valor,False,10112.787567138672,5086.573699951172,0.10326079931110144,12,17.0,3.0
+XGBoost,base,3,hoteles,pernoctaciones_hoteles_origen_lag2__ausente,hoteles,pernoctaciones_hoteles,[2],[5],valor,True,0.0,0.0,0.0,12,32.0,32.0
+XGBoost,base,3,hoteles,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,83624.13932291667,83624.13932291667,0.020660668301085632,12,3.0,10.0
+XGBoost,base,3,hoteles,turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",media,False,41441.52880859375,41441.52880859375,0.0024858632726439587,12,6.0,21.0
+XGBoost,base,3,hoteles,turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]","[5, 6, 7]",media,False,2102.8966674804688,1700.136210123698,0.007571547292172909,12,23.0,15.0
+XGBoost,base,3,hoteles,turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]","[5, 6, 7, 8, 9, 10]",media,False,3412.2547403971353,-761.2006225585938,0.002364490656570221,12,22.0,23.0
+XGBoost,base,3,hoteles,turistas_mismo_mes_ano_anterior,turistas,turistas,[9],[12],valor,False,441427.7513020833,165391.54817708334,0.14629141241312027,12,1.0,2.0
+XGBoost,base,3,hoteles,turistas_origen_lag14,turistas,turistas,[14],[17],valor,False,72352.69921875,-58818.891927083336,0.03725884078691403,12,4.0,8.0
+XGBoost,base,3,hoteles,turistas_origen_lag2,turistas,turistas,[2],[5],valor,False,23536.766845703125,6215.483968098958,0.021913050518681605,12,9.0,9.0
+XGBoost,base,3,hoteles,turistas_origen_lag3,turistas,turistas,[3],[6],valor,False,15023.613118489584,-3454.2815755208335,0.013125810384129485,12,12.0,13.0
+XGBoost,base,3,hoteles,turistas_origen_lag4,turistas,turistas,[4],[7],valor,False,14286.637166341146,-5850.0876871744795,0.005588767138154556,12,13.0,18.0
+XGBoost,base,3,hoteles,turistas_origen_lag5,turistas,turistas,[5],[8],valor,False,8866.468078613281,-731.7794392903646,0.001195498844026588,12,19.0,25.0
+XGBoost,base,3,hoteles,turistas_origen_lag8,turistas,turistas,[8],[11],valor,False,30900.279866536457,7493.849365234375,0.018133167332659166,12,8.0,11.0
+XGBoost,base,3,hoteles,viajeros_hoteles_origen_lag1,hoteles,viajeros_hoteles,[1],[4],valor,False,8782.495381673178,3867.1670939127603,0.015092613253121575,12,20.0,12.0
+XGBoost,base,3,hoteles,viajeros_hoteles_origen_lag13,hoteles,viajeros_hoteles,[13],[16],valor,False,11904.040079752604,-10454.959594726562,0.04549035243690014,12,16.0,7.0
+XGBoost,base,3,hoteles,viajeros_hoteles_origen_lag13__ausente,hoteles,viajeros_hoteles,[13],[16],valor,True,0.0,0.0,0.0,12,32.0,32.0
+XGBoost,base,3,hoteles,viajeros_hoteles_origen_lag1__ausente,hoteles,viajeros_hoteles,[1],[4],valor,True,0.0,0.0,0.0,12,32.0,32.0
+XGBoost,base,3,hoteles,viajeros_hoteles_origen_lag2,hoteles,viajeros_hoteles,[2],[5],valor,False,3505.9887491861978,3505.9887491861978,0.0045313793428552645,12,21.0,19.0
+XGBoost,base,3,hoteles,viajeros_hoteles_origen_lag2__ausente,hoteles,viajeros_hoteles,[2],[5],valor,True,0.0,0.0,0.0,12,32.0,32.0
+XGBoost,base,3,meteorologia,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,0.0,0.0,0.0,12,19.0,19.0
+XGBoost,base,3,meteorologia,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,0.0,0.0,0.0,12,19.0,19.0
+XGBoost,base,3,meteorologia,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,2924.265240987142,-706.185198465983,0.0014701078277236472,12,16.0,17.0
+XGBoost,base,3,meteorologia,meteo_precipitacion_mm_origen_lag14,meteorologia,meteo_precipitacion_mm,[14],[17],valor,False,7335.312795003255,3751.785369873047,0.0031475419527851045,12,12.0,16.0
+XGBoost,base,3,meteorologia,meteo_precipitacion_mm_origen_lag2,meteorologia,meteo_precipitacion_mm,[2],[5],valor,False,22711.239624023438,69.62959798177083,0.03270437599470218,12,9.0,9.0
+XGBoost,base,3,meteorologia,meteo_precipitacion_mm_origen_lag3,meteorologia,meteo_precipitacion_mm,[3],[6],valor,False,22298.68672688802,-4244.6702880859375,0.017290312331169844,12,10.0,11.0
+XGBoost,base,3,meteorologia,meteo_temperatura_media_c_origen_lag14,meteorologia,meteo_temperatura_media_c,[14],[17],valor,False,4340.131907145183,4098.677764892578,0.005470697379981478,12,14.0,14.0
+XGBoost,base,3,meteorologia,meteo_temperatura_media_c_origen_lag2,meteorologia,meteo_temperatura_media_c,[2],[5],valor,False,121311.7919921875,-31237.450846354168,0.14838706267376742,12,4.0,2.0
+XGBoost,base,3,meteorologia,meteo_temperatura_media_c_origen_lag3,meteorologia,meteo_temperatura_media_c,[3],[6],valor,False,266565.4306640625,-109456.95670572917,0.3141775478919347,12,1.0,1.0
+XGBoost,base,3,meteorologia,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,141871.490234375,141871.490234375,0.03459208691492677,12,3.0,8.0
+XGBoost,base,3,meteorologia,turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",media,False,78177.35717773438,78177.35717773438,0.009380443952977657,12,5.0,13.0
+XGBoost,base,3,meteorologia,turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]","[5, 6, 7]",media,False,2264.461842854818,-246.15715535481772,0.023859559403111536,12,17.0,10.0
+XGBoost,base,3,meteorologia,turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]","[5, 6, 7, 8, 9, 10]",media,False,9517.066284179688,9517.066284179688,0.053236021815488734,12,11.0,6.0
+XGBoost,base,3,meteorologia,turistas_mismo_mes_ano_anterior,turistas,turistas,[9],[12],valor,False,160370.53841145834,55723.501953125,0.12304161054392655,12,2.0,3.0
+XGBoost,base,3,meteorologia,turistas_origen_lag14,turistas,turistas,[14],[17],valor,False,46544.944010416664,-40301.672526041664,0.04469331819564104,12,7.0,7.0
+XGBoost,base,3,meteorologia,turistas_origen_lag2,turistas,turistas,[2],[5],valor,False,38169.729329427086,32559.226725260418,0.07572658856709798,12,8.0,5.0
+XGBoost,base,3,meteorologia,turistas_origen_lag3,turistas,turistas,[3],[6],valor,False,3122.1024271647134,-2460.337412516276,0.015218936062107483,12,15.0,12.0
+XGBoost,base,3,meteorologia,turistas_origen_lag4,turistas,turistas,[4],[7],valor,False,833.1654523213705,-149.71217473347983,0.0010484104180553306,12,18.0,18.0
+XGBoost,base,3,meteorologia,turistas_origen_lag5,turistas,turistas,[5],[8],valor,False,5153.857401529948,887.7958374023438,0.003379703538181881,12,13.0,15.0
+XGBoost,base,3,meteorologia,turistas_origen_lag8,turistas,turistas,[8],[11],valor,False,66004.68033854167,44814.753255208336,0.09317570303877194,12,6.0,4.0
+XGBoost,base,3,turistas_calendario,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,31401.283365885418,-7616.63720703125,0.16442770262559256,12,6.0,2.0
+XGBoost,base,3,turistas_calendario,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,1915.6219584147136,-24.889434814453125,0.0031125846435315907,12,14.0,14.0
+XGBoost,base,3,turistas_calendario,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,4917.949808756511,-265.01719156901044,0.009649978795399269,12,13.0,13.0
+XGBoost,base,3,turistas_calendario,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,157750.4296875,157750.4296875,0.06197779222081105,12,2.0,5.0
+XGBoost,base,3,turistas_calendario,turistas_media12_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]","[5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]",media,False,41273.90380859375,41273.90380859375,0.010463584990551075,12,5.0,12.0
+XGBoost,base,3,turistas_calendario,turistas_media3_hasta_lag2,turistas,turistas,"[2, 3, 4]","[5, 6, 7]",media,False,5545.481609344482,4624.218242645264,0.02826906166349848,12,12.0,8.0
+XGBoost,base,3,turistas_calendario,turistas_media6_hasta_lag2,turistas,turistas,"[2, 3, 4, 5, 6, 7]","[5, 6, 7, 8, 9, 10]",media,False,22148.513916015625,-2813.4676920572915,0.01608731582139929,12,10.0,10.0
+XGBoost,base,3,turistas_calendario,turistas_mismo_mes_ano_anterior,turistas,turistas,[9],[12],valor,False,480571.0397135417,179860.30013020834,0.42698226124048233,12,1.0,1.0
+XGBoost,base,3,turistas_calendario,turistas_origen_lag14,turistas,turistas,[14],[17],valor,False,79221.15787760417,-70770.8935546875,0.09258631244301796,12,3.0,3.0
+XGBoost,base,3,turistas_calendario,turistas_origen_lag2,turistas,turistas,[2],[5],valor,False,31192.3798828125,31192.3798828125,0.06969272997230291,12,7.0,4.0
+XGBoost,base,3,turistas_calendario,turistas_origen_lag3,turistas,turistas,[3],[6],valor,False,45204.7001953125,-15506.1494140625,0.011353255016729236,12,4.0,11.0
+XGBoost,base,3,turistas_calendario,turistas_origen_lag4,turistas,turistas,[4],[7],valor,False,29761.327799479168,-14345.870768229166,0.05709594736496607,12,8.0,6.0
+XGBoost,base,3,turistas_calendario,turistas_origen_lag5,turistas,turistas,[5],[8],valor,False,26799.484741210938,-13699.828409830729,0.030477785660574835,12,9.0,7.0
+XGBoost,base,3,turistas_calendario,turistas_origen_lag8,turistas,turistas,[8],[11],valor,False,21331.288411458332,10843.723307291666,0.017823592914889257,12,11.0,9.0
+XGBoost,espera_adicional,1,aena,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,172327.845703125,-21479.620442708332,0.334573358297348,12,2.0,1.0
+XGBoost,espera_adicional,1,aena,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,10344.577799479166,3256.2001953125,0.0080060112522915,12,10.0,11.0
+XGBoost,espera_adicional,1,aena,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,8202.880920410156,77.70212809244792,0.024344598408788443,12,13.0,7.0
+XGBoost,espera_adicional,1,aena,operaciones_aena_origen_lag14,aena,operaciones_aena,[14],[15],valor,False,5220.724609375,-5220.724609375,0.008033158645654718,12,15.0,10.0
+XGBoost,espera_adicional,1,aena,operaciones_aena_origen_lag2,aena,operaciones_aena,[2],[3],valor,False,49204.731282552086,49204.731282552086,0.10160682536661625,12,6.0,4.0
+XGBoost,espera_adicional,1,aena,operaciones_aena_origen_lag3,aena,operaciones_aena,[3],[4],valor,False,4194.860432942708,-4194.860432942708,0.004419552666756014,12,16.0,16.0
+XGBoost,espera_adicional,1,aena,pasajeros_aena_origen_lag14,aena,pasajeros_aena,[14],[15],valor,False,7732.148681640625,-7732.148681640625,0.03212708390007416,12,14.0,6.0
+XGBoost,espera_adicional,1,aena,pasajeros_aena_origen_lag2,aena,pasajeros_aena,[2],[3],valor,False,93511.37662760417,53903.085611979164,0.1833962189654509,12,3.0,3.0
+XGBoost,espera_adicional,1,aena,pasajeros_aena_origen_lag3,aena,pasajeros_aena,[3],[4],valor,False,3046.564651489258,2931.254236857096,0.005008608529654642,12,18.0,15.0
+XGBoost,espera_adicional,1,aena,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,75184.06673177083,75184.06673177083,0.022761122168352205,12,4.0,8.0
+XGBoost,espera_adicional,1,aena,turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]","[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",media,False,38286.387044270836,38286.387044270836,0.005313832739678522,12,7.0,14.0
+XGBoost,espera_adicional,1,aena,turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]","[4, 5, 6]",media,False,2794.9905064900718,-2285.438794453939,0.008689858407403031,12,19.0,9.0
+XGBoost,espera_adicional,1,aena,turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]","[4, 5, 6, 7, 8, 9]",media,False,11345.47275797526,-1090.485860188802,0.007939421377765635,12,8.0,12.0
+XGBoost,espera_adicional,1,aena,turistas_mismo_mes_ano_anterior,turistas,turistas,[11],[12],valor,False,415763.470703125,142562.53841145834,0.1935376450419426,12,1.0,2.0
+XGBoost,espera_adicional,1,aena,turistas_origen_lag15,turistas,turistas,[15],[16],valor,False,52073.233072916664,-52073.233072916664,0.04116008244454861,12,5.0,5.0
+XGBoost,espera_adicional,1,aena,turistas_origen_lag3,turistas,turistas,[3],[4],valor,False,9599.383984883627,7724.625862121582,0.007189122765945892,12,11.0,13.0
+XGBoost,espera_adicional,1,aena,turistas_origen_lag4,turistas,turistas,[4],[5],valor,False,1570.9573084513347,847.9725672403971,0.0021795683715026826,12,20.0,19.0
+XGBoost,espera_adicional,1,aena,turistas_origen_lag5,turistas,turistas,[5],[6],valor,False,8354.39057413737,-1303.4865214029949,0.003787971606167654,12,12.0,18.0
+XGBoost,espera_adicional,1,aena,turistas_origen_lag6,turistas,turistas,[6],[7],valor,False,4193.031656901042,-2924.5590006510415,0.00204733302234672,12,17.0,20.0
+XGBoost,espera_adicional,1,aena,turistas_origen_lag9,turistas,turistas,[9],[10],valor,False,11273.136983235678,3244.8431701660156,0.0038786437556458018,12,9.0,17.0
+XGBoost,espera_adicional,1,google_trends,gt_majorca_alemania_origen_lag14,google_trends,gt_majorca_alemania,[14],[15],valor,False,3585.1228841145835,1717.4826253255208,0.0024404376357172928,12,19.0,22.0
+XGBoost,espera_adicional,1,google_trends,gt_majorca_alemania_origen_lag2,google_trends,gt_majorca_alemania,[2],[3],valor,False,12834.756144205729,3786.038370768229,0.02904522861354053,12,13.0,8.0
+XGBoost,espera_adicional,1,google_trends,gt_majorca_alemania_origen_lag3,google_trends,gt_majorca_alemania,[3],[4],valor,False,13955.218729654947,-4607.012390136719,0.10599769341448943,12,12.0,4.0
+XGBoost,espera_adicional,1,google_trends,gt_majorca_reino_unido_origen_lag14,google_trends,gt_majorca_reino_unido,[14],[15],valor,False,2312.3982442220054,299.1556905110677,0.0032109690121918297,12,21.0,18.0
+XGBoost,espera_adicional,1,google_trends,gt_majorca_reino_unido_origen_lag2,google_trends,gt_majorca_reino_unido,[2],[3],valor,False,3871.317667643229,-3104.799112955729,0.00287467084126547,12,18.0,21.0
+XGBoost,espera_adicional,1,google_trends,gt_majorca_reino_unido_origen_lag3,google_trends,gt_majorca_reino_unido,[3],[4],valor,False,1551.663558959961,557.7846832275391,0.002190120624921595,12,23.0,23.0
+XGBoost,espera_adicional,1,google_trends,gt_mallorca_alemania_origen_lag14,google_trends,gt_mallorca_alemania,[14],[15],valor,False,940.8151804606119,940.8151804606119,0.0018559048185124993,12,24.0,24.0
+XGBoost,espera_adicional,1,google_trends,gt_mallorca_alemania_origen_lag2,google_trends,gt_mallorca_alemania,[2],[3],valor,False,103015.77228037517,-52335.90919748942,0.10241202016671498,12,3.0,5.0
+XGBoost,espera_adicional,1,google_trends,gt_mallorca_alemania_origen_lag3,google_trends,gt_mallorca_alemania,[3],[4],valor,False,55126.145833333336,-29355.750651041668,0.2905638727049033,12,7.0,1.0
+XGBoost,espera_adicional,1,google_trends,gt_mallorca_reino_unido_origen_lag14,google_trends,gt_mallorca_reino_unido,[14],[15],valor,False,11642.865763346354,1162.8573811848958,0.01477726207425197,12,14.0,11.0
+XGBoost,espera_adicional,1,google_trends,gt_mallorca_reino_unido_origen_lag2,google_trends,gt_mallorca_reino_unido,[2],[3],valor,False,10445.590128580729,-2314.6531982421875,0.0068831907119601965,12,15.0,13.0
+XGBoost,espera_adicional,1,google_trends,gt_mallorca_reino_unido_origen_lag3,google_trends,gt_mallorca_reino_unido,[3],[4],valor,False,522.7967427571615,-51.41783650716146,0.0007271955352431784,12,25.0,25.0
+XGBoost,espera_adicional,1,google_trends,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,117024.21744791667,-12030.559895833334,0.11735951838394006,12,2.0,3.0
+XGBoost,espera_adicional,1,google_trends,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,0.0,0.0,0.0,12,26.0,26.0
+XGBoost,espera_adicional,1,google_trends,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,3495.38427734375,-683.9742838541666,0.04440780139217774,12,20.0,6.0
+XGBoost,espera_adicional,1,google_trends,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,98571.478515625,98571.478515625,0.01929337407151858,12,4.0,10.0
+XGBoost,espera_adicional,1,google_trends,turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]","[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",media,False,59063.264973958336,59063.264973958336,0.004797358570309977,12,6.0,15.0
+XGBoost,espera_adicional,1,google_trends,turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]","[4, 5, 6]",media,False,2218.6000061035156,-539.8412170410156,0.003079036920098588,12,22.0,19.0
+XGBoost,espera_adicional,1,google_trends,turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]","[4, 5, 6, 7, 8, 9]",media,False,10217.886423746744,-167.84963989257812,0.003003872096693764,12,16.0,20.0
+XGBoost,espera_adicional,1,google_trends,turistas_mismo_mes_ano_anterior,turistas,turistas,[11],[12],valor,False,371627.4778645833,139238.45703125,0.16004314770301184,12,1.0,2.0
+XGBoost,espera_adicional,1,google_trends,turistas_origen_lag15,turistas,turistas,[15],[16],valor,False,72773.45947265625,-55264.163899739586,0.02652503379310171,12,5.0,9.0
+XGBoost,espera_adicional,1,google_trends,turistas_origen_lag3,turistas,turistas,[3],[4],valor,False,34461.81486002604,29528.601806640625,0.03455087852974733,12,10.0,7.0
+XGBoost,espera_adicional,1,google_trends,turistas_origen_lag4,turistas,turistas,[4],[5],valor,False,7696.193349202474,-2089.3423970540366,0.004272680516199519,12,17.0,17.0
+XGBoost,espera_adicional,1,google_trends,turistas_origen_lag5,turistas,turistas,[5],[6],valor,False,44377.626790364586,-17018.59130859375,0.006534985538261632,12,8.0,14.0
+XGBoost,espera_adicional,1,google_trends,turistas_origen_lag6,turistas,turistas,[6],[7],valor,False,19160.884541829426,-2832.5894571940103,0.008815631115188202,12,11.0,12.0
+XGBoost,espera_adicional,1,google_trends,turistas_origen_lag9,turistas,turistas,[9],[10],valor,False,44070.64270019531,-11741.435424804688,0.004338083982778092,12,9.0,16.0
+XGBoost,espera_adicional,1,hoteles,estancia_media_noches_origen_lag14,hoteles,estancia_media_noches,[14],[15],valor,False,2458.228375116984,-450.1966330210368,0.0011910971855589498,12,24.0,28.0
+XGBoost,espera_adicional,1,hoteles,estancia_media_noches_origen_lag14__ausente,hoteles,estancia_media_noches,[14],[15],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,espera_adicional,1,hoteles,estancia_media_noches_origen_lag2,hoteles,estancia_media_noches,[2],[3],valor,False,258.99572881062824,214.1230583190918,0.0037930345667215684,12,28.0,20.0
+XGBoost,espera_adicional,1,hoteles,estancia_media_noches_origen_lag2__ausente,hoteles,estancia_media_noches,[2],[3],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,espera_adicional,1,hoteles,estancia_media_noches_origen_lag3,hoteles,estancia_media_noches,[3],[4],valor,False,12426.585754394531,-213.9832560221354,0.003428898829345902,12,13.0,21.0
+XGBoost,espera_adicional,1,hoteles,estancia_media_noches_origen_lag3__ausente,hoteles,estancia_media_noches,[3],[4],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,espera_adicional,1,hoteles,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,152071.90950520834,-12037.830078125,0.1991562806069851,12,2.0,2.0
+XGBoost,espera_adicional,1,hoteles,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,569.1394589742025,109.65026473999023,0.0007888351732011264,12,27.0,30.0
+XGBoost,espera_adicional,1,hoteles,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,13185.879069010416,564.7908528645834,0.038269267262270056,12,12.0,6.0
+XGBoost,espera_adicional,1,hoteles,ocupacion_fin_semana_pct_origen_lag14,hoteles,ocupacion_fin_semana_pct,[14],[15],valor,False,4659.287872314453,-3105.289825439453,0.0033662483522978923,12,19.0,22.0
+XGBoost,espera_adicional,1,hoteles,ocupacion_fin_semana_pct_origen_lag14__ausente,hoteles,ocupacion_fin_semana_pct,[14],[15],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,espera_adicional,1,hoteles,ocupacion_fin_semana_pct_origen_lag2,hoteles,ocupacion_fin_semana_pct,[2],[3],valor,False,887.7548014322916,161.301513671875,0.027897206445535023,12,26.0,9.0
+XGBoost,espera_adicional,1,hoteles,ocupacion_fin_semana_pct_origen_lag2__ausente,hoteles,ocupacion_fin_semana_pct,[2],[3],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,espera_adicional,1,hoteles,ocupacion_fin_semana_pct_origen_lag3,hoteles,ocupacion_fin_semana_pct,[3],[4],valor,False,3040.451649983724,-741.8836161295573,0.0011985024369399373,12,21.0,27.0
+XGBoost,espera_adicional,1,hoteles,ocupacion_fin_semana_pct_origen_lag3__ausente,hoteles,ocupacion_fin_semana_pct,[3],[4],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,espera_adicional,1,hoteles,ocupacion_habitaciones_pct_origen_lag14,hoteles,ocupacion_habitaciones_pct,[14],[15],valor,False,234.01342646280924,-115.3995246887207,0.0014283622876973823,12,29.0,26.0
+XGBoost,espera_adicional,1,hoteles,ocupacion_habitaciones_pct_origen_lag14__ausente,hoteles,ocupacion_habitaciones_pct,[14],[15],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,espera_adicional,1,hoteles,ocupacion_habitaciones_pct_origen_lag2,hoteles,ocupacion_habitaciones_pct,[2],[3],valor,False,89210.2099609375,63966.234049479164,0.0931118472168843,12,3.0,4.0
+XGBoost,espera_adicional,1,hoteles,ocupacion_habitaciones_pct_origen_lag2__ausente,hoteles,ocupacion_habitaciones_pct,[2],[3],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,espera_adicional,1,hoteles,ocupacion_habitaciones_pct_origen_lag3,hoteles,ocupacion_habitaciones_pct,[3],[4],valor,False,6032.961344401042,6032.961344401042,0.0038788219486984112,12,14.0,18.0
+XGBoost,espera_adicional,1,hoteles,ocupacion_habitaciones_pct_origen_lag3__ausente,hoteles,ocupacion_habitaciones_pct,[3],[4],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,espera_adicional,1,hoteles,ocupacion_plazas_pct_origen_lag14,hoteles,ocupacion_plazas_pct,[14],[15],valor,False,2678.386199951172,-2170.548838297526,0.0020458105815729746,12,23.0,25.0
+XGBoost,espera_adicional,1,hoteles,ocupacion_plazas_pct_origen_lag14__ausente,hoteles,ocupacion_plazas_pct,[14],[15],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,espera_adicional,1,hoteles,ocupacion_plazas_pct_origen_lag2,hoteles,ocupacion_plazas_pct,[2],[3],valor,False,60.069891611735024,60.069891611735024,0.00035220489371567965,12,31.0,31.0
+XGBoost,espera_adicional,1,hoteles,ocupacion_plazas_pct_origen_lag2__ausente,hoteles,ocupacion_plazas_pct,[2],[3],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,espera_adicional,1,hoteles,ocupacion_plazas_pct_origen_lag3,hoteles,ocupacion_plazas_pct,[3],[4],valor,False,5565.347717285156,1369.029032389323,0.007409097510389984,12,15.0,13.0
+XGBoost,espera_adicional,1,hoteles,ocupacion_plazas_pct_origen_lag3__ausente,hoteles,ocupacion_plazas_pct,[3],[4],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,espera_adicional,1,hoteles,pernoctaciones_hoteles_origen_lag14,hoteles,pernoctaciones_hoteles,[14],[15],valor,False,45.0545908610026,45.0545908610026,0.0002693307469598949,12,32.0,32.0
+XGBoost,espera_adicional,1,hoteles,pernoctaciones_hoteles_origen_lag14__ausente,hoteles,pernoctaciones_hoteles,[14],[15],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,espera_adicional,1,hoteles,pernoctaciones_hoteles_origen_lag2,hoteles,pernoctaciones_hoteles,[2],[3],valor,False,32985.30769856771,11508.712972005209,0.18790242075920105,12,8.0,3.0
+XGBoost,espera_adicional,1,hoteles,pernoctaciones_hoteles_origen_lag2__ausente,hoteles,pernoctaciones_hoteles,[2],[3],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,espera_adicional,1,hoteles,pernoctaciones_hoteles_origen_lag3,hoteles,pernoctaciones_hoteles,[3],[4],valor,False,4829.973795572917,-1268.9459431966145,0.002299414666291947,12,18.0,23.0
+XGBoost,espera_adicional,1,hoteles,pernoctaciones_hoteles_origen_lag3__ausente,hoteles,pernoctaciones_hoteles,[3],[4],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,espera_adicional,1,hoteles,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,86545.28645833333,86545.28645833333,0.0137865476620694,12,4.0,10.0
+XGBoost,espera_adicional,1,hoteles,turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]","[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",media,False,84488.4677734375,84488.4677734375,0.004521004486984263,12,5.0,17.0
+XGBoost,espera_adicional,1,hoteles,turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]","[4, 5, 6]",media,False,4924.1632080078125,4924.1632080078125,0.005601054581347853,12,17.0,15.0
+XGBoost,espera_adicional,1,hoteles,turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]","[4, 5, 6, 7, 8, 9]",media,False,16664.709330240887,-2979.1087443033853,0.007614928142478068,12,10.0,12.0
+XGBoost,espera_adicional,1,hoteles,turistas_mismo_mes_ano_anterior,turistas,turistas,[11],[12],valor,False,350395.2708333333,107013.99479166667,0.24687608828147253,12,1.0,1.0
+XGBoost,espera_adicional,1,hoteles,turistas_origen_lag15,turistas,turistas,[15],[16],valor,False,48410.0419921875,-37958.1416015625,0.037952824495732784,12,7.0,7.0
+XGBoost,espera_adicional,1,hoteles,turistas_origen_lag3,turistas,turistas,[3],[4],valor,False,14574.767171223959,12129.823649088541,0.04537475202232599,12,11.0,5.0
+XGBoost,espera_adicional,1,hoteles,turistas_origen_lag4,turistas,turistas,[4],[5],valor,False,3578.8466593424478,1617.5817260742188,0.006355878935816388,12,20.0,14.0
+XGBoost,espera_adicional,1,hoteles,turistas_origen_lag5,turistas,turistas,[5],[6],valor,False,50779.57985432943,-23110.472229003906,0.011667552326495448,12,6.0,11.0
+XGBoost,espera_adicional,1,hoteles,turistas_origen_lag6,turistas,turistas,[6],[7],valor,False,24761.826700846355,-9890.131632486979,0.003877009905409068,12,9.0,19.0
+XGBoost,espera_adicional,1,hoteles,turistas_origen_lag9,turistas,turistas,[9],[10],valor,False,1574.0905799865723,1574.0905799865723,0.002090529742417857,12,25.0,24.0
+XGBoost,espera_adicional,1,hoteles,viajeros_hoteles_origen_lag14,hoteles,viajeros_hoteles,[14],[15],valor,False,5379.78059387207,-5080.289464314778,0.030743126447002094,12,16.0,8.0
+XGBoost,espera_adicional,1,hoteles,viajeros_hoteles_origen_lag14__ausente,hoteles,viajeros_hoteles,[14],[15],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,espera_adicional,1,hoteles,viajeros_hoteles_origen_lag2,hoteles,viajeros_hoteles,[2],[3],valor,False,217.00477917989096,217.00477917989096,0.001132426046145459,12,30.0,29.0
+XGBoost,espera_adicional,1,hoteles,viajeros_hoteles_origen_lag2__ausente,hoteles,viajeros_hoteles,[2],[3],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,espera_adicional,1,hoteles,viajeros_hoteles_origen_lag3,hoteles,viajeros_hoteles,[3],[4],valor,False,2702.6700439453125,1484.8747965494792,0.004619581896501283,12,22.0,16.0
+XGBoost,espera_adicional,1,hoteles,viajeros_hoteles_origen_lag3__ausente,hoteles,viajeros_hoteles,[3],[4],valor,True,0.0,0.0,0.0,12,33.0,33.0
+XGBoost,espera_adicional,1,meteorologia,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,0.0,0.0,0.0,12,20.0,20.0
+XGBoost,espera_adicional,1,meteorologia,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,2131.8765004475913,-46.37117004394531,0.01972753826218347,12,19.0,9.0
+XGBoost,espera_adicional,1,meteorologia,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,9441.652567545572,742.9255574544271,0.08485260574767987,12,10.0,4.0
+XGBoost,espera_adicional,1,meteorologia,meteo_precipitacion_mm_origen_lag15,meteorologia,meteo_precipitacion_mm,[15],[16],valor,False,7267.6029713948565,-5379.253392537435,0.0074750030956541496,12,12.0,14.0
+XGBoost,espera_adicional,1,meteorologia,meteo_precipitacion_mm_origen_lag3,meteorologia,meteo_precipitacion_mm,[3],[4],valor,False,4387.959142049153,2186.5611114501953,0.006972197870103021,12,16.0,15.0
+XGBoost,espera_adicional,1,meteorologia,meteo_precipitacion_mm_origen_lag4,meteorologia,meteo_precipitacion_mm,[4],[5],valor,False,55282.968424479164,-9306.806315104166,0.027843735025574762,12,5.0,8.0
+XGBoost,espera_adicional,1,meteorologia,meteo_temperatura_media_c_origen_lag15,meteorologia,meteo_temperatura_media_c,[15],[16],valor,False,6502.7419026692705,6502.7419026692705,0.006040317821316421,12,13.0,16.0
+XGBoost,espera_adicional,1,meteorologia,meteo_temperatura_media_c_origen_lag3,meteorologia,meteo_temperatura_media_c,[3],[4],valor,False,2594.4116719563804,-449.28343709309894,0.002929033051865796,12,17.0,17.0
+XGBoost,espera_adicional,1,meteorologia,meteo_temperatura_media_c_origen_lag4,meteorologia,meteo_temperatura_media_c,[4],[5],valor,False,250998.197265625,-94334.056640625,0.1907097448905309,12,2.0,2.0
+XGBoost,espera_adicional,1,meteorologia,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,119452.86458333333,119452.86458333333,0.04396342889716228,12,3.0,6.0
+XGBoost,espera_adicional,1,meteorologia,turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]","[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",media,False,15400.745686848959,15400.745686848959,0.002445396656791369,12,8.0,19.0
+XGBoost,espera_adicional,1,meteorologia,turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]","[4, 5, 6]",media,False,2302.9163678487143,-1538.3231468200684,0.015059789487471184,12,18.0,12.0
+XGBoost,espera_adicional,1,meteorologia,turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]","[4, 5, 6, 7, 8, 9]",media,False,13833.204996744791,3044.0052083333335,0.01738771206388871,12,9.0,10.0
+XGBoost,espera_adicional,1,meteorologia,turistas_mismo_mes_ano_anterior,turistas,turistas,[11],[12],valor,False,323526.7721354167,119583.31380208333,0.3064652805527051,12,1.0,1.0
+XGBoost,espera_adicional,1,meteorologia,turistas_origen_lag15,turistas,turistas,[15],[16],valor,False,31402.826497395832,-28371.849934895832,0.0695920077462991,12,7.0,5.0
+XGBoost,espera_adicional,1,meteorologia,turistas_origen_lag3,turistas,turistas,[3],[4],valor,False,84730.99747721355,77326.97208658855,0.1286160914848248,12,4.0,3.0
+XGBoost,espera_adicional,1,meteorologia,turistas_origen_lag4,turistas,turistas,[4],[5],valor,False,4840.984700520833,4840.984700520833,0.039792622129122414,12,15.0,7.0
+XGBoost,espera_adicional,1,meteorologia,turistas_origen_lag5,turistas,turistas,[5],[6],valor,False,42198.362141927086,-15254.509602864584,0.01664704185289641,12,6.0,11.0
+XGBoost,espera_adicional,1,meteorologia,turistas_origen_lag6,turistas,turistas,[6],[7],valor,False,6262.7125244140625,-2491.153605143229,0.010805823917811116,12,14.0,13.0
+XGBoost,espera_adicional,1,meteorologia,turistas_origen_lag9,turistas,turistas,[9],[10],valor,False,9121.702168782553,-3919.2135213216147,0.0026745762249144414,12,11.0,18.0
+XGBoost,espera_adicional,1,turistas_calendario,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,115572.2548828125,-24690.4482421875,0.28247318665186566,12,2.0,2.0
+XGBoost,espera_adicional,1,turistas_calendario,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,8174.81298828125,2136.4156087239585,0.017493083141744137,12,11.0,8.0
+XGBoost,espera_adicional,1,turistas_calendario,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,5626.288167317708,-228.68306477864584,0.0263529180859526,12,13.0,6.0
+XGBoost,espera_adicional,1,turistas_calendario,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,113855.6953125,113855.6953125,0.03926817700266838,12,3.0,5.0
+XGBoost,espera_adicional,1,turistas_calendario,turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]","[4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]",media,False,39956.76171875,39956.76171875,0.005324758201216658,12,6.0,13.0
+XGBoost,espera_adicional,1,turistas_calendario,turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]","[4, 5, 6]",media,False,7052.933776855469,-7052.933776855469,0.0078939541708678,12,12.0,12.0
+XGBoost,espera_adicional,1,turistas_calendario,turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]","[4, 5, 6, 7, 8, 9]",media,False,18710.23341878255,3484.1733194986978,0.01758823567070067,12,10.0,7.0
+XGBoost,espera_adicional,1,turistas_calendario,turistas_mismo_mes_ano_anterior,turistas,turistas,[11],[12],valor,False,439677.58203125,156257.81640625,0.34991238762935,12,1.0,1.0
+XGBoost,espera_adicional,1,turistas_calendario,turistas_origen_lag15,turistas,turistas,[15],[16],valor,False,71720.90494791667,-64870.185546875,0.058709921315312386,12,5.0,4.0
+XGBoost,espera_adicional,1,turistas_calendario,turistas_origen_lag3,turistas,turistas,[3],[4],valor,False,106330.32649739583,92279.5712890625,0.15089388688405356,12,4.0,3.0
+XGBoost,espera_adicional,1,turistas_calendario,turistas_origen_lag4,turistas,turistas,[4],[5],valor,False,4724.533426920573,-1091.9452514648438,0.002497850432215879,12,14.0,14.0
+XGBoost,espera_adicional,1,turistas_calendario,turistas_origen_lag5,turistas,turistas,[5],[6],valor,False,37863.175130208336,-9425.448567708334,0.01559246921290954,12,7.0,10.0
+XGBoost,espera_adicional,1,turistas_calendario,turistas_origen_lag6,turistas,turistas,[6],[7],valor,False,20330.940348307293,-7430.612223307292,0.017456828771779936,12,9.0,9.0
+XGBoost,espera_adicional,1,turistas_calendario,turistas_origen_lag9,turistas,turistas,[9],[10],valor,False,26831.95957438151,-10125.42519124349,0.008542306022718549,12,8.0,11.0
+XGBoost,espera_adicional,3,aena,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,27453.367513020832,-1696.83203125,0.015233659340689579,12,8.0,12.0
+XGBoost,espera_adicional,3,aena,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,38.10634167989095,38.10634167989095,0.00026907267844459665,12,19.0,19.0
+XGBoost,espera_adicional,3,aena,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,3295.0438130696616,-1346.7769673665364,0.00787572655826807,12,17.0,16.0
+XGBoost,espera_adicional,3,aena,operaciones_aena_origen_lag14,aena,operaciones_aena,[14],[17],valor,False,30056.273030598957,-27731.123453776043,0.05363435080895821,12,7.0,5.0
+XGBoost,espera_adicional,3,aena,operaciones_aena_origen_lag2,aena,operaciones_aena,[2],[5],valor,False,57089.146647135414,51274.507975260414,0.08831579176088174,12,5.0,3.0
+XGBoost,espera_adicional,3,aena,operaciones_aena_origen_lag3,aena,operaciones_aena,[3],[6],valor,False,6415.2922770182295,3817.5972900390625,0.02648793300613761,12,16.0,9.0
+XGBoost,espera_adicional,3,aena,pasajeros_aena_origen_lag14,aena,pasajeros_aena,[14],[17],valor,False,25474.64090983073,-25474.64090983073,0.08073050094147523,12,9.0,4.0
+XGBoost,espera_adicional,3,aena,pasajeros_aena_origen_lag2,aena,pasajeros_aena,[2],[5],valor,False,12040.457010904947,5130.845723470052,0.023695932390789192,12,15.0,10.0
+XGBoost,espera_adicional,3,aena,pasajeros_aena_origen_lag3,aena,pasajeros_aena,[3],[6],valor,False,14826.925618489584,5900.12548828125,0.026890774567921955,12,13.0,8.0
+XGBoost,espera_adicional,3,aena,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,88268.25520833333,88268.25520833333,0.028108954119185608,12,3.0,6.0
+XGBoost,espera_adicional,3,aena,turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]","[6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]",media,False,64340.7490234375,64340.7490234375,0.019015455230449636,12,4.0,11.0
+XGBoost,espera_adicional,3,aena,turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]","[6, 7, 8]",media,False,18257.963216145832,910.6110026041666,0.009150314494036138,12,11.0,14.0
+XGBoost,espera_adicional,3,aena,turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]","[6, 7, 8, 9, 10, 11]",media,False,14297.361043294271,14297.361043294271,0.02752474183216691,12,14.0,7.0
+XGBoost,espera_adicional,3,aena,turistas_mismo_mes_ano_anterior,turistas,turistas,[9],[12],valor,False,0.0,0.0,0.0,12,20.0,20.0
+XGBoost,espera_adicional,3,aena,turistas_origen_lag15,turistas,turistas,[15],[18],valor,False,144692.92919921875,-107537.88981119792,0.1836636426548163,12,2.0,2.0
+XGBoost,espera_adicional,3,aena,turistas_origen_lag3,turistas,turistas,[3],[6],valor,False,18137.420491536457,-6669.403971354167,0.007809053854240726,12,12.0,17.0
+XGBoost,espera_adicional,3,aena,turistas_origen_lag4,turistas,turistas,[4],[7],valor,False,2532.994603474935,-299.8526153564453,0.0024534594849683344,12,18.0,18.0
+XGBoost,espera_adicional,3,aena,turistas_origen_lag5,turistas,turistas,[5],[8],valor,False,40733.91713460287,-11956.911275227865,0.009737122260654965,12,6.0,13.0
+XGBoost,espera_adicional,3,aena,turistas_origen_lag6,turistas,turistas,[6],[9],valor,False,18322.3510538737,-674.5377807617188,0.007965617541534206,12,10.0,15.0
+XGBoost,espera_adicional,3,aena,turistas_origen_lag9,turistas,turistas,[9],[12],valor,False,434146.7591145833,146427.98307291666,0.38143788278102875,12,1.0,1.0
+XGBoost,espera_adicional,3,google_trends,gt_majorca_alemania_origen_lag14,google_trends,gt_majorca_alemania,[14],[17],valor,False,9931.79172261556,-5357.199193318685,0.054177479508022465,12,14.0,5.0
+XGBoost,espera_adicional,3,google_trends,gt_majorca_alemania_origen_lag2,google_trends,gt_majorca_alemania,[2],[5],valor,False,33841.197265625,-5068.985026041667,0.053454943001270294,12,7.0,6.0
+XGBoost,espera_adicional,3,google_trends,gt_majorca_alemania_origen_lag3,google_trends,gt_majorca_alemania,[3],[6],valor,False,28172.788248697918,-2916.1241861979165,0.009362157667055726,12,9.0,15.0
+XGBoost,espera_adicional,3,google_trends,gt_majorca_reino_unido_origen_lag14,google_trends,gt_majorca_reino_unido,[14],[17],valor,False,13.764364878336588,13.764364878336588,0.0001269608522610118,12,24.0,24.0
+XGBoost,espera_adicional,3,google_trends,gt_majorca_reino_unido_origen_lag2,google_trends,gt_majorca_reino_unido,[2],[5],valor,False,215.09598032633463,-64.34766896565755,0.0017403824216065307,12,23.0,23.0
+XGBoost,espera_adicional,3,google_trends,gt_majorca_reino_unido_origen_lag3,google_trends,gt_majorca_reino_unido,[3],[6],valor,False,1642.0248260498047,1642.0248260498047,0.005167507605316739,12,21.0,20.0
+XGBoost,espera_adicional,3,google_trends,gt_mallorca_alemania_origen_lag14,google_trends,gt_mallorca_alemania,[14],[17],valor,False,6341.331705729167,-6341.331705729167,0.06940843258053064,12,18.0,4.0
+XGBoost,espera_adicional,3,google_trends,gt_mallorca_alemania_origen_lag2,google_trends,gt_mallorca_alemania,[2],[5],valor,False,32886.54307047526,-10447.74892171224,0.04748191668962439,12,8.0,7.0
+XGBoost,espera_adicional,3,google_trends,gt_mallorca_alemania_origen_lag3,google_trends,gt_mallorca_alemania,[3],[6],valor,False,17614.893412272137,12195.815124511719,0.01919572885769109,12,11.0,12.0
+XGBoost,espera_adicional,3,google_trends,gt_mallorca_reino_unido_origen_lag14,google_trends,gt_mallorca_reino_unido,[14],[17],valor,False,1843.318623860677,-562.8961385091146,0.04687002991947035,12,20.0,8.0
+XGBoost,espera_adicional,3,google_trends,gt_mallorca_reino_unido_origen_lag2,google_trends,gt_mallorca_reino_unido,[2],[5],valor,False,8440.627136230469,-224.7837117513021,0.006966119205268721,12,16.0,18.0
+XGBoost,espera_adicional,3,google_trends,gt_mallorca_reino_unido_origen_lag3,google_trends,gt_mallorca_reino_unido,[3],[6],valor,False,8045.535725911458,2182.973388671875,0.004906466036724548,12,17.0,22.0
+XGBoost,espera_adicional,3,google_trends,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,54804.30712890625,-16551.312337239582,0.09066737815737724,12,5.0,3.0
+XGBoost,espera_adicional,3,google_trends,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,0.0,0.0,0.0,12,25.0,25.0
+XGBoost,espera_adicional,3,google_trends,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,16679.389282226562,705.0338948567709,0.02818449167534709,12,13.0,10.0
+XGBoost,espera_adicional,3,google_trends,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,128871.83984375,128871.83984375,0.021056984396030504,12,3.0,11.0
+XGBoost,espera_adicional,3,google_trends,turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]","[6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]",media,False,68350.41959635417,68350.41959635417,0.012866942134375373,12,4.0,14.0
+XGBoost,espera_adicional,3,google_trends,turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]","[6, 7, 8]",media,False,17253.571655273438,-5907.2910563151045,0.005066931907398005,12,12.0,21.0
+XGBoost,espera_adicional,3,google_trends,turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]","[6, 7, 8, 9, 10, 11]",media,False,6330.455810546875,6330.455810546875,0.018957355059683323,12,19.0,13.0
+XGBoost,espera_adicional,3,google_trends,turistas_mismo_mes_ano_anterior,turistas,turistas,[9],[12],valor,False,0.0,0.0,0.0,12,25.0,25.0
+XGBoost,espera_adicional,3,google_trends,turistas_origen_lag15,turistas,turistas,[15],[18],valor,False,183237.57877604166,-104465.044921875,0.1617926595111688,12,2.0,2.0
+XGBoost,espera_adicional,3,google_trends,turistas_origen_lag3,turistas,turistas,[3],[6],valor,False,22225.476196289062,4293.4840901692705,0.02928156079724431,12,10.0,9.0
+XGBoost,espera_adicional,3,google_trends,turistas_origen_lag4,turistas,turistas,[4],[7],valor,False,1590.6321360270183,-155.62599182128906,0.008290840274033448,12,22.0,17.0
+XGBoost,espera_adicional,3,google_trends,turistas_origen_lag5,turistas,turistas,[5],[8],valor,False,34346.99958292643,-8277.8464457194,0.00832573890996476,12,6.0,16.0
+XGBoost,espera_adicional,3,google_trends,turistas_origen_lag6,turistas,turistas,[6],[9],valor,False,9774.394022623697,-2560.3777872721353,0.005357351018271099,12,15.0,19.0
+XGBoost,espera_adicional,3,google_trends,turistas_origen_lag9,turistas,turistas,[9],[12],valor,False,366832.2708333333,110227.80208333333,0.291293694327275,12,1.0,1.0
+XGBoost,espera_adicional,3,hoteles,estancia_media_noches_origen_lag14,hoteles,estancia_media_noches,[14],[17],valor,False,510.6165237426758,477.3410822550456,0.017291546042542905,12,27.0,12.0
+XGBoost,espera_adicional,3,hoteles,estancia_media_noches_origen_lag14__ausente,hoteles,estancia_media_noches,[14],[17],valor,True,0.0,0.0,0.0,12,30.0,30.0
+XGBoost,espera_adicional,3,hoteles,estancia_media_noches_origen_lag2,hoteles,estancia_media_noches,[2],[5],valor,False,8619.925720214844,-4354.246358235677,0.00399444861492763,12,15.0,22.0
+XGBoost,espera_adicional,3,hoteles,estancia_media_noches_origen_lag2__ausente,hoteles,estancia_media_noches,[2],[5],valor,True,0.0,0.0,0.0,12,30.0,30.0
+XGBoost,espera_adicional,3,hoteles,estancia_media_noches_origen_lag3,hoteles,estancia_media_noches,[3],[6],valor,False,5250.802947998047,-377.2070821126302,0.008693518970782558,12,21.0,16.0
+XGBoost,espera_adicional,3,hoteles,estancia_media_noches_origen_lag3__ausente,hoteles,estancia_media_noches,[3],[6],valor,True,0.0,0.0,0.0,12,30.0,30.0
+XGBoost,espera_adicional,3,hoteles,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,19902.773844401043,-8455.663330078125,0.010074265611668428,12,9.0,14.0
+XGBoost,espera_adicional,3,hoteles,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,0.0,0.0,0.0,12,30.0,30.0
+XGBoost,espera_adicional,3,hoteles,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,86.510009765625,-86.510009765625,0.00042829920615380007,12,29.0,29.0
+XGBoost,espera_adicional,3,hoteles,ocupacion_fin_semana_pct_origen_lag14,hoteles,ocupacion_fin_semana_pct,[14],[17],valor,False,1103.3585764567058,1103.3585764567058,0.003750396271546682,12,25.0,23.0
+XGBoost,espera_adicional,3,hoteles,ocupacion_fin_semana_pct_origen_lag14__ausente,hoteles,ocupacion_fin_semana_pct,[14],[17],valor,True,0.0,0.0,0.0,12,30.0,30.0
+XGBoost,espera_adicional,3,hoteles,ocupacion_fin_semana_pct_origen_lag2,hoteles,ocupacion_fin_semana_pct,[2],[5],valor,False,11336.409993489584,-7135.414876302083,0.005299007287248969,12,12.0,19.0
+XGBoost,espera_adicional,3,hoteles,ocupacion_fin_semana_pct_origen_lag2__ausente,hoteles,ocupacion_fin_semana_pct,[2],[5],valor,True,0.0,0.0,0.0,12,30.0,30.0
+XGBoost,espera_adicional,3,hoteles,ocupacion_fin_semana_pct_origen_lag3,hoteles,ocupacion_fin_semana_pct,[3],[6],valor,False,317.6434733072917,317.6434733072917,0.0010443444868239264,12,28.0,28.0
+XGBoost,espera_adicional,3,hoteles,ocupacion_fin_semana_pct_origen_lag3__ausente,hoteles,ocupacion_fin_semana_pct,[3],[6],valor,True,0.0,0.0,0.0,12,30.0,30.0
+XGBoost,espera_adicional,3,hoteles,ocupacion_habitaciones_pct_origen_lag14,hoteles,ocupacion_habitaciones_pct,[14],[17],valor,False,7264.705017089844,4349.736104329427,0.0017995766344635438,12,17.0,27.0
+XGBoost,espera_adicional,3,hoteles,ocupacion_habitaciones_pct_origen_lag14__ausente,hoteles,ocupacion_habitaciones_pct,[14],[17],valor,True,0.0,0.0,0.0,12,30.0,30.0
+XGBoost,espera_adicional,3,hoteles,ocupacion_habitaciones_pct_origen_lag2,hoteles,ocupacion_habitaciones_pct,[2],[5],valor,False,57303.539713541664,57303.539713541664,0.07231402055670817,12,4.0,4.0
+XGBoost,espera_adicional,3,hoteles,ocupacion_habitaciones_pct_origen_lag2__ausente,hoteles,ocupacion_habitaciones_pct,[2],[5],valor,True,0.0,0.0,0.0,12,30.0,30.0
+XGBoost,espera_adicional,3,hoteles,ocupacion_habitaciones_pct_origen_lag3,hoteles,ocupacion_habitaciones_pct,[3],[6],valor,False,8828.279215494791,8828.279215494791,0.049080230916539826,12,14.0,7.0
+XGBoost,espera_adicional,3,hoteles,ocupacion_habitaciones_pct_origen_lag3__ausente,hoteles,ocupacion_habitaciones_pct,[3],[6],valor,True,0.0,0.0,0.0,12,30.0,30.0
+XGBoost,espera_adicional,3,hoteles,ocupacion_plazas_pct_origen_lag14,hoteles,ocupacion_plazas_pct,[14],[17],valor,False,1219.8021647135417,89.15216064453125,0.0024963320853809514,12,24.0,26.0
+XGBoost,espera_adicional,3,hoteles,ocupacion_plazas_pct_origen_lag14__ausente,hoteles,ocupacion_plazas_pct,[14],[17],valor,True,0.0,0.0,0.0,12,30.0,30.0
+XGBoost,espera_adicional,3,hoteles,ocupacion_plazas_pct_origen_lag2,hoteles,ocupacion_plazas_pct,[2],[5],valor,False,11381.842631022135,1997.659200032552,0.0055494495706322295,12,11.0,18.0
+XGBoost,espera_adicional,3,hoteles,ocupacion_plazas_pct_origen_lag2__ausente,hoteles,ocupacion_plazas_pct,[2],[5],valor,True,0.0,0.0,0.0,12,30.0,30.0
+XGBoost,espera_adicional,3,hoteles,ocupacion_plazas_pct_origen_lag3,hoteles,ocupacion_plazas_pct,[3],[6],valor,False,5368.5631103515625,2495.623006184896,0.05788183646897475,12,20.0,6.0
+XGBoost,espera_adicional,3,hoteles,ocupacion_plazas_pct_origen_lag3__ausente,hoteles,ocupacion_plazas_pct,[3],[6],valor,True,0.0,0.0,0.0,12,30.0,30.0
+XGBoost,espera_adicional,3,hoteles,pernoctaciones_hoteles_origen_lag14,hoteles,pernoctaciones_hoteles,[14],[17],valor,False,10600.129475911459,-10600.129475911459,0.09766627972324689,12,13.0,3.0
+XGBoost,espera_adicional,3,hoteles,pernoctaciones_hoteles_origen_lag14__ausente,hoteles,pernoctaciones_hoteles,[14],[17],valor,True,0.0,0.0,0.0,12,30.0,30.0
+XGBoost,espera_adicional,3,hoteles,pernoctaciones_hoteles_origen_lag2,hoteles,pernoctaciones_hoteles,[2],[5],valor,False,21910.746337890625,7683.105712890625,0.04691220664729675,12,8.0,8.0
+XGBoost,espera_adicional,3,hoteles,pernoctaciones_hoteles_origen_lag2__ausente,hoteles,pernoctaciones_hoteles,[2],[5],valor,True,0.0,0.0,0.0,12,30.0,30.0
+XGBoost,espera_adicional,3,hoteles,pernoctaciones_hoteles_origen_lag3,hoteles,pernoctaciones_hoteles,[3],[6],valor,False,0.0,0.0,0.0,12,30.0,30.0
+XGBoost,espera_adicional,3,hoteles,pernoctaciones_hoteles_origen_lag3__ausente,hoteles,pernoctaciones_hoteles,[3],[6],valor,True,0.0,0.0,0.0,12,30.0,30.0
+XGBoost,espera_adicional,3,hoteles,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,91447.61490885417,91447.61490885417,0.018227019036809605,12,3.0,11.0
+XGBoost,espera_adicional,3,hoteles,turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]","[6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]",media,False,51798.82735188802,51798.82735188802,0.01053924229927361,12,5.0,13.0
+XGBoost,espera_adicional,3,hoteles,turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]","[6, 7, 8]",media,False,4427.01054128011,-256.99133555094403,0.004422660839433472,12,22.0,21.0
+XGBoost,espera_adicional,3,hoteles,turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]","[6, 7, 8, 9, 10, 11]",media,False,8032.324574788411,3676.9918314615884,0.004822316734741132,12,16.0,20.0
+XGBoost,espera_adicional,3,hoteles,turistas_mismo_mes_ano_anterior,turistas,turistas,[9],[12],valor,False,0.0,0.0,0.0,12,30.0,30.0
+XGBoost,espera_adicional,3,hoteles,turistas_origen_lag15,turistas,turistas,[15],[18],valor,False,157726.9326171875,-112578.1533203125,0.12912186359365782,12,2.0,2.0
+XGBoost,espera_adicional,3,hoteles,turistas_origen_lag3,turistas,turistas,[3],[6],valor,False,7218.964345296224,-918.691904703776,0.027831645760064323,12,18.0,9.0
+XGBoost,espera_adicional,3,hoteles,turistas_origen_lag4,turistas,turistas,[4],[7],valor,False,700.6974589029948,-700.6974589029948,0.0029448825710763535,12,26.0,24.0
+XGBoost,espera_adicional,3,hoteles,turistas_origen_lag5,turistas,turistas,[5],[8],valor,False,48063.524576822914,-19910.019368489582,0.009419070867200693,12,6.0,15.0
+XGBoost,espera_adicional,3,hoteles,turistas_origen_lag6,turistas,turistas,[6],[9],valor,False,12935.089986165365,1632.3885294596355,0.0027248417803396783,12,10.0,25.0
+XGBoost,espera_adicional,3,hoteles,turistas_origen_lag9,turistas,turistas,[9],[12],valor,False,438663.5475260417,154479.54752604166,0.31849080324172974,12,1.0,1.0
+XGBoost,espera_adicional,3,hoteles,viajeros_hoteles_origen_lag14,hoteles,viajeros_hoteles,[14],[17],valor,False,24333.414306640625,-10209.592041015625,0.06030660619338354,12,7.0,5.0
+XGBoost,espera_adicional,3,hoteles,viajeros_hoteles_origen_lag14__ausente,hoteles,viajeros_hoteles,[14],[17],valor,True,0.0,0.0,0.0,12,30.0,30.0
+XGBoost,espera_adicional,3,hoteles,viajeros_hoteles_origen_lag2,hoteles,viajeros_hoteles,[2],[5],valor,False,6974.777941385905,-5155.713350931804,0.006573181560573478,12,19.0,17.0
+XGBoost,espera_adicional,3,hoteles,viajeros_hoteles_origen_lag2__ausente,hoteles,viajeros_hoteles,[2],[5],valor,True,0.0,0.0,0.0,12,30.0,30.0
+XGBoost,espera_adicional,3,hoteles,viajeros_hoteles_origen_lag3,hoteles,viajeros_hoteles,[3],[6],valor,False,1751.366683959961,-747.3062489827474,0.020300056940565508,12,23.0,10.0
+XGBoost,espera_adicional,3,hoteles,viajeros_hoteles_origen_lag3__ausente,hoteles,viajeros_hoteles,[3],[6],valor,True,0.0,0.0,0.0,12,30.0,30.0
+XGBoost,espera_adicional,3,meteorologia,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,39880.040690104164,-7614.073893229167,0.010469413052002588,12,8.0,13.0
+XGBoost,espera_adicional,3,meteorologia,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,0.0,0.0,0.0,12,19.0,19.0
+XGBoost,espera_adicional,3,meteorologia,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,631.2108465830485,450.32019996643066,0.001640738861169666,12,18.0,16.0
+XGBoost,espera_adicional,3,meteorologia,meteo_precipitacion_mm_origen_lag15,meteorologia,meteo_precipitacion_mm,[15],[18],valor,False,2293.7043323516846,251.38702328999838,0.0013338578913438444,12,15.0,17.0
+XGBoost,espera_adicional,3,meteorologia,meteo_precipitacion_mm_origen_lag3,meteorologia,meteo_precipitacion_mm,[3],[6],valor,False,18786.261693318684,-996.6102447509766,0.015429585861663023,12,11.0,12.0
+XGBoost,espera_adicional,3,meteorologia,meteo_precipitacion_mm_origen_lag4,meteorologia,meteo_precipitacion_mm,[4],[7],valor,False,9464.465998331705,-2412.3876190185547,0.02396821727355321,12,14.0,11.0
+XGBoost,espera_adicional,3,meteorologia,meteo_temperatura_media_c_origen_lag15,meteorologia,meteo_temperatura_media_c,[15],[18],valor,False,23678.484944661457,8729.177815755209,0.03917634533718228,12,9.0,7.0
+XGBoost,espera_adicional,3,meteorologia,meteo_temperatura_media_c_origen_lag3,meteorologia,meteo_temperatura_media_c,[3],[6],valor,False,190411.05794270834,-40540.081380208336,0.27692606920997304,12,1.0,1.0
+XGBoost,espera_adicional,3,meteorologia,meteo_temperatura_media_c_origen_lag4,meteorologia,meteo_temperatura_media_c,[4],[7],valor,False,69715.22135416667,-9055.520833333334,0.03414679225534201,12,6.0,8.0
+XGBoost,espera_adicional,3,meteorologia,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,142810.11979166666,142810.11979166666,0.026151595326761406,12,4.0,10.0
+XGBoost,espera_adicional,3,meteorologia,turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]","[6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]",media,False,91472.65586344402,91472.65586344402,0.02764960052445531,12,5.0,9.0
+XGBoost,espera_adicional,3,meteorologia,turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]","[6, 7, 8]",media,False,2012.9978574117024,1009.4415016174316,0.009381067715973282,12,16.0,14.0
+XGBoost,espera_adicional,3,meteorologia,turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]","[6, 7, 8, 9, 10, 11]",media,False,16936.710856119793,16936.710856119793,0.04182353553672632,12,12.0,6.0
+XGBoost,espera_adicional,3,meteorologia,turistas_mismo_mes_ano_anterior,turistas,turistas,[9],[12],valor,False,0.0,0.0,0.0,12,19.0,19.0
+XGBoost,espera_adicional,3,meteorologia,turistas_origen_lag15,turistas,turistas,[15],[18],valor,False,155182.43294270834,-98413.47721354167,0.09635655209422112,12,3.0,3.0
+XGBoost,espera_adicional,3,meteorologia,turistas_origen_lag3,turistas,turistas,[3],[6],valor,False,23401.81118774414,4237.408213297526,0.05487768833215038,12,10.0,5.0
+XGBoost,espera_adicional,3,meteorologia,turistas_origen_lag4,turistas,turistas,[4],[7],valor,False,1760.6511789957683,-645.7275238037109,0.001146293861287025,12,17.0,18.0
+XGBoost,espera_adicional,3,meteorologia,turistas_origen_lag5,turistas,turistas,[5],[8],valor,False,9776.578592936197,4038.3852742513022,0.005413870754030843,12,13.0,15.0
+XGBoost,espera_adicional,3,meteorologia,turistas_origen_lag6,turistas,turistas,[6],[9],valor,False,46299.415506998695,25450.94744873047,0.07651054331411918,12,7.0,4.0
+XGBoost,espera_adicional,3,meteorologia,turistas_origen_lag9,turistas,turistas,[9],[12],valor,False,177042.716796875,34426.130859375,0.25759830325841904,12,2.0,2.0
+XGBoost,espera_adicional,3,turistas_calendario,mes_cos,calendario,mes_cos,[],[],calendario_conocido,False,77775.93033854167,-1635.2350260416667,0.05216926243156195,12,4.0,5.0
+XGBoost,espera_adicional,3,turistas_calendario,mes_objetivo,calendario,mes_objetivo,[],[],calendario_conocido,False,2.794165293375651,2.794165293375651,0.00010078531340695918,12,13.0,13.0
+XGBoost,espera_adicional,3,turistas_calendario,mes_sin,calendario,mes_sin,[],[],calendario_conocido,False,37578.298990885414,4589.208821614583,0.02560436710094412,12,5.0,7.0
+XGBoost,espera_adicional,3,turistas_calendario,tiempo_meses_desde_2015_01,calendario,tiempo_meses_desde_2015_01,[],[],calendario_conocido,False,145547.14908854166,145547.14908854166,0.05612437861661116,12,3.0,4.0
+XGBoost,espera_adicional,3,turistas_calendario,turistas_media12_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14]","[6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17]",media,False,33798.58308919271,33798.58308919271,0.024090033024549484,12,7.0,8.0
+XGBoost,espera_adicional,3,turistas_calendario,turistas_media3_hasta_lag3,turistas,turistas,"[3, 4, 5]","[6, 7, 8]",media,False,8620.912129720053,-3071.8417358398438,0.026258262805640697,12,10.0,6.0
+XGBoost,espera_adicional,3,turistas_calendario,turistas_media6_hasta_lag3,turistas,turistas,"[3, 4, 5, 6, 7, 8]","[6, 7, 8, 9, 10, 11]",media,False,7493.414367675781,6330.8381754557295,0.014055217461039623,12,11.0,10.0
+XGBoost,espera_adicional,3,turistas_calendario,turistas_mismo_mes_ano_anterior,turistas,turistas,[9],[12],valor,False,0.0,0.0,0.0,12,14.0,14.0
+XGBoost,espera_adicional,3,turistas_calendario,turistas_origen_lag15,turistas,turistas,[15],[18],valor,False,183029.75455729166,-125582.89908854167,0.21961533154050508,12,2.0,2.0
+XGBoost,espera_adicional,3,turistas_calendario,turistas_origen_lag3,turistas,turistas,[3],[6],valor,False,35435.93790690104,20383.109781901043,0.07450361860295136,12,6.0,3.0
+XGBoost,espera_adicional,3,turistas_calendario,turistas_origen_lag4,turistas,turistas,[4],[7],valor,False,3142.5577392578125,-3142.5577392578125,0.003052482924734553,12,12.0,12.0
+XGBoost,espera_adicional,3,turistas_calendario,turistas_origen_lag5,turistas,turistas,[5],[8],valor,False,15695.569376627604,-3750.8431396484375,0.011282088545461496,12,9.0,11.0
+XGBoost,espera_adicional,3,turistas_calendario,turistas_origen_lag6,turistas,turistas,[6],[9],valor,False,29815.671752929688,-8968.092895507812,0.021392945277815063,12,8.0,9.0
+XGBoost,espera_adicional,3,turistas_calendario,turistas_origen_lag9,turistas,turistas,[9],[12],valor,False,412659.3958333333,140491.58854166666,0.47175132234891254,12,1.0,1.0
