@@ -1,0 +1,53 @@
+{
+  "fecha_evaluacion": "2026-10-12",
+  "periodo": [
+    "2025-01-01",
+    "2025-12-01"
+  ],
+  "configuracion_fijada_sha256": "c98a3dc8cd060ea7dcbc018e1604a860dfd3c26d64995a0819725acdb07cdbf0",
+  "configuracion_fijada": "2026-10-12",
+  "evaluacion_final_2025_habilitada": true,
+  "series": 20,
+  "emisiones": 960,
+  "grupos": 80,
+  "meses_por_grupo": 12,
+  "cobertura_completa": true,
+  "modelos_reajustados": false,
+  "predicciones_originales_intactas": true,
+  "fuentes_originales_intactas": true,
+  "comparacion_principal_predefinida": true,
+  "escenarios": [
+    "base",
+    "espera_adicional"
+  ],
+  "horizontes": [
+    1,
+    3
+  ],
+  "metrica_principal": "RMSE",
+  "complementarias": [
+    "MAE",
+    "sesgo observado menos predicho"
+  ],
+  "regla": "resultados descriptivos de variantes fijadas; sin reselección ni cambio de parámetros",
+  "limites": [
+    "decisión real en 2026; simulación retrospectiva, no congelación ejecutada en 2024",
+    "selección optimista y diagnóstico ya inspeccionado, sin usarlos para esta regla",
+    "EDA de 2025 ya inspeccionado; prueba reservada en métricas, no experimento prospectivo ciego",
+    "Google Trends normalizado retrospectivamente en 2015-2025: dependencia del periodo final; interpretar sus resultados como exploratorios",
+    "versiones revisadas y primeras publicaciones incompletas; AEMET mensual con retardo supuesto",
+    "historias y número de predictores diferentes; aportación externa solo frente al control interno",
+    "un único año y 12 meses por grupo; no evidencia de superioridad general ni significación estadística"
+  ],
+  "productos_sha256": {
+    "aportacion_fuentes_control_interno.csv": "211024e76dcf94e74bb23b1d6e90d9504a57219833f0fa9a7e1bcf5b072b3c9e",
+    "comparacion_principal.csv": "466573f6d7462e4f06849b39afbf9e5e9b8f068f37763d90d4ceef61de831977",
+    "evolucion_2025_base.png": "2b63f050f214ab4cbf416134259daf2d3b3e36191b70c7faa8c056d830525199",
+    "metricas_2025.csv": "315266fd5fe43816f7c9bddbd7ae0cf6d998dd9ca806c30ad3ac6546116845f8",
+    "predicciones_puntuadas.csv": "3b48a17a9f8e6b4527041ca5917d2f4f91ab1b3de3d09340b13de97635ebfb89",
+    "rmse_2025.png": "08dfa611ecf360fd3f2fed6c2655fd5b3ac0628edcb40559766ebe75db425732",
+    "tabla_base.csv": "97976ae0181076da5f2b53cfef3b5a0a5b08b99d34048eec161f48d36a4fe7b1",
+    "tabla_espera_adicional.csv": "a23f9acf2ac0448f1cc288ed8d0312812d6c343c6a378306bf828cc8b8a12d31"
+  },
+  "controles": "superados"
+}
