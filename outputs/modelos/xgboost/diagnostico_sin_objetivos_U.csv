@@ -1,0 +1,9 @@
+﻿modelo,escenario,horizonte,papel,n_esperados,n_pronosticos,cobertura_pronosticos,n_puntuados,MAE,RMSE,sesgo_observado_menos_predicho
+XGBoost,base,1,diagnostico_fijo,5,5,1.0,5,188111.5875,240485.88346716977,177356.5625
+XGBoost,base,1,seleccion,53,53,1.0,53,353254.40079599054,527766.4948595723,35628.15728183962
+XGBoost,base,3,diagnostico_fijo,5,5,1.0,5,142525.96875,180049.98652431185,142525.96875
+XGBoost,base,3,seleccion,53,53,1.0,53,484564.66686320753,651329.8110385169,70601.60200471699
+XGBoost,espera_adicional,1,diagnostico_fijo,5,5,1.0,5,174116.7375,219791.07613877906,170457.475
+XGBoost,espera_adicional,1,seleccion,53,53,1.0,53,413185.17364386795,574831.7120771952,10807.712558962265
+XGBoost,espera_adicional,3,diagnostico_fijo,5,5,1.0,5,196640.76875,250717.6642853833,189818.79375
+XGBoost,espera_adicional,3,seleccion,53,53,1.0,53,462260.10834316036,632683.3165789463,-63308.977741745286
