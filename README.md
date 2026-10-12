@@ -163,3 +163,21 @@ Se utilizan los tres retardos del catálogo por variable, respetando el primer m
 `outputs/modelos/xgboost_externas/` conserva 1.440 emisiones, métricas por bloque/año/periodo y sin objetivos U, comparación frente al control con reducciones de RMSE y MAE, clasificación de selección base, catálogo, índices y auditorías de disponibilidad, ajustes e imputación. El control reproduce los 288 pronósticos ajustados y los controles comprueban invariancia ante datos no publicados, bloqueo o marca de publicaciones tardías, medianas por entrenamiento y reproducibilidad. Las figuras y su interpretación se incluyen en el notebook.
 
 Las reducciones del RMSE de selección base a uno/tres meses son: AENA: 1,37 %/2,97 %; Hoteles: 2,70 %/-1,46 %; Temperatura y precipitación: -4,32 %/10,33 %; Google Trends: 7,00 %/2,06 %. Los signos negativos indican empeoramiento. No hay una fuente que reduzca el RMSE del control en todos los horizontes, bloques y disponibilidades. Diagnóstico y espera adicional se presentan por separado, sin volver a elegir parámetros. Las 240 emisiones finales de 2025 siguen sin puntuar y sus etiquetas no participan en los ajustes o medianas. Se mantienen las reservas sobre datos revisados, publicación mensual de AEMET, Google Trends retrospectivo, cambio de dimensionalidad y selección de fuentes. El bloque 49 incorpora estas variantes a la comparación conjunta.
+
+## Configuraciones definitivas para la prueba de 2025
+
+El bloque 50 fija las decisiones el **12 de octubre de 2026**, antes de puntuar 2025. El corte de octubre de 2024 del protocolo es simulado. Se selecciona por RMSE de los 55 meses de enero de 2020 a julio de 2024 en el escenario base, con MAE e identificador como desempates. Diagnóstico y espera adicional no intervienen en esta elección.
+
+Se conservan las 20 series en ambos horizontes y escenarios. La comparación principal contiene siete por horizonte: Seasonal Naïve, SARIMA, SARIMAX con AENA, RF ajustado, XGBoost ajustado y la mejor variante externa de RF y XGBoost según selección base. Las trece restantes quedan fijadas como análisis secundarios y controles; también se publicarán sus resultados finales. No se volverán a elegir variantes o parámetros tras conocer las métricas de 2025.
+
+| Decisión anterior a la prueba | Un mes | Tres meses |
+|---|---|---|
+| Candidato conjunto por RMSE | SARIMAX + AENA | SARIMA completo |
+| Fuente externa en RF | AENA | Temperatura y precipitación |
+| Fuente externa en XGBoost | Google Trends | Temperatura y precipitación |
+
+`outputs/configuraciones_finales/configuraciones_fijadas.json` registra las 40 configuraciones por serie y horizonte, sus parámetros, columnas y retardos exactos en ambos escenarios, imputación, escalado, controles internos y evidencia de selección. El resumen CSV facilita la revisión; el archivo SHA-256 sella el registro. Las huellas de fuentes, predicciones e implementación permiten detectar cambios: el bloque comprueba la igualdad y bloquea una sobrescritura silenciosa. Se ha verificado en kernel limpio, con dos ejecuciones idénticas, conservación de todos los productos anteriores y una perturbación de diagnóstico/prueba que mantiene la elección.
+
+Las reglas de entrenamiento y publicación permanecen: solo etiquetas hasta diciembre de 2024 publicadas al corte; entradas y estado pueden actualizarse con datos publicados de 2025. Las medianas hoteleras, las marcas y el escalado se ajustan dentro de cada entrenamiento permitido, conservando ceros. La prueba pendiente comprende 960 emisiones, con RMSE principal y MAE y sesgo complementarios. Los resultados finales deberán guardarse en una carpeta nueva, conservando las predicciones y fuentes selladas. Un fallo se registra con su cobertura, sin eliminar meses ni sustituir variantes según el resultado final.
+
+Las 960 emisiones siguen sin puntuar. La fijación no convierte la evaluación retrospectiva en un experimento prospectivo: se han inspeccionado el EDA y el diagnóstico, existen datos revisados y el plazo mensual de AEMET es supuesto. La escala de Google Trends depende de la normalización retrospectiva de 2015–2025; su rendimiento se interpretará como exploratorio, sin atribuirle validez operativa libre de esa dependencia.
