@@ -1,0 +1,603 @@
+serie_id,escenario,horizonte,mes_origen,mes_objetivo,tratamiento,fecha_corte,metodo,convergencia,avisos,medias,desviaciones
+sarima,base,1,2021-12-01,2022-01-01,conservar,2021-12-31,lbfgs,True,,,
+sarima,base,1,2021-12-01,2022-01-01,omitir_ceros,2021-12-31,lbfgs,True,,,
+sarima,base,1,2021-12-01,2022-01-01,omitir_ventana,2021-12-31,lbfgs,False,Non-invertible starting seasonal moving average Using zeros as starting parameters. | Maximum Likelihood optimization failed to converge. Check mle_retvals,,
+sarima,base,1,2021-12-01,2022-01-01,omitir_ventana,2021-12-31,powell,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2022-01-01,2022-02-01,omitir_ceros,2022-01-31,lbfgs,True,,,
+sarima,base,1,2022-01-01,2022-02-01,omitir_ventana,2022-01-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2022-02-01,2022-03-01,omitir_ceros,2022-02-28,lbfgs,True,,,
+sarima,base,1,2022-02-01,2022-03-01,omitir_ventana,2022-02-28,lbfgs,False,Non-invertible starting seasonal moving average Using zeros as starting parameters. | Maximum Likelihood optimization failed to converge. Check mle_retvals,,
+sarima,base,1,2022-02-01,2022-03-01,omitir_ventana,2022-02-28,powell,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2022-03-01,2022-04-01,omitir_ceros,2022-03-31,lbfgs,True,,,
+sarima,base,1,2022-03-01,2022-04-01,omitir_ventana,2022-03-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2022-04-01,2022-05-01,omitir_ceros,2022-04-30,lbfgs,True,,,
+sarima,base,1,2022-04-01,2022-05-01,omitir_ventana,2022-04-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2022-05-01,2022-06-01,omitir_ceros,2022-05-31,lbfgs,True,,,
+sarima,base,1,2022-05-01,2022-06-01,omitir_ventana,2022-05-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2022-06-01,2022-07-01,omitir_ceros,2022-06-30,lbfgs,True,,,
+sarima,base,1,2022-06-01,2022-07-01,omitir_ventana,2022-06-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2022-07-01,2022-08-01,omitir_ceros,2022-07-31,lbfgs,True,,,
+sarima,base,1,2022-07-01,2022-08-01,omitir_ventana,2022-07-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2022-08-01,2022-09-01,omitir_ceros,2022-08-31,lbfgs,True,,,
+sarima,base,1,2022-08-01,2022-09-01,omitir_ventana,2022-08-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2022-09-01,2022-10-01,omitir_ceros,2022-09-30,lbfgs,True,,,
+sarima,base,1,2022-09-01,2022-10-01,omitir_ventana,2022-09-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2022-10-01,2022-11-01,omitir_ceros,2022-10-31,lbfgs,True,,,
+sarima,base,1,2022-10-01,2022-11-01,omitir_ventana,2022-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2022-11-01,2022-12-01,omitir_ceros,2022-11-30,lbfgs,True,,,
+sarima,base,1,2022-11-01,2022-12-01,omitir_ventana,2022-11-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2022-12-01,2023-01-01,omitir_ceros,2022-12-31,lbfgs,True,,,
+sarima,base,1,2022-12-01,2023-01-01,omitir_ventana,2022-12-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2023-01-01,2023-02-01,omitir_ceros,2023-01-31,lbfgs,True,,,
+sarima,base,1,2023-01-01,2023-02-01,omitir_ventana,2023-01-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2023-02-01,2023-03-01,omitir_ceros,2023-02-28,lbfgs,True,,,
+sarima,base,1,2023-02-01,2023-03-01,omitir_ventana,2023-02-28,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2023-03-01,2023-04-01,omitir_ceros,2023-03-31,lbfgs,True,,,
+sarima,base,1,2023-03-01,2023-04-01,omitir_ventana,2023-03-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2023-04-01,2023-05-01,omitir_ceros,2023-04-30,lbfgs,True,,,
+sarima,base,1,2023-04-01,2023-05-01,omitir_ventana,2023-04-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2023-05-01,2023-06-01,omitir_ceros,2023-05-31,lbfgs,True,,,
+sarima,base,1,2023-05-01,2023-06-01,omitir_ventana,2023-05-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2023-06-01,2023-07-01,omitir_ceros,2023-06-30,lbfgs,True,,,
+sarima,base,1,2023-06-01,2023-07-01,omitir_ventana,2023-06-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2023-07-01,2023-08-01,omitir_ceros,2023-07-31,lbfgs,True,,,
+sarima,base,1,2023-07-01,2023-08-01,omitir_ventana,2023-07-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2023-08-01,2023-09-01,omitir_ceros,2023-08-31,lbfgs,True,,,
+sarima,base,1,2023-08-01,2023-09-01,omitir_ventana,2023-08-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2023-09-01,2023-10-01,omitir_ceros,2023-09-30,lbfgs,True,,,
+sarima,base,1,2023-09-01,2023-10-01,omitir_ventana,2023-09-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2023-10-01,2023-11-01,omitir_ceros,2023-10-31,lbfgs,True,,,
+sarima,base,1,2023-10-01,2023-11-01,omitir_ventana,2023-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2023-11-01,2023-12-01,omitir_ceros,2023-11-30,lbfgs,True,,,
+sarima,base,1,2023-11-01,2023-12-01,omitir_ventana,2023-11-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2023-12-01,2024-01-01,omitir_ceros,2023-12-31,lbfgs,True,,,
+sarima,base,1,2023-12-01,2024-01-01,omitir_ventana,2023-12-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2024-01-01,2024-02-01,omitir_ceros,2024-01-31,lbfgs,True,,,
+sarima,base,1,2024-01-01,2024-02-01,omitir_ventana,2024-01-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2024-02-01,2024-03-01,omitir_ceros,2024-02-29,lbfgs,True,,,
+sarima,base,1,2024-02-01,2024-03-01,omitir_ventana,2024-02-29,lbfgs,False,Maximum Likelihood optimization failed to converge. Check mle_retvals,,
+sarima,base,1,2024-02-01,2024-03-01,omitir_ventana,2024-02-29,powell,True,,,
+sarima,base,1,2024-03-01,2024-04-01,omitir_ceros,2024-03-31,lbfgs,True,,,
+sarima,base,1,2024-03-01,2024-04-01,omitir_ventana,2024-03-31,lbfgs,True,,,
+sarima,base,1,2024-04-01,2024-05-01,omitir_ceros,2024-04-30,lbfgs,True,,,
+sarima,base,1,2024-04-01,2024-05-01,omitir_ventana,2024-04-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2024-05-01,2024-06-01,omitir_ceros,2024-05-31,lbfgs,True,,,
+sarima,base,1,2024-05-01,2024-06-01,omitir_ventana,2024-05-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2024-06-01,2024-07-01,omitir_ceros,2024-06-30,lbfgs,True,,,
+sarima,base,1,2024-06-01,2024-07-01,omitir_ventana,2024-06-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2024-07-01,2024-08-01,omitir_ceros,2024-07-31,lbfgs,True,,,
+sarima,base,1,2024-07-01,2024-08-01,omitir_ventana,2024-07-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2024-08-01,2024-09-01,omitir_ceros,2024-08-31,lbfgs,True,,,
+sarima,base,1,2024-08-01,2024-09-01,omitir_ventana,2024-08-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2024-09-01,2024-10-01,omitir_ceros,2024-09-30,lbfgs,True,,,
+sarima,base,1,2024-09-01,2024-10-01,omitir_ventana,2024-09-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,1,2024-10-01,2024-11-01,omitir_ceros,2024-10-31,lbfgs,True,,,
+sarima,base,1,2024-10-01,2024-11-01,omitir_ventana,2024-10-31,lbfgs,True,,,
+sarima,base,1,2024-11-01,2024-12-01,omitir_ceros,2024-11-30,lbfgs,True,,,
+sarima,base,1,2024-11-01,2024-12-01,omitir_ventana,2024-11-30,lbfgs,True,,,
+sarimax_aena,base,1,2021-12-01,2022-01-01,conservar,2021-12-31,lbfgs,True,,"{""pasajeros_aena"": 1849379.352112676}","{""pasajeros_aena"": 1390933.6465812165}"
+sarimax_aena,base,1,2021-12-01,2022-01-01,omitir_ceros,2021-12-31,lbfgs,True,,"{""pasajeros_aena"": 1882193.579710145}","{""pasajeros_aena"": 1396921.492528942}"
+sarimax_aena,base,1,2021-12-01,2022-01-01,omitir_ventana,2021-12-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2290924.0588235296}","{""pasajeros_aena"": 1339366.225171317}"
+sarimax_aena,base,1,2022-01-01,2022-02-01,omitir_ceros,2022-01-31,lbfgs,True,,"{""pasajeros_aena"": 1888251.9571428571}","{""pasajeros_aena"": 1387820.317209878}"
+sarimax_aena,base,1,2022-01-01,2022-02-01,omitir_ventana,2022-01-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2290924.0588235296}","{""pasajeros_aena"": 1339366.225171317}"
+sarimax_aena,base,1,2022-02-01,2022-03-01,omitir_ceros,2022-02-28,lbfgs,True,,"{""pasajeros_aena"": 1893830.8591549296}","{""pasajeros_aena"": 1378802.5694604812}"
+sarimax_aena,base,1,2022-02-01,2022-03-01,omitir_ventana,2022-02-28,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2290924.0588235296}","{""pasajeros_aena"": 1339366.225171317}"
+sarimax_aena,base,1,2022-03-01,2022-04-01,omitir_ceros,2022-03-31,lbfgs,True,,"{""pasajeros_aena"": 1878685.25}","{""pasajeros_aena"": 1375128.7430579884}"
+sarimax_aena,base,1,2022-03-01,2022-04-01,omitir_ventana,2022-03-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2262316.8076923075}","{""pasajeros_aena"": 1342065.9028660317}"
+sarimax_aena,base,1,2022-04-01,2022-05-01,omitir_ceros,2022-04-30,lbfgs,True,,"{""pasajeros_aena"": 1863126.3424657534}","{""pasajeros_aena"": 1372044.0840979554}"
+sarimax_aena,base,1,2022-04-01,2022-05-01,omitir_ventana,2022-04-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2233648.283018868}","{""pasajeros_aena"": 1345323.4114012711}"
+sarimax_aena,base,1,2022-05-01,2022-06-01,omitir_ceros,2022-05-31,lbfgs,True,,"{""pasajeros_aena"": 1845512.1351351351}","{""pasajeros_aena"": 1371026.8831302987}"
+sarimax_aena,base,1,2022-05-01,2022-06-01,omitir_ventana,2022-05-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2202648.777777778}","{""pasajeros_aena"": 1351780.2631791087}"
+sarimax_aena,base,1,2022-06-01,2022-07-01,omitir_ceros,2022-06-30,lbfgs,True,,"{""pasajeros_aena"": 1830422.8666666667}","{""pasajeros_aena"": 1368028.0030411303}"
+sarimax_aena,base,1,2022-06-01,2022-07-01,omitir_ventana,2022-06-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2175579.109090909}","{""pasajeros_aena"": 1354125.3560561275}"
+sarimax_aena,base,1,2022-07-01,2022-08-01,omitir_ceros,2022-07-31,lbfgs,True,,"{""pasajeros_aena"": 1820787.9210526317}","{""pasajeros_aena"": 1361557.2049160511}"
+sarimax_aena,base,1,2022-07-01,2022-08-01,omitir_ventana,2022-07-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2156339.6071428573}","{""pasajeros_aena"": 1349544.495744777}"
+sarimax_aena,base,1,2022-08-01,2022-09-01,omitir_ceros,2022-08-31,lbfgs,True,,"{""pasajeros_aena"": 1828824.6103896103}","{""pasajeros_aena"": 1354500.2474439966}"
+sarimax_aena,base,1,2022-08-01,2022-09-01,omitir_ventana,2022-08-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2161309.3157894737}","{""pasajeros_aena"": 1338170.8870273575}"
+sarimax_aena,base,1,2022-09-01,2022-10-01,omitir_ceros,2022-09-30,lbfgs,True,,"{""pasajeros_aena"": 1845368.5897435897}","{""pasajeros_aena"": 1353596.9299392584}"
+sarimax_aena,base,1,2022-09-01,2022-10-01,omitir_ventana,2022-09-30,lbfgs,False,Non-invertible starting seasonal moving average Using zeros as starting parameters. | Maximum Likelihood optimization failed to converge. Check mle_retvals,"{""pasajeros_aena"": 2177825.620689655}","{""pasajeros_aena"": 1332432.398592447}"
+sarimax_aena,base,1,2022-09-01,2022-10-01,omitir_ventana,2022-09-30,powell,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2177825.620689655}","{""pasajeros_aena"": 1332432.398592447}"
+sarimax_aena,base,1,2022-10-01,2022-11-01,omitir_ceros,2022-10-31,lbfgs,True,,"{""pasajeros_aena"": 1869042.7088607594}","{""pasajeros_aena"": 1361156.9039292578}"
+sarimax_aena,base,1,2022-10-01,2022-11-01,omitir_ventana,2022-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2203890.0}","{""pasajeros_aena"": 1335921.9232148642}"
+sarimax_aena,base,1,2022-11-01,2022-12-01,omitir_ceros,2022-11-30,lbfgs,True,,"{""pasajeros_aena"": 1897335.1}","{""pasajeros_aena"": 1375799.7884736138}"
+sarimax_aena,base,1,2022-11-01,2022-12-01,omitir_ventana,2022-11-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2236032.4}","{""pasajeros_aena"": 1347552.4086154026}"
+sarimax_aena,base,1,2022-12-01,2023-01-01,omitir_ceros,2022-12-31,lbfgs,True,,"{""pasajeros_aena"": 1925292.037037037}","{""pasajeros_aena"": 1389958.2992490528}"
+sarimax_aena,base,1,2022-12-01,2023-01-01,omitir_ventana,2022-12-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2267603.131147541}","{""pasajeros_aena"": 1358650.5608507707}"
+sarimax_aena,base,1,2023-01-01,2023-02-01,omitir_ceros,2023-01-31,lbfgs,True,,"{""pasajeros_aena"": 1946489.780487805}","{""pasajeros_aena"": 1394568.099013131}"
+sarimax_aena,base,1,2023-01-01,2023-02-01,omitir_ventana,2023-01-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2290117.709677419}","{""pasajeros_aena"": 1359073.0448711368}"
+sarimax_aena,base,1,2023-02-01,2023-03-01,omitir_ceros,2023-02-28,lbfgs,True,,"{""pasajeros_aena"": 1959947.4337349397}","{""pasajeros_aena"": 1391488.234105218}"
+sarimax_aena,base,1,2023-02-01,2023-03-01,omitir_ventana,2023-02-28,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2302393.222222222}","{""pasajeros_aena"": 1351703.9199944385}"
+sarimax_aena,base,1,2023-03-01,2023-04-01,omitir_ceros,2023-03-31,lbfgs,True,,"{""pasajeros_aena"": 1948157.761904762}","{""pasajeros_aena"": 1387344.8502021818}"
+sarimax_aena,base,1,2023-03-01,2023-04-01,omitir_ventana,2023-03-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2281568.5625}","{""pasajeros_aena"": 1351249.7851430897}"
+sarimax_aena,base,1,2023-04-01,2023-05-01,omitir_ceros,2023-04-30,lbfgs,True,,"{""pasajeros_aena"": 1936253.8}","{""pasajeros_aena"": 1383468.4901303663}"
+sarimax_aena,base,1,2023-04-01,2023-05-01,omitir_ventana,2023-04-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2260872.446153846}","{""pasajeros_aena"": 1350999.1313707624}"
+sarimax_aena,base,1,2023-05-01,2023-06-01,omitir_ceros,2023-05-31,lbfgs,True,,"{""pasajeros_aena"": 1923722.7093023255}","{""pasajeros_aena"": 1380245.2038714904}"
+sarimax_aena,base,1,2023-05-01,2023-06-01,omitir_ventana,2023-05-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2239625.590909091}","{""pasajeros_aena"": 1351623.8395633935}"
+sarimax_aena,base,1,2023-06-01,2023-07-01,omitir_ceros,2023-06-30,lbfgs,True,,"{""pasajeros_aena"": 1912024.2183908045}","{""pasajeros_aena"": 1376571.4261786435}"
+sarimax_aena,base,1,2023-06-01,2023-07-01,omitir_ventana,2023-06-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2219720.0447761193}","{""pasajeros_aena"": 1351211.03610213}"
+sarimax_aena,base,1,2023-07-01,2023-08-01,omitir_ceros,2023-07-31,lbfgs,True,,"{""pasajeros_aena"": 1905573.6590909092}","{""pasajeros_aena"": 1370049.4248280863}"
+sarimax_aena,base,1,2023-07-01,2023-08-01,omitir_ventana,2023-07-31,lbfgs,False,Non-invertible starting seasonal moving average Using zeros as starting parameters. | Maximum Likelihood optimization failed to converge. Check mle_retvals,"{""pasajeros_aena"": 2206847.3235294116}","{""pasajeros_aena"": 1345371.3437096032}"
+sarimax_aena,base,1,2023-07-01,2023-08-01,omitir_ventana,2023-07-31,powell,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2206847.3235294116}","{""pasajeros_aena"": 1345371.3437096032}"
+sarimax_aena,base,1,2023-08-01,2023-09-01,omitir_ceros,2023-08-31,lbfgs,True,,"{""pasajeros_aena"": 1914849.4831460675}","{""pasajeros_aena"": 1365106.8606627374}"
+sarimax_aena,base,1,2023-08-01,2023-09-01,omitir_ventana,2023-08-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2214445.507246377}","{""pasajeros_aena"": 1337055.5795271182}"
+sarimax_aena,base,1,2023-09-01,2023-10-01,omitir_ceros,2023-09-30,lbfgs,True,,"{""pasajeros_aena"": 1931586.5111111111}","{""pasajeros_aena"": 1366653.7238143492}"
+sarimax_aena,base,1,2023-09-01,2023-10-01,omitir_ventana,2023-09-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2231684.6}","{""pasajeros_aena"": 1335172.1445459104}"
+sarimax_aena,base,1,2023-10-01,2023-11-01,omitir_ceros,2023-10-31,lbfgs,True,,"{""pasajeros_aena"": 1952204.6153846155}","{""pasajeros_aena"": 1373126.8401693273}"
+sarimax_aena,base,1,2023-10-01,2023-11-01,omitir_ventana,2023-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2253883.8873239434}","{""pasajeros_aena"": 1338683.3105795353}"
+sarimax_aena,base,1,2023-11-01,2023-12-01,omitir_ceros,2023-11-30,lbfgs,True,,"{""pasajeros_aena"": 1978574.2391304348}","{""pasajeros_aena"": 1388618.1954186184}"
+sarimax_aena,base,1,2023-11-01,2023-12-01,omitir_ventana,2023-11-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2283388.4166666665}","{""pasajeros_aena"": 1352401.504005362}"
+sarimax_aena,base,1,2023-12-01,2024-01-01,omitir_ceros,2023-12-31,lbfgs,True,,"{""pasajeros_aena"": 2004305.7634408602}","{""pasajeros_aena"": 1403011.3158641479}"
+sarimax_aena,base,1,2023-12-01,2024-01-01,omitir_ventana,2023-12-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2311994.1369863013}","{""pasajeros_aena"": 1364863.3095580533}"
+sarimax_aena,base,1,2024-01-01,2024-02-01,omitir_ceros,2024-01-31,lbfgs,True,,"{""pasajeros_aena"": 2024090.5212765958}","{""pasajeros_aena"": 1408511.0937219649}"
+sarimax_aena,base,1,2024-01-01,2024-02-01,omitir_ventana,2024-01-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2332968.1756756757}","{""pasajeros_aena"": 1367403.2440728405}"
+sarimax_aena,base,1,2024-02-01,2024-03-01,omitir_ceros,2024-02-29,lbfgs,True,,"{""pasajeros_aena"": 2037376.347368421}","{""pasajeros_aena"": 1406987.045012709}"
+sarimax_aena,base,1,2024-02-01,2024-03-01,omitir_ventana,2024-02-29,lbfgs,True,,"{""pasajeros_aena"": 2345678.52}","{""pasajeros_aena"": 1362650.3542432627}"
+sarimax_aena,base,1,2024-03-01,2024-04-01,omitir_ceros,2024-03-31,lbfgs,True,,"{""pasajeros_aena"": 2027591.90625}","{""pasajeros_aena"": 1402885.0391906307}"
+sarimax_aena,base,1,2024-03-01,2024-04-01,omitir_ventana,2024-03-31,lbfgs,True,,"{""pasajeros_aena"": 2329262.6184210526}","{""pasajeros_aena"": 1361100.780784909}"
+sarimax_aena,base,1,2024-04-01,2024-05-01,omitir_ceros,2024-04-30,lbfgs,True,,"{""pasajeros_aena"": 2017399.3608247424}","{""pasajeros_aena"": 1399203.3907273565}"
+sarimax_aena,base,1,2024-04-01,2024-05-01,omitir_ventana,2024-04-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2312504.8571428573}","{""pasajeros_aena"": 1360102.2647449742}"
+sarimax_aena,base,1,2024-05-01,2024-06-01,omitir_ceros,2024-05-31,lbfgs,True,,"{""pasajeros_aena"": 2005893.3979591837}","{""pasajeros_aena"": 1396651.1515100913}"
+sarimax_aena,base,1,2024-05-01,2024-06-01,omitir_ventana,2024-05-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2294265.2435897435}","{""pasajeros_aena"": 1360800.6516238716}"
+sarimax_aena,base,1,2024-06-01,2024-07-01,omitir_ceros,2024-06-30,lbfgs,True,,"{""pasajeros_aena"": 1996088.8484848484}","{""pasajeros_aena"": 1392965.0826568769}"
+sarimax_aena,base,1,2024-06-01,2024-07-01,omitir_ventana,2024-06-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2278328.253164557}","{""pasajeros_aena"": 1359466.519689086}"
+sarimax_aena,base,1,2024-07-01,2024-08-01,omitir_ceros,2024-07-31,lbfgs,True,,"{""pasajeros_aena"": 1991418.04}","{""pasajeros_aena"": 1386761.707368854}"
+sarimax_aena,base,1,2024-07-01,2024-08-01,omitir_ventana,2024-07-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2268961.75}","{""pasajeros_aena"": 1353505.8670244517}"
+sarimax_aena,base,1,2024-08-01,2024-09-01,omitir_ceros,2024-08-31,lbfgs,True,,"{""pasajeros_aena"": 1999493.306930693}","{""pasajeros_aena"": 1382240.3383747959}"
+sarimax_aena,base,1,2024-08-01,2024-09-01,omitir_ventana,2024-08-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2275604.4444444445}","{""pasajeros_aena"": 1346436.4631322282}"
+sarimax_aena,base,1,2024-09-01,2024-10-01,omitir_ceros,2024-09-30,lbfgs,True,,"{""pasajeros_aena"": 2017549.656862745}","{""pasajeros_aena"": 1387366.6796226464}"
+sarimax_aena,base,1,2024-09-01,2024-10-01,omitir_ventana,2024-09-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2294697.573170732}","{""pasajeros_aena"": 1349189.0428445726}"
+sarimax_aena,base,1,2024-10-01,2024-11-01,omitir_ceros,2024-10-31,lbfgs,True,,"{""pasajeros_aena"": 2038343.5339805826}","{""pasajeros_aena"": 1396496.4594549707}"
+sarimax_aena,base,1,2024-10-01,2024-11-01,omitir_ventana,2024-10-31,lbfgs,True,,"{""pasajeros_aena"": 2317162.891566265}","{""pasajeros_aena"": 1356379.0908618625}"
+sarimax_aena,base,1,2024-11-01,2024-12-01,omitir_ceros,2024-11-30,lbfgs,True,,"{""pasajeros_aena"": 2062956.0576923077}","{""pasajeros_aena"": 1412035.8978458117}"
+sarimax_aena,base,1,2024-11-01,2024-12-01,omitir_ventana,2024-11-30,lbfgs,False,Maximum Likelihood optimization failed to converge. Check mle_retvals,"{""pasajeros_aena"": 2344316.261904762}","{""pasajeros_aena"": 1370787.598839746}"
+sarimax_aena,base,1,2024-11-01,2024-12-01,omitir_ventana,2024-11-30,powell,True,,"{""pasajeros_aena"": 2344316.261904762}","{""pasajeros_aena"": 1370787.598839746}"
+sarima,base,3,2021-10-01,2022-01-01,conservar,2021-10-31,lbfgs,True,,,
+sarima,base,3,2021-10-01,2022-01-01,omitir_ceros,2021-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2021-10-01,2022-01-01,omitir_ventana,2021-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2021-11-01,2022-02-01,omitir_ceros,2021-11-30,lbfgs,True,,,
+sarima,base,3,2021-11-01,2022-02-01,omitir_ventana,2021-11-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2021-12-01,2022-03-01,omitir_ceros,2021-12-31,lbfgs,True,,,
+sarima,base,3,2021-12-01,2022-03-01,omitir_ventana,2021-12-31,lbfgs,False,Non-invertible starting seasonal moving average Using zeros as starting parameters. | Maximum Likelihood optimization failed to converge. Check mle_retvals,,
+sarima,base,3,2021-12-01,2022-03-01,omitir_ventana,2021-12-31,powell,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2022-01-01,2022-04-01,omitir_ceros,2022-01-31,lbfgs,True,,,
+sarima,base,3,2022-01-01,2022-04-01,omitir_ventana,2022-01-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2022-02-01,2022-05-01,omitir_ceros,2022-02-28,lbfgs,True,,,
+sarima,base,3,2022-02-01,2022-05-01,omitir_ventana,2022-02-28,lbfgs,False,Non-invertible starting seasonal moving average Using zeros as starting parameters. | Maximum Likelihood optimization failed to converge. Check mle_retvals,,
+sarima,base,3,2022-02-01,2022-05-01,omitir_ventana,2022-02-28,powell,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2022-03-01,2022-06-01,omitir_ceros,2022-03-31,lbfgs,True,,,
+sarima,base,3,2022-03-01,2022-06-01,omitir_ventana,2022-03-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2022-04-01,2022-07-01,omitir_ceros,2022-04-30,lbfgs,True,,,
+sarima,base,3,2022-04-01,2022-07-01,omitir_ventana,2022-04-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2022-05-01,2022-08-01,omitir_ceros,2022-05-31,lbfgs,True,,,
+sarima,base,3,2022-05-01,2022-08-01,omitir_ventana,2022-05-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2022-06-01,2022-09-01,omitir_ceros,2022-06-30,lbfgs,True,,,
+sarima,base,3,2022-06-01,2022-09-01,omitir_ventana,2022-06-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2022-07-01,2022-10-01,omitir_ceros,2022-07-31,lbfgs,True,,,
+sarima,base,3,2022-07-01,2022-10-01,omitir_ventana,2022-07-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2022-08-01,2022-11-01,omitir_ceros,2022-08-31,lbfgs,True,,,
+sarima,base,3,2022-08-01,2022-11-01,omitir_ventana,2022-08-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2022-09-01,2022-12-01,omitir_ceros,2022-09-30,lbfgs,True,,,
+sarima,base,3,2022-09-01,2022-12-01,omitir_ventana,2022-09-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2022-10-01,2023-01-01,omitir_ceros,2022-10-31,lbfgs,True,,,
+sarima,base,3,2022-10-01,2023-01-01,omitir_ventana,2022-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2022-11-01,2023-02-01,omitir_ceros,2022-11-30,lbfgs,True,,,
+sarima,base,3,2022-11-01,2023-02-01,omitir_ventana,2022-11-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2022-12-01,2023-03-01,omitir_ceros,2022-12-31,lbfgs,True,,,
+sarima,base,3,2022-12-01,2023-03-01,omitir_ventana,2022-12-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2023-01-01,2023-04-01,omitir_ceros,2023-01-31,lbfgs,True,,,
+sarima,base,3,2023-01-01,2023-04-01,omitir_ventana,2023-01-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2023-02-01,2023-05-01,omitir_ceros,2023-02-28,lbfgs,True,,,
+sarima,base,3,2023-02-01,2023-05-01,omitir_ventana,2023-02-28,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2023-03-01,2023-06-01,omitir_ceros,2023-03-31,lbfgs,True,,,
+sarima,base,3,2023-03-01,2023-06-01,omitir_ventana,2023-03-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2023-04-01,2023-07-01,omitir_ceros,2023-04-30,lbfgs,True,,,
+sarima,base,3,2023-04-01,2023-07-01,omitir_ventana,2023-04-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2023-05-01,2023-08-01,omitir_ceros,2023-05-31,lbfgs,True,,,
+sarima,base,3,2023-05-01,2023-08-01,omitir_ventana,2023-05-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2023-06-01,2023-09-01,omitir_ceros,2023-06-30,lbfgs,True,,,
+sarima,base,3,2023-06-01,2023-09-01,omitir_ventana,2023-06-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2023-07-01,2023-10-01,omitir_ceros,2023-07-31,lbfgs,True,,,
+sarima,base,3,2023-07-01,2023-10-01,omitir_ventana,2023-07-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2023-08-01,2023-11-01,omitir_ceros,2023-08-31,lbfgs,True,,,
+sarima,base,3,2023-08-01,2023-11-01,omitir_ventana,2023-08-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2023-09-01,2023-12-01,omitir_ceros,2023-09-30,lbfgs,True,,,
+sarima,base,3,2023-09-01,2023-12-01,omitir_ventana,2023-09-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2023-10-01,2024-01-01,omitir_ceros,2023-10-31,lbfgs,True,,,
+sarima,base,3,2023-10-01,2024-01-01,omitir_ventana,2023-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2023-11-01,2024-02-01,omitir_ceros,2023-11-30,lbfgs,True,,,
+sarima,base,3,2023-11-01,2024-02-01,omitir_ventana,2023-11-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2023-12-01,2024-03-01,omitir_ceros,2023-12-31,lbfgs,True,,,
+sarima,base,3,2023-12-01,2024-03-01,omitir_ventana,2023-12-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2024-01-01,2024-04-01,omitir_ceros,2024-01-31,lbfgs,True,,,
+sarima,base,3,2024-01-01,2024-04-01,omitir_ventana,2024-01-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2024-02-01,2024-05-01,omitir_ceros,2024-02-29,lbfgs,True,,,
+sarima,base,3,2024-02-01,2024-05-01,omitir_ventana,2024-02-29,lbfgs,False,Maximum Likelihood optimization failed to converge. Check mle_retvals,,
+sarima,base,3,2024-02-01,2024-05-01,omitir_ventana,2024-02-29,powell,True,,,
+sarima,base,3,2024-03-01,2024-06-01,omitir_ceros,2024-03-31,lbfgs,True,,,
+sarima,base,3,2024-03-01,2024-06-01,omitir_ventana,2024-03-31,lbfgs,True,,,
+sarima,base,3,2024-04-01,2024-07-01,omitir_ceros,2024-04-30,lbfgs,True,,,
+sarima,base,3,2024-04-01,2024-07-01,omitir_ventana,2024-04-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2024-05-01,2024-08-01,omitir_ceros,2024-05-31,lbfgs,True,,,
+sarima,base,3,2024-05-01,2024-08-01,omitir_ventana,2024-05-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2024-06-01,2024-09-01,omitir_ceros,2024-06-30,lbfgs,True,,,
+sarima,base,3,2024-06-01,2024-09-01,omitir_ventana,2024-06-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2024-07-01,2024-10-01,omitir_ceros,2024-07-31,lbfgs,True,,,
+sarima,base,3,2024-07-01,2024-10-01,omitir_ventana,2024-07-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2024-08-01,2024-11-01,omitir_ceros,2024-08-31,lbfgs,True,,,
+sarima,base,3,2024-08-01,2024-11-01,omitir_ventana,2024-08-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,base,3,2024-09-01,2024-12-01,omitir_ceros,2024-09-30,lbfgs,True,,,
+sarima,base,3,2024-09-01,2024-12-01,omitir_ventana,2024-09-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarimax_aena,base,3,2021-10-01,2022-01-01,conservar,2021-10-31,lbfgs,True,,"{""pasajeros_aena"": 1850129.1940298507}","{""pasajeros_aena"": 1420511.0871376619}"
+sarimax_aena,base,3,2021-10-01,2022-01-01,omitir_ceros,2021-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 1879779.0615384616}","{""pasajeros_aena"": 1431906.331484107}"
+sarimax_aena,base,3,2021-10-01,2022-01-01,omitir_ventana,2021-10-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2344528.612244898}","{""pasajeros_aena"": 1339336.927780597}"
+sarimax_aena,base,3,2021-11-01,2022-02-01,omitir_ceros,2021-11-30,lbfgs,True,,"{""pasajeros_aena"": 1864245.9696969697}","{""pasajeros_aena"": 1426524.7096672852}"
+sarimax_aena,base,3,2021-11-01,2022-02-01,omitir_ventana,2021-11-30,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2344528.612244898}","{""pasajeros_aena"": 1339336.927780597}"
+sarimax_aena,base,3,2021-12-01,2022-03-01,omitir_ceros,2021-12-31,lbfgs,True,,"{""pasajeros_aena"": 1857445.462686567}","{""pasajeros_aena"": 1416916.48124698}"
+sarimax_aena,base,3,2021-12-01,2022-03-01,omitir_ventana,2021-12-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2344528.612244898}","{""pasajeros_aena"": 1339336.927780597}"
+sarimax_aena,base,3,2022-01-01,2022-04-01,omitir_ceros,2022-01-31,lbfgs,True,,"{""pasajeros_aena"": 1865904.5882352942}","{""pasajeros_aena"": 1408162.7469934449}"
+sarimax_aena,base,3,2022-01-01,2022-04-01,omitir_ventana,2022-01-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2344528.612244898}","{""pasajeros_aena"": 1339336.927780597}"
+sarimax_aena,base,3,2022-02-01,2022-05-01,omitir_ceros,2022-02-28,lbfgs,True,,"{""pasajeros_aena"": 1877288.652173913}","{""pasajeros_aena"": 1401069.9152264844}"
+sarimax_aena,base,3,2022-02-01,2022-05-01,omitir_ventana,2022-02-28,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2344528.612244898}","{""pasajeros_aena"": 1339336.927780597}"
+sarimax_aena,base,3,2022-03-01,2022-06-01,omitir_ceros,2022-03-31,lbfgs,True,,"{""pasajeros_aena"": 1883417.1}","{""pasajeros_aena"": 1391957.4661643954}"
+sarimax_aena,base,3,2022-03-01,2022-06-01,omitir_ventana,2022-03-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2343763.64}","{""pasajeros_aena"": 1325886.7266620744}"
+sarimax_aena,base,3,2022-04-01,2022-07-01,omitir_ceros,2022-04-30,lbfgs,True,,"{""pasajeros_aena"": 1889064.0985915493}","{""pasajeros_aena"": 1382927.4798968744}"
+sarimax_aena,base,3,2022-04-01,2022-07-01,omitir_ventana,2022-04-30,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2342598.745098039}","{""pasajeros_aena"": 1312849.3252872883}"
+sarimax_aena,base,3,2022-05-01,2022-08-01,omitir_ceros,2022-05-31,lbfgs,True,,"{""pasajeros_aena"": 1873984.6944444445}","{""pasajeros_aena"": 1379155.7758466434}"
+sarimax_aena,base,3,2022-05-01,2022-08-01,omitir_ventana,2022-05-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2312997.75}","{""pasajeros_aena"": 1317237.5920820767}"
+sarimax_aena,base,3,2022-06-01,2022-09-01,omitir_ceros,2022-06-30,lbfgs,True,,"{""pasajeros_aena"": 1858490.1780821919}","{""pasajeros_aena"": 1375972.621221986}"
+sarimax_aena,base,3,2022-06-01,2022-09-01,omitir_ventana,2022-06-30,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2283372.9811320757}","{""pasajeros_aena"": 1322124.599986168}"
+sarimax_aena,base,3,2022-07-01,2022-10-01,omitir_ceros,2022-07-31,lbfgs,True,,"{""pasajeros_aena"": 1840938.6216216215}","{""pasajeros_aena"": 1374846.784616574}"
+sarimax_aena,base,3,2022-07-01,2022-10-01,omitir_ventana,2022-07-31,lbfgs,False,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros. | Maximum Likelihood optimization failed to converge. Check mle_retvals,"{""pasajeros_aena"": 2251452.6481481483}","{""pasajeros_aena"": 1330280.0247172434}"
+sarimax_aena,base,3,2022-07-01,2022-10-01,omitir_ventana,2022-07-31,powell,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2251452.6481481483}","{""pasajeros_aena"": 1330280.0247172434}"
+sarimax_aena,base,3,2022-08-01,2022-11-01,omitir_ceros,2022-08-31,lbfgs,True,,"{""pasajeros_aena"": 1825910.3333333333}","{""pasajeros_aena"": 1371755.7452543834}"
+sarimax_aena,base,3,2022-08-01,2022-11-01,omitir_ventana,2022-08-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2223495.6363636362}","{""pasajeros_aena"": 1334044.8586791344}"
+sarimax_aena,base,3,2022-09-01,2022-12-01,omitir_ceros,2022-09-30,lbfgs,True,,"{""pasajeros_aena"": 1816334.7631578948}","{""pasajeros_aena"": 1365222.0691238523}"
+sarimax_aena,base,3,2022-09-01,2022-12-01,omitir_ventana,2022-09-30,lbfgs,False,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros. | Maximum Likelihood optimization failed to converge. Check mle_retvals,"{""pasajeros_aena"": 2203400.4821428573}","{""pasajeros_aena"": 1330453.1556187912}"
+sarimax_aena,base,3,2022-09-01,2022-12-01,omitir_ventana,2022-09-30,powell,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2203400.4821428573}","{""pasajeros_aena"": 1330453.1556187912}"
+sarimax_aena,base,3,2022-10-01,2023-01-01,omitir_ceros,2022-10-31,lbfgs,True,,"{""pasajeros_aena"": 1824429.2857142857}","{""pasajeros_aena"": 1358162.477467773}"
+sarimax_aena,base,3,2022-10-01,2023-01-01,omitir_ventana,2022-10-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2207544.5614035088}","{""pasajeros_aena"": 1319095.4571604223}"
+sarimax_aena,base,3,2022-11-01,2023-02-01,omitir_ceros,2022-11-30,lbfgs,True,,"{""pasajeros_aena"": 1841029.6153846155}","{""pasajeros_aena"": 1357267.6566862825}"
+sarimax_aena,base,3,2022-11-01,2023-02-01,omitir_ventana,2022-11-30,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2223263.706896552}","{""pasajeros_aena"": 1313048.6744502736}"
+sarimax_aena,base,3,2022-12-01,2023-03-01,omitir_ceros,2022-12-31,lbfgs,True,,"{""pasajeros_aena"": 1864758.6582278481}","{""pasajeros_aena"": 1364835.549715111}"
+sarimax_aena,base,3,2022-12-01,2023-03-01,omitir_ventana,2022-12-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2248557.9491525423}","{""pasajeros_aena"": 1316048.314290279}"
+sarimax_aena,base,3,2023-01-01,2023-04-01,omitir_ceros,2023-01-31,lbfgs,True,,"{""pasajeros_aena"": 1893104.6}","{""pasajeros_aena"": 1379480.8000023558}"
+sarimax_aena,base,3,2023-01-01,2023-04-01,omitir_ventana,2023-01-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2279955.8833333333}","{""pasajeros_aena"": 1327132.5349912508}"
+sarimax_aena,base,3,2023-02-01,2023-05-01,omitir_ceros,2023-02-28,lbfgs,True,,"{""pasajeros_aena"": 1921113.7654320989}","{""pasajeros_aena"": 1393640.8871195673}"
+sarimax_aena,base,3,2023-02-01,2023-05-01,omitir_ventana,2023-02-28,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2310806.5573770492}","{""pasajeros_aena"": 1337726.8613578698}"
+sarimax_aena,base,3,2023-03-01,2023-06-01,omitir_ceros,2023-03-31,lbfgs,True,,"{""pasajeros_aena"": 1942362.463414634}","{""pasajeros_aena"": 1398256.4896895112}"
+sarimax_aena,base,3,2023-03-01,2023-06-01,omitir_ventana,2023-03-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2332624.306451613}","{""pasajeros_aena"": 1337791.801754301}"
+sarimax_aena,base,3,2023-04-01,2023-07-01,omitir_ceros,2023-04-30,lbfgs,True,,"{""pasajeros_aena"": 1955869.843373494}","{""pasajeros_aena"": 1395179.6935926615}"
+sarimax_aena,base,3,2023-04-01,2023-07-01,omitir_ventana,2023-04-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2344225.111111111}","{""pasajeros_aena"": 1330271.7969103586}"
+sarimax_aena,base,3,2023-05-01,2023-08-01,omitir_ceros,2023-05-31,lbfgs,True,,"{""pasajeros_aena"": 1944128.7142857143}","{""pasajeros_aena"": 1390969.2073033494}"
+sarimax_aena,base,3,2023-05-01,2023-08-01,omitir_ventana,2023-05-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2322746.828125}","{""pasajeros_aena"": 1330802.6306570543}"
+sarimax_aena,base,3,2023-06-01,2023-09-01,omitir_ceros,2023-06-30,lbfgs,True,,"{""pasajeros_aena"": 1932272.1529411764}","{""pasajeros_aena"": 1387026.1690178951}"
+sarimax_aena,base,3,2023-06-01,2023-09-01,omitir_ventana,2023-06-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2301417.2}","{""pasajeros_aena"": 1331505.1385119045}"
+sarimax_aena,base,3,2023-07-01,2023-10-01,omitir_ceros,2023-07-31,lbfgs,True,,"{""pasajeros_aena"": 1919787.3604651163}","{""pasajeros_aena"": 1383734.185500327}"
+sarimax_aena,base,3,2023-07-01,2023-10-01,omitir_ventana,2023-07-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2279556.0303030303}","{""pasajeros_aena"": 1333082.1133365862}"
+sarimax_aena,base,3,2023-08-01,2023-11-01,omitir_ceros,2023-08-31,lbfgs,True,,"{""pasajeros_aena"": 1908134.103448276}","{""pasajeros_aena"": 1379996.6228868559}"
+sarimax_aena,base,3,2023-08-01,2023-11-01,omitir_ventana,2023-08-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2259054.5074626864}","{""pasajeros_aena"": 1333538.354543128}"
+sarimax_aena,base,3,2023-09-01,2023-12-01,omitir_ceros,2023-09-30,lbfgs,True,,"{""pasajeros_aena"": 1901727.75}","{""pasajeros_aena"": 1373433.826115589}"
+sarimax_aena,base,3,2023-09-01,2023-12-01,omitir_ventana,2023-09-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2245603.338235294}","{""pasajeros_aena"": 1328267.7766220404}"
+sarimax_aena,base,3,2023-10-01,2024-01-01,omitir_ceros,2023-10-31,lbfgs,True,,"{""pasajeros_aena"": 1911046.7865168538}","{""pasajeros_aena"": 1368491.2032980092}"
+sarimax_aena,base,3,2023-10-01,2024-01-01,omitir_ventana,2023-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2252639.84057971}","{""pasajeros_aena"": 1319883.5669650761}"
+sarimax_aena,base,3,2023-11-01,2024-02-01,omitir_ceros,2023-11-30,lbfgs,True,,"{""pasajeros_aena"": 1927826.0666666667}","{""pasajeros_aena"": 1370042.727732118}"
+sarimax_aena,base,3,2023-11-01,2024-02-01,omitir_ventana,2023-11-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2269333.3}","{""pasajeros_aena"": 1317738.1880707059}"
+sarimax_aena,base,3,2023-12-01,2024-03-01,omitir_ceros,2023-12-31,lbfgs,True,,"{""pasajeros_aena"": 1948485.4945054946}","{""pasajeros_aena"": 1376518.6489167165}"
+sarimax_aena,base,3,2023-12-01,2024-03-01,omitir_ventana,2023-12-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2291002.323943662}","{""pasajeros_aena"": 1320925.954873683}"
+sarimax_aena,base,3,2024-01-01,2024-04-01,omitir_ceros,2024-01-31,lbfgs,True,,"{""pasajeros_aena"": 1974895.543478261}","{""pasajeros_aena"": 1392005.5862332892}"
+sarimax_aena,base,3,2024-01-01,2024-04-01,omitir_ventana,2024-01-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2319991.3194444445}","{""pasajeros_aena"": 1334270.2525134378}"
+sarimax_aena,base,3,2024-02-01,2024-05-01,omitir_ceros,2024-02-29,lbfgs,True,,"{""pasajeros_aena"": 2000666.6236559139}","{""pasajeros_aena"": 1406394.6661117836}"
+sarimax_aena,base,3,2024-02-01,2024-05-01,omitir_ventana,2024-02-29,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2348095.6301369863}","{""pasajeros_aena"": 1346387.4305859653}"
+sarimax_aena,base,3,2024-03-01,2024-06-01,omitir_ceros,2024-03-31,lbfgs,True,,"{""pasajeros_aena"": 2020490.0957446808}","{""pasajeros_aena"": 1411895.956807356}"
+sarimax_aena,base,3,2024-03-01,2024-06-01,omitir_ventana,2024-03-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2368581.810810811}","{""pasajeros_aena"": 1348665.7373731297}"
+sarimax_aena,base,3,2024-04-01,2024-07-01,omitir_ceros,2024-04-30,lbfgs,True,,"{""pasajeros_aena"": 2033813.8210526316}","{""pasajeros_aena"": 1410373.5470718835}"
+sarimax_aena,base,3,2024-04-01,2024-07-01,omitir_ventana,2024-04-30,lbfgs,True,,"{""pasajeros_aena"": 2380817.3066666666}","{""pasajeros_aena"": 1343772.9069437587}"
+sarimax_aena,base,3,2024-05-01,2024-08-01,omitir_ceros,2024-05-31,lbfgs,True,,"{""pasajeros_aena"": 2024066.4895833333}","{""pasajeros_aena"": 1406221.5997504625}"
+sarimax_aena,base,3,2024-05-01,2024-08-01,omitir_ventana,2024-05-31,lbfgs,True,,"{""pasajeros_aena"": 2363939.052631579}","{""pasajeros_aena"": 1342881.8775970002}"
+sarimax_aena,base,3,2024-06-01,2024-09-01,omitir_ceros,2024-06-30,lbfgs,True,,"{""pasajeros_aena"": 2013910.2886597938}","{""pasajeros_aena"": 1402488.951280573}"
+sarimax_aena,base,3,2024-06-01,2024-09-01,omitir_ventana,2024-06-30,lbfgs,True,,"{""pasajeros_aena"": 2346730.948051948}","{""pasajeros_aena"": 1342541.2016369563}"
+sarimax_aena,base,3,2024-07-01,2024-10-01,omitir_ceros,2024-07-31,lbfgs,True,,"{""pasajeros_aena"": 2002439.9285714286}","{""pasajeros_aena"": 1399880.8131163563}"
+sarimax_aena,base,3,2024-07-01,2024-10-01,omitir_ventana,2024-07-31,lbfgs,True,,"{""pasajeros_aena"": 2328052.5384615385}","{""pasajeros_aena"": 1343939.3435832555}"
+sarimax_aena,base,3,2024-08-01,2024-11-01,omitir_ceros,2024-08-31,lbfgs,True,,"{""pasajeros_aena"": 1992670.2626262626}","{""pasajeros_aena"": 1396146.6350117591}"
+sarimax_aena,base,3,2024-08-01,2024-11-01,omitir_ventana,2024-08-31,lbfgs,True,,"{""pasajeros_aena"": 2311687.860759494}","{""pasajeros_aena"": 1343204.6080663688}"
+sarimax_aena,base,3,2024-09-01,2024-12-01,omitir_ceros,2024-09-30,lbfgs,True,,"{""pasajeros_aena"": 1988033.64}","{""pasajeros_aena"": 1389914.2062942483}"
+sarimax_aena,base,3,2024-09-01,2024-12-01,omitir_ventana,2024-09-30,lbfgs,True,,"{""pasajeros_aena"": 2301904.3625}","{""pasajeros_aena"": 1337612.7117401664}"
+sarima,espera_adicional,1,2021-12-01,2022-01-01,conservar,2021-12-31,lbfgs,True,,,
+sarima,espera_adicional,1,2021-12-01,2022-01-01,omitir_ceros,2021-12-31,lbfgs,True,,,
+sarima,espera_adicional,1,2021-12-01,2022-01-01,omitir_ventana,2021-12-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2022-01-01,2022-02-01,omitir_ceros,2022-01-31,lbfgs,True,,,
+sarima,espera_adicional,1,2022-01-01,2022-02-01,omitir_ventana,2022-01-31,lbfgs,False,Non-invertible starting seasonal moving average Using zeros as starting parameters. | Maximum Likelihood optimization failed to converge. Check mle_retvals,,
+sarima,espera_adicional,1,2022-01-01,2022-02-01,omitir_ventana,2022-01-31,powell,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2022-02-01,2022-03-01,omitir_ceros,2022-02-28,lbfgs,True,,,
+sarima,espera_adicional,1,2022-02-01,2022-03-01,omitir_ventana,2022-02-28,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2022-03-01,2022-04-01,omitir_ceros,2022-03-31,lbfgs,True,,,
+sarima,espera_adicional,1,2022-03-01,2022-04-01,omitir_ventana,2022-03-31,lbfgs,False,Non-invertible starting seasonal moving average Using zeros as starting parameters. | Maximum Likelihood optimization failed to converge. Check mle_retvals,,
+sarima,espera_adicional,1,2022-03-01,2022-04-01,omitir_ventana,2022-03-31,powell,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2022-04-01,2022-05-01,omitir_ceros,2022-04-30,lbfgs,True,,,
+sarima,espera_adicional,1,2022-04-01,2022-05-01,omitir_ventana,2022-04-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2022-05-01,2022-06-01,omitir_ceros,2022-05-31,lbfgs,True,,,
+sarima,espera_adicional,1,2022-05-01,2022-06-01,omitir_ventana,2022-05-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2022-06-01,2022-07-01,omitir_ceros,2022-06-30,lbfgs,True,,,
+sarima,espera_adicional,1,2022-06-01,2022-07-01,omitir_ventana,2022-06-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2022-07-01,2022-08-01,omitir_ceros,2022-07-31,lbfgs,True,,,
+sarima,espera_adicional,1,2022-07-01,2022-08-01,omitir_ventana,2022-07-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2022-08-01,2022-09-01,omitir_ceros,2022-08-31,lbfgs,True,,,
+sarima,espera_adicional,1,2022-08-01,2022-09-01,omitir_ventana,2022-08-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2022-09-01,2022-10-01,omitir_ceros,2022-09-30,lbfgs,True,,,
+sarima,espera_adicional,1,2022-09-01,2022-10-01,omitir_ventana,2022-09-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2022-10-01,2022-11-01,omitir_ceros,2022-10-31,lbfgs,True,,,
+sarima,espera_adicional,1,2022-10-01,2022-11-01,omitir_ventana,2022-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2022-11-01,2022-12-01,omitir_ceros,2022-11-30,lbfgs,True,,,
+sarima,espera_adicional,1,2022-11-01,2022-12-01,omitir_ventana,2022-11-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2022-12-01,2023-01-01,omitir_ceros,2022-12-31,lbfgs,True,,,
+sarima,espera_adicional,1,2022-12-01,2023-01-01,omitir_ventana,2022-12-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2023-01-01,2023-02-01,omitir_ceros,2023-01-31,lbfgs,True,,,
+sarima,espera_adicional,1,2023-01-01,2023-02-01,omitir_ventana,2023-01-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2023-02-01,2023-03-01,omitir_ceros,2023-02-28,lbfgs,True,,,
+sarima,espera_adicional,1,2023-02-01,2023-03-01,omitir_ventana,2023-02-28,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2023-03-01,2023-04-01,omitir_ceros,2023-03-31,lbfgs,True,,,
+sarima,espera_adicional,1,2023-03-01,2023-04-01,omitir_ventana,2023-03-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2023-04-01,2023-05-01,omitir_ceros,2023-04-30,lbfgs,True,,,
+sarima,espera_adicional,1,2023-04-01,2023-05-01,omitir_ventana,2023-04-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2023-05-01,2023-06-01,omitir_ceros,2023-05-31,lbfgs,True,,,
+sarima,espera_adicional,1,2023-05-01,2023-06-01,omitir_ventana,2023-05-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2023-06-01,2023-07-01,omitir_ceros,2023-06-30,lbfgs,True,,,
+sarima,espera_adicional,1,2023-06-01,2023-07-01,omitir_ventana,2023-06-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2023-07-01,2023-08-01,omitir_ceros,2023-07-31,lbfgs,True,,,
+sarima,espera_adicional,1,2023-07-01,2023-08-01,omitir_ventana,2023-07-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2023-08-01,2023-09-01,omitir_ceros,2023-08-31,lbfgs,True,,,
+sarima,espera_adicional,1,2023-08-01,2023-09-01,omitir_ventana,2023-08-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2023-09-01,2023-10-01,omitir_ceros,2023-09-30,lbfgs,True,,,
+sarima,espera_adicional,1,2023-09-01,2023-10-01,omitir_ventana,2023-09-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2023-10-01,2023-11-01,omitir_ceros,2023-10-31,lbfgs,True,,,
+sarima,espera_adicional,1,2023-10-01,2023-11-01,omitir_ventana,2023-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2023-11-01,2023-12-01,omitir_ceros,2023-11-30,lbfgs,True,,,
+sarima,espera_adicional,1,2023-11-01,2023-12-01,omitir_ventana,2023-11-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2023-12-01,2024-01-01,omitir_ceros,2023-12-31,lbfgs,True,,,
+sarima,espera_adicional,1,2023-12-01,2024-01-01,omitir_ventana,2023-12-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2024-01-01,2024-02-01,omitir_ceros,2024-01-31,lbfgs,True,,,
+sarima,espera_adicional,1,2024-01-01,2024-02-01,omitir_ventana,2024-01-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2024-02-01,2024-03-01,omitir_ceros,2024-02-29,lbfgs,True,,,
+sarima,espera_adicional,1,2024-02-01,2024-03-01,omitir_ventana,2024-02-29,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2024-03-01,2024-04-01,omitir_ceros,2024-03-31,lbfgs,True,,,
+sarima,espera_adicional,1,2024-03-01,2024-04-01,omitir_ventana,2024-03-31,lbfgs,False,Maximum Likelihood optimization failed to converge. Check mle_retvals,,
+sarima,espera_adicional,1,2024-03-01,2024-04-01,omitir_ventana,2024-03-31,powell,True,,,
+sarima,espera_adicional,1,2024-04-01,2024-05-01,omitir_ceros,2024-04-30,lbfgs,True,,,
+sarima,espera_adicional,1,2024-04-01,2024-05-01,omitir_ventana,2024-04-30,lbfgs,True,,,
+sarima,espera_adicional,1,2024-05-01,2024-06-01,omitir_ceros,2024-05-31,lbfgs,True,,,
+sarima,espera_adicional,1,2024-05-01,2024-06-01,omitir_ventana,2024-05-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2024-06-01,2024-07-01,omitir_ceros,2024-06-30,lbfgs,True,,,
+sarima,espera_adicional,1,2024-06-01,2024-07-01,omitir_ventana,2024-06-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2024-07-01,2024-08-01,omitir_ceros,2024-07-31,lbfgs,True,,,
+sarima,espera_adicional,1,2024-07-01,2024-08-01,omitir_ventana,2024-07-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2024-08-01,2024-09-01,omitir_ceros,2024-08-31,lbfgs,True,,,
+sarima,espera_adicional,1,2024-08-01,2024-09-01,omitir_ventana,2024-08-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2024-09-01,2024-10-01,omitir_ceros,2024-09-30,lbfgs,True,,,
+sarima,espera_adicional,1,2024-09-01,2024-10-01,omitir_ventana,2024-09-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2024-10-01,2024-11-01,omitir_ceros,2024-10-31,lbfgs,True,,,
+sarima,espera_adicional,1,2024-10-01,2024-11-01,omitir_ventana,2024-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,1,2024-11-01,2024-12-01,omitir_ceros,2024-11-30,lbfgs,True,,,
+sarima,espera_adicional,1,2024-11-01,2024-12-01,omitir_ventana,2024-11-30,lbfgs,True,,,
+sarimax_aena,espera_adicional,1,2021-12-01,2022-01-01,conservar,2021-12-31,lbfgs,True,,"{""pasajeros_aena"": 1829302.3623188406}","{""pasajeros_aena"": 1405744.7543805193}"
+sarimax_aena,espera_adicional,1,2021-12-01,2022-01-01,omitir_ceros,2021-12-31,lbfgs,True,,"{""pasajeros_aena"": 1857968.8208955224}","{""pasajeros_aena"": 1416575.5600636485}"
+sarimax_aena,espera_adicional,1,2021-12-01,2022-01-01,omitir_ventana,2021-12-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2317695.42}","{""pasajeros_aena"": 1339114.6060330174}"
+sarimax_aena,espera_adicional,1,2022-01-01,2022-02-01,omitir_ceros,2022-01-31,lbfgs,True,,"{""pasajeros_aena"": 1866420.25}","{""pasajeros_aena"": 1407821.6542868565}"
+sarimax_aena,espera_adicional,1,2022-01-01,2022-02-01,omitir_ventana,2022-01-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2317695.42}","{""pasajeros_aena"": 1339114.6060330174}"
+sarimax_aena,espera_adicional,1,2022-02-01,2022-03-01,omitir_ceros,2022-02-28,lbfgs,True,,"{""pasajeros_aena"": 1877796.8405797102}","{""pasajeros_aena"": 1400727.9355288406}"
+sarimax_aena,espera_adicional,1,2022-02-01,2022-03-01,omitir_ventana,2022-02-28,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2317695.42}","{""pasajeros_aena"": 1339114.6060330174}"
+sarimax_aena,espera_adicional,1,2022-03-01,2022-04-01,omitir_ceros,2022-03-31,lbfgs,True,,"{""pasajeros_aena"": 1883918.0285714285}","{""pasajeros_aena"": 1391615.9604601916}"
+sarimax_aena,espera_adicional,1,2022-03-01,2022-04-01,omitir_ventana,2022-03-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2317695.42}","{""pasajeros_aena"": 1339114.6060330174}"
+sarimax_aena,espera_adicional,1,2022-04-01,2022-05-01,omitir_ceros,2022-04-30,lbfgs,True,,"{""pasajeros_aena"": 1889557.971830986}","{""pasajeros_aena"": 1382586.5697857356}"
+sarimax_aena,espera_adicional,1,2022-04-01,2022-05-01,omitir_ventana,2022-04-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2317041.6666666665}","{""pasajeros_aena"": 1325929.0953284996}"
+sarimax_aena,espera_adicional,1,2022-05-01,2022-06-01,omitir_ceros,2022-05-31,lbfgs,True,,"{""pasajeros_aena"": 1874471.7083333333}","{""pasajeros_aena"": 1378824.0089936892}"
+sarimax_aena,espera_adicional,1,2022-05-01,2022-06-01,omitir_ventana,2022-05-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2287932.153846154}","{""pasajeros_aena"": 1329471.373309424}"
+sarimax_aena,espera_adicional,1,2022-06-01,2022-07-01,omitir_ceros,2022-06-30,lbfgs,True,,"{""pasajeros_aena"": 1858970.5205479453}","{""pasajeros_aena"": 1375650.0539614898}"
+sarimax_aena,espera_adicional,1,2022-06-01,2022-07-01,omitir_ventana,2022-06-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2258780.320754717}","{""pasajeros_aena"": 1333542.7679413618}"
+sarimax_aena,espera_adicional,1,2022-07-01,2022-08-01,omitir_ceros,2022-07-31,lbfgs,True,,"{""pasajeros_aena"": 1841412.472972973}","{""pasajeros_aena"": 1374534.3680263904}"
+sarimax_aena,espera_adicional,1,2022-07-01,2022-08-01,omitir_ventana,2022-07-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2227315.407407407}","{""pasajeros_aena"": 1340849.1044411415}"
+sarimax_aena,espera_adicional,1,2022-08-01,2022-09-01,omitir_ceros,2022-08-31,lbfgs,True,,"{""pasajeros_aena"": 1826377.8666666667}","{""pasajeros_aena"": 1371451.9242233888}"
+sarimax_aena,espera_adicional,1,2022-08-01,2022-09-01,omitir_ventana,2022-08-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2199797.2545454544}","{""pasajeros_aena"": 1343904.420818456}"
+sarimax_aena,espera_adicional,1,2022-09-01,2022-10-01,omitir_ceros,2022-09-30,lbfgs,True,,"{""pasajeros_aena"": 1816796.144736842}","{""pasajeros_aena"": 1364924.0488147829}"
+sarimax_aena,espera_adicional,1,2022-09-01,2022-10-01,omitir_ventana,2022-09-30,lbfgs,False,Non-invertible starting seasonal moving average Using zeros as starting parameters. | Maximum Likelihood optimization failed to converge. Check mle_retvals,"{""pasajeros_aena"": 2180125.285714286}","{""pasajeros_aena"": 1339817.871804287}"
+sarimax_aena,espera_adicional,1,2022-09-01,2022-10-01,omitir_ventana,2022-09-30,powell,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2180125.285714286}","{""pasajeros_aena"": 1339817.871804287}"
+sarimax_aena,espera_adicional,1,2022-10-01,2022-11-01,omitir_ceros,2022-10-31,lbfgs,True,,"{""pasajeros_aena"": 1824884.6753246754}","{""pasajeros_aena"": 1357864.0850090217}"
+sarimax_aena,espera_adicional,1,2022-10-01,2022-11-01,omitir_ventana,2022-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2184677.701754386}","{""pasajeros_aena"": 1328449.9649590168}"
+sarimax_aena,espera_adicional,1,2022-11-01,2022-12-01,omitir_ceros,2022-11-30,lbfgs,True,,"{""pasajeros_aena"": 1841479.1666666667}","{""pasajeros_aena"": 1356967.3973785697}"
+sarimax_aena,espera_adicional,1,2022-11-01,2022-12-01,omitir_ventana,2022-11-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2200791.103448276}","{""pasajeros_aena"": 1322554.9733881305}"
+sarimax_aena,espera_adicional,1,2022-12-01,2023-01-01,omitir_ceros,2022-12-31,lbfgs,True,,"{""pasajeros_aena"": 1865202.5189873418}","{""pasajeros_aena"": 1364533.0180331122}"
+sarimax_aena,espera_adicional,1,2022-12-01,2023-01-01,omitir_ventana,2022-12-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2226466.2372881356}","{""pasajeros_aena"": 1325797.6256710503}"
+sarimax_aena,espera_adicional,1,2023-01-01,2023-02-01,omitir_ceros,2023-01-31,lbfgs,True,,"{""pasajeros_aena"": 1893542.9125}","{""pasajeros_aena"": 1379176.2150965354}"
+sarimax_aena,espera_adicional,1,2023-01-01,2023-02-01,omitir_ventana,2023-01-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2258232.3666666667}","{""pasajeros_aena"": 1337153.626201442}"
+sarimax_aena,espera_adicional,1,2023-02-01,2023-03-01,omitir_ceros,2023-02-28,lbfgs,True,,"{""pasajeros_aena"": 1921546.6666666667}","{""pasajeros_aena"": 1393334.4186880763}"
+sarimax_aena,espera_adicional,1,2023-02-01,2023-03-01,omitir_ventana,2023-02-28,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2289439.1639344264}","{""pasajeros_aena"": 1347998.7118744294}"
+sarimax_aena,espera_adicional,1,2023-03-01,2023-04-01,omitir_ceros,2023-03-31,lbfgs,True,,"{""pasajeros_aena"": 1942790.0853658537}","{""pasajeros_aena"": 1397948.2596088352}"
+sarimax_aena,espera_adicional,1,2023-03-01,2023-04-01,omitir_ventana,2023-03-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2311601.5483870967}","{""pasajeros_aena"": 1348241.0402290192}"
+sarimax_aena,espera_adicional,1,2023-04-01,2023-05-01,omitir_ceros,2023-04-30,lbfgs,True,,"{""pasajeros_aena"": 1956292.313253012}","{""pasajeros_aena"": 1394870.4155874765}"
+sarimax_aena,espera_adicional,1,2023-04-01,2023-05-01,omitir_ventana,2023-04-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2323536.0476190476}","{""pasajeros_aena"": 1340795.087576089}"
+sarimax_aena,espera_adicional,1,2023-05-01,2023-06-01,omitir_ceros,2023-05-31,lbfgs,True,,"{""pasajeros_aena"": 1944546.1547619049}","{""pasajeros_aena"": 1390666.211465214}"
+sarimax_aena,espera_adicional,1,2023-05-01,2023-06-01,omitir_ventana,2023-05-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2302381.03125}","{""pasajeros_aena"": 1340834.2924856753}"
+sarimax_aena,espera_adicional,1,2023-06-01,2023-07-01,omitir_ceros,2023-06-30,lbfgs,True,,"{""pasajeros_aena"": 1932684.6823529413}","{""pasajeros_aena"": 1386729.4146832742}"
+sarimax_aena,espera_adicional,1,2023-06-01,2023-07-01,omitir_ventana,2023-06-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2281364.7230769233}","{""pasajeros_aena"": 1341061.3068320467}"
+sarimax_aena,espera_adicional,1,2023-07-01,2023-08-01,omitir_ceros,2023-07-31,lbfgs,True,,"{""pasajeros_aena"": 1920195.0930232557}","{""pasajeros_aena"": 1383443.864494476}"
+sarimax_aena,espera_adicional,1,2023-07-01,2023-08-01,omitir_ventana,2023-07-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2259807.378787879}","{""pasajeros_aena"": 1342163.5505973154}"
+sarimax_aena,espera_adicional,1,2023-08-01,2023-09-01,omitir_ceros,2023-08-31,lbfgs,True,,"{""pasajeros_aena"": 1908537.1494252873}","{""pasajeros_aena"": 1379712.2667015984}"
+sarimax_aena,espera_adicional,1,2023-08-01,2023-09-01,omitir_ventana,2023-08-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2239600.6119402987}","{""pasajeros_aena"": 1342186.6750969107}"
+sarimax_aena,espera_adicional,1,2023-09-01,2023-10-01,omitir_ceros,2023-09-30,lbfgs,True,,"{""pasajeros_aena"": 1902126.2159090908}","{""pasajeros_aena"": 1373153.2176641703}"
+sarimax_aena,espera_adicional,1,2023-09-01,2023-10-01,omitir_ventana,2023-09-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2226435.529411765}","{""pasajeros_aena"": 1336632.0874041358}"
+sarimax_aena,espera_adicional,1,2023-10-01,2023-11-01,omitir_ceros,2023-10-31,lbfgs,True,,"{""pasajeros_aena"": 1911440.775280899}","{""pasajeros_aena"": 1368210.0629160397}"
+sarimax_aena,espera_adicional,1,2023-10-01,2023-11-01,omitir_ventana,2023-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2233749.8260869565}","{""pasajeros_aena"": 1328281.1161795703}"
+sarimax_aena,espera_adicional,1,2023-11-01,2023-12-01,omitir_ceros,2023-11-30,lbfgs,True,,"{""pasajeros_aena"": 1928215.677777778}","{""pasajeros_aena"": 1369760.2543321857}"
+sarimax_aena,espera_adicional,1,2023-11-01,2023-12-01,omitir_ventana,2023-11-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2250713.1428571427}","{""pasajeros_aena"": 1326265.8228913806}"
+sarimax_aena,espera_adicional,1,2023-12-01,2024-01-01,omitir_ceros,2023-12-31,lbfgs,True,,"{""pasajeros_aena"": 1948870.8241758242}","{""pasajeros_aena"": 1376234.8107253395}"
+sarimax_aena,espera_adicional,1,2023-12-01,2024-01-01,omitir_ventana,2023-12-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2272644.4225352113}","{""pasajeros_aena"": 1329614.7277335394}"
+sarimax_aena,espera_adicional,1,2024-01-01,2024-02-01,omitir_ceros,2024-01-31,lbfgs,True,,"{""pasajeros_aena"": 1975276.6847826086}","{""pasajeros_aena"": 1391720.7255787547}"
+sarimax_aena,espera_adicional,1,2024-01-01,2024-02-01,omitir_ventana,2024-01-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2301888.388888889}","{""pasajeros_aena"": 1343146.0752998448}"
+sarimax_aena,espera_adicional,1,2024-02-01,2024-03-01,omitir_ceros,2024-02-29,lbfgs,True,,"{""pasajeros_aena"": 2001043.6666666667}","{""pasajeros_aena"": 1406108.8426240613}"
+sarimax_aena,espera_adicional,1,2024-02-01,2024-03-01,omitir_ventana,2024-02-29,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2330240.684931507}","{""pasajeros_aena"": 1355435.6781959306}"
+sarimax_aena,espera_adicional,1,2024-03-01,2024-04-01,omitir_ceros,2024-03-31,lbfgs,True,,"{""pasajeros_aena"": 2020863.1276595744}","{""pasajeros_aena"": 1411609.0383381143}"
+sarimax_aena,espera_adicional,1,2024-03-01,2024-04-01,omitir_ventana,2024-03-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2350968.1486486485}","{""pasajeros_aena"": 1357844.4672263889}"
+sarimax_aena,espera_adicional,1,2024-04-01,2024-05-01,omitir_ceros,2024-04-30,lbfgs,True,,"{""pasajeros_aena"": 2034182.9263157896}","{""pasajeros_aena"": 1410085.8554776409}"
+sarimax_aena,espera_adicional,1,2024-04-01,2024-05-01,omitir_ventana,2024-04-30,lbfgs,True,,"{""pasajeros_aena"": 2363438.493333333}","{""pasajeros_aena"": 1353021.0931935527}"
+sarimax_aena,espera_adicional,1,2024-05-01,2024-06-01,omitir_ceros,2024-05-31,lbfgs,True,,"{""pasajeros_aena"": 2024431.75}","{""pasajeros_aena"": 1405938.597340981}"
+sarimax_aena,espera_adicional,1,2024-05-01,2024-06-01,omitir_ventana,2024-05-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2346788.9078947366}","{""pasajeros_aena"": 1351802.1375969131}"
+sarimax_aena,espera_adicional,1,2024-06-01,2024-07-01,omitir_ceros,2024-06-30,lbfgs,True,,"{""pasajeros_aena"": 2014271.7835051545}","{""pasajeros_aena"": 1402210.739925338}"
+sarimax_aena,espera_adicional,1,2024-06-01,2024-07-01,omitir_ventana,2024-06-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2329803.5324675324}","{""pasajeros_aena"": 1351134.034944591}"
+sarimax_aena,espera_adicional,1,2024-07-01,2024-08-01,omitir_ceros,2024-07-31,lbfgs,True,,"{""pasajeros_aena"": 2002797.7346938776}","{""pasajeros_aena"": 1399607.8606227355}"
+sarimax_aena,espera_adicional,1,2024-07-01,2024-08-01,omitir_ventana,2024-07-31,lbfgs,True,,"{""pasajeros_aena"": 2311342.141025641}","{""pasajeros_aena"": 1352184.1195719645}"
+sarimax_aena,espera_adicional,1,2024-08-01,2024-09-01,omitir_ceros,2024-08-31,lbfgs,True,,"{""pasajeros_aena"": 1993024.4545454546}","{""pasajeros_aena"": 1395878.1964958874}"
+sarimax_aena,espera_adicional,1,2024-08-01,2024-09-01,omitir_ventana,2024-08-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2295188.9873417723}","{""pasajeros_aena"": 1351151.2375108872}"
+sarimax_aena,espera_adicional,1,2024-09-01,2024-10-01,omitir_ceros,2024-09-30,lbfgs,True,,"{""pasajeros_aena"": 1988384.29}","{""pasajeros_aena"": 1389648.4309464626}"
+sarimax_aena,espera_adicional,1,2024-09-01,2024-10-01,omitir_ventana,2024-09-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2285611.725}","{""pasajeros_aena"": 1345375.686623424}"
+sarimax_aena,espera_adicional,1,2024-10-01,2024-11-01,omitir_ceros,2024-10-31,lbfgs,True,,"{""pasajeros_aena"": 1996489.5940594058}","{""pasajeros_aena"": 1385125.3841001608}"
+sarimax_aena,espera_adicional,1,2024-10-01,2024-11-01,omitir_ventana,2024-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2292048.864197531}","{""pasajeros_aena"": 1338284.1846249078}"
+sarimax_aena,espera_adicional,1,2024-11-01,2024-12-01,omitir_ceros,2024-11-30,lbfgs,True,,"{""pasajeros_aena"": 2014575.3921568627}","{""pasajeros_aena"": 1390251.5968017187}"
+sarimax_aena,espera_adicional,1,2024-11-01,2024-12-01,omitir_ventana,2024-11-30,lbfgs,True,,"{""pasajeros_aena"": 2310941.451219512}","{""pasajeros_aena"": 1340922.9497634168}"
+sarima,espera_adicional,3,2021-10-01,2022-01-01,conservar,2021-10-31,lbfgs,True,,,
+sarima,espera_adicional,3,2021-10-01,2022-01-01,omitir_ceros,2021-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2021-10-01,2022-01-01,omitir_ventana,2021-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2021-11-01,2022-02-01,omitir_ceros,2021-11-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2021-11-01,2022-02-01,omitir_ventana,2021-11-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2021-12-01,2022-03-01,omitir_ceros,2021-12-31,lbfgs,True,,,
+sarima,espera_adicional,3,2021-12-01,2022-03-01,omitir_ventana,2021-12-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2022-01-01,2022-04-01,omitir_ceros,2022-01-31,lbfgs,True,,,
+sarima,espera_adicional,3,2022-01-01,2022-04-01,omitir_ventana,2022-01-31,lbfgs,False,Non-invertible starting seasonal moving average Using zeros as starting parameters. | Maximum Likelihood optimization failed to converge. Check mle_retvals,,
+sarima,espera_adicional,3,2022-01-01,2022-04-01,omitir_ventana,2022-01-31,powell,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2022-02-01,2022-05-01,omitir_ceros,2022-02-28,lbfgs,True,,,
+sarima,espera_adicional,3,2022-02-01,2022-05-01,omitir_ventana,2022-02-28,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2022-03-01,2022-06-01,omitir_ceros,2022-03-31,lbfgs,True,,,
+sarima,espera_adicional,3,2022-03-01,2022-06-01,omitir_ventana,2022-03-31,lbfgs,False,Non-invertible starting seasonal moving average Using zeros as starting parameters. | Maximum Likelihood optimization failed to converge. Check mle_retvals,,
+sarima,espera_adicional,3,2022-03-01,2022-06-01,omitir_ventana,2022-03-31,powell,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2022-04-01,2022-07-01,omitir_ceros,2022-04-30,lbfgs,True,,,
+sarima,espera_adicional,3,2022-04-01,2022-07-01,omitir_ventana,2022-04-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2022-05-01,2022-08-01,omitir_ceros,2022-05-31,lbfgs,True,,,
+sarima,espera_adicional,3,2022-05-01,2022-08-01,omitir_ventana,2022-05-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2022-06-01,2022-09-01,omitir_ceros,2022-06-30,lbfgs,True,,,
+sarima,espera_adicional,3,2022-06-01,2022-09-01,omitir_ventana,2022-06-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2022-07-01,2022-10-01,omitir_ceros,2022-07-31,lbfgs,True,,,
+sarima,espera_adicional,3,2022-07-01,2022-10-01,omitir_ventana,2022-07-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2022-08-01,2022-11-01,omitir_ceros,2022-08-31,lbfgs,True,,,
+sarima,espera_adicional,3,2022-08-01,2022-11-01,omitir_ventana,2022-08-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2022-09-01,2022-12-01,omitir_ceros,2022-09-30,lbfgs,True,,,
+sarima,espera_adicional,3,2022-09-01,2022-12-01,omitir_ventana,2022-09-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2022-10-01,2023-01-01,omitir_ceros,2022-10-31,lbfgs,True,,,
+sarima,espera_adicional,3,2022-10-01,2023-01-01,omitir_ventana,2022-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2022-11-01,2023-02-01,omitir_ceros,2022-11-30,lbfgs,True,,,
+sarima,espera_adicional,3,2022-11-01,2023-02-01,omitir_ventana,2022-11-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2022-12-01,2023-03-01,omitir_ceros,2022-12-31,lbfgs,True,,,
+sarima,espera_adicional,3,2022-12-01,2023-03-01,omitir_ventana,2022-12-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2023-01-01,2023-04-01,omitir_ceros,2023-01-31,lbfgs,True,,,
+sarima,espera_adicional,3,2023-01-01,2023-04-01,omitir_ventana,2023-01-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2023-02-01,2023-05-01,omitir_ceros,2023-02-28,lbfgs,True,,,
+sarima,espera_adicional,3,2023-02-01,2023-05-01,omitir_ventana,2023-02-28,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2023-03-01,2023-06-01,omitir_ceros,2023-03-31,lbfgs,True,,,
+sarima,espera_adicional,3,2023-03-01,2023-06-01,omitir_ventana,2023-03-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2023-04-01,2023-07-01,omitir_ceros,2023-04-30,lbfgs,True,,,
+sarima,espera_adicional,3,2023-04-01,2023-07-01,omitir_ventana,2023-04-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2023-05-01,2023-08-01,omitir_ceros,2023-05-31,lbfgs,True,,,
+sarima,espera_adicional,3,2023-05-01,2023-08-01,omitir_ventana,2023-05-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2023-06-01,2023-09-01,omitir_ceros,2023-06-30,lbfgs,True,,,
+sarima,espera_adicional,3,2023-06-01,2023-09-01,omitir_ventana,2023-06-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2023-07-01,2023-10-01,omitir_ceros,2023-07-31,lbfgs,True,,,
+sarima,espera_adicional,3,2023-07-01,2023-10-01,omitir_ventana,2023-07-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2023-08-01,2023-11-01,omitir_ceros,2023-08-31,lbfgs,True,,,
+sarima,espera_adicional,3,2023-08-01,2023-11-01,omitir_ventana,2023-08-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2023-09-01,2023-12-01,omitir_ceros,2023-09-30,lbfgs,True,,,
+sarima,espera_adicional,3,2023-09-01,2023-12-01,omitir_ventana,2023-09-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2023-10-01,2024-01-01,omitir_ceros,2023-10-31,lbfgs,True,,,
+sarima,espera_adicional,3,2023-10-01,2024-01-01,omitir_ventana,2023-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2023-11-01,2024-02-01,omitir_ceros,2023-11-30,lbfgs,True,,,
+sarima,espera_adicional,3,2023-11-01,2024-02-01,omitir_ventana,2023-11-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2023-12-01,2024-03-01,omitir_ceros,2023-12-31,lbfgs,True,,,
+sarima,espera_adicional,3,2023-12-01,2024-03-01,omitir_ventana,2023-12-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2024-01-01,2024-04-01,omitir_ceros,2024-01-31,lbfgs,True,,,
+sarima,espera_adicional,3,2024-01-01,2024-04-01,omitir_ventana,2024-01-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2024-02-01,2024-05-01,omitir_ceros,2024-02-29,lbfgs,True,,,
+sarima,espera_adicional,3,2024-02-01,2024-05-01,omitir_ventana,2024-02-29,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2024-03-01,2024-06-01,omitir_ceros,2024-03-31,lbfgs,True,,,
+sarima,espera_adicional,3,2024-03-01,2024-06-01,omitir_ventana,2024-03-31,lbfgs,False,Maximum Likelihood optimization failed to converge. Check mle_retvals,,
+sarima,espera_adicional,3,2024-03-01,2024-06-01,omitir_ventana,2024-03-31,powell,True,,,
+sarima,espera_adicional,3,2024-04-01,2024-07-01,omitir_ceros,2024-04-30,lbfgs,True,,,
+sarima,espera_adicional,3,2024-04-01,2024-07-01,omitir_ventana,2024-04-30,lbfgs,True,,,
+sarima,espera_adicional,3,2024-05-01,2024-08-01,omitir_ceros,2024-05-31,lbfgs,True,,,
+sarima,espera_adicional,3,2024-05-01,2024-08-01,omitir_ventana,2024-05-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2024-06-01,2024-09-01,omitir_ceros,2024-06-30,lbfgs,True,,,
+sarima,espera_adicional,3,2024-06-01,2024-09-01,omitir_ventana,2024-06-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2024-07-01,2024-10-01,omitir_ceros,2024-07-31,lbfgs,True,,,
+sarima,espera_adicional,3,2024-07-01,2024-10-01,omitir_ventana,2024-07-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2024-08-01,2024-11-01,omitir_ceros,2024-08-31,lbfgs,True,,,
+sarima,espera_adicional,3,2024-08-01,2024-11-01,omitir_ventana,2024-08-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarima,espera_adicional,3,2024-09-01,2024-12-01,omitir_ceros,2024-09-30,lbfgs,True,,,
+sarima,espera_adicional,3,2024-09-01,2024-12-01,omitir_ventana,2024-09-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,,
+sarimax_aena,espera_adicional,3,2021-10-01,2022-01-01,conservar,2021-10-31,lbfgs,True,,"{""pasajeros_aena"": 1896197.4}","{""pasajeros_aena"": 1417265.905534692}"
+sarimax_aena,espera_adicional,3,2021-10-01,2022-01-01,omitir_ceros,2021-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 1925358.8253968253}","{""pasajeros_aena"": 1429947.9696703537}"
+sarimax_aena,espera_adicional,3,2021-10-01,2022-01-01,omitir_ventana,2021-10-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2332455.1666666665}","{""pasajeros_aena"": 1350574.7260922436}"
+sarimax_aena,espera_adicional,3,2021-11-01,2022-02-01,omitir_ceros,2021-11-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 1899528.109375}","{""pasajeros_aena"": 1433470.3309137705}"
+sarimax_aena,espera_adicional,3,2021-11-01,2022-02-01,omitir_ventana,2021-11-30,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2332455.1666666665}","{""pasajeros_aena"": 1350574.7260922436}"
+sarimax_aena,espera_adicional,3,2021-12-01,2022-03-01,omitir_ceros,2021-12-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 1876975.8615384616}","{""pasajeros_aena"": 1433797.3909338245}"
+sarimax_aena,espera_adicional,3,2021-12-01,2022-03-01,omitir_ventana,2021-12-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2332455.1666666665}","{""pasajeros_aena"": 1350574.7260922436}"
+sarimax_aena,espera_adicional,3,2022-01-01,2022-04-01,omitir_ceros,2022-01-31,lbfgs,True,,"{""pasajeros_aena"": 1861485.2424242424}","{""pasajeros_aena"": 1428364.1713708204}"
+sarimax_aena,espera_adicional,3,2022-01-01,2022-04-01,omitir_ventana,2022-01-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2332455.1666666665}","{""pasajeros_aena"": 1350574.7260922436}"
+sarimax_aena,espera_adicional,3,2022-02-01,2022-05-01,omitir_ceros,2022-02-28,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 1854725.9402985075}","{""pasajeros_aena"": 1418727.781291308}"
+sarimax_aena,espera_adicional,3,2022-02-01,2022-05-01,omitir_ventana,2022-02-28,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2332455.1666666665}","{""pasajeros_aena"": 1350574.7260922436}"
+sarimax_aena,espera_adicional,3,2022-03-01,2022-06-01,omitir_ceros,2022-03-31,lbfgs,True,,"{""pasajeros_aena"": 1863225.0588235294}","{""pasajeros_aena"": 1409974.621162192}"
+sarimax_aena,espera_adicional,3,2022-03-01,2022-06-01,omitir_ventana,2022-03-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2332455.1666666665}","{""pasajeros_aena"": 1350574.7260922436}"
+sarimax_aena,espera_adicional,3,2022-04-01,2022-07-01,omitir_ceros,2022-04-30,lbfgs,True,,"{""pasajeros_aena"": 1874647.956521739}","{""pasajeros_aena"": 1402886.0403824518}"
+sarimax_aena,espera_adicional,3,2022-04-01,2022-07-01,omitir_ventana,2022-04-30,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2338964.3469387754}","{""pasajeros_aena"": 1337482.8112621165}"
+sarimax_aena,espera_adicional,3,2022-05-01,2022-08-01,omitir_ceros,2022-05-31,lbfgs,True,,"{""pasajeros_aena"": 1880814.1285714286}","{""pasajeros_aena"": 1393770.848260276}"
+sarimax_aena,espera_adicional,3,2022-05-01,2022-08-01,omitir_ventana,2022-05-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2338310.66}","{""pasajeros_aena"": 1324048.3386331724}"
+sarimax_aena,espera_adicional,3,2022-06-01,2022-09-01,omitir_ceros,2022-06-30,lbfgs,True,,"{""pasajeros_aena"": 1886497.7887323943}","{""pasajeros_aena"": 1384737.496181765}"
+sarimax_aena,espera_adicional,3,2022-06-01,2022-09-01,omitir_ventana,2022-06-30,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2337252.68627451}","{""pasajeros_aena"": 1311024.5536078291}"
+sarimax_aena,espera_adicional,3,2022-07-01,2022-10-01,omitir_ceros,2022-07-31,lbfgs,True,,"{""pasajeros_aena"": 1871454.0277777778}","{""pasajeros_aena"": 1380917.9426710554}"
+sarimax_aena,espera_adicional,3,2022-07-01,2022-10-01,omitir_ventana,2022-07-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2307754.5}","{""pasajeros_aena"": 1315336.119715128}"
+sarimax_aena,espera_adicional,3,2022-08-01,2022-11-01,omitir_ceros,2022-08-31,lbfgs,True,,"{""pasajeros_aena"": 1855994.1780821919}","{""pasajeros_aena"": 1377686.6394160497}"
+sarimax_aena,espera_adicional,3,2022-08-01,2022-11-01,omitir_ventana,2022-08-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2278228.6603773586}","{""pasajeros_aena"": 1320150.6923215163}"
+sarimax_aena,espera_adicional,3,2022-09-01,2022-12-01,omitir_ceros,2022-09-30,lbfgs,True,,"{""pasajeros_aena"": 1838476.3513513512}","{""pasajeros_aena"": 1376507.6721778652}"
+sarimax_aena,espera_adicional,3,2022-09-01,2022-12-01,omitir_ventana,2022-09-30,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2246403.592592593}","{""pasajeros_aena"": 1328233.4388063678}"
+sarimax_aena,espera_adicional,3,2022-10-01,2023-01-01,omitir_ceros,2022-10-31,lbfgs,True,,"{""pasajeros_aena"": 1823480.8933333333}","{""pasajeros_aena"": 1373371.633949428}"
+sarimax_aena,espera_adicional,3,2022-10-01,2023-01-01,omitir_ventana,2022-10-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2218538.381818182}","{""pasajeros_aena"": 1331937.3141500244}"
+sarimax_aena,espera_adicional,3,2022-11-01,2023-02-01,omitir_ceros,2022-11-30,lbfgs,True,,"{""pasajeros_aena"": 1813937.2894736843}","{""pasajeros_aena"": 1366807.56310029}"
+sarimax_aena,espera_adicional,3,2022-11-01,2023-02-01,omitir_ventana,2022-11-30,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2198531.75}","{""pasajeros_aena"": 1328304.1864726732}"
+sarimax_aena,espera_adicional,3,2022-12-01,2023-03-01,omitir_ceros,2022-12-31,lbfgs,True,,"{""pasajeros_aena"": 1822062.948051948}","{""pasajeros_aena"": 1359749.6311425052}"
+sarimax_aena,espera_adicional,3,2022-12-01,2023-03-01,omitir_ventana,2022-12-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2202761.245614035}","{""pasajeros_aena"": 1316981.2183308138}"
+sarimax_aena,espera_adicional,3,2023-01-01,2023-04-01,omitir_ceros,2023-01-31,lbfgs,True,,"{""pasajeros_aena"": 1838693.6153846155}","{""pasajeros_aena"": 1358864.0694616034}"
+sarimax_aena,espera_adicional,3,2023-01-01,2023-04-01,omitir_ventana,2023-01-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2218562.8620689656}","{""pasajeros_aena"": 1311017.8455405587}"
+sarimax_aena,espera_adicional,3,2023-02-01,2023-05-01,omitir_ceros,2023-02-28,lbfgs,True,,"{""pasajeros_aena"": 1862452.2278481012}","{""pasajeros_aena"": 1366443.1145112254}"
+sarimax_aena,espera_adicional,3,2023-02-01,2023-05-01,omitir_ventana,2023-02-28,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2243936.779661017}","{""pasajeros_aena"": 1314145.5794910497}"
+sarimax_aena,espera_adicional,3,2023-03-01,2023-06-01,omitir_ceros,2023-03-31,lbfgs,True,,"{""pasajeros_aena"": 1890827.0}","{""pasajeros_aena"": 1381098.2181797572}"
+sarimax_aena,espera_adicional,3,2023-03-01,2023-06-01,omitir_ventana,2023-03-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2275411.7333333334}","{""pasajeros_aena"": 1325384.9694231215}"
+sarimax_aena,espera_adicional,3,2023-04-01,2023-07-01,omitir_ceros,2023-04-30,lbfgs,True,,"{""pasajeros_aena"": 1918864.2839506173}","{""pasajeros_aena"": 1395267.3166088532}"
+sarimax_aena,espera_adicional,3,2023-04-01,2023-07-01,omitir_ventana,2023-04-30,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2306336.901639344}","{""pasajeros_aena"": 1336124.924938566}"
+sarimax_aena,espera_adicional,3,2023-05-01,2023-08-01,omitir_ceros,2023-05-31,lbfgs,True,,"{""pasajeros_aena"": 1940140.4146341463}","{""pasajeros_aena"": 1399891.5490606977}"
+sarimax_aena,espera_adicional,3,2023-05-01,2023-08-01,omitir_ventana,2023-05-31,lbfgs,True,Too few observations to estimate starting parameters for seasonal ARMA. All parameters except for variances will be set to zeros.,"{""pasajeros_aena"": 2328226.7419354836}","{""pasajeros_aena"": 1336287.7150400046}"
+sarimax_aena,espera_adicional,3,2023-06-01,2023-09-01,omitir_ceros,2023-06-30,lbfgs,True,,"{""pasajeros_aena"": 1953674.5662650603}","{""pasajeros_aena"": 1396819.8728163394}"
+sarimax_aena,espera_adicional,3,2023-06-01,2023-09-01,omitir_ventana,2023-06-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2339897.3492063493}","{""pasajeros_aena"": 1328821.1171314048}"
+sarimax_aena,espera_adicional,3,2023-07-01,2023-10-01,omitir_ceros,2023-07-31,lbfgs,True,,"{""pasajeros_aena"": 1941959.5714285714}","{""pasajeros_aena"": 1392576.5039088542}"
+sarimax_aena,espera_adicional,3,2023-07-01,2023-10-01,omitir_ventana,2023-07-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2318486.6875}","{""pasajeros_aena"": 1329306.477011543}"
+sarimax_aena,espera_adicional,3,2023-08-01,2023-11-01,omitir_ceros,2023-08-31,lbfgs,True,,"{""pasajeros_aena"": 1930128.5294117648}","{""pasajeros_aena"": 1388600.7938599843}"
+sarimax_aena,espera_adicional,3,2023-08-01,2023-11-01,omitir_ventana,2023-08-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2297222.6}","{""pasajeros_aena"": 1329965.6266487816}"
+sarimax_aena,espera_adicional,3,2023-09-01,2023-12-01,omitir_ceros,2023-09-30,lbfgs,True,,"{""pasajeros_aena"": 1917668.6627906978}","{""pasajeros_aena"": 1385275.1338648133}"
+sarimax_aena,espera_adicional,3,2023-09-01,2023-12-01,omitir_ventana,2023-09-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2275424.984848485}","{""pasajeros_aena"": 1331500.0112494053}"
+sarimax_aena,espera_adicional,3,2023-10-01,2024-01-01,omitir_ceros,2023-10-31,lbfgs,True,,"{""pasajeros_aena"": 1906039.7586206896}","{""pasajeros_aena"": 1381506.3423145104}"
+sarimax_aena,espera_adicional,3,2023-10-01,2024-01-01,omitir_ventana,2023-10-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2254985.119402985}","{""pasajeros_aena"": 1331917.8712346435}"
+sarimax_aena,espera_adicional,3,2023-11-01,2024-02-01,omitir_ceros,2023-11-30,lbfgs,True,,"{""pasajeros_aena"": 1899657.2045454546}","{""pasajeros_aena"": 1374923.8936408043}"
+sarimax_aena,espera_adicional,3,2023-11-01,2024-02-01,omitir_ventana,2023-11-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2241593.794117647}","{""pasajeros_aena"": 1326624.231816446}"
+sarimax_aena,espera_adicional,3,2023-12-01,2024-03-01,omitir_ceros,2023-12-31,lbfgs,True,,"{""pasajeros_aena"": 1908999.5056179776}","{""pasajeros_aena"": 1369983.7966827257}"
+sarimax_aena,espera_adicional,3,2023-12-01,2024-03-01,omitir_ventana,2023-12-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2248688.4057971016}","{""pasajeros_aena"": 1318274.733401015}"
+sarimax_aena,espera_adicional,3,2024-01-01,2024-04-01,omitir_ceros,2024-01-31,lbfgs,True,,"{""pasajeros_aena"": 1925801.5333333334}","{""pasajeros_aena"": 1371541.860853245}"
+sarimax_aena,espera_adicional,3,2024-01-01,2024-04-01,omitir_ventana,2024-01-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2265438.314285714}","{""pasajeros_aena"": 1316199.251557101}"
+sarimax_aena,espera_adicional,3,2024-02-01,2024-05-01,omitir_ceros,2024-02-29,lbfgs,True,,"{""pasajeros_aena"": 1946483.2087912087}","{""pasajeros_aena"": 1378024.384014714}"
+sarimax_aena,espera_adicional,3,2024-02-01,2024-05-01,omitir_ventana,2024-02-29,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2287162.1971830986}","{""pasajeros_aena"": 1319475.5174092727}"
+sarimax_aena,espera_adicional,3,2024-03-01,2024-06-01,omitir_ceros,2024-03-31,lbfgs,True,,"{""pasajeros_aena"": 1972915.0217391304}","{""pasajeros_aena"": 1393515.9618547999}"
+sarimax_aena,espera_adicional,3,2024-03-01,2024-06-01,omitir_ventana,2024-03-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2316204.527777778}","{""pasajeros_aena"": 1332936.7250033014}"
+sarimax_aena,espera_adicional,3,2024-04-01,2024-07-01,omitir_ceros,2024-04-30,lbfgs,True,,"{""pasajeros_aena"": 1998707.3978494625}","{""pasajeros_aena"": 1407909.4170526108}"
+sarimax_aena,espera_adicional,3,2024-04-01,2024-07-01,omitir_ventana,2024-04-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2344360.712328767}","{""pasajeros_aena"": 1345162.1355396335}"
+sarimax_aena,espera_adicional,3,2024-05-01,2024-08-01,omitir_ceros,2024-05-31,lbfgs,True,,"{""pasajeros_aena"": 2018551.7127659575}","{""pasajeros_aena"": 1413415.9696380033}"
+sarimax_aena,espera_adicional,3,2024-05-01,2024-08-01,omitir_ventana,2024-05-31,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2364897.364864865}","{""pasajeros_aena"": 1347515.1360982582}"
+sarimax_aena,espera_adicional,3,2024-06-01,2024-09-01,omitir_ceros,2024-06-30,lbfgs,True,,"{""pasajeros_aena"": 2031895.8421052631}","{""pasajeros_aena"": 1411897.3035140624}"
+sarimax_aena,espera_adicional,3,2024-06-01,2024-09-01,omitir_ventana,2024-06-30,lbfgs,True,Non-invertible starting seasonal moving average Using zeros as starting parameters.,"{""pasajeros_aena"": 2377181.986666667}","{""pasajeros_aena"": 1342666.7113678062}"
+sarimax_aena,espera_adicional,3,2024-07-01,2024-10-01,omitir_ceros,2024-07-31,lbfgs,True,,"{""pasajeros_aena"": 2022168.4895833333}","{""pasajeros_aena"": 1407720.8109761}"
+sarimax_aena,espera_adicional,3,2024-07-01,2024-10-01,omitir_ventana,2024-07-31,lbfgs,True,,"{""pasajeros_aena"": 2360351.5657894737}","{""pasajeros_aena"": 1341744.4547338788}"
+sarimax_aena,espera_adicional,3,2024-08-01,2024-11-01,omitir_ceros,2024-08-31,lbfgs,True,,"{""pasajeros_aena"": 2012031.855670103}","{""pasajeros_aena"": 1403963.0843055977}"
+sarimax_aena,espera_adicional,3,2024-08-01,2024-11-01,omitir_ventana,2024-08-31,lbfgs,True,,"{""pasajeros_aena"": 2343190.051948052}","{""pasajeros_aena"": 1341372.9086420191}"
+sarimax_aena,espera_adicional,3,2024-09-01,2024-12-01,omitir_ceros,2024-09-30,lbfgs,True,,"{""pasajeros_aena"": 2000580.663265306}","{""pasajeros_aena"": 1401327.421473559}"
+sarimax_aena,espera_adicional,3,2024-09-01,2024-12-01,omitir_ventana,2024-09-30,lbfgs,True,,"{""pasajeros_aena"": 2324557.0384615385}","{""pasajeros_aena"": 1342738.671176423}"
