@@ -12,7 +12,7 @@ jupyter lab
 
 Abrir el notebook desde la raíz del repositorio y ejecutar todas las celdas en orden con un kernel nuevo. Los archivos de salida se regeneran con cada ejecución. El notebook comprueba los formatos mensuales de AENA, la cobertura de Mallorca, los duplicados, las unidades, los ausentes y la escala de estancia media. La meteorología de B278 está integrada con sus estados y una política de disponibilidad explícita. No se requiere una API key para ejecutar el ETL con las fuentes locales.
 
-El periodo de estudio es octubre de 2015–diciembre de 2025. Los datos de 2025 se reservan para evaluación final. El notebook construye los retardos según la disponibilidad de publicación, define la evaluación temporal y comprueba la imputación hotelera dentro de cada entrenamiento. Incluye Seasonal Naïve, SARIMA, SARIMAX y Random Forest; la puntuación final de 2025 permanece desactivada.
+El periodo de estudio es octubre de 2015–diciembre de 2025. Los datos de 2025 se reservan para evaluación final. El notebook construye los retardos según la disponibilidad de publicación, define la evaluación temporal y comprueba la imputación hotelera dentro de cada entrenamiento. Incluye Seasonal Naïve, SARIMA, SARIMAX, Random Forest y XGBoost. Los bloques iniciales mantienen la puntuación de 2025 desactivada; la sección 51 puntúa la prueba por separado después de fijar las configuraciones.
 
 ## Análisis exploratorio
 
@@ -205,3 +205,24 @@ En base a un mes, marzo concentra el mayor fallo de RF y XGBoost ajustados por s
 El RMSE a tres meses aumenta para las diecinueve series distintas de Naïve en base. En sensibilidad aumenta en quince, disminuye en cuatro y Naïve empata. Las diferencias se calculan sobre los mismos meses objetivo, con distintos orígenes y cortes; no son un efecto aislado del horizonte ni observaciones independientes adicionales.
 
 AENA y hoteles mantienen la mejora del RMSE de RF en ambos horizontes base; hoteles mejora diez de doce meses en cada uno. AENA a un mes mejora solo cinco meses aunque reduce el RMSE: la magnitud de los fallos importa. En XGBoost, AENA y hoteles mantienen la mejora a un mes, pero empeoran a tres. La meteorología en ML a tres meses y Trends en XGBoost pierden sus ventajas de selección en base. Las tablas muestran también mejoras que aparecen solo en prueba y discrepancias entre RMSE y MAE y entre escenarios. No se atribuye causalidad ni se modifican las configuraciones tras observar los resultados.
+
+## Interpretación de RF y XGBoost posterior a la prueba
+
+El bloque 53 explica 480 emisiones de 2025: controles ajustados y cuatro fuentes externas, por modelo, horizonte y escenario. Reproduce exactamente los entrenamientos auditados, sin etiquetas de 2025, y comprueba sus predicciones frente a la prueba puntuada. Usa importancia MDI de RF, gain de XGBoost y TreeSHAP con referencia de entrenamiento. No modifica configuraciones ni selección. Instalar las dependencias de `requirements.txt`, incluida SHAP, antes de ejecutar.
+
+`outputs/interpretacion_modelos/` contiene siete CSV, cinco figuras y un manifiesto con versiones y hashes. Incluye contribuciones mensuales, retardos, marcas de ausencia, importancia media, masa y efecto neto por fuente, y auditoría de reproducción y aditividad. El mismo mes del año anterior domina los controles base. A tres meses, temperatura lag3 domina las variantes meteorológicas pese a empeorar su precisión; Trends también recibe atribuciones elevadas sin mejorar el control. Los ejemplos de mayor error se eligen después de la prueba. SHAP describe el modelo y no establece causalidad, utilidad marginal ni nuevas decisiones de ajuste.
+
+
+## Sensibilidad al tratamiento de la pandemia
+
+La sección 54 compara conservar el objetivo de entrenamiento, omitir sus dos ceros de abril y mayo de 2020 y omitir marzo de 2020–diciembre de 2021. Evalúa los mismos 36 meses de 2022–2024, en dos horizontes y dos escenarios. Incluye las cinco familias y variantes con AENA y hoteles. La omisión afecta solo al ajuste: mantiene los datos originales y los retardos, ajusta la preparación dentro del entrenamiento retenido y conserva la frecuencia mensual de SARIMA/SARIMAX mediante observaciones enmascaradas.
+
+Es una comparación descriptiva posterior con parámetros ya seleccionados, sin nueva búsqueda ni validación independiente. No mide anticipación de la pandemia. Completa 3.024 emisiones sin fallos, reproduce 24 controles y verifica que 257 archivos de resultados previos permanecen intactos. Las mejoras varían por modelo, horizonte y métrica; la política principal sigue conservando los datos reales. La prueba de 2025 no se cambia ni se vuelve a puntuar.
+
+Para reproducirla desde las salidas anteriores del notebook:
+
+```shell
+python scripts/robustez_pandemia.py
+```
+
+`outputs/robustez_pandemia/` conserva el protocolo previo a los ajustes, predicciones, métricas conjuntas y anuales, gráficas, auditorías de preparación y convergencia, controles reproducidos y las huellas verificadas.

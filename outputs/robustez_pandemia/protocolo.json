@@ -1,0 +1,53 @@
+{
+  "fecha_definicion": "2026-10-13T22:23:23.875191+00:00",
+  "naturaleza": "Sensibilidad descriptiva posterior a la prueba; no validación independiente ni nueva selección.",
+  "evaluacion": [
+    "2022-01-01",
+    "2024-12-01"
+  ],
+  "meses_por_comparacion": 36,
+  "horizontes": [
+    1,
+    3
+  ],
+  "escenarios": [
+    "base",
+    "espera_adicional"
+  ],
+  "series": [
+    "naive",
+    "sarima",
+    "sarimax_aena",
+    "rf_ajustado",
+    "rf_hoteles",
+    "xgb_ajustado",
+    "xgb_hoteles"
+  ],
+  "tratamientos": [
+    "conservar",
+    "omitir_ceros",
+    "omitir_ventana"
+  ],
+  "ceros_omitidos": [
+    "2020-04-01",
+    "2020-05-01"
+  ],
+  "ventana_omitida": [
+    "2020-03-01",
+    "2021-12-01"
+  ],
+  "justificacion_ventana": "Ventana fija de sensibilidad que abarca la ruptura de 2020 y 2021; no es una cronología oficial de restricciones.",
+  "seleccion": "Parámetros ya fijados con selección anterior a 2025; no se buscan nuevos hiperparámetros.",
+  "tratamiento_ml": "Se excluyen únicamente filas por la fecha de su etiqueta; retardos y entradas observadas se conservan.",
+  "tratamiento_secuencial": "Se enmascara únicamente el objetivo del ajuste con NaN; se conserva el calendario mensual y el filtro trata observaciones ausentes.",
+  "hoteles": "Medianas y marcas de ausencia ajustadas solo con las filas retenidas de cada entrenamiento.",
+  "sarimax": "Escalado ajustado solo con objetivos observados retenidos; AENA sigue disponible con los retardos originales.",
+  "naive": "No estima parámetros: se mantiene el mismo pronóstico en los tres tratamientos.",
+  "control": "Conservar reutiliza pronósticos guardados y se reproduce el primer mes de cada serie, horizonte y escenario.",
+  "limites": [
+    "Comparación posterior sobre meses ya usados para selección y diagnóstico.",
+    "Omitir etiquetas reduce el tamaño de entrenamiento y mantiene información de la pandemia en los predictores.",
+    "No evalúa anticipación de la pandemia ni demuestra causalidad.",
+    "No modifica el maestro, las configuraciones definitivas ni los resultados de 2025."
+  ]
+}
