@@ -1,7 +1,8 @@
-"""Sensibilidad posterior al tratamiento de la pandemia, sin volver a puntuar 2025.
+"""Compara cómo influye el tratamiento de la pandemia en los ajustes.
 
-Ejecutar desde la raíz: python scripts/robustez_pandemia.py
-Requiere las salidas previas del notebook. No altera el maestro ni el experimento final.
+Se ejecuta desde la raíz: python scripts/robustez_pandemia.py
+Lee las salidas del notebook y guarda esta comparación aparte. El maestro y la
+prueba final de 2025 permanecen intactos.
 """
 from pathlib import Path
 import hashlib
@@ -78,7 +79,7 @@ def run():
             X = read(f'outputs/predictores/X_{scenario}_h{horizon}.csv', ['mes_origen'], 'mes_origen')
             meta = read(f'outputs/predictores/etiquetas_{scenario}_h{horizon}.csv',
                         ['mes_origen', 'mes_objetivo', 'fecha_publicacion_objetivo'], 'mes_origen')
-            # No se utilizan filas ni etiquetas de 2025 en este experimento.
+            # El corte deja fuera las filas y etiquetas de 2025.
             inputs[(scenario, horizon)] = (X.loc[X.index < pd.Timestamp('2025-01-01')],
                                            meta.loc[meta.index < pd.Timestamp('2025-01-01')])
     rows, audits, reproductions, attempts = [], [], [], []
@@ -101,7 +102,7 @@ def run():
             assert len(kept) >= 24
             groups = ['turistas', 'calendario'] + (['hoteles'] if sid.endswith('hoteles') else [])
             cat = catalog.loc[catalog.horizonte.eq(h) & catalog.espera_adicional.eq(int(scenario == 'espera_adicional'))]
-            # El orden forma parte de la reproducibilidad del muestreo del bosque.
+            # Mantener el orden original permite reproducir el muestreo del bosque.
             cols = cat.loc[cat.grupo.isin(['turistas', 'calendario']), 'predictor'].tolist()
             if sid.endswith('hoteles'):
                 cols += cat.loc[cat.grupo.eq('hoteles'), 'predictor'].tolist()
@@ -213,7 +214,7 @@ def run():
         results=[]
         for key, b in frame.groupby(groups):
             e=b.error.dropna()
-            # Solo se presentan métricas comparables si se cubren todos los meses.
+            # Si falta un mes, la métrica global no sirve para esta comparación.
             complete=len(e)==len(b)
             results.append(dict(zip(groups,key), n_esperados=len(b), n_puntuados=len(e), cobertura=len(e)/len(b),
                 MAE=float(e.abs().mean()) if complete else np.nan, RMSE=float(np.sqrt((e**2).mean())) if complete else np.nan,
@@ -227,7 +228,7 @@ def run():
     summary.to_csv(OUT/'metricas_2022_2024.csv',index=False)
     metrics(predictions,grouping+['ano']).to_csv(OUT/'metricas_anuales.csv',index=False)
     pd.DataFrame(reproductions).to_csv(OUT/'auditoria_reproduccion_controles.csv',index=False)
-    # Calendario puntuado idéntico, ninguna fila de prueba, y datos históricos intactos.
+    # Comprobar meses comunes y el corte de 2025; después, verificar las huellas.
     assert predictions.groupby(grouping).size().eq(36).all()
     assert predictions.mes_objetivo.max()<pd.Timestamp('2025-01-01')
     changed=[p for p,digest in protected.items() if sha(ROOT/p)!=digest]
