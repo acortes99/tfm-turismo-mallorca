@@ -1,0 +1,29 @@
+{
+  "fecha_preparacion": "2026-10-15",
+  "zona_horaria": "Europe/Madrid (UTC+02:00 durante el periodo registrado)",
+  "periodo": [
+    "2026-10-06T21:29:41+02:00",
+    "2026-10-15T00:19:45+02:00"
+  ],
+  "interacciones": 172,
+  "version_cli_registrada": [
+    "0.160.1"
+  ],
+  "modelos": [
+    "gpt-6.1-sol"
+  ],
+  "origen": "Conversación local de Codex iniciada el 6 de octubre de 2026; se excluyen los registros internos de revisión automática.",
+  "fuente_sha256": "f2d203f3ef52ea66cb1824605805d40b8d4e8332d8c5fd78ebf36bd17970daac",
+  "corte": "Solicitud de completar la trazabilidad del 15 de octubre de 2026, incluida. No incluye su respuesta final ni interacciones posteriores al corte.",
+  "limites": [
+    "No se ha recuperado un registro fechado de las consultas anteriores realizadas en ChatGPT web.",
+    "La versión del CLI procede de la cabecera inicial; no acredita la versión de la aplicación en cada fecha.",
+    "La finalidad se ha clasificado a partir del texto; no constituye una declaración de validación del autor.",
+    "Se incluyen respuestas finales, no todos los mensajes intermedios ni los archivos completos generados.",
+    "Los enlaces y archivos se preparan localmente; faltan publicación y comprobación del acceso del tribunal."
+  ],
+  "archivos": {
+    "consultas_y_respuestas.txt": "ec9bf96ead525b4107cc89a083b6b5d8206c86643f85f05153ef9804becd1481",
+    "registro_interacciones.csv": "a6c8662b43032c4ddb7d31b5d6f701207561d5fbfebdefe69701a630ee3c0895"
+  }
+}
