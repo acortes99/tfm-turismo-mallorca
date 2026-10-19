@@ -1,0 +1,177 @@
+SELECCIÓN TEMÁTICA DE CONSULTAS DE ASISTENCIA DE IA
+
+Preparada el 19/10/2026 a partir del registro de 172 interacciones del 6 al 15 de octubre de 2026.
+
+Las 21 consultas siguientes son paráfrasis en tuteo. Algunas reúnen solicitudes relacionadas y no representan un único mensaje literal. La selección resume las intervenciones principales sobre datos, código, evaluación y redacción; no es un registro exhaustivo ni modifica el alcance de la asistencia recibida.
+
+Los mensajes originales, sus fechas, herramientas y respuestas finales se conservan en registro_interacciones.csv y consultas_y_respuestas_completo.txt. Los identificadores de cada apartado permiten consultarlos. Las fechas corresponden a las interacciones originales, no a esta reformulación. No se incorporan aquí consultas posteriores al corte del registro.
+
+Herramienta registrada: Codex Desktop (OpenAI). Modelo registrado: gpt-6.1-sol. El uso previo de ChatGPT y las limitaciones de cobertura se describen en procedencia.json.
+
+01. Localización e incorporación de fuentes
+Mensajes de origen: IA-004, IA-106, IA-107
+Fechas de origen (Madrid): 2026-10-06T21:36:42+02:00; 2026-10-09T18:25:19+02:00; 2026-10-09T18:35:40+02:00
+Consulta parafraseada:
+Localiza las fuentes oficiales para obtener el tráfico mensual del aeropuerto de Palma, la actividad hotelera de Mallorca y la meteorología. Obtén los datos de AEMET con la credencial facilitada, integra los 123 meses del periodo del TFM en el notebook y define su disponibilidad antes de incorporarlos a los modelos.
+
+========================================================================
+
+02. Revisión y documentación del ETL
+Mensajes de origen: IA-012, IA-085, IA-086, IA-094, IA-095
+Fechas de origen (Madrid): 2026-10-07T11:51:13+02:00; 2026-10-09T10:11:49+02:00; 2026-10-09T10:20:32+02:00; 2026-10-09T11:38:16+02:00; 2026-10-09T11:39:14+02:00
+Consulta parafraseada:
+Revisa y explica el ETL en tfm-turismo-viu.ipynb. Comprueba fechas, unidades y valores ausentes del dataset maestro. Examina el tratamiento de los ceros de la pandemia y documenta la decisión adoptada. Define cómo completar los huecos hoteleros dentro de cada entrenamiento y comprueba que el procedimiento funciona con las variables externas.
+
+========================================================================
+
+03. Exploración de datos y Google Trends
+Mensajes de origen: IA-050, IA-069
+Fechas de origen (Madrid): 2026-10-08T13:03:13+02:00; 2026-10-08T23:05:57+02:00
+Consulta parafraseada:
+Integra las variables de la carpeta Google Trends y completa la exploración de datos en el notebook. Analiza la evolución de turistas, la estacionalidad mensual, la caída y recuperación de la pandemia, la relación con aeropuerto y hoteles y los valores ausentes. Incluye gráficas comentadas y conclusiones que orienten la preparación de datos.
+
+========================================================================
+
+04. Preguntas de investigación, hipótesis y alcance
+Mensajes de origen: IA-051
+Fechas de origen (Madrid): 2026-10-08T13:26:17+02:00
+Consulta parafraseada:
+Consolida en la memoria las preguntas de investigación, las hipótesis y el alcance. Deja clara la predicción de turistas con destino Mallorca, los horizontes de uno y tres meses y la evaluación de la información externa. Sigue las pautas de los apuntes, los documentos adjuntos y los tres vídeos.
+
+========================================================================
+
+05. Búsqueda y selección bibliográfica
+Mensajes de origen: IA-024, IA-036, IA-041, IA-078, IA-079
+Fechas de origen (Madrid): 2026-10-07T15:33:41+02:00; 2026-10-07T18:45:23+02:00; 2026-10-08T10:55:08+02:00; 2026-10-08T23:31:07+02:00; 2026-10-08T23:34:42+02:00
+Consulta parafraseada:
+Ayúdame a definir las preguntas de la revisión, los criterios de inclusión y exclusión, las bases de datos y los términos de búsqueda. Localiza estudios que comparen referencias sencillas con Random Forest y XGBoost, y trabajos similares en la UIB. Examina las referencias compartidas por los estudios seleccionados y recupera los PDF accesibles que puedan ser útiles para el TFM.
+
+========================================================================
+
+06. Fichas de lectura y síntesis de antecedentes
+Mensajes de origen: IA-064, IA-066, IA-075, IA-081
+Fechas de origen (Madrid): 2026-10-08T20:41:44+02:00; 2026-10-08T22:52:27+02:00; 2026-10-08T23:21:04+02:00; 2026-10-08T23:45:32+02:00
+Consulta parafraseada:
+Prepara las fichas de los artículos seleccionados para que pueda revisar si son correctas. Contrasta especialmente las reservas metodológicas de Perú, Austria y Reino Unido. Actualiza el registro bibliográfico y redacta una síntesis comparativa breve que explique qué aporta cada estudio y qué decisiones justifica para nuestro experimento.
+
+========================================================================
+
+07. Disponibilidad y construcción de predictores
+Mensajes de origen: IA-053, IA-087
+Fechas de origen (Madrid): 2026-10-08T16:47:24+02:00; 2026-10-09T10:36:21+02:00
+Consulta parafraseada:
+Comprueba cuándo se publican los datos de AENA y los indicadores hoteleros para decidir sus retardos. Construye los retardos del objetivo, las variables de calendario y los predictores externos respetando cuándo estaría disponible cada dato. Documenta el procedimiento para que la evaluación se aproxime a una predicción real.
+
+========================================================================
+
+08. Diseño de la evaluación temporal
+Mensajes de origen: IA-089
+Fechas de origen (Madrid): 2026-10-09T10:47:04+02:00
+Consulta parafraseada:
+Define el entrenamiento y la validación con datos anteriores a 2025, una prueba final en 2025 y horizontes de uno y tres meses. Asegúrate de que todos los modelos predigan los mismos meses con información equivalente y documenta el protocolo.
+
+========================================================================
+
+09. Seasonal Naïve, SARIMA y SARIMAX
+Mensajes de origen: IA-091, IA-100, IA-101, IA-104, IA-110
+Fechas de origen (Madrid): 2026-10-09T10:59:18+02:00; 2026-10-09T12:16:13+02:00; 2026-10-09T12:16:33+02:00; 2026-10-09T18:05:18+02:00; 2026-10-09T19:25:35+02:00
+Consulta parafraseada:
+Prepara Seasonal Naïve como primera referencia e implementa SARIMA sin variables meteorológicas. Después, prepara SARIMAX para comparar el histórico de turistas con la incorporación de AENA y hoteles, respetando los retardos y la imputación por entrenamiento. Prueba también temperatura y precipitación sobre el mismo calendario, manteniendo 2025 sin puntuar en esta fase.
+
+========================================================================
+
+10. Random Forest y variables externas
+Mensajes de origen: IA-113, IA-114, IA-115, IA-116
+Fechas de origen (Madrid): 2026-10-10T08:37:40+02:00; 2026-10-10T08:45:54+02:00; 2026-10-10T08:46:48+02:00; 2026-10-10T10:37:44+02:00
+Consulta parafraseada:
+Implementa Random Forest con retardos de turistas y calendario, usando los mismos meses de evaluación y horizontes de uno y tres meses. Revisa la conveniencia de ajustar sus hiperparámetros y realiza el ajuste acordado. Compara la aportación de AENA, hoteles, meteorología y Google Trends respetando su disponibilidad y ajustando la imputación solo dentro de cada entrenamiento. Mantén 2025 sin puntuar durante la selección.
+
+========================================================================
+
+11. XGBoost y búsqueda acotada de hiperparámetros
+Mensajes de origen: IA-122, IA-124, IA-126
+Fechas de origen (Madrid): 2026-10-12T16:27:38+02:00; 2026-10-12T16:38:14+02:00; 2026-10-12T16:45:52+02:00
+Consulta parafraseada:
+Implementa XGBoost con turistas y calendario sobre los mismos meses y horizontes que los demás modelos. Realiza una búsqueda acotada de hiperparámetros y evalúa por separado AENA, hoteles, temperatura y precipitación, y Google Trends. Respeta la disponibilidad temporal y la imputación por entrenamiento.
+
+========================================================================
+
+12. Comparación conjunta de los modelos
+Mensajes de origen: IA-117, IA-129
+Fechas de origen (Madrid): 2026-10-10T10:56:04+02:00; 2026-10-12T16:57:36+02:00
+Consulta parafraseada:
+Reúne Seasonal Naïve, SARIMA, SARIMAX, Random Forest y XGBoost en tablas y gráficas sobre los mismos meses. Distingue selección y diagnóstico. Explica qué variantes mejoran, cuáles empeoran y bajo qué condiciones, siguiendo las pautas de la memoria.
+
+========================================================================
+
+13. Configuraciones definitivas y prueba final
+Mensajes de origen: IA-133, IA-135, IA-136
+Fechas de origen (Madrid): 2026-10-12T17:20:27+02:00; 2026-10-12T17:27:22+02:00; 2026-10-12T17:34:16+02:00
+Consulta parafraseada:
+Fija y documenta las configuraciones definitivas de cada horizonte a partir de los resultados anteriores a 2025. Especifica parámetros, predictores, retardos e imputación. Después, evalúa 2025 sobre los mismos meses para todos los modelos y compara sus métricas con Seasonal Naïve, sin reajustarlos tras conocer los errores. Analiza los meses con mayores fallos y la aportación de las fuentes externas.
+
+========================================================================
+
+14. Interpretación mediante importancia de variables y SHAP
+Mensajes de origen: IA-142
+Fechas de origen (Madrid): 2026-10-12T18:47:43+02:00
+Consulta parafraseada:
+Examina qué retardos y fuentes influyen en las predicciones de Random Forest y XGBoost mediante importancia de variables y SHAP, distinguiendo los horizontes. Realiza esta interpretación después de la prueba y no la utilices para reajustar los modelos.
+
+========================================================================
+
+15. Redacción de metodología y resultados
+Mensajes de origen: IA-118, IA-138, IA-141
+Fechas de origen (Madrid): 2026-10-10T11:11:51+02:00; 2026-10-12T17:45:08+02:00; 2026-10-12T18:28:17+02:00
+Consulta parafraseada:
+Actualiza la metodología con los modelos, los retardos y la evaluación implementados, e incorpora las limitaciones detectadas. Redacta el apartado de resultados con las tablas y gráficas principales. Revisa que las explicaciones reflejen las cifras obtenidas, especialmente la ventaja de Seasonal Naïve y las mejoras de las fuentes externas frente a sus controles.
+
+========================================================================
+
+16. Discusión y conclusiones
+Mensajes de origen: IA-144, IA-146
+Fechas de origen (Madrid): 2026-10-12T19:24:38+02:00; 2026-10-12T19:53:20+02:00
+Consulta parafraseada:
+Completa la discusión relacionando los resultados con las preguntas de investigación y las hipótesis. Explica cuándo ayudan las fuentes externas, por qué las mejoras no son uniformes y qué límites tiene la evaluación. Redacta después las conclusiones del trabajo a partir de esos resultados.
+
+========================================================================
+
+17. Resumen, abstract e introducción
+Mensajes de origen: IA-159
+Fechas de origen (Madrid): 2026-10-14T00:01:04+02:00
+Consulta parafraseada:
+Redacta el resumen, el abstract y la introducción siguiendo las pautas del PDF explicativo, los vídeos y las indicaciones de la plantilla de Word. Mantén la coherencia con el contenido de la memoria.
+
+========================================================================
+
+18. Robustez frente al tratamiento de la pandemia
+Mensajes de origen: IA-164
+Fechas de origen (Madrid): 2026-10-14T00:17:36+02:00
+Consulta parafraseada:
+Resuelve y documenta el experimento de robustez frente a la pandemia comprometido en los objetivos. Comprueba específicamente la sensibilidad de los resultados a su tratamiento; conservar los ceros y evaluar esos meses no sustituye esa comprobación.
+
+========================================================================
+
+19. Citas y referencias bibliográficas
+Mensajes de origen: IA-148, IA-153, IA-154, IA-157
+Fechas de origen (Madrid): 2026-10-12T20:02:39+02:00; 2026-10-13T21:25:25+02:00; 2026-10-13T23:14:20+02:00; 2026-10-13T23:29:30+02:00
+Consulta parafraseada:
+Identifica e inserta en el texto citas relevantes de las fuentes seleccionadas y prepara la bibliografía con el formato correspondiente. Utiliza Mendeley, que era el gestor instalado en esta fase. Organiza la página de referencias en dos columnas y deja separación entre sus entradas, siguiendo el ejemplo del artículo de Perú.
+
+========================================================================
+
+20. Revisión de estilo de la memoria y del código
+Mensajes de origen: IA-168
+Fechas de origen (Madrid): 2026-10-14T17:42:38+02:00
+Consulta parafraseada:
+Revisa la memoria y los comentarios del Python para mejorar la fluidez: varía la longitud de las frases y elimina expresiones repetitivas. Mantén el rigor académico y el funcionamiento del código. Evita modismos y frases complicadas que resten claridad y conserva la declaración de uso de IA exigida por las pautas de VIU.
+
+========================================================================
+
+21. Trazabilidad de la asistencia de IA
+Mensajes de origen: IA-172
+Fechas de origen (Madrid): 2026-10-15T00:19:45+02:00
+Consulta parafraseada:
+Completa en la memoria la trazabilidad de la asistencia de IA. Comprueba el registro de fechas, herramientas y condiciones de acceso exigido por el PDF oficial. Distingue la selección de prompts parafraseados del registro de las interacciones originales.
+
+========================================================================

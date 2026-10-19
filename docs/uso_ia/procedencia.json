@@ -1,0 +1,316 @@
+{
+  "fecha_preparacion": "2026-10-15",
+  "zona_horaria": "Europe/Madrid (UTC+02:00 durante el periodo registrado)",
+  "periodo": [
+    "2026-10-06T21:29:41+02:00",
+    "2026-10-15T00:19:45+02:00"
+  ],
+  "interacciones": 172,
+  "version_cli_registrada": [
+    "0.160.1"
+  ],
+  "modelos": [
+    "gpt-6.1-sol"
+  ],
+  "origen": "Conversación local de Codex iniciada el 6 de octubre de 2026; se excluyen los registros internos de revisión automática.",
+  "fuente_sha256": "f2d203f3ef52ea66cb1824605805d40b8d4e8332d8c5fd78ebf36bd17970daac",
+  "corte": "Solicitud de completar la trazabilidad del 15 de octubre de 2026, incluida. No incluye su respuesta final ni interacciones posteriores al corte.",
+  "limites": [
+    "No se ha recuperado un registro fechado de las consultas anteriores realizadas en ChatGPT web.",
+    "La versión del CLI procede de la cabecera inicial; no acredita la versión de la aplicación en cada fecha.",
+    "La finalidad se ha clasificado a partir del texto; no constituye una declaración de validación del autor.",
+    "Se incluyen respuestas finales, no todos los mensajes intermedios ni los archivos completos generados.",
+    "Los enlaces y archivos se preparan localmente; faltan publicación y comprobación del acceso del tribunal."
+  ],
+  "archivos": {
+    "consultas_y_respuestas.txt": "e448318f8d5cc9ee556236b3f18c61286a34f00026492a4db98aa0d9e6353c99",
+    "registro_interacciones.csv": "a6c8662b43032c4ddb7d31b5d6f701207561d5fbfebdefe69701a630ee3c0895",
+    "consultas_y_respuestas_completo.txt": "ec9bf96ead525b4107cc89a083b6b5d8206c86643f85f05153ef9804becd1481"
+  },
+  "seleccion_editorial": {
+    "fecha": "2026-10-19",
+    "archivo": "consultas_y_respuestas.txt",
+    "tipo": "Selección temática parafraseada en tuteo; no transcripción literal ni registro exhaustivo",
+    "consultas": 21,
+    "registro_original_conservado": "consultas_y_respuestas_completo.txt",
+    "respuestas": "Conservadas en el TXT completo y el CSV; no reformuladas en la selección",
+    "correspondencias": [
+      {
+        "apartado": 1,
+        "titulo": "Localización e incorporación de fuentes",
+        "mensajes_origen": [
+          "IA-004",
+          "IA-106",
+          "IA-107"
+        ],
+        "fechas_madrid": [
+          "2026-10-06T21:36:42+02:00",
+          "2026-10-09T18:25:19+02:00",
+          "2026-10-09T18:35:40+02:00"
+        ]
+      },
+      {
+        "apartado": 2,
+        "titulo": "Revisión y documentación del ETL",
+        "mensajes_origen": [
+          "IA-012",
+          "IA-085",
+          "IA-086",
+          "IA-094",
+          "IA-095"
+        ],
+        "fechas_madrid": [
+          "2026-10-07T11:51:13+02:00",
+          "2026-10-09T10:11:49+02:00",
+          "2026-10-09T10:20:32+02:00",
+          "2026-10-09T11:38:16+02:00",
+          "2026-10-09T11:39:14+02:00"
+        ]
+      },
+      {
+        "apartado": 3,
+        "titulo": "Exploración de datos y Google Trends",
+        "mensajes_origen": [
+          "IA-050",
+          "IA-069"
+        ],
+        "fechas_madrid": [
+          "2026-10-08T13:03:13+02:00",
+          "2026-10-08T23:05:57+02:00"
+        ]
+      },
+      {
+        "apartado": 4,
+        "titulo": "Preguntas de investigación, hipótesis y alcance",
+        "mensajes_origen": [
+          "IA-051"
+        ],
+        "fechas_madrid": [
+          "2026-10-08T13:26:17+02:00"
+        ]
+      },
+      {
+        "apartado": 5,
+        "titulo": "Búsqueda y selección bibliográfica",
+        "mensajes_origen": [
+          "IA-024",
+          "IA-036",
+          "IA-041",
+          "IA-078",
+          "IA-079"
+        ],
+        "fechas_madrid": [
+          "2026-10-07T15:33:41+02:00",
+          "2026-10-07T18:45:23+02:00",
+          "2026-10-08T10:55:08+02:00",
+          "2026-10-08T23:31:07+02:00",
+          "2026-10-08T23:34:42+02:00"
+        ]
+      },
+      {
+        "apartado": 6,
+        "titulo": "Fichas de lectura y síntesis de antecedentes",
+        "mensajes_origen": [
+          "IA-064",
+          "IA-066",
+          "IA-075",
+          "IA-081"
+        ],
+        "fechas_madrid": [
+          "2026-10-08T20:41:44+02:00",
+          "2026-10-08T22:52:27+02:00",
+          "2026-10-08T23:21:04+02:00",
+          "2026-10-08T23:45:32+02:00"
+        ]
+      },
+      {
+        "apartado": 7,
+        "titulo": "Disponibilidad y construcción de predictores",
+        "mensajes_origen": [
+          "IA-053",
+          "IA-087"
+        ],
+        "fechas_madrid": [
+          "2026-10-08T16:47:24+02:00",
+          "2026-10-09T10:36:21+02:00"
+        ]
+      },
+      {
+        "apartado": 8,
+        "titulo": "Diseño de la evaluación temporal",
+        "mensajes_origen": [
+          "IA-089"
+        ],
+        "fechas_madrid": [
+          "2026-10-09T10:47:04+02:00"
+        ]
+      },
+      {
+        "apartado": 9,
+        "titulo": "Seasonal Naïve, SARIMA y SARIMAX",
+        "mensajes_origen": [
+          "IA-091",
+          "IA-100",
+          "IA-101",
+          "IA-104",
+          "IA-110"
+        ],
+        "fechas_madrid": [
+          "2026-10-09T10:59:18+02:00",
+          "2026-10-09T12:16:13+02:00",
+          "2026-10-09T12:16:33+02:00",
+          "2026-10-09T18:05:18+02:00",
+          "2026-10-09T19:25:35+02:00"
+        ]
+      },
+      {
+        "apartado": 10,
+        "titulo": "Random Forest y variables externas",
+        "mensajes_origen": [
+          "IA-113",
+          "IA-114",
+          "IA-115",
+          "IA-116"
+        ],
+        "fechas_madrid": [
+          "2026-10-10T08:37:40+02:00",
+          "2026-10-10T08:45:54+02:00",
+          "2026-10-10T08:46:48+02:00",
+          "2026-10-10T10:37:44+02:00"
+        ]
+      },
+      {
+        "apartado": 11,
+        "titulo": "XGBoost y búsqueda acotada de hiperparámetros",
+        "mensajes_origen": [
+          "IA-122",
+          "IA-124",
+          "IA-126"
+        ],
+        "fechas_madrid": [
+          "2026-10-12T16:27:38+02:00",
+          "2026-10-12T16:38:14+02:00",
+          "2026-10-12T16:45:52+02:00"
+        ]
+      },
+      {
+        "apartado": 12,
+        "titulo": "Comparación conjunta de los modelos",
+        "mensajes_origen": [
+          "IA-117",
+          "IA-129"
+        ],
+        "fechas_madrid": [
+          "2026-10-10T10:56:04+02:00",
+          "2026-10-12T16:57:36+02:00"
+        ]
+      },
+      {
+        "apartado": 13,
+        "titulo": "Configuraciones definitivas y prueba final",
+        "mensajes_origen": [
+          "IA-133",
+          "IA-135",
+          "IA-136"
+        ],
+        "fechas_madrid": [
+          "2026-10-12T17:20:27+02:00",
+          "2026-10-12T17:27:22+02:00",
+          "2026-10-12T17:34:16+02:00"
+        ]
+      },
+      {
+        "apartado": 14,
+        "titulo": "Interpretación mediante importancia de variables y SHAP",
+        "mensajes_origen": [
+          "IA-142"
+        ],
+        "fechas_madrid": [
+          "2026-10-12T18:47:43+02:00"
+        ]
+      },
+      {
+        "apartado": 15,
+        "titulo": "Redacción de metodología y resultados",
+        "mensajes_origen": [
+          "IA-118",
+          "IA-138",
+          "IA-141"
+        ],
+        "fechas_madrid": [
+          "2026-10-10T11:11:51+02:00",
+          "2026-10-12T17:45:08+02:00",
+          "2026-10-12T18:28:17+02:00"
+        ]
+      },
+      {
+        "apartado": 16,
+        "titulo": "Discusión y conclusiones",
+        "mensajes_origen": [
+          "IA-144",
+          "IA-146"
+        ],
+        "fechas_madrid": [
+          "2026-10-12T19:24:38+02:00",
+          "2026-10-12T19:53:20+02:00"
+        ]
+      },
+      {
+        "apartado": 17,
+        "titulo": "Resumen, abstract e introducción",
+        "mensajes_origen": [
+          "IA-159"
+        ],
+        "fechas_madrid": [
+          "2026-10-14T00:01:04+02:00"
+        ]
+      },
+      {
+        "apartado": 18,
+        "titulo": "Robustez frente al tratamiento de la pandemia",
+        "mensajes_origen": [
+          "IA-164"
+        ],
+        "fechas_madrid": [
+          "2026-10-14T00:17:36+02:00"
+        ]
+      },
+      {
+        "apartado": 19,
+        "titulo": "Citas y referencias bibliográficas",
+        "mensajes_origen": [
+          "IA-148",
+          "IA-153",
+          "IA-154",
+          "IA-157"
+        ],
+        "fechas_madrid": [
+          "2026-10-12T20:02:39+02:00",
+          "2026-10-13T21:25:25+02:00",
+          "2026-10-13T23:14:20+02:00",
+          "2026-10-13T23:29:30+02:00"
+        ]
+      },
+      {
+        "apartado": 20,
+        "titulo": "Revisión de estilo de la memoria y del código",
+        "mensajes_origen": [
+          "IA-168"
+        ],
+        "fechas_madrid": [
+          "2026-10-14T17:42:38+02:00"
+        ]
+      },
+      {
+        "apartado": 21,
+        "titulo": "Trazabilidad de la asistencia de IA",
+        "mensajes_origen": [
+          "IA-172"
+        ],
+        "fechas_madrid": [
+          "2026-10-15T00:19:45+02:00"
+        ]
+      }
+    ]
+  }
+}
