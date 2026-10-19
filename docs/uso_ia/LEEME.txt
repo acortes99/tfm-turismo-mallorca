@@ -1,7 +1,21 @@
 TRAZABILIDAD DE LA ASISTENCIA DE IA
 
-Registro preparado el 15/10/2026: 172 mensajes del usuario, del 2026-10-06 al 2026-10-15.
+El registro original se preparó el 15/10/2026 y contiene 172 mensajes del usuario, del 6 al 15 de octubre de 2026. La selección de lectura se revisó el 19/10/2026 sin ampliar ese periodo.
 
-Archivos: registro_interacciones.csv (fecha, herramienta, modelo, llamadas auxiliares, finalidad, prompt y respuesta final); consultas_y_respuestas.txt (lectura continua); procedencia.json (cobertura, límites y huellas de integridad). Las fechas corresponden a los mensajes registrados en Codex. No se atribuyen a consultas previas de ChatGPT. Las siete paráfrasis del anexo son un resumen temático; el registro contiene los mensajes originales con las retiradas de información indicadas.
+ARCHIVOS
 
-Publicación y acceso: incluir esta carpeta en el repositorio de entrega, enlazarla desde la memoria, comprobar el acceso sin iniciar sesión o conceder permisos al tribunal y mantenerlo al menos seis meses desde la entrega efectiva. La preparación local no acredita que estos archivos estén publicados. Revisar este registro antes de entregarlo y completar, si se conserva, el historial anterior de ChatGPT con sus fechas y respuestas.
+consultas_y_respuestas.txt: selección de 21 consultas temáticas, reformuladas en tuteo. Cada apartado identifica sus mensajes y fechas de origen. Algunas paráfrasis sintetizan varias solicitudes. No contiene las respuestas ni sustituye el registro original.
+
+consultas_y_respuestas_completo.txt: exportación original completa de consultas y respuestas finales, sin reescribir. Se conserva con el mismo contenido y la misma huella de integridad que tenía consultas_y_respuestas.txt antes de preparar la selección.
+
+registro_interacciones.csv: registro completo original con fechas, herramienta, modelo, llamadas auxiliares, finalidad, prompt y respuesta final. No se ha modificado al elaborar la selección.
+
+procedencia.json: cobertura, límites, huellas de integridad y correspondencia entre las paráfrasis y los mensajes originales.
+
+ALCANCE
+
+Las fechas corresponden a interacciones registradas en Codex. No se atribuyen a consultas previas de ChatGPT. El registro conserva las retiradas de credenciales, correos y prefijo del perfil local descritas en su cabecera. La selección temática no es literal ni exhaustiva y no limita la asistencia recibida a las consultas que muestra. Si la memoria menciona consultas_y_respuestas.txt como registro completo de mensajes y respuestas, esa función corresponde ahora a consultas_y_respuestas_completo.txt y al CSV.
+
+PUBLICACIÓN Y ACCESO
+
+Incluye esta carpeta completa en el repositorio de entrega, enlázala desde la memoria, comprueba el acceso o concede permisos al tribunal y mantenlo al menos seis meses desde la entrega efectiva. La preparación local no acredita la publicación. Revisa el registro antes de entregarlo y completa, si se conserva, el historial anterior de ChatGPT y las interacciones posteriores al corte.
