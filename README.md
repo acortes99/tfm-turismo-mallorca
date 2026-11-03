@@ -6,11 +6,32 @@ Predicción del flujo turístico mensual en Mallorca mediante series temporales 
 El notebook `tfm-turismo-viu.ipynb` contiene la explicación, el código y los resultados de revisión del ETL. Lee los archivos originales de `Datasets/` mediante rutas relativas y genera `outputs/etl/` sin modificar las fuentes.
 
 ```shell
-python -m pip install -r requirements.txt
+python -m pip install -r requirements-lock.txt
 jupyter lab
 ```
 
 Abrir el notebook desde la raíz del repositorio y ejecutar todas las celdas en orden con un kernel nuevo. Los archivos de salida se regeneran con cada ejecución. El notebook comprueba los formatos mensuales de AENA, la cobertura de Mallorca, los duplicados, las unidades, los ausentes y la escala de estancia media. La meteorología de B278 está integrada con sus estados y una política de disponibilidad explícita. No se requiere una API key para ejecutar el ETL con las fuentes locales.
+
+## Entrega y reproducción en un entorno limpio
+
+El trabajo completo está en la rama [dev-viu-acortes](https://github.com/acortes99/tfm-turismo-mallorca/tree/dev-viu-acortes). El repositorio es público. `Datasets/` contiene las fuentes locales utilizadas y `outputs/` conserva los resultados del experimento. La comprobación del 3 de noviembre de 2026 confirmó el acceso anónimo a los 162 archivos de datos y 267 archivos de resultados de la revisión d080a5d. Los detalles de la comprobación y del entorno se guardan en `docs/reproducibilidad/`.
+
+Se utiliza **Python 3.11.9 de 64 bits en Windows**. `requirements-lock.txt` fija las versiones exactas del entorno de comprobación, incluidas las dependencias transitivas. `requirements.txt` mantiene los intervalos generales de compatibilidad; para repetir la comprobación se usa el archivo de versiones fijadas.
+
+Desde una copia del repositorio, en PowerShell:
+
+```powershell
+py -3.11 -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements-lock.txt
+.\.venv\Scripts\python.exe -m pip check
+.\.venv\Scripts\python.exe scripts/verificar_reproduccion.py --destino ..\tfm-reproduccion
+```
+
+El destino debe ser una carpeta nueva fuera del repositorio. El script copia fuentes, scripts y notebook, crea un kernel del entorno virtual y ejecuta todas las celdas en orden, sin reutilizar `outputs/`. Después contrasta el maestro, la prueba de 2025, la interpretación y la sensibilidad a la pandemia con los resultados originales. Guarda el notebook ejecutado, el progreso y `verificacion.json` en la copia. Las comparaciones numéricas usan tolerancia absoluta de 0,00001 y relativa de 0,000000001; no exigen igualdad de los bytes de CSV o imágenes entre plataformas. La duración depende del equipo y puede ser de varias decenas de minutos.
+
+No se debe ejecutar esta comprobación directamente sobre las salidas de entrega. La repetición de las búsquedas solo verifica las decisiones registradas; no autoriza a elegir otras configuraciones tras consultar 2025. Para explorar manualmente el notebook, usa el kernel de `.venv` y ejecuta sus celdas en orden desde la raíz.
+
+La instalación necesita acceso a PyPI; la lectura y la modelización usan las fuentes locales y no requieren cuentas ni claves. Solo una nueva descarga desde AEMET exige una API key personal en `AEMET_API_KEY`. Las descargas originales de IBESTAT, AENA y Google Trends se realizaron mediante sus portales; no forman parte de la ejecución automática. Sus revisiones y la normalización de Google Trends impiden garantizar que una descarga actual replique las versiones conservadas. Las fechas declaradas y las evidencias documentadas se distinguen en `docs/reproducibilidad/fuentes.json`.
 
 El periodo de estudio es octubre de 2015–diciembre de 2025. Los datos de 2025 se reservan para evaluación final. El notebook construye los retardos según la disponibilidad de publicación, define la evaluación temporal y comprueba la imputación hotelera dentro de cada entrenamiento. Incluye Seasonal Naïve, SARIMA, SARIMAX, Random Forest y XGBoost. Los bloques iniciales mantienen la puntuación de 2025 desactivada; la sección 51 puntúa la prueba por separado después de fijar las configuraciones.
 
@@ -212,6 +233,14 @@ El bloque 53 explica 480 emisiones de 2025: controles ajustados y cuatro fuentes
 
 `outputs/interpretacion_modelos/` contiene siete CSV, cinco figuras y un manifiesto con versiones y hashes. Incluye contribuciones mensuales, retardos, marcas de ausencia, importancia media, masa y efecto neto por fuente, y auditoría de reproducción y aditividad. El mismo mes del año anterior domina los controles base. A tres meses, temperatura lag3 domina las variantes meteorológicas pese a empeorar su precisión; Trends también recibe atribuciones elevadas sin mejorar el control. Los ejemplos de mayor error se eligen después de la prueba. SHAP describe el modelo y no establece causalidad, utilidad marginal ni nuevas decisiones de ajuste.
 
+
+La comprobación del 3 de noviembre completó las 75 celdas de código en un entorno virtual nuevo. Los seis productos contrastados coincidieron con los originales, con diferencia numérica máxima de cero; también coincidió el registro íntegro de configuraciones. El informe está en `docs/reproducibilidad/verificacion.json`. Se corrigió además la utilidad de cotejo para comparar las columnas booleanas por igualdad, sin restarlas.
+
+## Diagnóstico de estabilidad y comprobación de entrega
+
+`python scripts/estabilidad.py` reproduce la omisión sucesiva de un mes sobre las predicciones finales conservadas. Guarda sus dos tablas y un registro en `outputs/estabilidad/`, sin ajustar modelos. Seasonal Naïve conserva el primer puesto de MAE en 48 de 48 combinaciones y de RMSE en 47 de 48.
+
+La comprobación de noviembre detectó que el registro de configuraciones incluía la celda de robustez añadida después de la fijación. El bloque 50 ahora limita las huellas al código anterior a esa fijación. Las configuraciones y los resultados originales permanecen iguales; no se ha cambiado la selección ni se han reajustado modelos a partir de 2025. `docs/reproducibilidad/` documenta la procedencia, el acceso y la ejecución limpia.
 
 ## Sensibilidad al tratamiento de la pandemia
 

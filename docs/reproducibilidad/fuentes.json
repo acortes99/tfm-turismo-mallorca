@@ -1,0 +1,50 @@
+{
+  "fecha_documentacion": "2026-11-03",
+  "origen_fechas_declaradas": "Declaración del autor en esta fecha; año 2026 por contexto del proyecto.",
+  "alcance": "Las fechas declaradas no equivalen a marcas de descarga verificadas de los ficheros. En AEMET se conserva por separado el manifiesto del conjunto utilizado. No se reconstruyen primeras versiones de todo el histórico.",
+  "productos": [
+    {
+      "producto": "IBESTAT turistas con destino principal Mallorca",
+      "descarga_declarada": "2026-08-13",
+      "evidencia": "Calendario IBESTAT 2025: enero 2025 previsto para 4 de marzo de 2025; no acredita toda la difusión histórica.",
+      "url": "https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158",
+      "regla_base": "t-2",
+      "tipo_plazo": "regla apoyada en evidencia puntual y calendario previsto"
+    },
+    {
+      "producto": "AENA Palma pasajeros y operaciones mensuales",
+      "descarga_declarada": "2026-09-01",
+      "evidencia": "Nota efectiva de enero 2025 publicada el 12 de febrero de 2025.",
+      "url": "https://www.aena.es/es/prensa/el-aeropuerto-de-palma-de-mallorca-registra-durante-el-primer-mes-de-2025---mas-de-900.000-pasajeros.html%26p%3D1575078740846",
+      "regla_base": "t-1",
+      "tipo_plazo": "ejemplo de difusión efectiva; histórico completo no verificado"
+    },
+    {
+      "producto": "IBESTAT Mallorca actividad y ocupación hotelera",
+      "descarga_declarada": "2026-08-13",
+      "evidencia": "Calendario IBESTAT: enero 2025 previsto para 25 de febrero; nota efectiva del INE en esa fecha, sin acreditar actualización del cubo IBESTAT.",
+      "url": "https://www.ine.es/dyngs/Prensa/CTH0125.htm",
+      "url_calendario": "https://ibestat.es/wp-content/uploads/2025/01/programa_2025_castella.pdf#page=158",
+      "regla_base": "t-1",
+      "tipo_plazo": "calendario previsto y contraste de otra difusión"
+    },
+    {
+      "producto": "AEMET climatologías mensuales B278",
+      "descarga_declarada": "2026-10-13",
+      "descarga_registrada_utc": "2026-10-09T16:32:32.000300+00:00",
+      "evidencia_descarga": "Datasets/Meteorologia/AEMET/descarga.json",
+      "evidencia": "La especificación identifica el producto; no se ha acreditado el plazo de primera publicación mensual.",
+      "url": "https://opendata.aemet.es/AEMET_OpenData_specification.json",
+      "regla_base": "t-2",
+      "tipo_plazo": "supuesto experimental; sensibilidad t-3"
+    },
+    {
+      "producto": "Google Trends Mallorca/Majorca en Alemania y Reino Unido",
+      "descarga_declarada": "2026-10-14",
+      "evidencia": "Ayuda oficial sobre muestreo y normalización 0-100; no acredita versiones históricas ni plazo de publicación.",
+      "url": "https://support.google.com/trends/answer/4365533?hl=es",
+      "regla_base": "t-1",
+      "tipo_plazo": "supuesto experimental; sensibilidad t-2"
+    }
+  ]
+}

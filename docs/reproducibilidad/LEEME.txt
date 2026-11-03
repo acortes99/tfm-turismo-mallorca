@@ -1,0 +1,9 @@
+Reproducción de la entrega
+
+requirements-lock.txt fija las versiones exactas del entorno Windows x64 con Python 3.11.9 comprobado. requirements.txt conserva las dependencias principales; para repetir esta verificación se usa el archivo lock.
+
+Desde un clon con Datasets/, scripts/ y el notebook, instala el lock en un entorno virtual nuevo y ejecuta scripts/verificar_reproduccion.py indicando una carpeta de destino nueva fuera del repositorio. El script copia únicamente entradas, código y notebook: no reutiliza outputs/. Ejecuta todas las celdas con un kernel del entorno activo y guarda la copia ejecutada, progreso.jsonl y verificacion.json en el destino. La comparación coteja valores, con tolerancias explícitas, no bytes de figuras o tiempos de ejecución.
+
+Las descargas originales de IBESTAT, AENA y Google Trends fueron manuales. Los JSON de AEMET ya están incluidos: no se necesita clave para ejecutar; solo para descargarlos otra vez. La instalación necesita acceso a PyPI. Otra descarga puede contener revisiones, muestras o escalas distintas. fuentes.json distingue las fechas declaradas por el autor de la marca técnica del manifiesto AEMET y de las evidencias puntuales de difusión. No acredita primeras versiones de todo el histórico ni disponibilidad operativa equivalente.
+
+acceso_repositorio.json documenta la comprobación anónima de los datos y resultados previamente publicados. bibliografia.json recoge el contraste de las treinta referencias y la corrección de metadatos realizada en Zotero. scripts/estabilidad.py reproduce por separado el diagnóstico de omisión de un mes, sin ajustar modelos; sus productos se guardan en outputs/estabilidad/.
