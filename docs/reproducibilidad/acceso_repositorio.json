@@ -1,0 +1,11 @@
+{
+  "repositorio": "https://github.com/acortes99/tfm-turismo-mallorca",
+  "rama": "dev-viu-acortes",
+  "revision": "d080a5d424ad79b406059b2f96117f57c47edd2c",
+  "publico": true,
+  "archivos_datos": 162,
+  "archivos_resultados": 267,
+  "diferencias_con_objetos_git": [],
+  "nota": "Se comparan objetos Git para respetar la conversión CRLF/LF del checkout de Windows.",
+  "fecha_comprobacion": "2026-11-03"
+}

@@ -1,0 +1,190 @@
+{
+  "fecha": "2026-11-03",
+  "citas_zotero": 49,
+  "referencias": 30,
+  "dois_contrastados": 26,
+  "correccion": "Claveria, Torra y Monte: orden de autoría corregido en Zotero y actualizado desde el complemento de Word.",
+  "alcance": "Correspondencia y metadatos; la existencia de un DOI no garantiza la validez metodológica de un estudio. Las reservas se mantienen en el texto y en las fichas.",
+  "fuentes": [
+    {
+      "titulo": "Comparing Predictive Accuracy",
+      "doi": "10.1080/07350015.1995.10524599",
+      "url": "https://doi.org/10.1080/07350015.1995.10524599",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "Forecasting: Principles and Practice",
+      "doi": null,
+      "url": "https://otexts.com/fpp3/",
+      "comprobacion": "Página oficial consultada"
+    },
+    {
+      "titulo": "A review of research on tourism demand forecasting: Launching the Annals of Tourism Research Curated Collection on tourism demand forecasting",
+      "doi": "10.1016/j.annals.2018.12.001",
+      "url": "https://doi.org/10.1016/j.annals.2018.12.001",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "Tourism demand modelling and forecasting—A review of recent research",
+      "doi": "10.1016/j.tourman.2007.07.016",
+      "url": "https://doi.org/10.1016/j.tourman.2007.07.016",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "Análisis sobre la predicción de las llegadas turísticas a Mallorca utilizando el índice de Google Trends",
+      "doi": null,
+      "url": "https://repositori.uib.cat/items/7102d885-e796-49bb-99aa-5b98249e8080",
+      "comprobacion": "Página oficial consultada"
+    },
+    {
+      "titulo": "Modelling tourism demand to Spain with machine learning techniques. The impact of forecast horizon on model selection",
+      "doi": null,
+      "url": "https://upcommons.upc.edu/entities/publication/09aa3d11-2ee3-42ac-a974-7d9e4ced92f9",
+      "comprobacion": "Página oficial consultada"
+    },
+    {
+      "titulo": "Forecasting tourist flows in Peru's major destinations to support sustainable management through data-driven approaches",
+      "doi": "10.3389/frsut.2026.1876343",
+      "url": "https://doi.org/10.3389/frsut.2026.1876343",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "Forecasting post-pandemic tourism demand: random forests and calendar variables",
+      "doi": "10.1007/s00181-026-02944-z",
+      "url": "https://doi.org/10.1007/s00181-026-02944-z",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "From Prediction to Insight: Understanding Drivers of UK Tourism Demand with Machine Learning",
+      "doi": "10.3390/economies14040141",
+      "url": "https://doi.org/10.3390/economies14040141",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "The tourism forecasting competition",
+      "doi": "10.1016/j.ijforecast.2010.04.009",
+      "url": "https://doi.org/10.1016/j.ijforecast.2010.04.009",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "Impact of COVID-19 on tourism demand in European regions - An analysis of the factors affecting loss in number of guest nights",
+      "doi": "10.1016/j.annale.2023.100112",
+      "url": "https://doi.org/10.1016/j.annale.2023.100112",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "Tourism forecasts after COVID-19: Evidence of Portugal",
+      "doi": "10.1016/j.annale.2024.100127",
+      "url": "https://doi.org/10.1016/j.annale.2024.100127",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "Tourism forecasting competition in the time of COVID-19: An assessment of ex ante forecasts",
+      "doi": "10.1016/j.annals.2022.103445",
+      "url": "https://doi.org/10.1016/j.annals.2022.103445",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "Hotel demand forecasting models and methods using artificial intelligence: A systematic literature review",
+      "doi": "10.18089/tms.20240304",
+      "url": "https://doi.org/10.18089/tms.20240304",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "Is it possible for Google Trends to forecast rural tourism? The situation in Spain",
+      "doi": "10.18488/31.v11i2.3986",
+      "url": "https://doi.org/10.18488/31.v11i2.3986",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "Tourism Demand Forecasting in Normal and Crisis Times: Combining Bootstrap-Aggregating and Bayesian Approaches",
+      "doi": "10.1177/10963480251313492",
+      "url": "https://doi.org/10.1177/10963480251313492",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "Automatic Time Series Forecasting: The forecast Package for R",
+      "doi": "10.18637/jss.v027.i03",
+      "url": "https://doi.org/10.18637/jss.v027.i03",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "Random Forests",
+      "doi": "10.1023/A:1010933404324",
+      "url": "https://doi.org/10.1023/A:1010933404324",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "XGBoost: A Scalable Tree Boosting System",
+      "doi": "10.1145/2939672.2939785",
+      "url": "https://doi.org/10.1145/2939672.2939785",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "The Elements of Statistical Learning: Data Mining, Inference, and Prediction",
+      "doi": "10.1007/978-0-387-84858-7",
+      "url": "https://doi.org/10.1007/978-0-387-84858-7",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "Modeling of time series using random forests: Theoretical developments",
+      "doi": "10.1214/20-EJS1758",
+      "url": "https://doi.org/10.1214/20-EJS1758",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "A quantitative analysis of the impact of explicit incorporation of recency, seasonality and model specialization into fine-grained tourism demand prediction models",
+      "doi": "10.1371/journal.pone.0278112",
+      "url": "https://doi.org/10.1371/journal.pone.0278112",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "Is Google Trends a quality data source?",
+      "doi": "10.1080/13504851.2021.2023088",
+      "url": "https://doi.org/10.1080/13504851.2021.2023088",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "A note on the validity of cross-validation for evaluating autoregressive time series prediction",
+      "doi": "10.1016/j.csda.2017.11.003",
+      "url": "https://doi.org/10.1016/j.csda.2017.11.003",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "Another look at measures of forecast accuracy",
+      "doi": "10.1016/j.ijforecast.2006.03.001",
+      "url": "https://doi.org/10.1016/j.ijforecast.2006.03.001",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "A Unified Approach to Interpreting Model Predictions",
+      "doi": null,
+      "url": "https://proceedings.neurips.cc/paper/2017/hash/8a20a8621978632d76c43dfd28b67767-Abstract.html",
+      "comprobacion": "Página oficial consultada"
+    },
+    {
+      "titulo": "Addressing Google Trends inconsistencies",
+      "doi": "10.1016/j.techfore.2024.123318",
+      "url": "https://doi.org/10.1016/j.techfore.2024.123318",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "Obtaining consistent time series from Google Trends",
+      "doi": "10.1111/ecin.13049",
+      "url": "https://doi.org/10.1111/ecin.13049",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "From local explanations to global understanding with explainable AI for trees",
+      "doi": "10.1038/s42256-019-0138-9",
+      "url": "https://doi.org/10.1038/s42256-019-0138-9",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    },
+    {
+      "titulo": "Explaining individual predictions when features are dependent: More accurate approximations to Shapley values",
+      "doi": "10.1016/j.artint.2021.103502",
+      "url": "https://doi.org/10.1016/j.artint.2021.103502",
+      "comprobacion": "DOI y metadatos consultados en Crossref"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "fecha_analisis_original": "2026-10-19",
+  "fecha_ejecucion": "2026-11-03T21:00:40.168347+00:00",
+  "fuente": "outputs/prueba_final_2025/predicciones_puntuadas.csv",
+  "sha256": "3b48a17a9f8e6b4527041ca5917d2f4f91ab1b3de3d09340b13de97635ebfb89",
+  "escenarios_horizontes": 4,
+  "omisiones_por_combinacion": 12,
+  "series": 20,
+  "meses_por_omision": 11,
+  "naive_primero_MAE": 48,
+  "naive_primero_RMSE": 47,
+  "modelos_reentrenados": 0,
+  "fuentes_modificadas": false,
+  "alcance": "Influencia descriptiva; no intervalos ni contrastes de significación"
+}
