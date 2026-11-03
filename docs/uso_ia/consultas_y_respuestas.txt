@@ -4,7 +4,7 @@ Preparada el 19/10/2026 a partir del registro de 172 interacciones del 6 al 15 d
 
 Las 21 consultas siguientes son paráfrasis en tuteo. Algunas reúnen solicitudes relacionadas y no representan un único mensaje literal. La selección resume las intervenciones principales sobre datos, código, evaluación y redacción; no es un registro exhaustivo ni modifica el alcance de la asistencia recibida.
 
-Los mensajes originales, sus fechas, herramientas y respuestas finales se conservan en registro_interacciones.csv y consultas_y_respuestas_completo.txt. Los identificadores de cada apartado permiten consultarlos. Las fechas corresponden a las interacciones originales, no a esta reformulación. No se incorporan aquí consultas posteriores al corte del registro.
+Las 54 interacciones que sustentan esta selección, con sus fechas, herramientas y respuestas finales, se recogen en registro_interacciones.csv y consultas_y_respuestas_completo.txt. Estos archivos contienen ahora una selección no exhaustiva, preparada el 03/11/2026; el nombre del segundo se conserva por compatibilidad y no significa que el registro sea completo. Los identificadores de cada apartado permiten consultarlos. Las fechas corresponden a las interacciones originales, no a esta reformulación. No se incorporan aquí consultas posteriores al corte del registro.
 
 Herramienta registrada: Codex Desktop (OpenAI). Modelo registrado: gpt-6.1-sol. El uso previo de ChatGPT y las limitaciones de cobertura se describen en procedencia.json.
 

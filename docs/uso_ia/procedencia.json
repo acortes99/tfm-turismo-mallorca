@@ -5,7 +5,6 @@
     "2026-10-06T21:29:41+02:00",
     "2026-10-15T00:19:45+02:00"
   ],
-  "interacciones": 172,
   "version_cli_registrada": [
     "0.160.1"
   ],
@@ -23,17 +22,17 @@
     "Los enlaces y archivos se preparan localmente; faltan publicación y comprobación del acceso del tribunal."
   ],
   "archivos": {
-    "consultas_y_respuestas.txt": "e448318f8d5cc9ee556236b3f18c61286a34f00026492a4db98aa0d9e6353c99",
-    "registro_interacciones.csv": "a6c8662b43032c4ddb7d31b5d6f701207561d5fbfebdefe69701a630ee3c0895",
-    "consultas_y_respuestas_completo.txt": "ec9bf96ead525b4107cc89a083b6b5d8206c86643f85f05153ef9804becd1481"
+    "consultas_y_respuestas.txt": "4f253c180f206814d0eec8aaa187016b6f2d7e934727e1d726d757bff209c8d5",
+    "registro_interacciones.csv": "d9f56bde474e29dd3fb2f963095e6949fd62cb55e631e3ef5661490162dccfc6",
+    "consultas_y_respuestas_completo.txt": "339dc6aedf68e6f98fba80f99ff10c9519bdac8f1e99eac7d4a3de543c4dcc98"
   },
   "seleccion_editorial": {
     "fecha": "2026-10-19",
     "archivo": "consultas_y_respuestas.txt",
     "tipo": "Selección temática parafraseada en tuteo; no transcripción literal ni registro exhaustivo",
     "consultas": 21,
-    "registro_original_conservado": "consultas_y_respuestas_completo.txt",
-    "respuestas": "Conservadas en el TXT completo y el CSV; no reformuladas en la selección",
+    "registro_original_conservado": false,
+    "respuestas": "Se conservan las respuestas originales de las interacciones seleccionadas en el TXT y CSV; no se incluyen todas las del registro de partida.",
     "correspondencias": [
       {
         "apartado": 1,
@@ -312,5 +311,71 @@
         ]
       }
     ]
+  },
+  "interacciones_registro_de_partida": 172,
+  "interacciones": 54,
+  "seleccion_registro": {
+    "fecha": "2026-11-03",
+    "tipo": "Selección no exhaustiva de interacciones originales",
+    "criterio": "Interacciones de origen de las 21 consultas temáticas; se conservan todas las áreas de asistencia representadas.",
+    "identificadores": [
+      "IA-004",
+      "IA-012",
+      "IA-024",
+      "IA-036",
+      "IA-041",
+      "IA-050",
+      "IA-051",
+      "IA-053",
+      "IA-064",
+      "IA-066",
+      "IA-069",
+      "IA-075",
+      "IA-078",
+      "IA-079",
+      "IA-081",
+      "IA-085",
+      "IA-086",
+      "IA-087",
+      "IA-089",
+      "IA-091",
+      "IA-094",
+      "IA-095",
+      "IA-100",
+      "IA-101",
+      "IA-104",
+      "IA-106",
+      "IA-107",
+      "IA-110",
+      "IA-113",
+      "IA-114",
+      "IA-115",
+      "IA-116",
+      "IA-117",
+      "IA-118",
+      "IA-122",
+      "IA-124",
+      "IA-126",
+      "IA-129",
+      "IA-133",
+      "IA-135",
+      "IA-136",
+      "IA-138",
+      "IA-141",
+      "IA-142",
+      "IA-144",
+      "IA-146",
+      "IA-148",
+      "IA-153",
+      "IA-154",
+      "IA-157",
+      "IA-159",
+      "IA-164",
+      "IA-168",
+      "IA-172"
+    ],
+    "textos": "Consultas y respuestas conservadas sin reformular; paráfrasis separadas.",
+    "registro_completo_incluido": false,
+    "advertencia": "Este conjunto no acredita por sí solo el cumplimiento de una exigencia de registro completo. Git puede conservar versiones anteriores."
   }
 }
