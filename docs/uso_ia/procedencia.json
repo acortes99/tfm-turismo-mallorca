@@ -22,15 +22,15 @@
     "Los enlaces y archivos se preparan localmente; faltan publicación y comprobación del acceso del tribunal."
   ],
   "archivos": {
-    "consultas_y_respuestas.txt": "4f253c180f206814d0eec8aaa187016b6f2d7e934727e1d726d757bff209c8d5",
-    "registro_interacciones.csv": "d9f56bde474e29dd3fb2f963095e6949fd62cb55e631e3ef5661490162dccfc6",
-    "consultas_y_respuestas_completo.txt": "339dc6aedf68e6f98fba80f99ff10c9519bdac8f1e99eac7d4a3de543c4dcc98"
+    "consultas_y_respuestas.txt": "395da14f05c3b2db3e239f561f56f955276133b768059622e433c56be59d41ad",
+    "registro_interacciones.csv": "a17f25305a8eb3c0f9501d282bb6507e24b94fbcafc477cc54754f2aeb7a4574",
+    "consultas_y_respuestas_completo.txt": "bb249c6b33edeb9c2cc22e1279943e0d25a420ede9d414994de6acde0808bfe7"
   },
   "seleccion_editorial": {
     "fecha": "2026-10-19",
     "archivo": "consultas_y_respuestas.txt",
     "tipo": "Selección temática parafraseada en tuteo; no transcripción literal ni registro exhaustivo",
-    "consultas": 21,
+    "consultas": 19,
     "registro_original_conservado": false,
     "respuestas": "Se conservan las respuestas originales de las interacciones seleccionadas en el TXT y CSV; no se incluyen todas las del registro de partida.",
     "correspondencias": [
@@ -80,16 +80,6 @@
       },
       {
         "apartado": 4,
-        "titulo": "Preguntas de investigación, hipótesis y alcance",
-        "mensajes_origen": [
-          "IA-051"
-        ],
-        "fechas_madrid": [
-          "2026-10-08T13:26:17+02:00"
-        ]
-      },
-      {
-        "apartado": 5,
         "titulo": "Búsqueda y selección bibliográfica",
         "mensajes_origen": [
           "IA-024",
@@ -107,7 +97,7 @@
         ]
       },
       {
-        "apartado": 6,
+        "apartado": 5,
         "titulo": "Fichas de lectura y síntesis de antecedentes",
         "mensajes_origen": [
           "IA-064",
@@ -123,7 +113,7 @@
         ]
       },
       {
-        "apartado": 7,
+        "apartado": 6,
         "titulo": "Disponibilidad y construcción de predictores",
         "mensajes_origen": [
           "IA-053",
@@ -135,7 +125,7 @@
         ]
       },
       {
-        "apartado": 8,
+        "apartado": 7,
         "titulo": "Diseño de la evaluación temporal",
         "mensajes_origen": [
           "IA-089"
@@ -145,7 +135,7 @@
         ]
       },
       {
-        "apartado": 9,
+        "apartado": 8,
         "titulo": "Seasonal Naïve, SARIMA y SARIMAX",
         "mensajes_origen": [
           "IA-091",
@@ -163,7 +153,7 @@
         ]
       },
       {
-        "apartado": 10,
+        "apartado": 9,
         "titulo": "Random Forest y variables externas",
         "mensajes_origen": [
           "IA-113",
@@ -179,7 +169,7 @@
         ]
       },
       {
-        "apartado": 11,
+        "apartado": 10,
         "titulo": "XGBoost y búsqueda acotada de hiperparámetros",
         "mensajes_origen": [
           "IA-122",
@@ -193,7 +183,7 @@
         ]
       },
       {
-        "apartado": 12,
+        "apartado": 11,
         "titulo": "Comparación conjunta de los modelos",
         "mensajes_origen": [
           "IA-117",
@@ -205,7 +195,7 @@
         ]
       },
       {
-        "apartado": 13,
+        "apartado": 12,
         "titulo": "Configuraciones definitivas y prueba final",
         "mensajes_origen": [
           "IA-133",
@@ -219,7 +209,7 @@
         ]
       },
       {
-        "apartado": 14,
+        "apartado": 13,
         "titulo": "Interpretación mediante importancia de variables y SHAP",
         "mensajes_origen": [
           "IA-142"
@@ -229,7 +219,7 @@
         ]
       },
       {
-        "apartado": 15,
+        "apartado": 14,
         "titulo": "Redacción de metodología y resultados",
         "mensajes_origen": [
           "IA-118",
@@ -243,19 +233,7 @@
         ]
       },
       {
-        "apartado": 16,
-        "titulo": "Discusión y conclusiones",
-        "mensajes_origen": [
-          "IA-144",
-          "IA-146"
-        ],
-        "fechas_madrid": [
-          "2026-10-12T19:24:38+02:00",
-          "2026-10-12T19:53:20+02:00"
-        ]
-      },
-      {
-        "apartado": 17,
+        "apartado": 15,
         "titulo": "Resumen, abstract e introducción",
         "mensajes_origen": [
           "IA-159"
@@ -265,7 +243,7 @@
         ]
       },
       {
-        "apartado": 18,
+        "apartado": 16,
         "titulo": "Robustez frente al tratamiento de la pandemia",
         "mensajes_origen": [
           "IA-164"
@@ -275,7 +253,7 @@
         ]
       },
       {
-        "apartado": 19,
+        "apartado": 17,
         "titulo": "Citas y referencias bibliográficas",
         "mensajes_origen": [
           "IA-148",
@@ -291,7 +269,7 @@
         ]
       },
       {
-        "apartado": 20,
+        "apartado": 18,
         "titulo": "Revisión de estilo de la memoria y del código",
         "mensajes_origen": [
           "IA-168"
@@ -301,7 +279,7 @@
         ]
       },
       {
-        "apartado": 21,
+        "apartado": 19,
         "titulo": "Trazabilidad de la asistencia de IA",
         "mensajes_origen": [
           "IA-172"
@@ -313,11 +291,11 @@
     ]
   },
   "interacciones_registro_de_partida": 172,
-  "interacciones": 54,
+  "interacciones": 51,
   "seleccion_registro": {
-    "fecha": "2026-11-03",
+    "fecha": "2026-11-05",
     "tipo": "Selección no exhaustiva de interacciones originales",
-    "criterio": "Interacciones de origen de las 21 consultas temáticas; se conservan todas las áreas de asistencia representadas.",
+    "criterio": "Interacciones de origen de las 19 consultas temáticas incluidas en la selección actual.",
     "identificadores": [
       "IA-004",
       "IA-012",
@@ -325,7 +303,6 @@
       "IA-036",
       "IA-041",
       "IA-050",
-      "IA-051",
       "IA-053",
       "IA-064",
       "IA-066",
@@ -363,8 +340,6 @@
       "IA-138",
       "IA-141",
       "IA-142",
-      "IA-144",
-      "IA-146",
       "IA-148",
       "IA-153",
       "IA-154",
