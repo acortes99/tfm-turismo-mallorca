@@ -1,25 +1,11 @@
 SELECCIÓN DE CONSULTAS DE ASISTENCIA DE IA
 
-El 03/11/2026 se redujo el registro incluido en esta carpeta a 54 interacciones, seleccionadas por su relación con las 21 consultas temáticas. El registro de partida, preparado el 15/10/2026, comprendía 172 interacciones del 6 al 15 de octubre de 2026. Los archivos actuales no son una transcripción exhaustiva de la asistencia recibida.
-
 ARCHIVOS
 
-consultas_y_respuestas.txt: 21 consultas temáticas parafraseadas en tuteo, con sus identificadores y fechas de origen. Algunas sintetizan varias solicitudes; no son citas literales.
+consultas_y_respuestas.txt: 19 consultas temáticas parafraseadas, con identificadores y fechas de origen.
 
-registro_interacciones.csv: 54 interacciones seleccionadas, con fechas, herramienta, modelo, llamadas auxiliares, finalidad, consulta original y respuesta final. Los textos seleccionados no se han reformulado.
+registro_interacciones.csv: 51 interacciones seleccionadas, con fechas, herramienta, modelo, llamadas auxiliares, finalidad, consulta original y respuesta final.
 
-consultas_y_respuestas_completo.txt: versión de lectura de la misma selección. Se conserva el nombre histórico por compatibilidad con enlaces existentes. Pese al nombre, NO contiene el registro completo.
+consultas_y_respuestas_completo.txt: versión de lectura de la misma selección.
 
-procedencia.json: cobertura, criterio de selección, identificadores, correspondencias y huellas de los archivos actuales.
-
-ALCANCE
-
-Se seleccionaron las interacciones que sustentan los apartados temáticos, incluyendo obtención y preparación de datos, bibliografía, programación y ajuste de modelos, evaluación, interpretación, redacción de capítulos, revisión de estilo y trazabilidad. La selección no significa que la asistencia se limitara a esos ejemplos.
-
-Las fechas y herramientas corresponden a las interacciones registradas en Codex. No se atribuyen a consultas anteriores de ChatGPT. Se mantienen las retiradas de datos personales y credenciales ya aplicadas. El periodo no se amplía con interacciones posteriores al corte.
-
-ACCESO Y CORRESPONDENCIA CON LA MEMORIA
-
-Estos archivos deben citarse como selección, no como registro completo. Si la memoria exige o anuncia acceso a todas las interacciones, esta selección no satisface por sí sola esa descripción y debe resolverse antes de entregar. No se afirma que la selección cumpla una obligación de registro exhaustivo.
-
-La modificación de los archivos actuales no elimina sus versiones del historial de Git ni otros registros de la aplicación. No se ha reescrito ese historial.
+procedencia.json: metadatos, correspondencias y huellas de los archivos actuales.

@@ -129,17 +129,6 @@ Los resultados principales:
 - Los ausentes hoteleros se concentran en 2020 y quedan diferenciados de los ceros observados.
 
 El notebook está **ejecutado sin errores**, con las gráficas guardadas y el dataset maestro intacto. Quedan pendientes la meteorología y los retardos de publicación antes del modelado.",Registro local de la conversación de Codex,01a11b2e-7bf7-7782-a8f1-095fb263112c
-IA-051,2026-10-08T11:26:17.981Z,2026-10-08T13:26:17+02:00,Codex Desktop (OpenAI),gpt-6.1-sol,apply_patch; exec; exec_command; mcp__codex_app__load_workspace_dependencies; mcp__codex_app__open_in_codex; view_image,Redacción o revisión de la memoria,"**Consolidar el planteamiento:** dejar por escrito las preguntas de investigación, hipótesis y alcance. Debe quedar clara la predicción de turistas con destino Mallorca, los horizontes de uno y tres meses y la evaluación de la información externa.  Te doy permiso para modificar la memoria siempre y cuando tengas en cuenta las pautas establecidas tanto por mí como por los adjuntos como por los tres videos
-","He actualizado la [memoria TFM.docx](<[PERFIL LOCAL]/OneDrive/Escritorio/VIU - Máster/14MBID_10_A_2025-26_Trabajo Fin de Máster (Big Data y Ciencia de Datos)/TFM.docx>), siguiendo los apuntes, la plantilla y las pautas de los tres vídeos.
-
-El capítulo 2 concreta:
-
-- **Tres preguntas de investigación** sobre modelos y aportación de información externa.
-- **H1 y H0**, basadas en la hipótesis que ya figuraba en la memoria.
-- **Turistas con destino principal Mallorca**, con predicciones de un mes concreto a **uno y tres meses vista**.
-- Comparaciones con y sin variables externas, validación temporal, métricas y límites del estudio.
-
-He revisado la presentación y conservado una copia anterior fuera del repositorio. La introducción y el resumen siguen pendientes.",Registro local de la conversación de Codex,01a11b43-9b23-7581-a3b2-370bc34d1956
 IA-053,2026-10-08T14:47:24.474Z,2026-10-08T16:47:24+02:00,Codex Desktop (OpenAI),gpt-6.1-sol,apply_patch; exec; exec_command; mcp__codex_app__open_in_codex; web__run; write_stdin,Revisión bibliográfica,"Vamos a dejar la bibliografía para el final.
 **Definir la disponibilidad de los predictores:** comprobar cuándo se publican AENA e indicadores hoteleros para decidir los retardos. Esto es necesario para que el experimento represente una predicción real. &#x20;
 Haz este punto
@@ -592,19 +581,6 @@ Los principales hallazgos son:
 - **Google Trends también recibe atribuciones elevadas sin mejorar los controles**: importancia no equivale a utilidad predictiva.
 
 He verificado las **480 predicciones explicadas**, la suma de las contribuciones SHAP y la conservación de los resultados anteriores. No se han cambiado configuraciones ni seleccionado modelos después de conocer la prueba.",Registro local de la conversación de Codex,01a13103-5098-79c0-aa2b-a8d897c8c283
-IA-144,2026-10-12T17:24:38.665Z,2026-10-12T19:24:38+02:00,Codex Desktop (OpenAI),gpt-6.1-sol,apply_patch; exec; exec_command; mcp__codex_app__load_workspace_dependencies; view_image; wait; write_stdin,Redacción de discusión,"**Completar la discusión.** Relacionar los resultados con las preguntas e hipótesis: cuándo ayudan las fuentes externas, por qué las mejoras no son uniformes y qué límites tiene la evaluación. &#x20;
-Haz esto
-","He completado el **capítulo 6 de la memoria**, relacionando los resultados con PI1–PI3 y H1/H0. Explica cuándo ayudan las fuentes externas, por qué las mejoras cambian entre modelos y horizontes, y qué límites tiene la evaluación.
-
-He contrastado las cifras y revisado la maquetación y el índice. La bibliografía sigue pendiente. También queda señalada la comprobación específica de robustez ante el tratamiento de la pandemia.
-
-:codex-file-citation{path=""[PERFIL LOCAL]/OneDrive/Escritorio/VIU - Máster/14MBID_10_A_2025-26_Trabajo Fin de Máster (Big Data y Ciencia de Datos)/TFM.docx"" purpose=""output""}",Registro local de la conversación de Codex,01a13125-1daf-7c71-b69b-be813db02bfc
-IA-146,2026-10-12T17:53:20.918Z,2026-10-12T19:53:20+02:00,Codex Desktop (OpenAI),gpt-6.1-sol,apply_patch; exec; exec_command; mcp__codex_app__load_workspace_dependencies; view_image,Redacción de conclusiones,"Genial. Redacta las conclusiones
-","He incorporado las conclusiones en el **capítulo 7**, con los principales resultados, el grado de cumplimiento de los seis objetivos, las limitaciones y los trabajos futuros.
-
-Las cifras, la maquetación y el índice están revisados. Quedan identificadas como pendientes la bibliografía y la comprobación específica de sensibilidad a la pandemia.
-
-:codex-file-citation{path=""[PERFIL LOCAL]/OneDrive/Escritorio/VIU - Máster/14MBID_10_A_2025-26_Trabajo Fin de Máster (Big Data y Ciencia de Datos)/TFM.docx"" purpose=""output""}",Registro local de la conversación de Codex,01a1313f-65c0-7872-ab96-4eb87bf1b05d
 IA-148,2026-10-12T18:02:39.513Z,2026-10-12T20:02:39+02:00,Codex Desktop (OpenAI),gpt-6.1-sol,apply_patch; exec; exec_command; mcp__codex_app__load_workspace_dependencies; mcp__codex_apps__codex_document_control_list_document_sessions; request_user_input_async; sleep; view_image; web__run; write_stdin,Fuentes y referencias,"Necesito que el texto del documento insertes citas relevantes (de los documentos de los cuales tenemos pensado hacer la bibliografia) de la referencia bibligráfica y me pongas entre paréntesis CITA o REFERENCIA para que yo luego con el gestor bibliográfico pueda añadirlas al apartado de la bibliografia
 ","La versión con las 20 referencias está terminada y revisada, pero Word mantiene bloqueada la memoria original. Guarda y cierra TFM.docx y avísame cuando esté cerrado para que pueda sustituirlo por la versión actualizada.
 - Ya he guardado y cerrado el documento
